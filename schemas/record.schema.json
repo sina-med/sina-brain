@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sina-med.github.io/brain/schemas/record.schema.json",
+  "title": "Sina Brain record",
+  "description": "One knowledge-base record. See docs/03-knowledge-model.md.",
+  "type": "object",
+  "required": ["id", "type", "title", "origin", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+:[A-Za-z0-9][A-Za-z0-9._/-]*$" },
+    "type": { "enum": ["program", "subject", "module", "lecture", "section", "source", "slide", "concept", "mcq", "flashcard", "paper", "exam", "figure", "model3d", "occlusion", "resource", "document", "article", "case"] },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "origin": { "enum": ["original", "sina", "ai", "admin"] },
+    "status": { "enum": ["proposed", "approved", "rejected", "retired"] },
+    "verification": { "enum": ["unverified", "sina-verified", "checked-against-source", "expert-reviewed"] },
+    "program": { "type": "string", "pattern": "^prog:" },
+    "subject": { "type": "string", "pattern": "^subj:" },
+    "module": { "type": "string", "pattern": "^mod:" },
+    "lecture": { "type": "string", "pattern": "^lec:" },
+    "source": { "type": "string", "pattern": "^src:" },
+    "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "keywords": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["source"], "additionalProperties": false,
+        "properties": { "source": { "type": "string" }, "unit": { "type": "string" }, "locator": { "type": "string" }, "quote": { "type": "string" }, "note": { "type": "string" } }
+      }
+    },
+    "ext": { "type": "object" },
+    "body": { "type": "object" },
+    "flags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+  },
+  "allOf": [
+    { "if": { "properties": { "type": { "const": "mcq" } } },
+      "then": { "required": ["body"], "properties": {
+        "id": { "pattern": "^q:[0-9a-z]+(-[a-z0-9-]+)?$" },
+        "body": { "type": "object", "required": ["stem", "options", "answer"], "properties": {
+          "stem": { "type": "string", "minLength": 1 },
+          "options": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+          "answer": { "type": "array", "minItems": 1, "items": { "type": "integer", "minimum": 0 }, "uniqueItems": true },
+          "multi": { "type": "boolean" },
+          "explanation": { "type": "string" },
+          "option_notes": { "type": "array", "items": { "type": "string" } },
+          "answer_key": { "enum": ["written-by-sina", "partly-written-by-sina"] } } } } } },
+    { "if": { "properties": { "type": { "const": "flashcard" } } },
+      "then": { "required": ["body", "lecture"], "properties": {
+        "body": { "type": "object", "required": ["kind", "front", "back"], "properties": { "kind": { "enum": ["text", "image"] }, "front": { "type": "string" }, "back": { "type": "string" } } } } } },
+    { "if": { "properties": { "type": { "const": "section" } } },
+      "then": { "required": ["body", "lecture"], "properties": {
+        "body": { "type": "object", "required": ["html"], "properties": { "html": { "type": "string" } } } } } },
+    { "if": { "properties": { "type": { "const": "slide" } } },
+      "then": { "required": ["body", "lecture"], "properties": {
+        "body": { "type": "object", "required": ["image", "text_origin"], "properties": {
+          "n": { "type": "integer", "minimum": 0 }, "image": { "type": "string" },
+          "text_origin": { "enum": ["pdf-text", "ocr", "none"] }, "text": { "type": "string" }, "lines": { "type": "array" } } } } } },
+    { "if": { "properties": { "type": { "const": "lecture" } } }, "then": { "required": ["subject", "module", "verification"] } },
+    { "if": { "properties": { "type": { "const": "module" } } }, "then": { "required": ["subject"] } },
+    { "if": { "properties": { "type": { "const": "resource" } } },
+      "then": { "required": ["body"], "properties": { "body": { "type": "object", "required": ["url"], "properties": { "url": { "type": "string", "pattern": "^https?://" } } } } } }
+  ]
+}

@@ -1,6 +1,6 @@
 # 4. Ingestion and knowledge preparation
 
-Status: proposal for review.
+Status: approved 11 November 2026. Stages 1 to 3, 6 and the statistics are built ([running them](../README.md#running-the-pipeline)). Stages 4, 5 and 7 are Phase 4.
 
 ## 4.1 Stages
 

@@ -1,6 +1,6 @@
 # 6. Roadmap
 
-Status: proposal for review. Each phase ends with a short written report of what was built, what was verified and how, and what is not working.
+Status: approved 11 November 2026. Each phase ends with a short written report of what was built, what was verified and how, and what is not working.
 
 Work is committed to a feature branch and reviewed before it reaches the published site.
 
@@ -8,13 +8,13 @@ Work is committed to a feature branch and reviewed before it reaches the publish
 
 Result: [01-audit.md](01-audit.md).
 
-## Phase 2: Architecture and planning — in review
+## Phase 2: Architecture and planning — done
 
-Result: the documents in this folder.
+Result: the documents in this folder, approved by the owner on 11 November 2026.
 
-**Gate:** owner approves the architecture, knowledge model and pilot plan.
+## Phase 3: Core data infrastructure — built, awaiting review
 
-## Phase 3: Core data infrastructure
+Report: [phase-3-report.md](phase-3-report.md).
 
 Build:
 

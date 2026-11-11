@@ -1,6 +1,6 @@
 # 2. Architecture
 
-Status: proposal for review.
+Status: approved 11 November 2026.
 
 ## 2.1 The shape in one picture
 
@@ -11,7 +11,7 @@ Status: proposal for review.
          \                      |                       /
           v                     v                      v
         ┌──────────────────────────────────────────────────┐
-        │  INGESTION PIPELINE  (Python, run by an admin)   │
+        │  INGESTION PIPELINE  (Node.js, run by an admin)  │
         │  import → extract → prepare (AI, in a Claude     │
         │  Code session) → validate → write                │
         └──────────────────────────────────────────────────┘
@@ -66,7 +66,7 @@ Status: proposal for review.
 | Semantic search | Precomputed, quantised embeddings; query embedded in the browser by a small model loaded on demand | No per-query cost; falls back to lexical search |
 | Graph | 2D first (canvas/WebGL), 3D afterwards with three.js (already used by Sina) | Coverage before effects |
 | Document reading | Slide images from Sina with OCR text layer; PDF.js for other documents | Reuses existing page-level assets |
-| Pipeline | Python 3, standard library plus `pdfplumber` | Already available; few dependencies |
+| Pipeline | Node.js, no runtime dependencies. Python with `pdfplumber` only where PDF text must be extracted | Sina's data files are JavaScript and its question key is a JavaScript hash, so reading them in the same language removes a class of mismatch. The search index and embeddings must also be built by the same library the browser uses to query them |
 | Validation | JSON Schema for every record file, checked in CI | Prevents malformed records from being published |
 | CI and deploy | GitHub Actions: validate, build, test, publish to Pages | Free for public repositories |
 | Personal store | IndexedDB (via a thin wrapper) | Required by the brief; larger and more structured than `localStorage` |

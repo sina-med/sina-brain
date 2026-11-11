@@ -1,0 +1,644 @@
+{
+  "sina_commit": "39f3ae69bdafe612ea978c0e8c5cc11a3e0819d7",
+  "resources": {
+    "discovered": 340,
+    "imported": 337,
+    "inaccessible": 3,
+    "knowledge_prepared": 0,
+    "awaiting_knowledge_preparation": 337
+  },
+  "records": {
+    "total": 27576,
+    "by_type": {
+      "exam": 4,
+      "flashcard": 5578,
+      "lecture": 340,
+      "mcq": 13716,
+      "model3d": 6,
+      "module": 74,
+      "paper": 133,
+      "program": 2,
+      "resource": 678,
+      "section": 1599,
+      "slide": 5079,
+      "source": 337,
+      "subject": 30
+    },
+    "by_origin": {
+      "original": 8899,
+      "sina": 18677
+    },
+    "by_status": {
+      "approved": 27576
+    }
+  },
+  "relations": {
+    "total": 13977,
+    "by_type": {
+      "appears-in": 3368,
+      "cites": 9088,
+      "covers": 46,
+      "references": 858,
+      "tests": 617
+    },
+    "by_origin": {
+      "imported": 13977
+    },
+    "by_status": {
+      "approved": 13977
+    }
+  },
+  "concepts": {
+    "total": 0,
+    "approved": 0,
+    "awaiting_review": 0,
+    "tested_by_a_question": 0
+  },
+  "questions": {
+    "total": 13716,
+    "in_lectures": 10509,
+    "in_papers_only": 3207,
+    "citing_a_slide": 7849,
+    "linked_to_a_concept": 0,
+    "paper_questions_linked_to_a_lecture": 613,
+    "answer_key_written_by_sina": 928
+  },
+  "slides": {
+    "total": 5079,
+    "with_text": 4581,
+    "without_text": 498
+  },
+  "duplicates": {
+    "repeated_questions_merged": 514,
+    "proposed": 0
+  },
+  "verification": {
+    "lectures_sina_verified": 337,
+    "lectures_unverified": 0,
+    "records_checked_in_brain": 0
+  },
+  "registry": {
+    "active": 27576,
+    "retired": 0,
+    "merged": 0
+  },
+  "import_findings": {
+    "highlights-not-attached": 1,
+    "lecture-title-differs-from-index": 23,
+    "lecture-without-content": 3,
+    "lecture-without-slides": 20,
+    "paper-lecture-links-unmatched": 1,
+    "question-repeated": 514,
+    "subject-created-for-papers": 1
+  },
+  "not_imported": [
+    "midOff (off-scope question lists)",
+    "midNote",
+    "occl (image occlusion sets)",
+    "photos (labelled photos)",
+    "updates",
+    "apps",
+    "channels",
+    "usmle",
+    "AnKing (excluded by decision D2)"
+  ],
+  "gaps": {
+    "lectures_without_content": [
+      "lec:semio-endo-gonads",
+      "lec:semio-endo-lipids",
+      "lec:semio-endo-parathyroid"
+    ],
+    "lectures_without_slides": [
+      "lec:fa-cardiovascular",
+      "lec:fa-digestive",
+      "lec:fa-endocrine",
+      "lec:fa-immune",
+      "lec:fa-renal",
+      "lec:infect-antifungals",
+      "lec:infect-antivirals",
+      "lec:infect-atb-principles",
+      "lec:infect-cholera",
+      "lec:infect-hiv",
+      "lec:infect-hiv-manifestations",
+      "lec:infect-leptospirosis",
+      "lec:infect-meningitis",
+      "lec:infect-prolonged-fever",
+      "lec:infect-rabies",
+      "lec:infect-rickettsiosis",
+      "lec:infect-tiac",
+      "lec:pathanat-adaptation",
+      "lec:pathanat-onco-intro",
+      "lec:pathanat-vascular"
+    ],
+    "lectures_without_source": [],
+    "lectures_unverified": [],
+    "lectures_with_untexted_slides": [
+      {
+        "id": "lec:anat3-cerebellum",
+        "missing": 28,
+        "of": 28
+      },
+      {
+        "id": "lec:anat3-nasal-cavity",
+        "missing": 1,
+        "of": 25
+      },
+      {
+        "id": "lec:anat3-neuro-intro",
+        "missing": 19,
+        "of": 19
+      },
+      {
+        "id": "lec:physio-bioen-atp",
+        "missing": 17,
+        "of": 25
+      },
+      {
+        "id": "lec:physio-bioen-balance",
+        "missing": 19,
+        "of": 33
+      },
+      {
+        "id": "lec:physio-bioen-intro",
+        "missing": 11,
+        "of": 20
+      },
+      {
+        "id": "lec:physio-bioen-lipids",
+        "missing": 5,
+        "of": 14
+      },
+      {
+        "id": "lec:physio-bioen-regulation",
+        "missing": 27,
+        "of": 41
+      },
+      {
+        "id": "lec:physio-bioen-revision",
+        "missing": 7,
+        "of": 20
+      },
+      {
+        "id": "lec:physio-renal-acidbase",
+        "missing": 15,
+        "of": 25
+      },
+      {
+        "id": "lec:physio-renal-gfr",
+        "missing": 12,
+        "of": 23
+      },
+      {
+        "id": "lec:physio-renal-gfr-reg",
+        "missing": 18,
+        "of": 29
+      },
+      {
+        "id": "lec:physio-renal-intro",
+        "missing": 15,
+        "of": 22
+      },
+      {
+        "id": "lec:physio-renal-nephron",
+        "missing": 14,
+        "of": 23
+      },
+      {
+        "id": "lec:physio-renal-reabs",
+        "missing": 28,
+        "of": 40
+      },
+      {
+        "id": "lec:physio1-gastric-secretion",
+        "missing": 1,
+        "of": 16
+      },
+      {
+        "id": "lec:semio-cv-angina",
+        "missing": 1,
+        "of": 15
+      },
+      {
+        "id": "lec:semio-cv-lhf",
+        "missing": 1,
+        "of": 12
+      },
+      {
+        "id": "lec:semio-endo-adrenal",
+        "missing": 68,
+        "of": 77
+      },
+      {
+        "id": "lec:semio-endo-diabetes",
+        "missing": 61,
+        "of": 73
+      },
+      {
+        "id": "lec:semio-endo-pituitary",
+        "missing": 20,
+        "of": 35
+      },
+      {
+        "id": "lec:semio-endo-thyroid",
+        "missing": 38,
+        "of": 58
+      },
+      {
+        "id": "lec:semio-gi-bleeding",
+        "missing": 5,
+        "of": 19
+      },
+      {
+        "id": "lec:semio-gi-constipation",
+        "missing": 16,
+        "of": 28
+      },
+      {
+        "id": "lec:semio-gi-exam",
+        "missing": 4,
+        "of": 17
+      },
+      {
+        "id": "lec:semio-gi-gerd",
+        "missing": 6,
+        "of": 17
+      },
+      {
+        "id": "lec:semio-gi-jaundice",
+        "missing": 11,
+        "of": 20
+      },
+      {
+        "id": "lec:semio-gi-vomiting",
+        "missing": 30,
+        "of": 30
+      }
+    ]
+  },
+  "subjects": {
+    "subj:anat1": {
+      "title": "Anatomy 1",
+      "lectures": 17,
+      "lectures_with_content": 17,
+      "sections": 58,
+      "mcqs": 293,
+      "mcqs_citing_slide": 188,
+      "paper_mcqs": 144,
+      "flashcards": 205,
+      "slides": 136,
+      "slides_with_text": 136,
+      "concepts": 0
+    },
+    "subj:anat2": {
+      "title": "Anatomy 2",
+      "lectures": 12,
+      "lectures_with_content": 12,
+      "sections": 43,
+      "mcqs": 216,
+      "mcqs_citing_slide": 146,
+      "paper_mcqs": 317,
+      "flashcards": 163,
+      "slides": 148,
+      "slides_with_text": 148,
+      "concepts": 0
+    },
+    "subj:anat3": {
+      "title": "Anatomy 3",
+      "lectures": 27,
+      "lectures_with_content": 27,
+      "sections": 205,
+      "mcqs": 1015,
+      "mcqs_citing_slide": 783,
+      "paper_mcqs": 509,
+      "flashcards": 900,
+      "slides": 527,
+      "slides_with_text": 479,
+      "concepts": 0
+    },
+    "subj:bacterio1": {
+      "title": "Bacteriology",
+      "lectures": 13,
+      "lectures_with_content": 13,
+      "sections": 62,
+      "mcqs": 259,
+      "mcqs_citing_slide": 188,
+      "paper_mcqs": 410,
+      "flashcards": 168,
+      "slides": 163,
+      "slides_with_text": 163,
+      "concepts": 0
+    },
+    "subj:biochem": {
+      "title": "Clinical Biochemistry",
+      "lectures": 14,
+      "lectures_with_content": 14,
+      "sections": 76,
+      "mcqs": 1544,
+      "mcqs_citing_slide": 1491,
+      "paper_mcqs": 114,
+      "flashcards": 238,
+      "slides": 379,
+      "slides_with_text": 379,
+      "concepts": 0
+    },
+    "subj:biochem1": {
+      "title": "Biochemistry",
+      "lectures": 9,
+      "lectures_with_content": 9,
+      "sections": 33,
+      "mcqs": 174,
+      "mcqs_citing_slide": 109,
+      "paper_mcqs": 45,
+      "flashcards": 120,
+      "slides": 101,
+      "slides_with_text": 101,
+      "concepts": 0
+    },
+    "subj:biophys1": {
+      "title": "Biophysics",
+      "lectures": 6,
+      "lectures_with_content": 6,
+      "sections": 24,
+      "mcqs": 129,
+      "mcqs_citing_slide": 91,
+      "paper_mcqs": 73,
+      "flashcards": 90,
+      "slides": 94,
+      "slides_with_text": 94,
+      "concepts": 0
+    },
+    "subj:cellbio1": {
+      "title": "Cell Biology",
+      "lectures": 4,
+      "lectures_with_content": 4,
+      "sections": 16,
+      "mcqs": 88,
+      "mcqs_citing_slide": 63,
+      "paper_mcqs": 50,
+      "flashcards": 57,
+      "slides": 56,
+      "slides_with_text": 56,
+      "concepts": 0
+    },
+    "subj:chem1": {
+      "title": "Chemistry",
+      "lectures": 7,
+      "lectures_with_content": 7,
+      "sections": 27,
+      "mcqs": 772,
+      "mcqs_citing_slide": 90,
+      "paper_mcqs": 32,
+      "flashcards": 96,
+      "slides": 81,
+      "slides_with_text": 81,
+      "concepts": 0
+    },
+    "subj:embryo1": {
+      "title": "Embryology",
+      "lectures": 8,
+      "lectures_with_content": 8,
+      "sections": 38,
+      "mcqs": 165,
+      "mcqs_citing_slide": 118,
+      "paper_mcqs": 89,
+      "flashcards": 109,
+      "slides": 117,
+      "slides_with_text": 117,
+      "concepts": 0
+    },
+    "subj:firstaid": {
+      "title": "First Aid",
+      "lectures": 10,
+      "lectures_with_content": 10,
+      "sections": 48,
+      "mcqs": 322,
+      "mcqs_citing_slide": 0,
+      "paper_mcqs": 25,
+      "flashcards": 206,
+      "slides": 23,
+      "slides_with_text": 23,
+      "concepts": 0
+    },
+    "subj:genetics1": {
+      "title": "Genetics",
+      "lectures": 9,
+      "lectures_with_content": 9,
+      "sections": 39,
+      "mcqs": 205,
+      "mcqs_citing_slide": 147,
+      "paper_mcqs": 49,
+      "flashcards": 139,
+      "slides": 132,
+      "slides_with_text": 132,
+      "concepts": 0
+    },
+    "subj:hemato1": {
+      "title": "Hematology",
+      "lectures": 17,
+      "lectures_with_content": 17,
+      "sections": 65,
+      "mcqs": 323,
+      "mcqs_citing_slide": 236,
+      "paper_mcqs": 20,
+      "flashcards": 219,
+      "slides": 239,
+      "slides_with_text": 239,
+      "concepts": 0
+    },
+    "subj:histo1": {
+      "title": "Histology",
+      "lectures": 10,
+      "lectures_with_content": 10,
+      "sections": 40,
+      "mcqs": 206,
+      "mcqs_citing_slide": 144,
+      "paper_mcqs": 261,
+      "flashcards": 136,
+      "slides": 135,
+      "slides_with_text": 135,
+      "concepts": 0
+    },
+    "subj:history": {
+      "title": "History and Art of Medicine",
+      "lectures": 8,
+      "lectures_with_content": 8,
+      "sections": 39,
+      "mcqs": 336,
+      "mcqs_citing_slide": 264,
+      "paper_mcqs": 25,
+      "flashcards": 209,
+      "slides": 156,
+      "slides_with_text": 156,
+      "concepts": 0
+    },
+    "subj:immuno1": {
+      "title": "Immunology",
+      "lectures": 12,
+      "lectures_with_content": 12,
+      "sections": 44,
+      "mcqs": 229,
+      "mcqs_citing_slide": 157,
+      "paper_mcqs": 186,
+      "flashcards": 164,
+      "slides": 146,
+      "slides_with_text": 146,
+      "concepts": 0
+    },
+    "subj:infectious": {
+      "title": "Infectious Diseases",
+      "lectures": 12,
+      "lectures_with_content": 12,
+      "sections": 60,
+      "mcqs": 238,
+      "mcqs_citing_slide": 0,
+      "paper_mcqs": 25,
+      "flashcards": 161,
+      "slides": 0,
+      "slides_with_text": 0,
+      "concepts": 0
+    },
+    "subj:parasito": {
+      "title": "Parasitology and Mycology",
+      "lectures": 18,
+      "lectures_with_content": 18,
+      "sections": 87,
+      "mcqs": 371,
+      "mcqs_citing_slide": 263,
+      "paper_mcqs": 80,
+      "flashcards": 257,
+      "slides": 239,
+      "slides_with_text": 239,
+      "concepts": 0
+    },
+    "subj:pathanat": {
+      "title": "Pathological Anatomy",
+      "lectures": 9,
+      "lectures_with_content": 9,
+      "sections": 47,
+      "mcqs": 445,
+      "mcqs_citing_slide": 233,
+      "paper_mcqs": 0,
+      "flashcards": 272,
+      "slides": 195,
+      "slides_with_text": 195,
+      "concepts": 0
+    },
+    "subj:pharma": {
+      "title": "Pharmacology",
+      "lectures": 6,
+      "lectures_with_content": 6,
+      "sections": 33,
+      "mcqs": 146,
+      "mcqs_citing_slide": 106,
+      "paper_mcqs": 25,
+      "flashcards": 93,
+      "slides": 92,
+      "slides_with_text": 92,
+      "concepts": 0
+    },
+    "subj:physics1": {
+      "title": "Physics",
+      "lectures": 13,
+      "lectures_with_content": 13,
+      "sections": 42,
+      "mcqs": 223,
+      "mcqs_citing_slide": 147,
+      "paper_mcqs": 25,
+      "flashcards": 155,
+      "slides": 155,
+      "slides_with_text": 155,
+      "concepts": 0
+    },
+    "subj:physio": {
+      "title": "Physiology",
+      "lectures": 23,
+      "lectures_with_content": 23,
+      "sections": 142,
+      "mcqs": 632,
+      "mcqs_citing_slide": 496,
+      "paper_mcqs": 81,
+      "flashcards": 436,
+      "slides": 581,
+      "slides_with_text": 393,
+      "concepts": 0
+    },
+    "subj:physio1": {
+      "title": "Physiology",
+      "lectures": 20,
+      "lectures_with_content": 20,
+      "sections": 84,
+      "mcqs": 423,
+      "mcqs_citing_slide": 268,
+      "paper_mcqs": 65,
+      "flashcards": 272,
+      "slides": 227,
+      "slides_with_text": 226,
+      "concepts": 0
+    },
+    "subj:pubhealth1": {
+      "title": "Public Health",
+      "lectures": 6,
+      "lectures_with_content": 6,
+      "sections": 25,
+      "mcqs": 167,
+      "mcqs_citing_slide": 130,
+      "paper_mcqs": 72,
+      "flashcards": 84,
+      "slides": 83,
+      "slides_with_text": 83,
+      "concepts": 0
+    },
+    "subj:semio": {
+      "title": "Semiology",
+      "lectures": 26,
+      "lectures_with_content": 23,
+      "sections": 106,
+      "mcqs": 1034,
+      "mcqs_citing_slide": 1002,
+      "paper_mcqs": 250,
+      "flashcards": 280,
+      "slides": 567,
+      "slides_with_text": 306,
+      "concepts": 0
+    },
+    "subj:term1": {
+      "title": "Medical Terminology",
+      "lectures": 10,
+      "lectures_with_content": 10,
+      "sections": 40,
+      "mcqs": 230,
+      "mcqs_citing_slide": 124,
+      "paper_mcqs": 50,
+      "flashcards": 145,
+      "slides": 111,
+      "slides_with_text": 111,
+      "concepts": 0
+    },
+    "subj:toxico": {
+      "title": "Toxicology",
+      "lectures": 4,
+      "lectures_with_content": 4,
+      "sections": 23,
+      "mcqs": 107,
+      "mcqs_citing_slide": 80,
+      "paper_mcqs": 0,
+      "flashcards": 66,
+      "slides": 81,
+      "slides_with_text": 81,
+      "concepts": 0
+    },
+    "subj:viro1": {
+      "title": "Virology",
+      "lectures": 10,
+      "lectures_with_content": 10,
+      "sections": 53,
+      "mcqs": 217,
+      "mcqs_citing_slide": 141,
+      "paper_mcqs": 13,
+      "flashcards": 138,
+      "slides": 115,
+      "slides_with_text": 115,
+      "concepts": 0
+    }
+  }
+}

@@ -1,0 +1,470 @@
+{"id":"rel:000a951cd84c","src":"q:19dywou","type":"cites","dst":"slide:physio1-pancreas/33","origin":"imported","status":"approved"}
+{"id":"rel:0047a49591bb","src":"q:zqcfj0","type":"cites","dst":"slide:physio1-oral/24","origin":"imported","status":"approved"}
+{"id":"rel:006a618f2021","src":"q:1d44f0u","type":"cites","dst":"slide:physio1-lung-volumes/23","origin":"imported","status":"approved"}
+{"id":"rel:0131bae28480","src":"q:14x73sw","type":"cites","dst":"slide:physio1-lung-volumes/18","origin":"imported","status":"approved"}
+{"id":"rel:016c7a6d5879","src":"q:1fqiql7","type":"cites","dst":"slide:physio1-respiratory/25","origin":"imported","status":"approved"}
+{"id":"rel:01b5b537b072","src":"q:1ycsnh4","type":"cites","dst":"slide:physio1-cardiac-cycle/02","origin":"imported","status":"approved"}
+{"id":"rel:0208b5527d0e","src":"q:1ya4j08","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":12}}
+{"id":"rel:0226152160f5","src":"lec:physio1-small-intestine-motility","type":"references","dst":"res:67d5e607e9","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Small Bowel (NCBI StatPearls)","why":"Motility and absorption."}}
+{"id":"rel:02a7dfaa480c","src":"q:gdq1f3","type":"cites","dst":"slide:physio1-colon-motility/24","origin":"imported","status":"approved"}
+{"id":"rel:0336f5972a17","src":"q:p5q260","type":"cites","dst":"slide:physio1-lung-volumes/21","origin":"imported","status":"approved"}
+{"id":"rel:0486e61192f2","src":"q:mycu44","type":"cites","dst":"slide:physio1-microbiota/07","origin":"imported","status":"approved"}
+{"id":"rel:04b2ad47b0a1","src":"q:1t2g3ee","type":"cites","dst":"slide:physio1-lung-volumes/19","origin":"imported","status":"approved"}
+{"id":"rel:04c6877b9980","src":"q:1opdtyv","type":"cites","dst":"slide:physio1-small-intestine-motility/08","origin":"imported","status":"approved"}
+{"id":"rel:056d43abaeab","src":"lec:physio1-endocrine-intro","type":"references","dst":"res:5159156778","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Endocrine Hormones (NCBI StatPearls)","why":"Hormone classes, receptors and feedback."}}
+{"id":"rel:05c80c28d3c6","src":"q:6lvkuu","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":10}}
+{"id":"rel:06793ccdc6e2","src":"q:novso8","type":"cites","dst":"slide:physio1-gastric-motility/40","origin":"imported","status":"approved"}
+{"id":"rel:06e7e5c64431","src":"q:1qgata8","type":"cites","dst":"slide:physio1-cardiovascular/09","origin":"imported","status":"approved"}
+{"id":"rel:097307c229ac","src":"q:1y7cy87","type":"cites","dst":"slide:physio1-colon-motility/07","origin":"imported","status":"approved"}
+{"id":"rel:0a3113f33bfd","src":"q:i1oihb","type":"cites","dst":"slide:physio1-thyroid/07","origin":"imported","status":"approved"}
+{"id":"rel:0a6a2911be0c","src":"q:1digqkn","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":10}}
+{"id":"rel:0a9d2434eec9","src":"q:2kkwsx","type":"cites","dst":"slide:physio1-heart/17","origin":"imported","status":"approved"}
+{"id":"rel:0b55727449ba","src":"q:3uxv37","type":"cites","dst":"slide:physio1-gastric-secretion/46","origin":"imported","status":"approved"}
+{"id":"rel:0b958ebd5c16","src":"q:nxsjk","type":"cites","dst":"slide:physio1-thyroid/07","origin":"imported","status":"approved"}
+{"id":"rel:0c22a71501ca","src":"q:jeb11i","type":"cites","dst":"slide:physio1-microbiota/18","origin":"imported","status":"approved"}
+{"id":"rel:0c6c597495ad","src":"q:giwv84","type":"cites","dst":"slide:physio1-lung-volumes/19","origin":"imported","status":"approved","attrs":{"boxes":[[38,73.07,6.65,5.31]]}}
+{"id":"rel:0c9706e15c56","src":"lec:physio1-absorption","type":"references","dst":"res:de41006490","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Nutrient Absorption (NCBI StatPearls)","why":"Carbohydrates, proteins, lipids, vitamins."}}
+{"id":"rel:0cedbd8a9f89","src":"q:ox17vj","type":"cites","dst":"slide:physio1-endocrine-intro/53","origin":"imported","status":"approved"}
+{"id":"rel:0db605e0145e","src":"q:wro4uo","type":"cites","dst":"slide:physio1-cardiovascular/24","origin":"imported","status":"approved"}
+{"id":"rel:0dd31d42e75a","src":"q:1ql31mp","type":"cites","dst":"slide:physio1-microbiota/05","origin":"imported","status":"approved"}
+{"id":"rel:0df3c1b5d819","src":"q:1xf3bau","type":"cites","dst":"slide:physio1-gastric-secretion/43","origin":"imported","status":"approved"}
+{"id":"rel:0f316b272df7","src":"q:t6635","type":"cites","dst":"slide:physio1-absorption/29","origin":"imported","status":"approved"}
+{"id":"rel:0f894b63d0bd","src":"q:1kgywy","type":"cites","dst":"slide:physio1-absorption/25","origin":"imported","status":"approved"}
+{"id":"rel:10705e484e72","src":"lec:physio1-cardiovascular","type":"references","dst":"res:b07169df05","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"The Nobel Prize in Physiology or Medicine 1998","why":"Nitric oxide as a signalling molecule."}}
+{"id":"rel:1087dc3d297a","src":"q:18pv8g9","type":"cites","dst":"slide:physio1-anorectal/27","origin":"imported","status":"approved"}
+{"id":"rel:108e7a9ee895","src":"q:13ecnpc","type":"cites","dst":"slide:physio1-cardiac-cycle/40","origin":"imported","status":"approved"}
+{"id":"rel:10962b431da0","src":"q:zroq9z","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":2}}
+{"id":"rel:11d60f9d13b7","src":"lec:physio1-microbiota","type":"references","dst":"res:e571597afd","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Fecal Microbiota Transplantation (Cleveland Clinic)","why":"How FMT is done and why."}}
+{"id":"rel:11e1c4b33125","src":"lec:physio1-gastric-secretion","type":"references","dst":"res:ca8194ef89","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Histology, Parietal Cells (NCBI StatPearls)","why":"Acid secretion and its regulation."}}
+{"id":"rel:11f0b801172a","src":"q:tpawh7","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":8}}
+{"id":"rel:125647481434","src":"q:yepw8p","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":7}}
+{"id":"rel:12a1433c1f5b","src":"q:w9hono","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":6}}
+{"id":"rel:12d39045585a","src":"q:q1y4bw","type":"cites","dst":"slide:physio1-respiratory/11","origin":"imported","status":"approved"}
+{"id":"rel:12f51a75582b","src":"q:1341tbd","type":"cites","dst":"slide:physio1-respiratory/14","origin":"imported","status":"approved"}
+{"id":"rel:13a92cf4e2fc","src":"q:vjvmca","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":17}}
+{"id":"rel:13d1cb155a44","src":"q:10b9g4m","type":"cites","dst":"slide:physio1-absorption/27","origin":"imported","status":"approved"}
+{"id":"rel:16a68907761f","src":"q:1afzzlw","type":"cites","dst":"slide:physio1-pancreas/16","origin":"imported","status":"approved"}
+{"id":"rel:17102e368815","src":"q:78wtdc","type":"cites","dst":"slide:physio1-ecg/26","origin":"imported","status":"approved"}
+{"id":"rel:171a3a63ddf2","src":"q:1maiz01","type":"cites","dst":"slide:physio1-cardiovascular/16","origin":"imported","status":"approved"}
+{"id":"rel:177d10e3bafb","src":"q:1y7cy87","type":"cites","dst":"slide:physio1-colon-motility/18","origin":"imported","status":"approved"}
+{"id":"rel:1a315c4b53bd","src":"q:1fzm8nk","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":21}}
+{"id":"rel:1a44a50f545c","src":"q:12n6isb","type":"cites","dst":"slide:physio1-cardiac-cycle/49","origin":"imported","status":"approved"}
+{"id":"rel:1ac40d911b1a","src":"q:10e4cz4","type":"cites","dst":"slide:physio1-respiratory/19","origin":"imported","status":"approved"}
+{"id":"rel:1ba6e1fb1b86","src":"q:icpzjo","type":"cites","dst":"slide:physio1-endocrine-intro/34","origin":"imported","status":"approved"}
+{"id":"rel:1bb11db64037","src":"q:q3b7h9","type":"cites","dst":"slide:physio1-cardiac-cycle/27","origin":"imported","status":"approved"}
+{"id":"rel:1bcf9e32c73b","src":"q:1n1ffvc","type":"cites","dst":"slide:physio1-thyroid/07","origin":"imported","status":"approved"}
+{"id":"rel:1bd699cbbdc2","src":"q:1r05m5g","type":"cites","dst":"slide:physio1-pancreas/17","origin":"imported","status":"approved"}
+{"id":"rel:1df25e01bbdb","src":"lec:physio1-thyroid","type":"references","dst":"res:a81454fff5","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Underactive thyroid (NHS)","why":"Symptoms and treatment of hypothyroidism."}}
+{"id":"rel:1ed1d71fe0ee","src":"q:18l8stl","type":"cites","dst":"slide:physio1-small-intestine-motility/06","origin":"imported","status":"approved"}
+{"id":"rel:1fd207137d5c","src":"q:1k04zsw","type":"cites","dst":"slide:physio1-gastric-secretion/44","origin":"imported","status":"approved"}
+{"id":"rel:1fe5e3f52354","src":"q:aiba8t","type":"cites","dst":"slide:physio1-endocrine-intro/28","origin":"imported","status":"approved"}
+{"id":"rel:216a58401420","src":"q:1qyvkai","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/03","origin":"imported","status":"approved"}
+{"id":"rel:2296cfb44175","src":"q:1t4uyy2","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":18}}
+{"id":"rel:23025563baa2","src":"q:1hzdx","type":"cites","dst":"slide:physio1-endocrine-intro/19","origin":"imported","status":"approved"}
+{"id":"rel:230b0a74c509","src":"lec:physio1-gi-intro","type":"references","dst":"res:acca6585fa","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Gastrointestinal (NCBI StatPearls)","why":"Overview of GI functions."}}
+{"id":"rel:2408402f6f21","src":"q:1mti7ih","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":14}}
+{"id":"rel:2485e4c730a6","src":"q:ryowyr","type":"cites","dst":"slide:physio1-absorption/34","origin":"imported","status":"approved"}
+{"id":"rel:25120b0a6810","src":"q:ef4pcu","type":"cites","dst":"slide:physio1-oral/12","origin":"imported","status":"approved"}
+{"id":"rel:282c8025d499","src":"q:7amop","type":"cites","dst":"slide:physio1-cardiovascular/25","origin":"imported","status":"approved"}
+{"id":"rel:2946385c4a4d","src":"lec:physio1-respiratory","type":"references","dst":"res:dbcbbebf71","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Pulmonary Ventilation and Perfusion (NCBI StatPearls)","why":"Dead space, V/Q and gas exchange."}}
+{"id":"rel:2988b7ab9e49","src":"q:1w75gbi","type":"cites","dst":"slide:physio1-anorectal/19","origin":"imported","status":"approved"}
+{"id":"rel:299f45c6b857","src":"q:1susj0e","type":"cites","dst":"slide:physio1-cardiac-cycle/34","origin":"imported","status":"approved"}
+{"id":"rel:2aa86eb48e55","src":"q:1y1x57i","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":12}}
+{"id":"rel:2ad50a33619a","src":"q:sib43l","type":"cites","dst":"slide:physio1-lung-volumes/36","origin":"imported","status":"approved"}
+{"id":"rel:2e5b2d6bf4f0","src":"q:dfcdur","type":"cites","dst":"slide:physio1-cardiac-cycle/26","origin":"imported","status":"approved"}
+{"id":"rel:2ed8268f585e","src":"q:1ao7wyz","type":"cites","dst":"slide:physio1-gastric-motility/41","origin":"imported","status":"approved"}
+{"id":"rel:2f4a64a0d28f","src":"q:i7hlo8","type":"cites","dst":"slide:physio1-respiratory/38","origin":"imported","status":"approved"}
+{"id":"rel:2f504ab51b37","src":"q:1md4hiz","type":"cites","dst":"slide:physio1-cardiac-cycle/42","origin":"imported","status":"approved"}
+{"id":"rel:3007fc5a3de1","src":"q:73cub6","type":"cites","dst":"slide:physio1-lung-volumes/21","origin":"imported","status":"approved"}
+{"id":"rel:30b3ebca769f","src":"lec:physio1-hypothalamus-pituitary","type":"references","dst":"res:d673c9a435","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Pituitary Gland (NCBI StatPearls)","why":"Anterior and posterior pituitary hormones."}}
+{"id":"rel:30b4b9e6de40","src":"q:zroq9z","type":"cites","dst":"slide:physio1-ecg/09","origin":"imported","status":"approved","attrs":{"boxes":[[6.51,69.11,87.19,12.03]]}}
+{"id":"rel:31633d6a901d","src":"q:1qc93si","type":"cites","dst":"slide:physio1-endocrine-intro/47","origin":"imported","status":"approved"}
+{"id":"rel:31958bed7b61","src":"q:1uq9w9x","type":"cites","dst":"slide:physio1-ecg/36","origin":"imported","status":"approved"}
+{"id":"rel:31b6ad4b75b8","src":"q:isuzkg","type":"cites","dst":"slide:physio1-respiratory/20","origin":"imported","status":"approved"}
+{"id":"rel:3257513b4e1f","src":"q:kvjxbj","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":4}}
+{"id":"rel:32be088c67d7","src":"q:1pcwu11","type":"cites","dst":"slide:physio1-gastric-secretion/30","origin":"imported","status":"approved"}
+{"id":"rel:32bfd377f563","src":"q:4tf0w7","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":11}}
+{"id":"rel:335a3a2ed57d","src":"q:wyz81u","type":"cites","dst":"slide:physio1-small-intestine-motility/10","origin":"imported","status":"approved"}
+{"id":"rel:336aa50199ba","src":"q:112njb8","type":"cites","dst":"slide:physio1-small-intestine-motility/08","origin":"imported","status":"approved"}
+{"id":"rel:338b227895e7","src":"q:1k04zsw","type":"cites","dst":"slide:physio1-gastric-secretion/07","origin":"imported","status":"approved"}
+{"id":"rel:349efc04b9bd","src":"q:jhmtco","type":"cites","dst":"slide:physio1-pancreas/27","origin":"imported","status":"approved"}
+{"id":"rel:35a1d1d84aa1","src":"q:b5fcah","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":20}}
+{"id":"rel:35aea42cf6ce","src":"lec:physio1-gastric-motility","type":"references","dst":"res:5176894aa4","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Gastroparesis (NCBI StatPearls)","why":"Causes, tests and treatment."}}
+{"id":"rel:35b10ae06552","src":"q:1tpm1e3","type":"cites","dst":"slide:physio1-lung-volumes/21","origin":"imported","status":"approved"}
+{"id":"rel:35d175d0d39a","src":"q:yznd1n","type":"cites","dst":"slide:physio1-colon-motility/11","origin":"imported","status":"approved"}
+{"id":"rel:35f0c8d44d90","src":"q:lq28s3","type":"cites","dst":"slide:physio1-pulmonary-vascular/06","origin":"imported","status":"approved"}
+{"id":"rel:3667f8294c40","src":"q:16j2b0u","type":"cites","dst":"slide:physio1-ecg/27","origin":"imported","status":"approved"}
+{"id":"rel:3673d301711f","src":"q:1gi7qo6","type":"cites","dst":"slide:physio1-respiratory/36","origin":"imported","status":"approved"}
+{"id":"rel:3809e69f889b","src":"q:uy18g5","type":"cites","dst":"slide:physio1-ecg/43","origin":"imported","status":"approved"}
+{"id":"rel:3928533d6115","src":"q:d7z7t8","type":"cites","dst":"slide:physio1-lung-volumes/09","origin":"imported","status":"approved"}
+{"id":"rel:393377e5d66e","src":"q:1vy7671","type":"cites","dst":"slide:physio1-thyroid/03","origin":"imported","status":"approved"}
+{"id":"rel:394bafeb1bbb","src":"q:16bhdiz","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":8}}
+{"id":"rel:39a1bcd8e365","src":"q:16wbmxx","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":6}}
+{"id":"rel:39c956d12cc5","src":"q:1i3x0fi","type":"cites","dst":"slide:physio1-pancreas/04","origin":"imported","status":"approved"}
+{"id":"rel:39fc34e1b2e2","src":"q:1srwcbq","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":16}}
+{"id":"rel:3acaad9770f4","src":"q:ed5rrt","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":1}}
+{"id":"rel:3b6267630741","src":"q:1cpqrvn","type":"cites","dst":"slide:physio1-cardiac-cycle/21","origin":"imported","status":"approved"}
+{"id":"rel:3bb4e0d22c07","src":"q:8hoqvr","type":"cites","dst":"slide:physio1-cardiac-cycle/35","origin":"imported","status":"approved"}
+{"id":"rel:3c3d702d0029","src":"q:f259z2","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":25}}
+{"id":"rel:3e675967962f","src":"q:1t2g3ee","type":"cites","dst":"slide:physio1-lung-volumes/21","origin":"imported","status":"approved"}
+{"id":"rel:3ecfb95af501","src":"q:1ipdbx0","type":"cites","dst":"slide:physio1-absorption/16","origin":"imported","status":"approved"}
+{"id":"rel:3f144adc2e67","src":"q:1w28hzt","type":"cites","dst":"slide:physio1-small-intestine-motility/06","origin":"imported","status":"approved"}
+{"id":"rel:3f68cd84ee5f","src":"q:2piv3k","type":"cites","dst":"slide:physio1-absorption/07","origin":"imported","status":"approved"}
+{"id":"rel:411fb921e691","src":"q:12gnzpd","type":"cites","dst":"slide:physio1-microbiota/09","origin":"imported","status":"approved"}
+{"id":"rel:4134f0946000","src":"q:dro2nh","type":"cites","dst":"slide:physio1-thyroid/03","origin":"imported","status":"approved"}
+{"id":"rel:4185806a8b7b","src":"q:7nh16n","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":15}}
+{"id":"rel:41a5943c8885","src":"q:1td87mn","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/07","origin":"imported","status":"approved"}
+{"id":"rel:423a44541f5e","src":"q:18ebkx7","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":2}}
+{"id":"rel:43811e769580","src":"q:13v6tu0","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":15}}
+{"id":"rel:44ca2c388717","src":"q:1ca31hf","type":"cites","dst":"slide:physio1-cardiac-cycle/26","origin":"imported","status":"approved","attrs":{"boxes":[[6.34,14.8,82.82,28.51],[6.34,49.49,77.88,7.16]]}}
+{"id":"rel:4575e0051a42","src":"q:1tvcu1l","type":"cites","dst":"slide:physio1-thyroid/07","origin":"imported","status":"approved"}
+{"id":"rel:4648cf692e4b","src":"q:181cl0u","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":13}}
+{"id":"rel:468ef8ec2772","src":"q:dz49st","type":"cites","dst":"slide:physio1-heart/04","origin":"imported","status":"approved"}
+{"id":"rel:46b13b846281","src":"q:1h01sfr","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":19}}
+{"id":"rel:47044217cdac","src":"q:l9moq","type":"cites","dst":"slide:physio1-gi-intro/06","origin":"imported","status":"approved"}
+{"id":"rel:472de35b215b","src":"q:p5q260","type":"cites","dst":"slide:physio1-lung-volumes/20","origin":"imported","status":"approved"}
+{"id":"rel:485743ad6d1a","src":"q:x44yig","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":13}}
+{"id":"rel:48e36472513e","src":"q:12f1xr0","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":24}}
+{"id":"rel:491966748e1b","src":"q:s3o7vw","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":16}}
+{"id":"rel:494807424c65","src":"q:1j8zyur","type":"cites","dst":"slide:physio1-microbiota/17","origin":"imported","status":"approved"}
+{"id":"rel:4978082b1457","src":"lec:physio1-anorectal","type":"references","dst":"res:ec97045816","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Defecation (NCBI StatPearls)","why":"Continence and the defecation reflex."}}
+{"id":"rel:4a95c11692c8","src":"q:1r9w70k","type":"cites","dst":"slide:physio1-heart/05","origin":"imported","status":"approved"}
+{"id":"rel:4c53c456c268","src":"lec:physio1-absorption","type":"references","dst":"res:8c05703511","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Coeliac disease (NHS)","why":"Patient-level overview of gluten enteropathy."}}
+{"id":"rel:4c6b6233de69","src":"q:1qgata8","type":"cites","dst":"slide:physio1-cardiovascular/10","origin":"imported","status":"approved"}
+{"id":"rel:4dbe05735bca","src":"q:y96fde","type":"cites","dst":"slide:physio1-cardiac-cycle/12","origin":"imported","status":"approved"}
+{"id":"rel:4dd82afaf3e1","src":"q:18dcfys","type":"cites","dst":"slide:physio1-gastric-secretion/31","origin":"imported","status":"approved"}
+{"id":"rel:4e108dd9afb4","src":"q:14x73sw","type":"cites","dst":"slide:physio1-lung-volumes/14","origin":"imported","status":"approved"}
+{"id":"rel:4e224c1992a4","src":"q:2piv3k","type":"cites","dst":"slide:physio1-absorption/03","origin":"imported","status":"approved"}
+{"id":"rel:4ec77fd6f33b","src":"q:1l4fbi1","type":"cites","dst":"slide:physio1-pulmonary-vascular/04","origin":"imported","status":"approved"}
+{"id":"rel:4ee429ca2028","src":"lec:physio1-oral","type":"references","dst":"res:da920fb65d","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Salivation (NCBI StatPearls)","why":"Composition and control of saliva."}}
+{"id":"rel:511b73defc71","src":"q:o5dcaq","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/05","origin":"imported","status":"approved"}
+{"id":"rel:51c08e309236","src":"lec:physio1-pancreas","type":"references","dst":"res:a103b13158","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"The Exocrine Pancreas (NCBI Bookshelf)","why":"Detailed physiology of pancreatic secretion."}}
+{"id":"rel:52723edd6ea4","src":"lec:physio1-ecg","type":"references","dst":"res:7c35abd5d6","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"ECG T Wave (NCBI StatPearls)","why":"Normal and abnormal T waves."}}
+{"id":"rel:534e5db0d96d","src":"q:1eeypfc","type":"cites","dst":"slide:physio1-respiratory/15","origin":"imported","status":"approved"}
+{"id":"rel:535c9354dd77","src":"q:1svknjd","type":"cites","dst":"slide:physio1-pulmonary-vascular/15","origin":"imported","status":"approved"}
+{"id":"rel:53ba512d3ff7","src":"q:19phcon","type":"cites","dst":"slide:physio1-lung-volumes/14","origin":"imported","status":"approved"}
+{"id":"rel:54627a0f356c","src":"q:1s8o99m","type":"cites","dst":"slide:physio1-gastric-motility/17","origin":"imported","status":"approved"}
+{"id":"rel:54936caf1274","src":"q:1lipbel","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":9}}
+{"id":"rel:54cf6292ea35","src":"q:giwv84","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":9}}
+{"id":"rel:553f97898879","src":"q:15d8yks","type":"cites","dst":"slide:physio1-anorectal/12","origin":"imported","status":"approved"}
+{"id":"rel:5549c734bf90","src":"q:1dwti6s","type":"cites","dst":"slide:physio1-gastric-motility/36","origin":"imported","status":"approved"}
+{"id":"rel:5569a32b1760","src":"q:kocfce","type":"cites","dst":"slide:physio1-colon-motility/06","origin":"imported","status":"approved"}
+{"id":"rel:564baa1a0b2d","src":"q:c9nqqw","type":"cites","dst":"slide:physio1-gastric-secretion/44","origin":"imported","status":"approved","attrs":{"boxes":[[29.1,20.39,38.09,6.27],[2.28,77.33,92.83,3.89]]}}
+{"id":"rel:56762c659331","src":"q:q78u8z","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/06","origin":"imported","status":"approved"}
+{"id":"rel:567d6dadc0ab","src":"q:1jwt7i2","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":9}}
+{"id":"rel:56de75ed2796","src":"q:n29b46","type":"cites","dst":"slide:physio1-absorption/16","origin":"imported","status":"approved"}
+{"id":"rel:57368ce98e17","src":"q:1cpqrvn","type":"cites","dst":"slide:physio1-cardiac-cycle/05","origin":"imported","status":"approved"}
+{"id":"rel:57ce127d2262","src":"q:1egp5fa","type":"cites","dst":"slide:physio1-gastric-secretion/35","origin":"imported","status":"approved"}
+{"id":"rel:5828503cb69d","src":"q:1apqyvt","type":"cites","dst":"slide:physio1-pulmonary-vascular/21","origin":"imported","status":"approved"}
+{"id":"rel:58ca67adef59","src":"lec:physio1-anorectal","type":"references","dst":"res:b08a4e3fb8","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Fecal Incontinence (NCBI StatPearls)","why":"Causes, manometry and treatment."}}
+{"id":"rel:5a900c876229","src":"q:1pb7mv8","type":"cites","dst":"slide:physio1-cardiac-cycle/42","origin":"imported","status":"approved"}
+{"id":"rel:5b49f28fc7cd","src":"q:i057nq","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":4}}
+{"id":"rel:5bd0ea3db7e3","src":"lec:physio1-hypothalamus-pituitary","type":"references","dst":"res:b36c512a44","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Vasopressin (NCBI StatPearls)","why":"ADH secretion and receptors."}}
+{"id":"rel:5da3f193fc20","src":"q:13qmlpr","type":"cites","dst":"slide:physio1-lung-volumes/41","origin":"imported","status":"approved"}
+{"id":"rel:5e09d3cc21a5","src":"q:lh0u3c","type":"cites","dst":"slide:physio1-oral/09","origin":"imported","status":"approved"}
+{"id":"rel:5e675471b53e","src":"q:zunfdv","type":"cites","dst":"slide:physio1-gastric-secretion/58","origin":"imported","status":"approved"}
+{"id":"rel:5e887316041d","src":"q:798rd2","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":18}}
+{"id":"rel:6082024322ca","src":"q:14vqs4v","type":"cites","dst":"slide:physio1-small-intestine-motility/06","origin":"imported","status":"approved"}
+{"id":"rel:61d58e131d2c","src":"q:1rx3jyh","type":"cites","dst":"slide:physio1-pancreas/22","origin":"imported","status":"approved"}
+{"id":"rel:62567f37f50d","src":"q:4b0fmh","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/05","origin":"imported","status":"approved"}
+{"id":"rel:635c41583a75","src":"q:q1y4bw","type":"cites","dst":"slide:physio1-respiratory/10","origin":"imported","status":"approved"}
+{"id":"rel:6395ee8c7aff","src":"q:c72isr","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":12}}
+{"id":"rel:63d3bd5e6ad6","src":"q:1tvcu1l","type":"cites","dst":"slide:physio1-thyroid/06","origin":"imported","status":"approved"}
+{"id":"rel:647dd2505258","src":"q:1ctc9e7","type":"cites","dst":"slide:physio1-absorption/14","origin":"imported","status":"approved"}
+{"id":"rel:64d422bcfc74","src":"q:y96fde","type":"cites","dst":"slide:physio1-cardiac-cycle/11","origin":"imported","status":"approved"}
+{"id":"rel:657a6ae1f5b8","src":"q:wyz81u","type":"cites","dst":"slide:physio1-small-intestine-motility/11","origin":"imported","status":"approved"}
+{"id":"rel:6620cfee1b93","src":"q:1cf60et","type":"cites","dst":"slide:physio1-gastric-motility/03","origin":"imported","status":"approved"}
+{"id":"rel:66e1f5c4c132","src":"q:2mj5vp","type":"cites","dst":"slide:physio1-gastric-secretion/31","origin":"imported","status":"approved"}
+{"id":"rel:67027e9bf536","src":"q:a2agpg","type":"cites","dst":"slide:physio1-endocrine-intro/47","origin":"imported","status":"approved"}
+{"id":"rel:6757c397890b","src":"q:jp3ad7","type":"cites","dst":"slide:physio1-endocrine-intro/43","origin":"imported","status":"approved"}
+{"id":"rel:68104c2e3fc5","src":"q:6h8rbd","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":16}}
+{"id":"rel:68f685ba5012","src":"q:vcvbr7","type":"cites","dst":"slide:physio1-absorption/24","origin":"imported","status":"approved"}
+{"id":"rel:6948a1b9d7c7","src":"q:149guii","type":"cites","dst":"slide:physio1-ecg/09","origin":"imported","status":"approved"}
+{"id":"rel:6958c5677250","src":"q:fku7e7","type":"cites","dst":"slide:physio1-absorption/28","origin":"imported","status":"approved"}
+{"id":"rel:69b4c9645aca","src":"q:10q6gjm","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":4}}
+{"id":"rel:69b54c56da8b","src":"q:14fkr9w","type":"cites","dst":"slide:physio1-ecg/20","origin":"imported","status":"approved"}
+{"id":"rel:6aa7b58a993a","src":"q:1l4fbi1","type":"cites","dst":"slide:physio1-pulmonary-vascular/03","origin":"imported","status":"approved"}
+{"id":"rel:6aba227f12d6","src":"q:6167a1","type":"cites","dst":"slide:physio1-respiratory/27","origin":"imported","status":"approved"}
+{"id":"rel:6b1920385033","src":"q:1146li8","type":"cites","dst":"slide:physio1-heart/31","origin":"imported","status":"approved"}
+{"id":"rel:6b6e19673249","src":"q:1grxrbj","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":23}}
+{"id":"rel:6b809fcfdaec","src":"q:12rovr","type":"cites","dst":"slide:physio1-thyroid/06","origin":"imported","status":"approved"}
+{"id":"rel:6bb0f64f71ff","src":"q:9p8hld","type":"cites","dst":"slide:physio1-gi-intro/07","origin":"imported","status":"approved"}
+{"id":"rel:6bc77001b0ef","src":"q:4v3lh8","type":"cites","dst":"slide:physio1-heart/12","origin":"imported","status":"approved"}
+{"id":"rel:6cccebd12aa3","src":"q:170xst0","type":"cites","dst":"slide:physio1-ecg/26","origin":"imported","status":"approved"}
+{"id":"rel:6d758d260be9","src":"q:1cf60et","type":"cites","dst":"slide:physio1-gastric-motility/16","origin":"imported","status":"approved"}
+{"id":"rel:6ea7bd9d96f1","src":"q:1hh5lbh","type":"cites","dst":"slide:physio1-colon-motility/09","origin":"imported","status":"approved"}
+{"id":"rel:6ef9c65da69f","src":"q:16aod2r","type":"cites","dst":"slide:physio1-colon-motility/18","origin":"imported","status":"approved"}
+{"id":"rel:6f5f337ede37","src":"q:1nfhoht","type":"cites","dst":"slide:physio1-pancreas/04","origin":"imported","status":"approved","attrs":{"boxes":[[4.73,32.76,70.92,27.45]]}}
+{"id":"rel:6ff1a8d66aa5","src":"q:m3cqto","type":"cites","dst":"slide:physio1-heart/19","origin":"imported","status":"approved"}
+{"id":"rel:7020119f7bba","src":"q:16i7ybg","type":"cites","dst":"slide:physio1-cardiovascular/10","origin":"imported","status":"approved"}
+{"id":"rel:703a6f14915f","src":"q:78wtdc","type":"cites","dst":"slide:physio1-ecg/28","origin":"imported","status":"approved"}
+{"id":"rel:70f18a363324","src":"q:1w75gbi","type":"cites","dst":"slide:physio1-anorectal/18","origin":"imported","status":"approved"}
+{"id":"rel:716f3cb1c96d","src":"q:198wmyp","type":"cites","dst":"slide:physio1-respiratory/34","origin":"imported","status":"approved"}
+{"id":"rel:733c712f9c85","src":"q:1d60gwv","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":22}}
+{"id":"rel:739b4e79a26e","src":"q:1oxzyej","type":"cites","dst":"slide:physio1-anorectal/23","origin":"imported","status":"approved"}
+{"id":"rel:748ad9c7d7be","src":"lec:physio1-gastric-secretion","type":"references","dst":"res:3638ddac81","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Gastric Intrinsic Factor (NCBI StatPearls)","why":"B12 absorption and pernicious anaemia."}}
+{"id":"rel:756732def331","src":"q:10q6gjm","type":"cites","dst":"slide:physio1-cardiac-cycle/35","origin":"imported","status":"approved","attrs":{"boxes":[[6.34,13.83,78.19,11.27],[6.34,28.95,82.33,16.61],[6.34,75.21,65.29,5.93]]}}
+{"id":"rel:762c6caee70c","src":"q:1xf3bau","type":"cites","dst":"slide:physio1-gastric-secretion/25","origin":"imported","status":"approved"}
+{"id":"rel:765fc4bdc0ca","src":"q:3gtmhq","type":"cites","dst":"slide:physio1-anorectal/06","origin":"imported","status":"approved"}
+{"id":"rel:767e5a4a5fe6","src":"q:5sn7xe","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/06","origin":"imported","status":"approved"}
+{"id":"rel:76f19fe7ef4c","src":"q:w3tj6d","type":"cites","dst":"slide:physio1-ecg/43","origin":"imported","status":"approved","attrs":{"boxes":[[6.91,23.25,86.79,14.26]]}}
+{"id":"rel:77b1e8d4b02b","src":"q:a2agpg","type":"cites","dst":"slide:physio1-endocrine-intro/51","origin":"imported","status":"approved"}
+{"id":"rel:78623d3350af","src":"q:5ds31p","type":"cites","dst":"slide:physio1-ecg/43","origin":"imported","status":"approved"}
+{"id":"rel:78e031a76de7","src":"q:s4unqq","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":6}}
+{"id":"rel:791aeeb1a9ef","src":"q:1fqiql7","type":"cites","dst":"slide:physio1-respiratory/30","origin":"imported","status":"approved"}
+{"id":"rel:79e87e9bb838","src":"q:yb52c","type":"cites","dst":"slide:physio1-cardiovascular/12","origin":"imported","status":"approved"}
+{"id":"rel:7a105b48d099","src":"q:1sr5bun","type":"cites","dst":"slide:physio1-oral/27","origin":"imported","status":"approved"}
+{"id":"rel:7bbb8f2ec38f","src":"q:1uhygzm","type":"cites","dst":"slide:physio1-heart/20","origin":"imported","status":"approved"}
+{"id":"rel:7be8a177eee2","src":"q:h97qqs","type":"cites","dst":"slide:physio1-colon-motility/16","origin":"imported","status":"approved"}
+{"id":"rel:7c04c3553bea","src":"q:2wmn57","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":14}}
+{"id":"rel:7c563b9f3eab","src":"q:10re2ux","type":"cites","dst":"slide:physio1-cardiac-cycle/05","origin":"imported","status":"approved"}
+{"id":"rel:7c74b8c5e1e4","src":"q:89ammu","type":"cites","dst":"slide:physio1-pulmonary-vascular/21","origin":"imported","status":"approved"}
+{"id":"rel:7ce897327677","src":"q:1wfc72l","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/03","origin":"imported","status":"approved"}
+{"id":"rel:7d128258c0bb","src":"q:xg2n8d","type":"cites","dst":"slide:physio1-thyroid/03","origin":"imported","status":"approved"}
+{"id":"rel:7d8f2136180a","src":"q:svnei5","type":"cites","dst":"slide:physio1-endocrine-intro/48","origin":"imported","status":"approved"}
+{"id":"rel:7ebc2c6bcd48","src":"q:1l0y0oy","type":"cites","dst":"slide:physio1-pancreas/04","origin":"imported","status":"approved"}
+{"id":"rel:7f3806287eaf","src":"q:q0nwi4","type":"cites","dst":"slide:physio1-gastric-secretion/50","origin":"imported","status":"approved"}
+{"id":"rel:800d58487e1e","src":"q:1pb7mv8","type":"cites","dst":"slide:physio1-cardiac-cycle/23","origin":"imported","status":"approved"}
+{"id":"rel:8111e8f580d2","src":"q:1x05lpu","type":"cites","dst":"slide:physio1-cardiovascular/27","origin":"imported","status":"approved"}
+{"id":"rel:81a149b70ded","src":"q:1ycsnh4","type":"cites","dst":"slide:physio1-cardiac-cycle/05","origin":"imported","status":"approved"}
+{"id":"rel:81edc1669663","src":"q:ikmton","type":"cites","dst":"slide:physio1-heart/31","origin":"imported","status":"approved"}
+{"id":"rel:82e5cd26ac7d","src":"q:18szqgu","type":"cites","dst":"slide:physio1-thyroid/08","origin":"imported","status":"approved"}
+{"id":"rel:832be649c1d2","src":"q:1tjgcog","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":5}}
+{"id":"rel:8462640d4a9c","src":"q:19phcon","type":"cites","dst":"slide:physio1-lung-volumes/02","origin":"imported","status":"approved"}
+{"id":"rel:8462e0c48112","src":"lec:physio1-pancreas","type":"references","dst":"res:b62d101130","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Exocrine Pancreatic Insufficiency (NCBI StatPearls)","why":"Faecal elastase and enzyme replacement."}}
+{"id":"rel:848bc64f6bfc","src":"q:198wmyp","type":"cites","dst":"slide:physio1-respiratory/38","origin":"imported","status":"approved"}
+{"id":"rel:858a8a19fd70","src":"q:s3o7vw","type":"cites","dst":"slide:physio1-small-intestine-motility/06","origin":"imported","status":"approved","attrs":{"boxes":[[0.06,0,93.04,21.84],[4.04,26.4,86.21,5.28]]}}
+{"id":"rel:85900c56c173","src":"q:14o0h28","type":"cites","dst":"slide:physio1-anorectal/28","origin":"imported","status":"approved"}
+{"id":"rel:85ad189addb1","src":"q:12hx9qu","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/05","origin":"imported","status":"approved"}
+{"id":"rel:85e8f2b23296","src":"q:boogmy","type":"cites","dst":"slide:physio1-absorption/27","origin":"imported","status":"approved"}
+{"id":"rel:8608215e2cb5","src":"q:vyxqw3","type":"cites","dst":"slide:physio1-gastric-secretion/43","origin":"imported","status":"approved"}
+{"id":"rel:8642c4c03e65","src":"lec:physio1-gi-intro","type":"references","dst":"res:fef5e68556","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Gastrointestinal Hormonal Control (NCBI StatPearls)","why":"Gastrin, CCK, secretin and the rest."}}
+{"id":"rel:866d9057ae39","src":"lec:physio1-respiratory","type":"references","dst":"res:8d6b86b065","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Alveolar Gas Equation (NCBI StatPearls)","why":"Partial pressures and altitude."}}
+{"id":"rel:86c5872e5832","src":"q:vurdf9","type":"cites","dst":"slide:physio1-gastric-secretion/36","origin":"imported","status":"approved"}
+{"id":"rel:8722e1dab076","src":"q:73cub6","type":"cites","dst":"slide:physio1-lung-volumes/20","origin":"imported","status":"approved"}
+{"id":"rel:87a1ab0d406b","src":"q:2kkwsx","type":"cites","dst":"slide:physio1-heart/18","origin":"imported","status":"approved"}
+{"id":"rel:87acbb0322d6","src":"q:1jejh71","type":"cites","dst":"slide:physio1-oral/09","origin":"imported","status":"approved"}
+{"id":"rel:881f7c6293c8","src":"q:13z7i6o","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/05","origin":"imported","status":"approved"}
+{"id":"rel:88993a60507c","src":"q:kjjo6n","type":"cites","dst":"slide:physio1-heart/17","origin":"imported","status":"approved"}
+{"id":"rel:8905b9c2da89","src":"q:12ljjk2","type":"cites","dst":"slide:physio1-oral/09","origin":"imported","status":"approved"}
+{"id":"rel:891f78192f3f","src":"q:k1xdra","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":5}}
+{"id":"rel:8ab27d4483a1","src":"q:sqoqys","type":"cites","dst":"slide:physio1-gi-intro/03","origin":"imported","status":"approved"}
+{"id":"rel:8bd5bdd13084","src":"lec:physio1-colon-motility","type":"references","dst":"res:de2f0aa1db","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Large Intestine (NCBI StatPearls)","why":"Colonic motility and absorption."}}
+{"id":"rel:8c205787e733","src":"q:1ca31hf","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":3}}
+{"id":"rel:8c52002ba4c8","src":"q:16etgqx","type":"cites","dst":"slide:physio1-gastric-secretion/22","origin":"imported","status":"approved"}
+{"id":"rel:8cb66609bb47","src":"q:1bv7unm","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":10}}
+{"id":"rel:8cb79f258c08","src":"q:6pys1u","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":1}}
+{"id":"rel:8cdc713bf328","src":"q:1pdsjsg","type":"cites","dst":"slide:physio1-cardiovascular/17","origin":"imported","status":"approved"}
+{"id":"rel:8ce481e5526a","src":"q:1b5uesf","type":"cites","dst":"slide:physio1-absorption/22","origin":"imported","status":"approved"}
+{"id":"rel:8d4bdfd12e46","src":"q:zct8z","type":"cites","dst":"slide:physio1-heart/17","origin":"imported","status":"approved"}
+{"id":"rel:8f3a6bb2152f","src":"q:kdfdya","type":"cites","dst":"slide:physio1-gastric-motility/20","origin":"imported","status":"approved"}
+{"id":"rel:8fedc9ddf473","src":"q:1ok2yam","type":"cites","dst":"slide:physio1-microbiota/11","origin":"imported","status":"approved"}
+{"id":"rel:902006f7abf6","src":"q:5orw4q","type":"cites","dst":"slide:physio1-oral/29","origin":"imported","status":"approved"}
+{"id":"rel:9039c83361f6","src":"q:36hdjy","type":"cites","dst":"slide:physio1-gastric-motility/13","origin":"imported","status":"approved"}
+{"id":"rel:907f908b4237","src":"q:q0nwi4","type":"cites","dst":"slide:physio1-gastric-secretion/25","origin":"imported","status":"approved"}
+{"id":"rel:90901d3afafe","src":"q:1drjjky","type":"cites","dst":"slide:physio1-thyroid/08","origin":"imported","status":"approved"}
+{"id":"rel:91c3d938301a","src":"q:1ddo6yl","type":"cites","dst":"slide:physio1-pulmonary-vascular/03","origin":"imported","status":"approved"}
+{"id":"rel:9343f075c52c","src":"q:12vjj1r","type":"cites","dst":"slide:physio1-thyroid/08","origin":"imported","status":"approved"}
+{"id":"rel:93dd4a1b6a8e","src":"q:8rovr7","type":"cites","dst":"slide:physio1-ecg/43","origin":"imported","status":"approved"}
+{"id":"rel:945c14598611","src":"q:126cld9","type":"cites","dst":"slide:physio1-small-intestine-motility/04","origin":"imported","status":"approved"}
+{"id":"rel:9476e414101f","src":"q:xmrf4s","type":"cites","dst":"slide:physio1-anorectal/14","origin":"imported","status":"approved"}
+{"id":"rel:953a2c4a4204","src":"q:zibm4m","type":"cites","dst":"slide:physio1-lung-volumes/40","origin":"imported","status":"approved"}
+{"id":"rel:95860ab2a2e1","src":"q:181qw0a","type":"cites","dst":"slide:physio1-gi-intro/07","origin":"imported","status":"approved"}
+{"id":"rel:959ff6a8d24f","src":"q:y20u90","type":"cites","dst":"slide:physio1-respiratory/37","origin":"imported","status":"approved"}
+{"id":"rel:9715236bec1d","src":"q:1ytipls","type":"cites","dst":"slide:physio1-anorectal/23","origin":"imported","status":"approved"}
+{"id":"rel:974cc9aa7e53","src":"q:tpawh7","type":"cites","dst":"slide:physio1-lung-volumes/21","origin":"imported","status":"approved","attrs":{"boxes":[[7.91,19.4,78.79,13.01]]}}
+{"id":"rel:9753e86a600e","src":"q:1gs99as","type":"cites","dst":"slide:physio1-pulmonary-vascular/21","origin":"imported","status":"approved"}
+{"id":"rel:9793e4a3ed69","src":"q:119s8zn","type":"cites","dst":"slide:physio1-microbiota/12","origin":"imported","status":"approved"}
+{"id":"rel:97ea46ca3682","src":"q:1updgil","type":"cites","dst":"slide:physio1-gastric-secretion/27","origin":"imported","status":"approved"}
+{"id":"rel:98e2ade2b37e","src":"lec:physio1-pulmonary-vascular","type":"references","dst":"res:dbcbbebf71","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Pulmonary Ventilation and Perfusion (NCBI StatPearls)","why":"V/Q matching."}}
+{"id":"rel:991aca28489e","src":"lec:physio1-thyroid","type":"references","dst":"res:722b585067","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Overactive thyroid (NHS)","why":"Graves' disease and other causes."}}
+{"id":"rel:9a603d12abca","src":"q:7kxq5","type":"cites","dst":"slide:physio1-endocrine-intro/49","origin":"imported","status":"approved"}
+{"id":"rel:9a716f23484d","src":"q:48eza2","type":"cites","dst":"slide:physio1-microbiota/10","origin":"imported","status":"approved"}
+{"id":"rel:9a93a89b5057","src":"q:auyzm5","type":"cites","dst":"slide:physio1-ecg/24","origin":"imported","status":"approved"}
+{"id":"rel:9c9a76e61bef","src":"q:18kk1u2","type":"cites","dst":"slide:physio1-gi-intro/07","origin":"imported","status":"approved"}
+{"id":"rel:9cba92671c9f","src":"q:9nkzck","type":"cites","dst":"slide:physio1-small-intestine-motility/09","origin":"imported","status":"approved"}
+{"id":"rel:9ccd19d0607e","src":"q:1mdoxr6","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":17}}
+{"id":"rel:9d4689d83198","src":"q:11zov4c","type":"cites","dst":"slide:physio1-endocrine-intro/37","origin":"imported","status":"approved"}
+{"id":"rel:9d996763847a","src":"q:1egp5fa","type":"cites","dst":"slide:physio1-gastric-secretion/44","origin":"imported","status":"approved"}
+{"id":"rel:9f0c64433e2e","src":"q:1lxhhai","type":"cites","dst":"slide:physio1-absorption/28","origin":"imported","status":"approved"}
+{"id":"rel:9fd58ac784d7","src":"q:1vo76hb","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/03","origin":"imported","status":"approved"}
+{"id":"rel:a0f6741aafbd","src":"q:1dvfqpy","type":"cites","dst":"slide:physio1-endocrine-intro/49","origin":"imported","status":"approved"}
+{"id":"rel:a1c8e77d002d","src":"q:109krkh","type":"cites","dst":"slide:physio1-pulmonary-vascular/20","origin":"imported","status":"approved"}
+{"id":"rel:a24285298510","src":"q:1y1x57i","type":"cites","dst":"slide:physio1-oral/27","origin":"imported","status":"approved","attrs":{"boxes":[[10.01,57.25,75.58,6.1]]}}
+{"id":"rel:a273bce69076","src":"q:te572q","type":"cites","dst":"slide:physio1-gastric-secretion/27","origin":"imported","status":"approved"}
+{"id":"rel:a296bcbba1b2","src":"q:1afzzlw","type":"cites","dst":"slide:physio1-pancreas/18","origin":"imported","status":"approved"}
+{"id":"rel:a2b0c914fe69","src":"q:1urgkba","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":13}}
+{"id":"rel:a32af1b67023","src":"lec:physio1-cardiac-cycle","type":"references","dst":"res:ebdcccfcec","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Cardiac Cycle (NCBI StatPearls)","why":"Pressure-volume events and sounds."}}
+{"id":"rel:a34a3b06d257","src":"q:w3tj6d","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":7}}
+{"id":"rel:a3a29748cbec","src":"q:jlmp5l","type":"cites","dst":"slide:physio1-ecg/31","origin":"imported","status":"approved"}
+{"id":"rel:a583cbcc16fb","src":"q:1k1yq6m","type":"cites","dst":"slide:physio1-absorption/30","origin":"imported","status":"approved"}
+{"id":"rel:a5b04de45211","src":"q:1simaek","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":3}}
+{"id":"rel:a61c13926489","src":"q:139dcc9","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":5}}
+{"id":"rel:a67b424a09b5","src":"q:s4unqq","type":"cites","dst":"slide:physio1-ecg/31","origin":"imported","status":"approved","attrs":{"boxes":[[5.4,52.99,51.23,38.8]]}}
+{"id":"rel:a76a17011999","src":"q:yznd1n","type":"cites","dst":"slide:physio1-colon-motility/12","origin":"imported","status":"approved"}
+{"id":"rel:a8de4c084ae0","src":"q:4ysx6n","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":11}}
+{"id":"rel:a9dee2d867c0","src":"q:sxu0d4","type":"cites","dst":"slide:physio1-thyroid/02","origin":"imported","status":"approved"}
+{"id":"rel:aa0e1a56dac7","src":"q:1rx3jyh","type":"cites","dst":"slide:physio1-pancreas/25","origin":"imported","status":"approved"}
+{"id":"rel:aa9be80f3853","src":"q:17wc85x","type":"cites","dst":"slide:physio1-colon-motility/22","origin":"imported","status":"approved"}
+{"id":"rel:aa9ec4538347","src":"q:frab2s","type":"cites","dst":"slide:physio1-cardiovascular/16","origin":"imported","status":"approved"}
+{"id":"rel:abe86258ce59","src":"q:1cajxjv","type":"cites","dst":"slide:physio1-respiratory/21","origin":"imported","status":"approved"}
+{"id":"rel:ac1998df78e1","src":"q:241yg6","type":"cites","dst":"slide:physio1-oral/27","origin":"imported","status":"approved"}
+{"id":"rel:acbefc06a6fc","src":"q:x89vg2","type":"cites","dst":"slide:physio1-colon-motility/12","origin":"imported","status":"approved"}
+{"id":"rel:accdc7825d1d","src":"q:1k7tif9","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":3}}
+{"id":"rel:acd1044a3f05","src":"q:16i5j9d","type":"cites","dst":"slide:physio1-heart/28","origin":"imported","status":"approved"}
+{"id":"rel:ad98cc07d692","src":"q:1x3upu1","type":"cites","dst":"slide:physio1-cardiac-cycle/48","origin":"imported","status":"approved"}
+{"id":"rel:adcfcdcab57e","src":"q:aiba8t","type":"cites","dst":"slide:physio1-endocrine-intro/50","origin":"imported","status":"approved"}
+{"id":"rel:ae3b49a69d1d","src":"lec:physio1-oral","type":"references","dst":"res:3b02a5fc64","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Swallowing (NCBI StatPearls)","why":"Phases of deglutition."}}
+{"id":"rel:aed824f599ba","src":"q:867tcf","type":"cites","dst":"slide:physio1-gastric-secretion/18","origin":"imported","status":"approved"}
+{"id":"rel:aef6af85d7db","src":"q:1tix3tn","type":"cites","dst":"slide:physio1-endocrine-intro/49","origin":"imported","status":"approved"}
+{"id":"rel:af3776eaddca","src":"q:1g4r2xe","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":7}}
+{"id":"rel:af380be3fac9","src":"lec:physio1-pancreas","type":"references","dst":"res:2c69d51f3a","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Acute Pancreatitis (NCBI StatPearls)","why":"Causes and diagnosis."}}
+{"id":"rel:af595c4ef09e","src":"q:1lq5sml","type":"cites","dst":"slide:physio1-endocrine-intro/36","origin":"imported","status":"approved"}
+{"id":"rel:af7da58f2a7a","src":"q:1f6630e","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":19}}
+{"id":"rel:af853cf63f57","src":"q:nxsjk","type":"cites","dst":"slide:physio1-thyroid/05","origin":"imported","status":"approved"}
+{"id":"rel:afc5321f953e","src":"q:lq28s3","type":"cites","dst":"slide:physio1-pulmonary-vascular/05","origin":"imported","status":"approved"}
+{"id":"rel:b067d540eaa2","src":"q:y20u90","type":"cites","dst":"slide:physio1-respiratory/36","origin":"imported","status":"approved"}
+{"id":"rel:b0fd5cb10714","src":"q:1qc93si","type":"cites","dst":"slide:physio1-endocrine-intro/48","origin":"imported","status":"approved"}
+{"id":"rel:b108d917916f","src":"q:kvdhp8","type":"cites","dst":"slide:physio1-respiratory/34","origin":"imported","status":"approved"}
+{"id":"rel:b18e54ab0ec9","src":"q:u6o3dd","type":"cites","dst":"slide:physio1-small-intestine-motility/10","origin":"imported","status":"approved"}
+{"id":"rel:b1e167cd5c44","src":"q:1ql31mp","type":"cites","dst":"slide:physio1-microbiota/11","origin":"imported","status":"approved"}
+{"id":"rel:b21aadf1ceaa","src":"q:kdfdya","type":"cites","dst":"slide:physio1-gastric-motility/11","origin":"imported","status":"approved"}
+{"id":"rel:b47ddd42a074","src":"q:7iyxdj","type":"cites","dst":"slide:physio1-anorectal/11","origin":"imported","status":"approved"}
+{"id":"rel:b4aaf2c90e55","src":"q:13nis35","type":"cites","dst":"slide:physio1-heart/20","origin":"imported","status":"approved"}
+{"id":"rel:b4bc524c746e","src":"q:17d3pl2","type":"cites","dst":"slide:physio1-lung-volumes/36","origin":"imported","status":"approved"}
+{"id":"rel:b4d06ea65b8a","src":"q:1k8der3","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":1}}
+{"id":"rel:b5d5904fbb87","src":"q:1t4uyy2","type":"cites","dst":"slide:physio1-absorption/16","origin":"imported","status":"approved","attrs":{"boxes":[[3.4,40.35,79.43,11.44]]}}
+{"id":"rel:b87505ae7c8a","src":"q:c9nqqw","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":14}}
+{"id":"rel:b8b32b9d740c","src":"q:1ti3cmy","type":"cites","dst":"slide:physio1-heart/14","origin":"imported","status":"approved"}
+{"id":"rel:b90d1e3371f8","src":"q:141nb5c","type":"cites","dst":"slide:physio1-heart/24","origin":"imported","status":"approved"}
+{"id":"rel:b9b822c4999d","src":"q:16oaqwq","type":"cites","dst":"slide:physio1-cardiac-cycle/45","origin":"imported","status":"approved"}
+{"id":"rel:bb0903e93ed9","src":"q:12ljjk2","type":"cites","dst":"slide:physio1-oral/12","origin":"imported","status":"approved"}
+{"id":"rel:bb5caca0c94e","src":"lec:physio1-small-intestine-motility","type":"references","dst":"res:4ebd713ddb","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Ileus (NCBI StatPearls)","why":"Causes and management."}}
+{"id":"rel:bba68024cb92","src":"q:1t4v6ba","type":"cites","dst":"slide:physio1-microbiota/12","origin":"imported","status":"approved"}
+{"id":"rel:bbe5429285e2","src":"q:1cajxjv","type":"cites","dst":"slide:physio1-respiratory/16","origin":"imported","status":"approved"}
+{"id":"rel:bc1a68d25993","src":"q:9p8hld","type":"cites","dst":"slide:physio1-gi-intro/04","origin":"imported","status":"approved"}
+{"id":"rel:bd40b1ac9173","src":"q:1nq8e5u","type":"cites","dst":"slide:physio1-pancreas/33","origin":"imported","status":"approved"}
+{"id":"rel:bd7681b160de","src":"lec:physio1-microbiota","type":"references","dst":"res:0581c2cf0a","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Impact of the gut microbiota, prebiotics and probiotics on human health (PubMed)","why":"Review of microbiota functions and modulation."}}
+{"id":"rel:bedbb08157b3","src":"q:8lu8ei","type":"cites","dst":"slide:physio1-pancreas/34","origin":"imported","status":"approved"}
+{"id":"rel:bef80dcd0111","src":"q:16oaqwq","type":"cites","dst":"slide:physio1-cardiac-cycle/43","origin":"imported","status":"approved"}
+{"id":"rel:bfc63bc59bab","src":"q:1gx6l2u","type":"cites","dst":"slide:physio1-pancreas/19","origin":"imported","status":"approved"}
+{"id":"rel:c05426f908bf","src":"q:1susj0e","type":"cites","dst":"slide:physio1-cardiac-cycle/35","origin":"imported","status":"approved"}
+{"id":"rel:c08a4d4398bc","src":"lec:physio1-gastric-motility","type":"references","dst":"res:f207b3d121","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Stomach (NCBI StatPearls)","why":"Gastric motility and emptying."}}
+{"id":"rel:c0f19299d280","src":"q:llqxkt","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/05","origin":"imported","status":"approved"}
+{"id":"rel:c1495b569140","src":"q:89ammu","type":"cites","dst":"slide:physio1-pulmonary-vascular/20","origin":"imported","status":"approved"}
+{"id":"rel:c172d53f256d","src":"q:9dgdxz","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/07","origin":"imported","status":"approved"}
+{"id":"rel:c2595d77cb9d","src":"q:32rrto","type":"cites","dst":"slide:physio1-heart/15","origin":"imported","status":"approved"}
+{"id":"rel:c2a05cb2bb4a","src":"q:y68w3c","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/06","origin":"imported","status":"approved"}
+{"id":"rel:c2e08ac30cad","src":"q:i7hlo8","type":"cites","dst":"slide:physio1-respiratory/34","origin":"imported","status":"approved"}
+{"id":"rel:c3f6e8e5b34d","src":"q:8rw3qu","type":"cites","dst":"slide:physio1-lung-volumes/09","origin":"imported","status":"approved"}
+{"id":"rel:c56f1b168273","src":"q:1nfhoht","type":"appears-in","dst":"paper:y1-physio1-sina-mock","origin":"imported","status":"approved","attrs":{"n":15}}
+{"id":"rel:c5a7c4c5fb98","src":"q:aobjco","type":"cites","dst":"slide:physio1-absorption/11","origin":"imported","status":"approved"}
+{"id":"rel:c68e10d0b850","src":"lec:physio1-oral","type":"references","dst":"res:298d4c2e09","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Anatomy, Head and Neck, Swallowing (NCBI StatPearls)","why":"Muscles and nerves involved."}}
+{"id":"rel:c729b2804952","src":"q:4gbeoj","type":"cites","dst":"slide:physio1-oral/17","origin":"imported","status":"approved"}
+{"id":"rel:c769241299ad","src":"q:1trqmij","type":"cites","dst":"slide:physio1-ecg/09","origin":"imported","status":"approved"}
+{"id":"rel:c7a28e6e7eb8","src":"lec:physio1-pancreas","type":"references","dst":"res:b6743f8669","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Pancreas (NCBI StatPearls)","why":"Exocrine and endocrine functions."}}
+{"id":"rel:c8f0678cdee9","src":"q:18f3esd","type":"cites","dst":"slide:physio1-endocrine-intro/51","origin":"imported","status":"approved"}
+{"id":"rel:ca4c886901c7","src":"q:207e34","type":"cites","dst":"slide:physio1-thyroid/03","origin":"imported","status":"approved"}
+{"id":"rel:cb66b27bc535","src":"q:ttthpx","type":"cites","dst":"slide:physio1-ecg/18","origin":"imported","status":"approved"}
+{"id":"rel:cbd40d5c6e15","src":"q:aiu2s3","type":"cites","dst":"slide:physio1-gastric-motility/20","origin":"imported","status":"approved"}
+{"id":"rel:cbf908a231e3","src":"q:1t22i9a","type":"cites","dst":"slide:physio1-anorectal/23","origin":"imported","status":"approved"}
+{"id":"rel:cd0c05f4cda4","src":"q:akz0gd","type":"cites","dst":"slide:physio1-microbiota/18","origin":"imported","status":"approved"}
+{"id":"rel:cd11a0aac2ee","src":"q:l9moq","type":"cites","dst":"slide:physio1-gi-intro/02","origin":"imported","status":"approved"}
+{"id":"rel:cd41078b4ec9","src":"q:1kv549x","type":"cites","dst":"slide:physio1-pancreas/13","origin":"imported","status":"approved"}
+{"id":"rel:cd78ed180493","src":"lec:physio1-absorption","type":"references","dst":"res:67d5e607e9","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Small Bowel (NCBI StatPearls)","why":"Structure and absorption."}}
+{"id":"rel:ced694019c11","src":"q:zibm4m","type":"cites","dst":"slide:physio1-lung-volumes/21","origin":"imported","status":"approved"}
+{"id":"rel:cfc6520b982f","src":"q:3wgqkz","type":"cites","dst":"slide:physio1-small-intestine-motility/06","origin":"imported","status":"approved"}
+{"id":"rel:d04df8e2c70d","src":"q:1p36tt9","type":"cites","dst":"slide:physio1-cardiovascular/16","origin":"imported","status":"approved"}
+{"id":"rel:d0a4bbcb3ea4","src":"q:u6o3dd","type":"cites","dst":"slide:physio1-small-intestine-motility/06","origin":"imported","status":"approved"}
+{"id":"rel:d0ce575d3258","src":"q:1dvfqpy","type":"cites","dst":"slide:physio1-endocrine-intro/22","origin":"imported","status":"approved"}
+{"id":"rel:d0d14ee2c906","src":"q:19uoa7b","type":"cites","dst":"slide:physio1-endocrine-intro/27","origin":"imported","status":"approved"}
+{"id":"rel:d0d4c40bd435","src":"q:dkjqrp","type":"cites","dst":"slide:physio1-ecg/37","origin":"imported","status":"approved"}
+{"id":"rel:d2c0c1e4d773","src":"q:vjvmca","type":"cites","dst":"slide:physio1-small-intestine-motility/10","origin":"imported","status":"approved","attrs":{"boxes":[[5.42,0.93,43.76,6.82],[2.44,21.31,81.9,5.81]]}}
+{"id":"rel:d3348b54e130","src":"q:1l0iirn","type":"cites","dst":"slide:physio1-endocrine-intro/25","origin":"imported","status":"approved"}
+{"id":"rel:d3623e69c801","src":"q:ghhpro","type":"cites","dst":"slide:physio1-endocrine-intro/23","origin":"imported","status":"approved"}
+{"id":"rel:d40e6e001532","src":"q:1e15uev","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":11}}
+{"id":"rel:d4149fce0328","src":"q:16i5j9d","type":"cites","dst":"slide:physio1-heart/29","origin":"imported","status":"approved"}
+{"id":"rel:d43d25da49b7","src":"q:syw6ez","type":"cites","dst":"slide:physio1-colon-motility/25","origin":"imported","status":"approved"}
+{"id":"rel:d4d0f3d61c22","src":"lec:physio1-heart","type":"references","dst":"res:3886958969","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Atrial fibrillation (NHS)","why":"Symptoms, stroke risk and treatment."}}
+{"id":"rel:d50e3b5418fb","src":"lec:physio1-cardiovascular","type":"references","dst":"res:f9b7bb7231","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Cardiovascular (NCBI StatPearls)","why":"Circulation, pressure and resistance."}}
+{"id":"rel:d5821ff75f4b","src":"q:pdfxho","type":"cites","dst":"slide:physio1-oral/13","origin":"imported","status":"approved"}
+{"id":"rel:d64fab293841","src":"lec:physio1-small-intestine-motility","type":"references","dst":"res:11ce61a45a","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Motilin (NCBI StatPearls)","why":"Motilin and the MMC."}}
+{"id":"rel:d67e2ff7cbe4","src":"q:jabxqd","type":"cites","dst":"slide:physio1-gastric-motility/11","origin":"imported","status":"approved"}
+{"id":"rel:d752978307d7","src":"q:1p36tt9","type":"cites","dst":"slide:physio1-cardiovascular/19","origin":"imported","status":"approved"}
+{"id":"rel:d8dc4adcf28e","src":"q:1qvsebh","type":"cites","dst":"slide:physio1-cardiovascular/16","origin":"imported","status":"approved"}
+{"id":"rel:d8f905ce11a5","src":"q:bp35i1","type":"cites","dst":"slide:physio1-small-intestine-motility/08","origin":"imported","status":"approved"}
+{"id":"rel:da4641e0a000","src":"q:1bv7unm","type":"cites","dst":"slide:physio1-pulmonary-vascular/05","origin":"imported","status":"approved","attrs":{"boxes":[[4.32,1.4,91.41,7.56]]}}
+{"id":"rel:dade9dd3b853","src":"q:xmrf4s","type":"cites","dst":"slide:physio1-anorectal/06","origin":"imported","status":"approved"}
+{"id":"rel:db2dc2f002a9","src":"q:1t7ffq2","type":"cites","dst":"slide:physio1-oral/10","origin":"imported","status":"approved"}
+{"id":"rel:db39316786a3","src":"q:zg6r68","type":"cites","dst":"slide:physio1-gastric-motility/40","origin":"imported","status":"approved"}
+{"id":"rel:dca1bb369ea6","src":"q:2mj5vp","type":"cites","dst":"slide:physio1-gastric-secretion/14","origin":"imported","status":"approved"}
+{"id":"rel:dcc5fd31a7aa","src":"q:iczgnx","type":"cites","dst":"slide:physio1-respiratory/21","origin":"imported","status":"approved"}
+{"id":"rel:dd0c69d40809","src":"q:1hzr6x0","type":"cites","dst":"slide:physio1-gastric-motility/08","origin":"imported","status":"approved"}
+{"id":"rel:dd220a63f495","src":"q:eqdql2","type":"cites","dst":"slide:physio1-small-intestine-motility/10","origin":"imported","status":"approved"}
+{"id":"rel:dd54a40d7842","src":"q:1f6630e","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/05","origin":"imported","status":"approved","attrs":{"boxes":[[17.06,57.76,71.77,12.85],[17.06,72.92,71.81,16.63]]}}
+{"id":"rel:dd57ee3ac976","src":"lec:physio1-ecg","type":"references","dst":"res:6bcebbc4b5","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Cardiac (NCBI StatPearls)","why":"Action potentials and conduction."}}
+{"id":"rel:dd6867623112","src":"q:1fevmx5","type":"cites","dst":"slide:physio1-microbiota/08","origin":"imported","status":"approved"}
+{"id":"rel:dd69eaf935bf","src":"lec:physio1-colon-motility","type":"references","dst":"res:1db5e0fc44","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Hirschsprung Disease (NCBI StatPearls)","why":"Aganglionosis and its diagnosis."}}
+{"id":"rel:ddacc974d36b","src":"q:1kweej6","type":"cites","dst":"slide:physio1-cardiovascular/19","origin":"imported","status":"approved"}
+{"id":"rel:de0e9b236844","src":"q:181cl0u","type":"cites","dst":"slide:physio1-gastric-secretion/33","origin":"imported","status":"approved","attrs":{"boxes":[[3.46,25.95,39.66,11.73],[3.5,50.31,38.59,7.84]]}}
+{"id":"rel:df222f34c7c0","src":"q:hb9ivi","type":"cites","dst":"slide:physio1-ecg/45","origin":"imported","status":"approved"}
+{"id":"rel:df4a6a2d68e0","src":"q:7amop","type":"cites","dst":"slide:physio1-cardiovascular/23","origin":"imported","status":"approved"}
+{"id":"rel:e166cbc93414","src":"q:1ope6ep","type":"cites","dst":"slide:physio1-colon-motility/15","origin":"imported","status":"approved"}
+{"id":"rel:e194708491ba","src":"q:1mx704y","type":"cites","dst":"slide:physio1-pancreas/33","origin":"imported","status":"approved"}
+{"id":"rel:e2a7386130f4","src":"lec:physio1-thyroid","type":"references","dst":"res:cac6c1c7ea","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Thyroid Hormone (NCBI StatPearls)","why":"Synthesis, regulation and actions."}}
+{"id":"rel:e2d805362df3","src":"q:nnrp8i","type":"cites","dst":"slide:physio1-colon-motility/25","origin":"imported","status":"approved"}
+{"id":"rel:e3533a4007cf","src":"q:120win4","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":20}}
+{"id":"rel:e40618879ecb","src":"lec:physio1-lung-volumes","type":"references","dst":"res:640f4156f9","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"COPD (WHO fact sheet)","why":"Burden, causes and prevention."}}
+{"id":"rel:e427603ff82d","src":"q:c893xz","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":18}}
+{"id":"rel:e46315ad255a","src":"q:1jmjmxg","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":19}}
+{"id":"rel:e485ee722106","src":"q:5ds31p","type":"cites","dst":"slide:physio1-ecg/47","origin":"imported","status":"approved"}
+{"id":"rel:e5429e04c583","src":"q:9dgdxz","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/05","origin":"imported","status":"approved"}
+{"id":"rel:e67905a72102","src":"q:96b5a6","type":"appears-in","dst":"paper:y1-physio-cardioresp","origin":"imported","status":"approved","attrs":{"n":17}}
+{"id":"rel:e73d37c6ce8c","src":"q:hem0un","type":"cites","dst":"slide:physio1-pulmonary-vascular/13","origin":"imported","status":"approved"}
+{"id":"rel:e7427322452d","src":"q:aiu2s3","type":"cites","dst":"slide:physio1-gastric-motility/21","origin":"imported","status":"approved"}
+{"id":"rel:e797d4e1cc95","src":"q:dz49st","type":"cites","dst":"slide:physio1-heart/05","origin":"imported","status":"approved"}
+{"id":"rel:e831e2a809c9","src":"q:1mlvl1b","type":"cites","dst":"slide:physio1-hypothalamus-pituitary/04","origin":"imported","status":"approved"}
+{"id":"rel:e873d465d70a","src":"q:1341tbd","type":"cites","dst":"slide:physio1-respiratory/13","origin":"imported","status":"approved"}
+{"id":"rel:e8d4ce7c32f4","src":"q:1vh5ogv","type":"cites","dst":"slide:physio1-gi-intro/07","origin":"imported","status":"approved"}
+{"id":"rel:e9c6d8533b44","src":"q:5orw4q","type":"cites","dst":"slide:physio1-oral/27","origin":"imported","status":"approved"}
+{"id":"rel:e9fe9e305294","src":"q:1o4ku5o","type":"cites","dst":"slide:physio1-lung-volumes/34","origin":"imported","status":"approved"}
+{"id":"rel:ea03441662b4","src":"q:1w9x5bx","type":"cites","dst":"slide:physio1-small-intestine-motility/05","origin":"imported","status":"approved"}
+{"id":"rel:ead432958846","src":"q:17zlp77","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":8}}
+{"id":"rel:eadd75461ba3","src":"q:4v3lh8","type":"cites","dst":"slide:physio1-heart/11","origin":"imported","status":"approved"}
+{"id":"rel:ebbc5dfe61e2","src":"q:8udyyz","type":"cites","dst":"slide:physio1-oral/11","origin":"imported","status":"approved"}
+{"id":"rel:ecf79872efeb","src":"q:617n5g","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":20}}
+{"id":"rel:ed2afca8107b","src":"q:13ecnpc","type":"cites","dst":"slide:physio1-cardiac-cycle/37","origin":"imported","status":"approved"}
+{"id":"rel:ed5eb0c04fc9","src":"q:1r8pwo2","type":"cites","dst":"slide:physio1-anorectal/13","origin":"imported","status":"approved"}
+{"id":"rel:ed8f4ea9ea68","src":"q:dfcdur","type":"cites","dst":"slide:physio1-cardiac-cycle/23","origin":"imported","status":"approved"}
+{"id":"rel:ed9e3c9b1fed","src":"q:zn7h09","type":"cites","dst":"slide:physio1-gastric-secretion/31","origin":"imported","status":"approved"}
+{"id":"rel:edb8d9cb7bbb","src":"q:1md4hiz","type":"cites","dst":"slide:physio1-cardiac-cycle/23","origin":"imported","status":"approved"}
+{"id":"rel:edd31a7286ed","src":"q:1eeypfc","type":"cites","dst":"slide:physio1-respiratory/14","origin":"imported","status":"approved"}
+{"id":"rel:ee8b6a2637f0","src":"q:og3bm8","type":"cites","dst":"slide:physio1-absorption/24","origin":"imported","status":"approved"}
+{"id":"rel:eea7ba7a5627","src":"q:117tg67","type":"cites","dst":"slide:physio1-respiratory/25","origin":"imported","status":"approved"}
+{"id":"rel:efee3dcb7631","src":"q:14k43jt","type":"cites","dst":"slide:physio1-absorption/32","origin":"imported","status":"approved"}
+{"id":"rel:efef3876fd26","src":"q:b5fcah","type":"cites","dst":"slide:physio1-thyroid/03","origin":"imported","status":"approved","attrs":{"boxes":[[20.68,19,68.23,6.68],[20.68,34.3,61.97,2.68],[20.68,39.57,68.23,12.68]]}}
+{"id":"rel:f01011c55ecd","src":"q:1x3upu1","type":"cites","dst":"slide:physio1-cardiac-cycle/43","origin":"imported","status":"approved"}
+{"id":"rel:f075516eae34","src":"q:1ujj33m","type":"cites","dst":"slide:physio1-thyroid/02","origin":"imported","status":"approved"}
+{"id":"rel:f09e1b0cb3a7","src":"lec:physio1-heart","type":"references","dst":"res:6bcebbc4b5","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Cardiac (NCBI StatPearls)","why":"Conduction and contraction."}}
+{"id":"rel:f10a7a0d820c","src":"q:1qej3qu","type":"cites","dst":"slide:physio1-thyroid/08","origin":"imported","status":"approved"}
+{"id":"rel:f14acbac2f7f","src":"lec:physio1-cardiac-cycle","type":"references","dst":"res:970e3fea76","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Cardiovascular Hemodynamics (NCBI StatPearls)","why":"Preload, afterload, cardiac output."}}
+{"id":"rel:f2e4e9721c44","src":"q:kvdhp8","type":"cites","dst":"slide:physio1-respiratory/38","origin":"imported","status":"approved"}
+{"id":"rel:f2fbd92ed141","src":"lec:physio1-pulmonary-vascular","type":"references","dst":"res:5b59ee3e42","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Pulmonary Vasoconstriction (NCBI StatPearls)","why":"Hypoxic pulmonary vasoconstriction."}}
+{"id":"rel:f49b50d56f1e","src":"q:e2l73x","type":"cites","dst":"slide:physio1-anorectal/20","origin":"imported","status":"approved"}
+{"id":"rel:f584333309e3","src":"q:j5ogkr","type":"cites","dst":"slide:physio1-microbiota/20","origin":"imported","status":"approved"}
+{"id":"rel:f60cd221d86a","src":"q:1gac22","type":"appears-in","dst":"paper:y1-physio-gastroendo","origin":"imported","status":"approved","attrs":{"n":2}}
+{"id":"rel:f8632dc14abd","src":"lec:physio1-gi-intro","type":"references","dst":"res:e6a2739c79","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Gastrointestinal Nervous Control (NCBI StatPearls)","why":"Enteric and autonomic control."}}
+{"id":"rel:f872e4e0d59e","src":"q:g3bxqz","type":"cites","dst":"slide:physio1-microbiota/04","origin":"imported","status":"approved"}
+{"id":"rel:f8da6dd6233a","src":"q:4dun0j","type":"cites","dst":"slide:physio1-colon-motility/18","origin":"imported","status":"approved"}
+{"id":"rel:f8f11f0fba22","src":"q:6pys1u","type":"cites","dst":"slide:physio1-ecg/05","origin":"imported","status":"approved","attrs":{"boxes":[[63.81,16.54,10.25,8.15],[3.88,39.24,53.13,6.37]]}}
+{"id":"rel:fc15f213488f","src":"q:1i5zv8i","type":"cites","dst":"slide:physio1-endocrine-intro/34","origin":"imported","status":"approved"}
+{"id":"rel:fcad6077f49f","src":"q:117tg67","type":"cites","dst":"slide:physio1-respiratory/30","origin":"imported","status":"approved"}
+{"id":"rel:fccf76c375b4","src":"lec:physio1-lung-volumes","type":"references","dst":"res:dbcbbebf71","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, Pulmonary Ventilation and Perfusion (NCBI StatPearls)","why":"Ventilation and lung volumes."}}
+{"id":"rel:fcd3e8ae076f","src":"q:1ccgs4a","type":"cites","dst":"slide:physio1-thyroid/05","origin":"imported","status":"approved"}
+{"id":"rel:fd3566aa37c7","src":"q:icpzjo","type":"cites","dst":"slide:physio1-endocrine-intro/32","origin":"imported","status":"approved"}
+{"id":"rel:fd8d13de5492","src":"q:7iyxdj","type":"cites","dst":"slide:physio1-anorectal/09","origin":"imported","status":"approved"}
+{"id":"rel:fe645edcac96","src":"q:112njb8","type":"cites","dst":"slide:physio1-small-intestine-motility/07","origin":"imported","status":"approved"}
+{"id":"rel:fe6b0e00de54","src":"q:ctus0d","type":"cites","dst":"slide:physio1-gastric-motility/40","origin":"imported","status":"approved"}
+{"id":"rel:feea25d6d61a","src":"lec:physio1-gastric-secretion","type":"references","dst":"res:a500acee70","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Gastrinoma (NCBI StatPearls)","why":"Zollinger-Ellison syndrome."}}
+{"id":"rel:fef77cd9d0a9","src":"q:1gs99as","type":"cites","dst":"slide:physio1-pulmonary-vascular/20","origin":"imported","status":"approved"}
+{"id":"rel:ffef29560d35","src":"q:13qmlpr","type":"cites","dst":"slide:physio1-lung-volumes/02","origin":"imported","status":"approved"}

@@ -1,6 +1,6 @@
 # 5. Search, retrieval, the assistant, and costs
 
-Status: proposal for review.
+Status: approved 11 November 2026. Not built yet.
 
 ## 5.1 Three tiers
 

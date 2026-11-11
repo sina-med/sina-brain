@@ -1,0 +1,70 @@
+{"id":"rel:01b8256f5c37","src":"q:1mq8liy","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":14}}
+{"id":"rel:10cc2239ba52","src":"q:1ij0hlm","type":"cites","dst":"slide:fa-cardiac-arrest/22","origin":"imported","status":"approved","attrs":{"boxes":[[4.72,31.58,74.82,14.97],[4.72,48.59,87.11,14.97]]}}
+{"id":"rel:14e4825ac77f","src":"q:1wrj0pr","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":15}}
+{"id":"rel:1f1b225a91da","src":"lec:fa-renal","type":"references","dst":"res:16cd164bce","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Kidney function and GFR (TeachMePhysiology)","why":"Revision of filtration and tubular function."}}
+{"id":"rel:203d4c6ba7b3","src":"lec:fa-bleeding","type":"references","dst":"res:df03768b5b","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Recovery position (NHS)","why":"What to do once the bleeding is controlled and the victim is unconscious."}}
+{"id":"rel:2306f616f57c","src":"q:150nrpn","type":"cites","dst":"slide:fa-cardiac-arrest/13","origin":"imported","status":"approved","attrs":{"boxes":[[6.83,25.72,65.96,5.53],[6.83,56.84,78.79,9.98],[6.83,74.62,66.06,5.54]]}}
+{"id":"rel:29f3ab886400","src":"q:uj1bs8","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":3}}
+{"id":"rel:2aa29e22029e","src":"lec:fa-endocrine","type":"references","dst":"res:8869cb028f","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Addison's disease (NHS)","why":"Adrenal insufficiency and adrenal crisis."}}
+{"id":"rel:2b19e7c369b4","src":"q:uj1bs8","type":"cites","dst":"slide:fa-protection/12","origin":"imported","status":"approved","attrs":{"boxes":[[4.22,45.87,83.43,13.21],[4.22,60.37,83.1,6.98],[4.22,68.63,89.13,19.44]]}}
+{"id":"rel:2f35cff49e07","src":"q:1z0l2kb","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":7}}
+{"id":"rel:2f8ea29cf6c1","src":"lec:fa-cardiovascular","type":"references","dst":"res:de554a4ba7","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Anaphylaxis (NHS)","why":"Signs and immediate treatment."}}
+{"id":"rel:31bb8ce941bc","src":"q:ya0y92","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":10}}
+{"id":"rel:33c8986a1bd7","src":"q:1b8zvs2","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":19}}
+{"id":"rel:346bb8503eb8","src":"lec:fa-renal","type":"references","dst":"res:3c0b2e12ac","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Acute kidney injury (NHS)","why":"Causes, symptoms and treatment."}}
+{"id":"rel:38a57aaf1164","src":"q:bqzk1s","type":"cites","dst":"slide:fa-trauma-burns/20","origin":"imported","status":"approved","attrs":{"boxes":[[2.16,23.72,86.04,22.44]]}}
+{"id":"rel:3b3aae8e1f20","src":"q:1ksa7p3","type":"cites","dst":"slide:fa-trauma-burns/03","origin":"imported","status":"approved","attrs":{"boxes":[[4.4,38.36,63.97,6.14],[4.4,65.04,78.82,6.13]]}}
+{"id":"rel:3d2971a8ced8","src":"q:blmb40","type":"cites","dst":"slide:fa-protection/13","origin":"imported","status":"approved","attrs":{"boxes":[[4.4,16.07,88.98,12.41]]}}
+{"id":"rel:43fb4d6a1f93","src":"lec:fa-cardiovascular","type":"references","dst":"res:77b3e870f2","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Sepsis (NHS)","why":"Recognising the commonest cause of distributive shock."}}
+{"id":"rel:4565ec9d8412","src":"q:blmb40","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":4}}
+{"id":"rel:48223a02d7cb","src":"q:1ij0hlm","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":12}}
+{"id":"rel:48ad015ab6ba","src":"lec:fa-neural","type":"references","dst":"res:0da71b2675","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Hydrocephalus (NHS)","why":"Causes and shunt treatment."}}
+{"id":"rel:4c991a594384","src":"q:kl96z4","type":"cites","dst":"slide:fa-cardiac-arrest/06","origin":"imported","status":"approved","attrs":{"boxes":[[1.3,49.61,93.09,25.06]]}}
+{"id":"rel:51ef08c19d93","src":"lec:fa-neural","type":"references","dst":"res:28a832ec84","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Head injury and concussion (NHS)","why":"Warning signs that need emergency care."}}
+{"id":"rel:528c379952b6","src":"q:1wuhotv","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":16}}
+{"id":"rel:5c37a0a6a52a","src":"q:4xrwo0","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":18}}
+{"id":"rel:603df2dcb6eb","src":"q:1wuhotv","type":"cites","dst":"slide:fa-bleeding/11","origin":"imported","status":"approved","attrs":{"boxes":[[1.98,64.64,87.92,11.76]]}}
+{"id":"rel:6056477a9347","src":"q:orh85c","type":"cites","dst":"slide:fa-cardiac-arrest/10","origin":"imported","status":"approved","attrs":{"boxes":[[75.48,49.76,15.58,2.63]]}}
+{"id":"rel:619cc4cc2a89","src":"q:1v4lpp6","type":"cites","dst":"slide:fa-neural/17","origin":"imported","status":"approved","attrs":{"boxes":[[5.56,67.95,85.79,13.21]]}}
+{"id":"rel:65d9c38a0c5f","src":"lec:fa-digestive","type":"references","dst":"res:5e903ce8f0","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Liver disease (NHS)","why":"Overview of liver conditions and warning signs."}}
+{"id":"rel:6b79bcc6ccee","src":"q:1baflq4","type":"cites","dst":"slide:fa-bleeding/04","origin":"imported","status":"approved","attrs":{"boxes":[[2.15,79.51,87.25,12.41]]}}
+{"id":"rel:71fc7aa5b6b5","src":"q:orh85c","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":13}}
+{"id":"rel:77fdc7fc49aa","src":"q:1lslf07","type":"cites","dst":"slide:fa-protection/12","origin":"imported","status":"approved","attrs":{"boxes":[[2.01,1.03,61.87,17.89]]}}
+{"id":"rel:793364d02bae","src":"lec:fa-trauma-burns","type":"references","dst":"res:d195fe72aa","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Burns and scalds (NHS)","why":"First aid for burns and when to seek care."}}
+{"id":"rel:7961acd9d980","src":"q:150hmes","type":"cites","dst":"slide:fa-trauma-burns/05","origin":"imported","status":"approved","attrs":{"boxes":[[9.48,43.76,37.66,6.43]]}}
+{"id":"rel:7c1b0aa61ae4","src":"q:1yfx7fx","type":"cites","dst":"slide:fa-trauma-burns/04","origin":"imported","status":"approved","attrs":{"boxes":[[8.75,58.18,42.66,6.43]]}}
+{"id":"rel:84bf911ea0f2","src":"lec:fa-endocrine","type":"references","dst":"res:7e97fa4ce6","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Diabetic ketoacidosis (NHS)","why":"Symptoms and emergency treatment."}}
+{"id":"rel:89ca6e530d88","src":"q:1b8zvs2","type":"cites","dst":"slide:fa-trauma-burns/04","origin":"imported","status":"approved","attrs":{"boxes":[[8.75,42.17,75.32,6.43]]}}
+{"id":"rel:8b17313558c4","src":"q:1baflq4","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":17}}
+{"id":"rel:8b39b97d7b8b","src":"lec:fa-cardiac-arrest","type":"references","dst":"res:42421b0803","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Adult basic life support guidelines (Resuscitation Council UK)","why":"The current adult BLS algorithm the lecture follows."}}
+{"id":"rel:8f1cb2441fed","src":"lec:fa-protection","type":"references","dst":"res:df03768b5b","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Recovery position (NHS)","why":"Step-by-step recovery position with a video."}}
+{"id":"rel:909014b24f5e","src":"q:12rp2lr","type":"cites","dst":"slide:fa-cardiac-arrest/14","origin":"imported","status":"approved","attrs":{"boxes":[[4.15,46.08,80.47,11.47]]}}
+{"id":"rel:918de47324db","src":"q:150nrpn","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":9}}
+{"id":"rel:925d7004e585","src":"q:1geehoy","type":"cites","dst":"slide:fa-neural/11","origin":"imported","status":"approved","attrs":{"boxes":[[4.18,69.05,91.45,13.21]]}}
+{"id":"rel:92ec4f66d2dc","src":"q:1k5gqy0","type":"cites","dst":"slide:fa-neural/14","origin":"imported","status":"approved","attrs":{"boxes":[[4.92,50.87,44.6,9.59]]}}
+{"id":"rel:975dfaf21c88","src":"q:1k5gqy0","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":25}}
+{"id":"rel:980e49a840c9","src":"lec:fa-bleeding","type":"references","dst":"res:ebc82af955","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Stop the Bleed","why":"Free training on pressure, packing and tourniquets."}}
+{"id":"rel:9db928d6630d","src":"q:1yfx7fx","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":5}}
+{"id":"rel:9ee43c591b79","src":"q:1ksa7p3","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":1}}
+{"id":"rel:a664bd2660fa","src":"q:bqzk1s","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":22}}
+{"id":"rel:a6ab656cdba3","src":"q:1wrj0pr","type":"cites","dst":"slide:fa-bleeding/08","origin":"imported","status":"approved","attrs":{"boxes":[[2,24.62,49.46,14.43],[2,37.96,37.25,5.53]]}}
+{"id":"rel:acac4d4abdf7","src":"lec:fa-protection","type":"references","dst":"res:4f0291fdb3","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Choking (NHS)","why":"What to do for choking adults, children and babies."}}
+{"id":"rel:ad09b95a66f8","src":"q:kl96z4","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":8}}
+{"id":"rel:b0a4ea4e59ab","src":"q:d6pw62","type":"cites","dst":"slide:fa-cardiac-arrest/09","origin":"imported","status":"approved","attrs":{"boxes":[[0.46,33.86,61.12,18.63]]}}
+{"id":"rel:be17d23b9934","src":"q:1mq8liy","type":"cites","dst":"slide:fa-bleeding/12","origin":"imported","status":"approved","attrs":{"boxes":[[0.94,57.71,93.31,9.98],[0.94,76.6,92.49,9.98]]}}
+{"id":"rel:be5bd046c238","src":"lec:fa-cardiac-arrest","type":"references","dst":"res:c51b8cf1db","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"CPR (NHS)","why":"How to give CPR, with a video."}}
+{"id":"rel:c1006269c8a8","src":"q:4xrwo0","type":"cites","dst":"slide:fa-bleeding/16","origin":"imported","status":"approved","attrs":{"boxes":[[0.82,56.1,67.2,17.11]]}}
+{"id":"rel:c10820461341","src":"lec:fa-immune","type":"references","dst":"res:de554a4ba7","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Anaphylaxis (NHS)","why":"Recognising and treating severe allergic reactions."}}
+{"id":"rel:c8bdfddb00eb","src":"q:1lslf07","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":2}}
+{"id":"rel:cf3f9cc96e86","src":"lec:fa-trauma-burns","type":"references","dst":"res:28a832ec84","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Head injury and concussion (NHS)","why":"Warning signs after head trauma."}}
+{"id":"rel:d153432caed8","src":"q:ya0y92","type":"cites","dst":"slide:fa-cardiac-arrest/12","origin":"imported","status":"approved","attrs":{"boxes":[[3.88,18.63,87.55,16.11]]}}
+{"id":"rel:d225638dd8d3","src":"q:1v4lpp6","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":24}}
+{"id":"rel:d80a6d946b89","src":"q:1z0l2kb","type":"cites","dst":"slide:fa-cardiac-arrest/02","origin":"imported","status":"approved","attrs":{"boxes":[[0.42,25.68,95.64,28.27]]}}
+{"id":"rel:dff8cd0e18ad","src":"q:150hmes","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":20}}
+{"id":"rel:e02d5acded86","src":"lec:fa-immune","type":"references","dst":"res:a7a86bc2b3","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Vaccines and immunization (WHO)","why":"How vaccines work and why boosters matter."}}
+{"id":"rel:ed37032d5c5c","src":"q:1geehoy","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":23}}
+{"id":"rel:f0e3b0165ab5","src":"q:12rp2lr","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":11}}
+{"id":"rel:f1f25a925ba0","src":"q:1uulzys","type":"cites","dst":"slide:fa-trauma-burns/15","origin":"imported","status":"approved","attrs":{"boxes":[[5.56,36.78,76.66,6.43],[5.56,47.45,76.47,6.43]]}}
+{"id":"rel:f8b69ef1c8f1","src":"q:d6pw62","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":6}}
+{"id":"rel:fdcea9e2bc5d","src":"lec:fa-digestive","type":"references","dst":"res:e5684b5c47","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Acute pancreatitis (NHS)","why":"Causes, symptoms and treatment."}}
+{"id":"rel:ff67dcb8b614","src":"q:1uulzys","type":"appears-in","dst":"paper:firstaid-sina-mock","origin":"imported","status":"approved","attrs":{"n":21}}

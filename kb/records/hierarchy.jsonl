@@ -1,0 +1,106 @@
+{"id":"mod:anat1/introduction","type":"module","title":"Introduction","origin":"sina","status":"approved","subject":"subj:anat1","body":{"order":0}}
+{"id":"mod:anat1/thorax","type":"module","title":"Thorax","origin":"sina","status":"approved","subject":"subj:anat1","body":{"order":2}}
+{"id":"mod:anat1/upper-limb","type":"module","title":"Upper limb","origin":"sina","status":"approved","subject":"subj:anat1","body":{"order":1}}
+{"id":"mod:anat2/abdominal-wall-and-digestive-tract","type":"module","title":"Abdominal wall and digestive tract","origin":"sina","status":"approved","subject":"subj:anat2","body":{"order":0}}
+{"id":"mod:anat2/liver-pancreas-and-spleen","type":"module","title":"Liver, pancreas and spleen","origin":"sina","status":"approved","subject":"subj:anat2","body":{"order":1}}
+{"id":"mod:anat2/vessels-nerves-and-pelvis","type":"module","title":"Vessels, nerves and pelvis","origin":"sina","status":"approved","subject":"subj:anat2","body":{"order":2}}
+{"id":"mod:anat3/ent","type":"module","title":"ENT","origin":"sina","status":"approved","subject":"subj:anat3","body":{"order":1}}
+{"id":"mod:anat3/faciomaxillary","type":"module","title":"Faciomaxillary","origin":"sina","status":"approved","subject":"subj:anat3","body":{"order":0}}
+{"id":"mod:anat3/neuroanatomy","type":"module","title":"Neuroanatomy","origin":"sina","status":"approved","subject":"subj:anat3","body":{"order":2}}
+{"id":"mod:bacterio1/fundamental-bacteriology","type":"module","title":"Fundamental bacteriology","origin":"sina","status":"approved","subject":"subj:bacterio1","body":{"order":0}}
+{"id":"mod:bacterio1/systematic-bacteriology","type":"module","title":"Systematic bacteriology","origin":"sina","status":"approved","subject":"subj:bacterio1","body":{"order":1}}
+{"id":"mod:biochem/balances","type":"module","title":"Balances","origin":"sina","status":"approved","subject":"subj:biochem","body":{"order":2}}
+{"id":"mod:biochem/basics-and-hormones","type":"module","title":"Basics and hormones","origin":"sina","status":"approved","subject":"subj:biochem","body":{"order":0}}
+{"id":"mod:biochem/organ-exploration","type":"module","title":"Organ exploration","origin":"sina","status":"approved","subject":"subj:biochem","body":{"order":1}}
+{"id":"mod:biochem1/metabolic-biochemistry","type":"module","title":"Metabolic biochemistry","origin":"sina","status":"approved","subject":"subj:biochem1","body":{"order":1}}
+{"id":"mod:biochem1/structural-biochemistry","type":"module","title":"Structural biochemistry","origin":"sina","status":"approved","subject":"subj:biochem1","body":{"order":0}}
+{"id":"mod:biophys1/ionising-radiation","type":"module","title":"Ionising radiation","origin":"sina","status":"approved","subject":"subj:biophys1","body":{"order":0}}
+{"id":"mod:biophys1/senses","type":"module","title":"Senses","origin":"sina","status":"approved","subject":"subj:biophys1","body":{"order":1}}
+{"id":"mod:cellbio1/cell-biology","type":"module","title":"Cell biology","origin":"sina","status":"approved","subject":"subj:cellbio1","body":{"order":0}}
+{"id":"mod:chem1/general-chemistry","type":"module","title":"General chemistry","origin":"sina","status":"approved","subject":"subj:chem1","body":{"order":0}}
+{"id":"mod:embryo1/early-development","type":"module","title":"Early development","origin":"sina","status":"approved","subject":"subj:embryo1","body":{"order":0}}
+{"id":"mod:embryo1/placenta-membranes-and-fetal-period","type":"module","title":"Placenta, membranes and fetal period","origin":"sina","status":"approved","subject":"subj:embryo1","body":{"order":1}}
+{"id":"mod:embryo1/systems-development","type":"module","title":"Systems development","origin":"sina","status":"approved","subject":"subj:embryo1","body":{"order":2}}
+{"id":"mod:firstaid/emergency-care","type":"module","title":"Emergency care","origin":"sina","status":"approved","subject":"subj:firstaid","body":{"order":0}}
+{"id":"mod:firstaid/vital-functions","type":"module","title":"Vital functions","origin":"sina","status":"approved","subject":"subj:firstaid","body":{"order":1}}
+{"id":"mod:genetics1/molecular-genetics","type":"module","title":"Molecular genetics","origin":"sina","status":"approved","subject":"subj:genetics1","body":{"order":0}}
+{"id":"mod:hemato1/blood-cells-and-haematopoiesis","type":"module","title":"Blood cells and haematopoiesis","origin":"sina","status":"approved","subject":"subj:hemato1","body":{"order":0}}
+{"id":"mod:hemato1/clinical-haematology","type":"module","title":"Clinical haematology","origin":"sina","status":"approved","subject":"subj:hemato1","body":{"order":2}}
+{"id":"mod:hemato1/haemostasis","type":"module","title":"Haemostasis","origin":"sina","status":"approved","subject":"subj:hemato1","body":{"order":1}}
+{"id":"mod:histo1/basic-tissues","type":"module","title":"Basic tissues","origin":"sina","status":"approved","subject":"subj:histo1","body":{"order":0}}
+{"id":"mod:histo1/organ-histology","type":"module","title":"Organ histology","origin":"sina","status":"approved","subject":"subj:histo1","body":{"order":1}}
+{"id":"mod:history/booklet-2026-2027","type":"module","title":"Booklet 2026-2027","origin":"sina","status":"approved","subject":"subj:history","body":{"order":0}}
+{"id":"mod:history/history-of-medicine","type":"module","title":"History of medicine","origin":"sina","status":"approved","subject":"subj:history","body":{"order":1}}
+{"id":"mod:history/medical-art","type":"module","title":"Medical art","origin":"sina","status":"approved","subject":"subj:history","body":{"order":2}}
+{"id":"mod:immuno1/lectures","type":"module","title":"Lectures","origin":"sina","status":"approved","subject":"subj:immuno1","body":{"order":0}}
+{"id":"mod:immuno1/tutorials","type":"module","title":"Tutorials","origin":"sina","status":"approved","subject":"subj:immuno1","body":{"order":1}}
+{"id":"mod:infectious/anti-infective-therapy","type":"module","title":"Anti-infective therapy","origin":"sina","status":"approved","subject":"subj:infectious","body":{"order":0}}
+{"id":"mod:infectious/bacterial-and-viral-infections","type":"module","title":"Bacterial and viral infections","origin":"sina","status":"approved","subject":"subj:infectious","body":{"order":2}}
+{"id":"mod:infectious/hiv-infection","type":"module","title":"HIV infection","origin":"sina","status":"approved","subject":"subj:infectious","body":{"order":1}}
+{"id":"mod:infectious/syndromes","type":"module","title":"Syndromes","origin":"sina","status":"approved","subject":"subj:infectious","body":{"order":3}}
+{"id":"mod:parasito/general-parasitology","type":"module","title":"General parasitology","origin":"sina","status":"approved","subject":"subj:parasito","body":{"order":0}}
+{"id":"mod:parasito/helminths","type":"module","title":"Helminths","origin":"sina","status":"approved","subject":"subj:parasito","body":{"order":2}}
+{"id":"mod:parasito/mycology","type":"module","title":"Mycology","origin":"sina","status":"approved","subject":"subj:parasito","body":{"order":3}}
+{"id":"mod:parasito/protozoa","type":"module","title":"Protozoa","origin":"sina","status":"approved","subject":"subj:parasito","body":{"order":1}}
+{"id":"mod:pathanat/cell-injury-and-death","type":"module","title":"Cell injury and death","origin":"sina","status":"approved","subject":"subj:pathanat","body":{"order":1}}
+{"id":"mod:pathanat/general-pathology","type":"module","title":"General pathology","origin":"sina","status":"approved","subject":"subj:pathanat","body":{"order":0}}
+{"id":"mod:pathanat/inflammation","type":"module","title":"Inflammation","origin":"sina","status":"approved","subject":"subj:pathanat","body":{"order":2}}
+{"id":"mod:pathanat/oncology","type":"module","title":"Oncology","origin":"sina","status":"approved","subject":"subj:pathanat","body":{"order":4}}
+{"id":"mod:pathanat/vascular-pathology","type":"module","title":"Vascular pathology","origin":"sina","status":"approved","subject":"subj:pathanat","body":{"order":3}}
+{"id":"mod:pharma/general-pharmacology","type":"module","title":"General pharmacology","origin":"sina","status":"approved","subject":"subj:pharma","body":{"order":0}}
+{"id":"mod:pharma/systemic-pharmacology","type":"module","title":"Systemic pharmacology","origin":"sina","status":"approved","subject":"subj:pharma","body":{"order":1}}
+{"id":"mod:physics1/free-displacements-of-matter","type":"module","title":"Free displacements of matter","origin":"sina","status":"approved","subject":"subj:physics1","body":{"order":2}}
+{"id":"mod:physics1/general","type":"module","title":"General","origin":"sina","status":"approved","subject":"subj:physics1","body":{"order":0}}
+{"id":"mod:physics1/membranes-and-major-functions","type":"module","title":"Membranes and major functions","origin":"sina","status":"approved","subject":"subj:physics1","body":{"order":3}}
+{"id":"mod:physics1/states-of-matter-and-energetics","type":"module","title":"States of matter and energetics","origin":"sina","status":"approved","subject":"subj:physics1","body":{"order":1}}
+{"id":"mod:physio/bioenergetics","type":"module","title":"Bioenergetics","origin":"sina","status":"approved","subject":"subj:physio","body":{"order":4}}
+{"id":"mod:physio/muscle","type":"module","title":"Muscle","origin":"sina","status":"approved","subject":"subj:physio","body":{"order":1}}
+{"id":"mod:physio/neurophysiology","type":"module","title":"Neurophysiology","origin":"sina","status":"approved","subject":"subj:physio","body":{"order":0}}
+{"id":"mod:physio/renal-physiology","type":"module","title":"Renal physiology","origin":"sina","status":"approved","subject":"subj:physio","body":{"order":3}}
+{"id":"mod:physio/special-senses","type":"module","title":"Special senses","origin":"sina","status":"approved","subject":"subj:physio","body":{"order":2}}
+{"id":"mod:physio1/cardiovascular-and-respiratory-physiology","type":"module","title":"Cardiovascular and respiratory physiology","origin":"sina","status":"approved","subject":"subj:physio1","body":{"order":0}}
+{"id":"mod:physio1/digestive-physiology","type":"module","title":"Digestive physiology","origin":"sina","status":"approved","subject":"subj:physio1","body":{"order":1}}
+{"id":"mod:physio1/endocrine-physiology","type":"module","title":"Endocrine physiology","origin":"sina","status":"approved","subject":"subj:physio1","body":{"order":2}}
+{"id":"mod:pubhealth1/epidemiology-and-biostatistics","type":"module","title":"Epidemiology and biostatistics","origin":"sina","status":"approved","subject":"subj:pubhealth1","body":{"order":1}}
+{"id":"mod:pubhealth1/public-health","type":"module","title":"Public health","origin":"sina","status":"approved","subject":"subj:pubhealth1","body":{"order":0}}
+{"id":"mod:semio/cardiovascular","type":"module","title":"Cardiovascular","origin":"sina","status":"approved","subject":"subj:semio","body":{"order":1}}
+{"id":"mod:semio/digestive","type":"module","title":"Digestive","origin":"sina","status":"approved","subject":"subj:semio","body":{"order":2}}
+{"id":"mod:semio/endocrine","type":"module","title":"Endocrine","origin":"sina","status":"approved","subject":"subj:semio","body":{"order":3}}
+{"id":"mod:semio/respiratory","type":"module","title":"Respiratory","origin":"sina","status":"approved","subject":"subj:semio","body":{"order":0}}
+{"id":"mod:term1/medical-terminology","type":"module","title":"Medical terminology","origin":"sina","status":"approved","subject":"subj:term1","body":{"order":0}}
+{"id":"mod:toxico/toxicology","type":"module","title":"Toxicology","origin":"sina","status":"approved","subject":"subj:toxico","body":{"order":0}}
+{"id":"mod:viro1/general-virology","type":"module","title":"General virology","origin":"sina","status":"approved","subject":"subj:viro1","body":{"order":0}}
+{"id":"mod:viro1/respiratory-viruses","type":"module","title":"Respiratory viruses","origin":"sina","status":"approved","subject":"subj:viro1","body":{"order":1}}
+{"id":"mod:viro1/systemic-and-organ-viruses","type":"module","title":"Systemic and organ viruses","origin":"sina","status":"approved","subject":"subj:viro1","body":{"order":2}}
+{"id":"prog:y1-anglo","type":"program","title":"1st Year Anglo","origin":"sina","status":"approved","ext":{"sina":"y1-anglo"}}
+{"id":"prog:y2-anglo","type":"program","title":"2nd Year Anglo","origin":"sina","status":"approved","ext":{"sina":"y2-anglo"}}
+{"id":"subj:anat1","type":"subject","title":"Anatomy 1","description":"Introduction to anatomy, the upper limb and the thorax.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"anat1"},"body":{"order":19,"semester":"S1","sina_status":"live"}}
+{"id":"subj:anat2","type":"subject","title":"Anatomy 2","description":"Abdomen and pelvis: wall, digestive organs, vessels, nerves, perineum.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"anat2"},"body":{"order":22,"semester":"S2","sina_status":"live"}}
+{"id":"subj:anat3","type":"subject","title":"Anatomy 3","description":"Faciomaxillary, ENT and neuroanatomy.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"anat3"},"body":{"order":0,"semester":"S3","sina_status":"live"}}
+{"id":"subj:bacterio1","type":"subject","title":"Bacteriology","description":"Bacterial structure, genetics, pathogenesis and antibiotics, then the main respiratory and enteric pathogens.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"bacterio1"},"body":{"order":26,"semester":"S2","sina_status":"live"}}
+{"id":"subj:biochem","type":"subject","title":"Clinical Biochemistry","description":"Biochemical exploration of organs, hormones and balances.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"biochem"},"body":{"order":3,"semester":"S3","sina_status":"live"}}
+{"id":"subj:biochem1","type":"subject","title":"Biochemistry","description":"Structural and metabolic biochemistry.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"biochem1"},"body":{"order":20,"semester":"S1","sina_status":"live"}}
+{"id":"subj:biophys1","type":"subject","title":"Biophysics","description":"Radioactivity, radiation and protection, optics of vision, hearing.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"biophys1"},"body":{"order":17,"semester":"S1","sina_status":"live"}}
+{"id":"subj:cellbio1","type":"subject","title":"Cell Biology","description":"Study methods, plasma membrane, cytoskeleton, cell cycle and nucleus.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"cellbio1"},"body":{"order":15,"semester":"S1","sina_status":"live"}}
+{"id":"subj:chem1","type":"subject","title":"Chemistry","description":"General chemistry: atoms, periodic table, bonds, solutions.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"chem1"},"body":{"order":18,"semester":"S1","sina_status":"live"}}
+{"id":"subj:embryo1","type":"subject","title":"Embryology","description":"From gametes to the fetus: early development, placenta and membranes, and the digestive system.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"embryo1"},"body":{"order":24,"semester":"S2","sina_status":"live"}}
+{"id":"subj:firstaid","type":"subject","title":"First Aid","description":"Emergency care and vital functions.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"firstaid"},"body":{"order":4,"semester":"S3","sina_status":"live"}}
+{"id":"subj:genetics1","type":"subject","title":"Genetics","description":"From DNA structure to mutations and hereditary transmission.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"genetics1"},"body":{"order":14,"semester":"S1","sina_status":"live"}}
+{"id":"subj:hemato1","type":"subject","title":"Hematology","description":"Blood cells, haematopoiesis, anaemias, haemostasis and transfusion.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"hemato1"},"body":{"order":23,"semester":"S2","sina_status":"live"}}
+{"id":"subj:histo1","type":"subject","title":"Histology","description":"The four basic tissues, blood, and the histology of the digestive and urinary systems.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"histo1"},"body":{"order":25,"semester":"S2","sina_status":"live"}}
+{"id":"subj:history","type":"subject","title":"History and Art of Medicine","description":"How medicine became what it is, and the human side of care.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"history"},"body":{"order":6,"semester":"S3","sina_status":"live"}}
+{"id":"subj:immuno1","type":"subject","title":"Immunology","description":"Lymphoid organs, immune cells, antigens, antibodies, complement, innate and adaptive responses.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"immuno1"},"body":{"order":21,"semester":"S2","sina_status":"live"}}
+{"id":"subj:infectious","type":"subject","title":"Infectious Diseases","description":"Anti-infectives, HIV, meningitis, zoonoses, prolonged fever.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"infectious"},"body":{"order":8,"semester":"S4","sina_status":"live"}}
+{"id":"subj:parasito","type":"subject","title":"Parasitology and Mycology","description":"Protozoa, helminths and medical mycology.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"parasito"},"body":{"order":7,"semester":"S4","sina_status":"live"}}
+{"id":"subj:pathanat","type":"subject","title":"Pathological Anatomy","description":"Cell injury, inflammation, vasculopathy, oncology.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"pathanat"},"body":{"order":5,"semester":"S4","sina_status":"live"}}
+{"id":"subj:pharma","type":"subject","title":"Pharmacology","description":"Pharmacodynamics, metabolism, interactions, trials, safety, asthma drugs.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"pharma"},"body":{"order":9,"semester":"S4","sina_status":"live"}}
+{"id":"subj:physics1","type":"subject","title":"Physics","description":"Biophysics of the internal environment and major functions.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"physics1"},"body":{"order":16,"semester":"S1","sina_status":"live"}}
+{"id":"subj:physio","type":"subject","title":"Physiology","description":"Neurophysiology, muscle, senses, renal physiology, bioenergetics.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"physio"},"body":{"order":1,"semester":"S3","sina_status":"live"}}
+{"id":"subj:physio1","type":"subject","title":"Physiology","description":"Heart, circulation and lungs, the digestive system from mouth to microbiota, and the basics of endocrinology.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"physio1"},"body":{"order":27,"semester":"S2","sina_status":"live"}}
+{"id":"subj:pubhealth1","type":"subject","title":"Public Health","description":"Health, determinants, prevention and promotion, indicators, epidemiology, biostatistics.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"pubhealth1"},"body":{"order":13,"semester":"S1","sina_status":"live"}}
+{"id":"subj:radio","type":"subject","title":"Radiology","description":"Past papers only for now.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"radio"},"body":{"order":11,"semester":"S4","sina_status":"planned"}}
+{"id":"subj:semio","type":"subject","title":"Semiology","description":"Respiratory, cardiovascular, digestive and endocrine examination.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"semio"},"body":{"order":2,"semester":"S3","sina_status":"live"}}
+{"id":"subj:term1","type":"subject","title":"Medical Terminology","description":"Word parts, then the vocabulary of each body system.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"term1"},"body":{"order":12,"semester":"S1","sina_status":"live"}}
+{"id":"subj:toxico","type":"subject","title":"Toxicology","description":"Toxicants, toxicokinetics, preclinical testing, systemic toxicity.","origin":"sina","status":"approved","program":"prog:y2-anglo","ext":{"sina":"toxico"},"body":{"order":10,"semester":"S4","sina_status":"live"}}
+{"id":"subj:viro1","type":"subject","title":"Virology","description":"How viruses work and how we diagnose, prevent and treat them, then the main human viruses: influenza, measles, hepatitis, HIV, herpes, HPV, rabies and gastroenteritis.","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"viro1"},"body":{"order":28,"semester":"S2","sina_status":"live"}}
+{"id":"subj:y1-other","type":"subject","title":"Other modules (ICT, social sciences, learning methods, communication)","origin":"sina","status":"approved","program":"prog:y1-anglo","ext":{"sina":"y1-other"},"flags":["papers-only"]}

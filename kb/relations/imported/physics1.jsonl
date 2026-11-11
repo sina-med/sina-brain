@@ -1,0 +1,285 @@
+{"id":"rel:01171905f231","src":"q:1bnz4co","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":1}}
+{"id":"rel:02c663480f9b","src":"q:7aiscm","type":"cites","dst":"slide:physics1-diffusion/13","origin":"imported","status":"approved"}
+{"id":"rel:04ada0b78d16","src":"lec:physics1-circulation","type":"references","dst":"res:3d3b15cedf","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Poiseuille's law (Physiopedia)","why":"Cardiovascular physiology overview."}}
+{"id":"rel:06a989598887","src":"q:1cty60o","type":"cites","dst":"slide:physics1-diffusion/16","origin":"imported","status":"approved"}
+{"id":"rel:07bbc006fca0","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-viscosity","origin":"imported","status":"approved","attrs":{"group":"Physics: Free displacements of matter"}}
+{"id":"rel:08864a975d6d","src":"q:12d1bgp","type":"cites","dst":"slide:physics1-osmosis/16","origin":"imported","status":"approved"}
+{"id":"rel:090a173255b0","src":"q:ej5t06","type":"cites","dst":"slide:physics1-acid-base/14","origin":"imported","status":"approved"}
+{"id":"rel:0998312d51d6","src":"q:1bvixmx","type":"cites","dst":"slide:physics1-respiration/09","origin":"imported","status":"approved"}
+{"id":"rel:09a6a1e66ca3","src":"q:17z1c69","type":"cites","dst":"slide:physics1-viscosity/12","origin":"imported","status":"approved"}
+{"id":"rel:0ce3e1382821","src":"q:1b7j730","type":"cites","dst":"slide:physics1-acid-base/12","origin":"imported","status":"approved"}
+{"id":"rel:0d2bd9d82fc5","src":"q:l1um6w","type":"cites","dst":"slide:physics1-energetics/14","origin":"imported","status":"approved"}
+{"id":"rel:0d428a929e08","src":"q:z9pg7d","type":"cites","dst":"slide:physics1-diffusion/15","origin":"imported","status":"approved"}
+{"id":"rel:0dc040de7d11","src":"q:1omn1pp","type":"cites","dst":"slide:physics1-energetics/08","origin":"imported","status":"approved"}
+{"id":"rel:0df095db75fc","src":"q:1bjuk9l","type":"cites","dst":"slide:physics1-respiration/24","origin":"imported","status":"approved"}
+{"id":"rel:0eb20d3ab1bc","src":"q:aqgd14","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":18}}
+{"id":"rel:0ec3a78a2838","src":"q:z474wh","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":15}}
+{"id":"rel:0f95ee40b9b5","src":"q:uy92vn","type":"cites","dst":"slide:physics1-energetics/21","origin":"imported","status":"approved"}
+{"id":"rel:10ce095e99ab","src":"q:1ylmb0d","type":"cites","dst":"slide:physics1-osmosis/24","origin":"imported","status":"approved"}
+{"id":"rel:10d7afb227e7","src":"q:134tagq","type":"cites","dst":"slide:physics1-viscosity/19","origin":"imported","status":"approved"}
+{"id":"rel:110748aaf650","src":"q:khdepb","type":"cites","dst":"slide:physics1-energetics/13","origin":"imported","status":"approved"}
+{"id":"rel:11240d5f6795","src":"q:x0irzv","type":"cites","dst":"slide:physics1-states/32","origin":"imported","status":"approved"}
+{"id":"rel:115e485cc19c","src":"q:f6d2bb","type":"cites","dst":"slide:physics1-osmosis/08","origin":"imported","status":"approved"}
+{"id":"rel:1180480d4ad0","src":"q:nx5xgf","type":"cites","dst":"slide:physics1-circulation/06","origin":"imported","status":"approved"}
+{"id":"rel:11f872481b05","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-diffusion","origin":"imported","status":"approved","attrs":{"group":"Physics: Free displacements of matter"}}
+{"id":"rel:13bf4db4dcd7","src":"q:1vcxcf2","type":"cites","dst":"slide:physics1-circulation/17","origin":"imported","status":"approved"}
+{"id":"rel:142335e2016f","src":"q:bwa2sv","type":"cites","dst":"slide:physics1-migration/12","origin":"imported","status":"approved"}
+{"id":"rel:14cccfdd856f","src":"lec:physics1-fluid-transfers","type":"references","dst":"res:f99e16f4df","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Edema (NCBI StatPearls)","why":"Mechanisms of oedema."}}
+{"id":"rel:154c845cd664","src":"q:17p0xxe","type":"cites","dst":"slide:physics1-gases/07","origin":"imported","status":"approved","attrs":{"boxes":[[5.09,16.3,92.48,69.57]]}}
+{"id":"rel:15cea242d51e","src":"q:1khuy3s","type":"cites","dst":"slide:physics1-respiration/17","origin":"imported","status":"approved"}
+{"id":"rel:184d5568c8d5","src":"q:ej5t06","type":"cites","dst":"slide:physics1-acid-base/21","origin":"imported","status":"approved"}
+{"id":"rel:1908a27f22cf","src":"q:1j6g7kz","type":"cites","dst":"slide:physics1-water/18","origin":"imported","status":"approved"}
+{"id":"rel:19364dd72394","src":"q:cykj9","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":23}}
+{"id":"rel:1b1cca6a3bce","src":"q:k3edy7","type":"cites","dst":"slide:physics1-viscosity/08","origin":"imported","status":"approved"}
+{"id":"rel:1b3ab5bea55d","src":"q:ffzm40","type":"cites","dst":"slide:physics1-viscosity/18","origin":"imported","status":"approved"}
+{"id":"rel:1c4a4ef045c2","src":"lec:physics1-viscosity","type":"references","dst":"res:5c809a9f15","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Viscosity (Khan Academy)","why":"Fluid flow and viscosity."}}
+{"id":"rel:1c81b06cd887","src":"q:gts51n","type":"cites","dst":"slide:physics1-viscosity/20","origin":"imported","status":"approved"}
+{"id":"rel:1cad456b06f5","src":"q:1lfwe55","type":"cites","dst":"slide:physics1-acid-base/36","origin":"imported","status":"approved"}
+{"id":"rel:1ce13a45085e","src":"q:g0xe25","type":"cites","dst":"slide:physics1-fluid-transfers/09","origin":"imported","status":"approved"}
+{"id":"rel:1dfd6eafcdd9","src":"q:2o9197","type":"cites","dst":"slide:physics1-units/15","origin":"imported","status":"approved"}
+{"id":"rel:1e02c3326168","src":"lec:physics1-migration","type":"references","dst":"res:ae32a26146","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Electrophoresis (Khan Academy)","why":"How electrophoresis separates molecules."}}
+{"id":"rel:1ebaa29a0d84","src":"q:1hsdxnf","type":"cites","dst":"slide:physics1-gases/10","origin":"imported","status":"approved"}
+{"id":"rel:200c5d58ddfa","src":"lec:physics1-respiration","type":"references","dst":"res:803562b2aa","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Gas exchange (Khan Academy)","why":"Lungs, partial pressures and gas transport."}}
+{"id":"rel:227d7baa39f3","src":"q:yd00qn","type":"cites","dst":"slide:physics1-fluid-transfers/09","origin":"imported","status":"approved"}
+{"id":"rel:22ae48d70a03","src":"q:1bjtag","type":"cites","dst":"slide:physics1-respiration/09","origin":"imported","status":"approved"}
+{"id":"rel:22f4c4c8914e","src":"q:qsm1gp","type":"cites","dst":"slide:physics1-osmosis/03","origin":"imported","status":"approved"}
+{"id":"rel:23c00d2bbfed","src":"q:1e4vkjh","type":"cites","dst":"slide:physics1-osmosis/05","origin":"imported","status":"approved"}
+{"id":"rel:28326e4fc335","src":"q:nq4i4s","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":8}}
+{"id":"rel:2962bac815cc","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-migration","origin":"imported","status":"approved","attrs":{"group":"Physics: Free displacements of matter"}}
+{"id":"rel:29eca1b5ad9f","src":"q:i3cnhu","type":"cites","dst":"slide:physics1-units/24","origin":"imported","status":"approved"}
+{"id":"rel:2a34c24c731e","src":"lec:physics1-osmosis","type":"references","dst":"res:d3528297d5","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Oncotic pressure (NCBI StatPearls)","why":"Physiology and clinical relevance."}}
+{"id":"rel:2b0f71263b2e","src":"q:1ck8z09","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":12}}
+{"id":"rel:2bb5836721d1","src":"q:lfh047","type":"cites","dst":"slide:physics1-acid-base/22","origin":"imported","status":"approved"}
+{"id":"rel:2c60113b30df","src":"q:1px7dbz","type":"cites","dst":"slide:physics1-acid-base/11","origin":"imported","status":"approved"}
+{"id":"rel:2c854f7fbe1e","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:biophys1-radiobiology","origin":"imported","status":"approved","attrs":{"group":"Biophysics: Ionising radiation"}}
+{"id":"rel:2d2275903675","src":"q:106yzk9","type":"cites","dst":"slide:physics1-water/10","origin":"imported","status":"approved"}
+{"id":"rel:2f670834f887","src":"q:edy1e0","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":21}}
+{"id":"rel:2fee250e46bb","src":"q:1plnshp","type":"cites","dst":"slide:physics1-osmosis/15","origin":"imported","status":"approved"}
+{"id":"rel:301900b8a13c","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-energetics","origin":"imported","status":"approved","attrs":{"group":"Physics: States of matter and energetics"}}
+{"id":"rel:31130479b553","src":"lec:physics1-fluid-transfers","type":"references","dst":"res:cbab6ba7c0","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Capillary exchange (Khan Academy)","why":"Starling forces explained."}}
+{"id":"rel:33b7f7a4bbac","src":"q:b8q5uq","type":"cites","dst":"slide:physics1-fluid-transfers/06","origin":"imported","status":"approved"}
+{"id":"rel:33d2a8611cc7","src":"q:lfh047","type":"cites","dst":"slide:physics1-acid-base/12","origin":"imported","status":"approved"}
+{"id":"rel:362cd6537dd2","src":"lec:physics1-water","type":"references","dst":"res:5883d68d2c","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Body fluid compartments (NCBI StatPearls)","why":"Distribution of body water."}}
+{"id":"rel:362e258899fd","src":"q:aqgd14","type":"cites","dst":"slide:physics1-water/13","origin":"imported","status":"approved","attrs":{"boxes":[[54.36,55.44,34.18,11.03]]}}
+{"id":"rel:3885ff6f38da","src":"q:ggivvt","type":"cites","dst":"slide:physics1-gases/07","origin":"imported","status":"approved"}
+{"id":"rel:3978953a3cb0","src":"q:uc3evt","type":"cites","dst":"slide:physics1-acid-base/34","origin":"imported","status":"approved"}
+{"id":"rel:3b1c3aa38f1b","src":"q:1morw5n","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":11}}
+{"id":"rel:3b36b8b6e370","src":"q:15jjy72","type":"cites","dst":"slide:physics1-states/09","origin":"imported","status":"approved"}
+{"id":"rel:3b38c5eb3982","src":"q:2nxo3m","type":"cites","dst":"slide:physics1-gases/08","origin":"imported","status":"approved"}
+{"id":"rel:3c446a5a2170","src":"q:1msucba","type":"cites","dst":"slide:physics1-gases/11","origin":"imported","status":"approved","attrs":{"boxes":[[5.09,27.84,88.93,45.23],[11.34,74.35,33.34,8.13]]}}
+{"id":"rel:3f45ce1ecad5","src":"q:zkeztj","type":"cites","dst":"slide:physics1-units/51","origin":"imported","status":"approved"}
+{"id":"rel:3ffea05be68a","src":"q:qodtf0","type":"cites","dst":"slide:physics1-gases/06","origin":"imported","status":"approved","attrs":{"boxes":[[4.33,13.81,90.79,18.05],[8.44,70.65,46.37,6.58]]}}
+{"id":"rel:40817e25fffd","src":"q:11cbglz","type":"cites","dst":"slide:physics1-units/12","origin":"imported","status":"approved"}
+{"id":"rel:413ecd6c5dc6","src":"q:cykj9","type":"cites","dst":"slide:physics1-gases/26","origin":"imported","status":"approved","attrs":{"boxes":[[3.13,20.98,71.35,6.14],[40.25,32.32,35.55,9.41],[29.14,75.42,32.56,7.17]]}}
+{"id":"rel:4351e5ac34e3","src":"q:sccggp","type":"cites","dst":"slide:physics1-states/13","origin":"imported","status":"approved"}
+{"id":"rel:44eed51de14d","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-states","origin":"imported","status":"approved","attrs":{"group":"Physics: States of matter and energetics"}}
+{"id":"rel:452d2963abf4","src":"q:c35mpp","type":"cites","dst":"slide:physics1-circulation/13","origin":"imported","status":"approved"}
+{"id":"rel:455aae250d2a","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-acid-base","origin":"imported","status":"approved","attrs":{"group":"Physics: Membranes and major functions"}}
+{"id":"rel:464442f532ec","src":"q:1e4vkjh","type":"cites","dst":"slide:physics1-osmosis/04","origin":"imported","status":"approved"}
+{"id":"rel:4737529da954","src":"q:oa3sjf","type":"cites","dst":"slide:physics1-units/17","origin":"imported","status":"approved"}
+{"id":"rel:475de8469e46","src":"q:1dtpkbl","type":"cites","dst":"slide:physics1-units/08","origin":"imported","status":"approved"}
+{"id":"rel:49019aa74e47","src":"q:e4azfv","type":"cites","dst":"slide:physics1-fluid-transfers/04","origin":"imported","status":"approved"}
+{"id":"rel:4b0e734c850a","src":"lec:physics1-osmosis","type":"references","dst":"res:24e5170725","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Osmosis (Khan Academy)","why":"Tonicity and osmosis."}}
+{"id":"rel:4b527a0ef73a","src":"q:1bo1nd8","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":24}}
+{"id":"rel:4c22fe293a6e","src":"lec:physics1-viscosity","type":"references","dst":"res:77c3524ea8","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Blood viscosity (NCBI StatPearls)","why":"Clinical relevance of blood viscosity."}}
+{"id":"rel:4ca4324415ad","src":"q:90jfcg","type":"cites","dst":"slide:physics1-migration/10","origin":"imported","status":"approved"}
+{"id":"rel:4d0a44b792e0","src":"q:17z1c69","type":"cites","dst":"slide:physics1-viscosity/13","origin":"imported","status":"approved"}
+{"id":"rel:4dbdcf6941cf","src":"q:yuq7w6","type":"cites","dst":"slide:physics1-acid-base/13","origin":"imported","status":"approved"}
+{"id":"rel:4f40f21d7fca","src":"q:11cjlyx","type":"cites","dst":"slide:physics1-diffusion/06","origin":"imported","status":"approved"}
+{"id":"rel:4f57a66433d5","src":"lec:physics1-acid-base","type":"references","dst":"res:866ff3780c","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Acid-base balance (MedlinePlus)","why":"Acidosis and alkalosis overview."}}
+{"id":"rel:509dab7b0737","src":"q:1y3s3lx","type":"cites","dst":"slide:physics1-water/04","origin":"imported","status":"approved"}
+{"id":"rel:50e073305d68","src":"q:oxzisr","type":"cites","dst":"slide:physics1-viscosity/18","origin":"imported","status":"approved"}
+{"id":"rel:51002c8df87d","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:biophys1-optics","origin":"imported","status":"approved","attrs":{"group":"Biophysics: Senses"}}
+{"id":"rel:518886e9684d","src":"q:1ki50bz","type":"cites","dst":"slide:physics1-states/08","origin":"imported","status":"approved"}
+{"id":"rel:52e47c627f4b","src":"q:ptwkaz","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":10}}
+{"id":"rel:530214279933","src":"q:3nbctu","type":"cites","dst":"slide:physics1-energetics/28","origin":"imported","status":"approved"}
+{"id":"rel:5653efd18c36","src":"q:so9ket","type":"cites","dst":"slide:physics1-energetics/13","origin":"imported","status":"approved"}
+{"id":"rel:56d25d3c393d","src":"q:1kxn11o","type":"cites","dst":"slide:physics1-energetics/15","origin":"imported","status":"approved"}
+{"id":"rel:580d6bcdd72a","src":"q:1p5e46p","type":"cites","dst":"slide:physics1-circulation/10","origin":"imported","status":"approved"}
+{"id":"rel:588a687ca8ed","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-units","origin":"imported","status":"approved","attrs":{"group":"Physics: General"}}
+{"id":"rel:58e964e93e80","src":"q:1x1bvgk","type":"cites","dst":"slide:physics1-states/25","origin":"imported","status":"approved"}
+{"id":"rel:590f5023b758","src":"q:1bnz4co","type":"cites","dst":"slide:physics1-units/10","origin":"imported","status":"approved","attrs":{"boxes":[[0.71,68.71,48.92,12.95]]}}
+{"id":"rel:599237dac207","src":"q:i3cnhu","type":"cites","dst":"slide:physics1-units/17","origin":"imported","status":"approved"}
+{"id":"rel:5a728a2bf83c","src":"q:1omffzz","type":"cites","dst":"slide:physics1-migration/18","origin":"imported","status":"approved"}
+{"id":"rel:5aa9db8d590f","src":"q:1a7xreh","type":"cites","dst":"slide:physics1-osmosis/10","origin":"imported","status":"approved"}
+{"id":"rel:5ab5ab786f0a","src":"lec:physics1-diffusion","type":"references","dst":"res:c32ac2d33d","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Diffusion and osmosis (Khan Academy)","why":"Passive transport basics."}}
+{"id":"rel:5af12f8477b9","src":"q:1afbeog","type":"cites","dst":"slide:physics1-units/13","origin":"imported","status":"approved","attrs":{"boxes":[[3.29,24.69,91.09,13]]}}
+{"id":"rel:5bc49ee1b724","src":"q:14mm1hv","type":"cites","dst":"slide:physics1-respiration/07","origin":"imported","status":"approved"}
+{"id":"rel:5c710541607d","src":"q:1ldy366","type":"cites","dst":"slide:physics1-water/10","origin":"imported","status":"approved","attrs":{"boxes":[[2.73,13.4,93.82,69.8]]}}
+{"id":"rel:5c7d6cabfc62","src":"q:1rc55t2","type":"cites","dst":"slide:physics1-gases/14","origin":"imported","status":"approved"}
+{"id":"rel:5cca919e428f","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-gases","origin":"imported","status":"approved","attrs":{"group":"Physics: States of matter and energetics"}}
+{"id":"rel:5ccc0e1dbd19","src":"q:1fzldy0","type":"cites","dst":"slide:physics1-units/32","origin":"imported","status":"approved","attrs":{"boxes":[[4.46,22.96,78.52,6.14],[6,35.36,83.12,6.91]]}}
+{"id":"rel:5cef85950996","src":"q:1gxpt0s","type":"cites","dst":"slide:physics1-units/11","origin":"imported","status":"approved"}
+{"id":"rel:5f8ba770454f","src":"q:18npqvv","type":"cites","dst":"slide:physics1-fluid-transfers/12","origin":"imported","status":"approved"}
+{"id":"rel:5ff5d6ef6164","src":"q:stdmxi","type":"cites","dst":"slide:physics1-states/05","origin":"imported","status":"approved"}
+{"id":"rel:620111bd4040","src":"q:k5vjp9","type":"cites","dst":"slide:physics1-migration/06","origin":"imported","status":"approved"}
+{"id":"rel:63d656db0554","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-respiration","origin":"imported","status":"approved","attrs":{"group":"Physics: Membranes and major functions"}}
+{"id":"rel:6435986e5f31","src":"q:18drdeq","type":"cites","dst":"slide:physics1-respiration/10","origin":"imported","status":"approved"}
+{"id":"rel:6536cee26a89","src":"q:gik2f2","type":"cites","dst":"slide:physics1-states/19","origin":"imported","status":"approved","attrs":{"boxes":[[1.58,25.87,91.13,59.29]]}}
+{"id":"rel:67be4b9b67e3","src":"q:1dc2xko","type":"cites","dst":"slide:physics1-water/15","origin":"imported","status":"approved"}
+{"id":"rel:693adf4ba724","src":"q:15rerhf","type":"cites","dst":"slide:physics1-units/27","origin":"imported","status":"approved"}
+{"id":"rel:698748f1e99b","src":"q:5aant6","type":"cites","dst":"slide:physics1-respiration/06","origin":"imported","status":"approved"}
+{"id":"rel:6a6d44936b06","src":"q:h6t2as","type":"cites","dst":"slide:physics1-diffusion/10","origin":"imported","status":"approved"}
+{"id":"rel:6b0636592d74","src":"q:1rt2n4v","type":"cites","dst":"slide:physics1-circulation/12","origin":"imported","status":"approved"}
+{"id":"rel:6d4ed1bf7f53","src":"q:1k4clhq","type":"cites","dst":"slide:physics1-respiration/11","origin":"imported","status":"approved"}
+{"id":"rel:6d92077b97f5","src":"q:1bjuk9l","type":"cites","dst":"slide:physics1-respiration/25","origin":"imported","status":"approved"}
+{"id":"rel:6e316c0d1bd1","src":"q:y1tght","type":"cites","dst":"slide:physics1-respiration/05","origin":"imported","status":"approved"}
+{"id":"rel:6e4cef6a3dd3","src":"q:90jfcg","type":"cites","dst":"slide:physics1-migration/11","origin":"imported","status":"approved"}
+{"id":"rel:6fe3d6aad12a","src":"q:1a7xreh","type":"cites","dst":"slide:physics1-osmosis/15","origin":"imported","status":"approved"}
+{"id":"rel:705c998a54e5","src":"q:15rerhf","type":"cites","dst":"slide:physics1-units/30","origin":"imported","status":"approved"}
+{"id":"rel:70b945974c0b","src":"q:1hq8uo6","type":"cites","dst":"slide:physics1-water/05","origin":"imported","status":"approved"}
+{"id":"rel:710030dea0d8","src":"q:v5siux","type":"cites","dst":"slide:physics1-migration/16","origin":"imported","status":"approved"}
+{"id":"rel:73b86bbd2a47","src":"q:1vi900g","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":14}}
+{"id":"rel:75400d47efd0","src":"q:1oqsfzk","type":"cites","dst":"slide:physics1-units/11","origin":"imported","status":"approved","attrs":{"boxes":[[15.75,72.6,16.56,4.34]]}}
+{"id":"rel:7653519ecae4","src":"q:kr4tte","type":"cites","dst":"slide:physics1-gases/15","origin":"imported","status":"approved"}
+{"id":"rel:779669b76f7b","src":"q:8hha1e","type":"cites","dst":"slide:physics1-viscosity/10","origin":"imported","status":"approved"}
+{"id":"rel:780b9a4eed4f","src":"q:17mcask","type":"cites","dst":"slide:physics1-states/23","origin":"imported","status":"approved"}
+{"id":"rel:78e9d8d5d1a5","src":"lec:physics1-water","type":"references","dst":"res:44cf77963a","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Water in the body (Khan Academy)","why":"Hydrogen bonding and properties of water."}}
+{"id":"rel:78f052f76b1f","src":"q:ptwkaz","type":"cites","dst":"slide:physics1-states/15","origin":"imported","status":"approved","attrs":{"boxes":[[1.18,28.61,96.41,39.75]]}}
+{"id":"rel:7963c3b32377","src":"q:nx5xgf","type":"cites","dst":"slide:physics1-circulation/08","origin":"imported","status":"approved"}
+{"id":"rel:7a387e82fd2b","src":"q:mb0yz7","type":"cites","dst":"slide:physics1-circulation/12","origin":"imported","status":"approved"}
+{"id":"rel:7b24a1b40081","src":"lec:physics1-circulation","type":"references","dst":"res:803562b2aa","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Blood flow and pressure (Khan Academy)","why":"Circulation and hemodynamics."}}
+{"id":"rel:7d2f30f20de3","src":"q:1f6jub7","type":"cites","dst":"slide:physics1-units/11","origin":"imported","status":"approved"}
+{"id":"rel:7ee07c42afe1","src":"q:kk5mao","type":"cites","dst":"slide:physics1-states/20","origin":"imported","status":"approved"}
+{"id":"rel:7fb9fad0c70e","src":"q:juanud","type":"cites","dst":"slide:physics1-viscosity/16","origin":"imported","status":"approved"}
+{"id":"rel:80c6af070ff7","src":"q:1xf1tlr","type":"cites","dst":"slide:physics1-acid-base/16","origin":"imported","status":"approved"}
+{"id":"rel:8188486d1df4","src":"q:mb0yz7","type":"cites","dst":"slide:physics1-circulation/18","origin":"imported","status":"approved"}
+{"id":"rel:82c7e18968c6","src":"q:188v8ac","type":"cites","dst":"slide:physics1-water/08","origin":"imported","status":"approved"}
+{"id":"rel:8464470fed38","src":"lec:physics1-energetics","type":"references","dst":"res:f819e3d42f","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Work and energy (Khan Academy)","why":"Work, energy and potential energy."}}
+{"id":"rel:84d69dc7dc05","src":"q:okc5m8","type":"cites","dst":"slide:physics1-fluid-transfers/06","origin":"imported","status":"approved"}
+{"id":"rel:85dc19f2aa42","src":"q:qodtf0","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":2}}
+{"id":"rel:874462754c7d","src":"q:khdepb","type":"cites","dst":"slide:physics1-energetics/16","origin":"imported","status":"approved"}
+{"id":"rel:875214bfcb2d","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-fluid-transfers","origin":"imported","status":"approved","attrs":{"group":"Physics: Membranes and major functions"}}
+{"id":"rel:877a65be40b8","src":"q:1morw5n","type":"cites","dst":"slide:physics1-states/23","origin":"imported","status":"approved","attrs":{"boxes":[[2.68,18.19,57.34,37.67]]}}
+{"id":"rel:88873f805545","src":"q:194z62y","type":"cites","dst":"slide:physics1-osmosis/08","origin":"imported","status":"approved"}
+{"id":"rel:890f963a33ad","src":"q:jfijvx","type":"cites","dst":"slide:physics1-migration/10","origin":"imported","status":"approved"}
+{"id":"rel:8934965d2012","src":"q:bnyoob","type":"cites","dst":"slide:physics1-diffusion/21","origin":"imported","status":"approved"}
+{"id":"rel:89ea929cbba4","src":"q:okfmgz","type":"cites","dst":"slide:physics1-diffusion/08","origin":"imported","status":"approved"}
+{"id":"rel:8a701459729f","src":"q:okc5m8","type":"cites","dst":"slide:physics1-fluid-transfers/03","origin":"imported","status":"approved"}
+{"id":"rel:8d16cf4b9a0d","src":"q:nq4i4s","type":"cites","dst":"slide:physics1-water/07","origin":"imported","status":"approved","attrs":{"boxes":[[2.36,74.04,94.5,20.46]]}}
+{"id":"rel:8d4bb0712f73","src":"q:74t3tc","type":"cites","dst":"slide:physics1-water/31","origin":"imported","status":"approved"}
+{"id":"rel:8f7e51060a6a","src":"q:k3xpq7","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":9}}
+{"id":"rel:9145555839d0","src":"q:1cty60o","type":"cites","dst":"slide:physics1-diffusion/19","origin":"imported","status":"approved"}
+{"id":"rel:91b5c83a0575","src":"q:juanud","type":"cites","dst":"slide:physics1-viscosity/15","origin":"imported","status":"approved"}
+{"id":"rel:9218c4a0befd","src":"q:19z431h","type":"cites","dst":"slide:physics1-migration/16","origin":"imported","status":"approved"}
+{"id":"rel:9229c75d86a7","src":"q:1ldy366","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":17}}
+{"id":"rel:92939f660ef1","src":"q:qsm1gp","type":"cites","dst":"slide:physics1-osmosis/02","origin":"imported","status":"approved"}
+{"id":"rel:930caa178b2a","src":"q:1tlyzvm","type":"cites","dst":"slide:physics1-circulation/14","origin":"imported","status":"approved"}
+{"id":"rel:93dcee7db9f9","src":"q:1omn1pp","type":"cites","dst":"slide:physics1-energetics/07","origin":"imported","status":"approved"}
+{"id":"rel:95142aed491a","src":"q:g0xe25","type":"cites","dst":"slide:physics1-fluid-transfers/15","origin":"imported","status":"approved"}
+{"id":"rel:95fd1dee559b","src":"q:y86zre","type":"cites","dst":"slide:physics1-migration/08","origin":"imported","status":"approved"}
+{"id":"rel:9652df4ee2b9","src":"q:1oqsfzk","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":6}}
+{"id":"rel:970eeefee07f","src":"lec:physics1-units","type":"references","dst":"res:dd06d2cb84","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Uncertainty of measurement (NIST)","why":"Basics of expressing uncertainty."}}
+{"id":"rel:98a023b7f62e","src":"q:1dnphe7","type":"cites","dst":"slide:physics1-acid-base/11","origin":"imported","status":"approved"}
+{"id":"rel:99868db2f715","src":"q:4pwvj","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":25}}
+{"id":"rel:9b8dc446a4d0","src":"q:6fb49s","type":"cites","dst":"slide:physics1-states/19","origin":"imported","status":"approved"}
+{"id":"rel:9b8deeab9ba3","src":"q:1lnancy","type":"cites","dst":"slide:physics1-gases/19","origin":"imported","status":"approved"}
+{"id":"rel:9c248c0ccf39","src":"q:edy1e0","type":"cites","dst":"slide:physics1-gases/08","origin":"imported","status":"approved","attrs":{"boxes":[[3.54,27.03,93.54,29.7],[3.54,86.8,77.54,7.28]]}}
+{"id":"rel:9c2d8d015e7b","src":"q:1vi900g","type":"cites","dst":"slide:physics1-water/04","origin":"imported","status":"approved","attrs":{"boxes":[[2.7,40.9,94.56,33.65],[4.63,75.53,80.89,6],[4.63,82.43,85.53,12.93]]}}
+{"id":"rel:9cc5d3128df8","src":"q:1o0le1l","type":"cites","dst":"slide:physics1-states/24","origin":"imported","status":"approved"}
+{"id":"rel:9de87ec9e470","src":"q:1dhg5wy","type":"cites","dst":"slide:physics1-acid-base/32","origin":"imported","status":"approved"}
+{"id":"rel:9f4e2e7ff943","src":"q:1b7j730","type":"cites","dst":"slide:physics1-acid-base/22","origin":"imported","status":"approved"}
+{"id":"rel:a007b8e7915b","src":"q:1s2tz1h","type":"cites","dst":"slide:physics1-gases/19","origin":"imported","status":"approved"}
+{"id":"rel:a1655068b0d8","src":"q:1jsmvrz","type":"cites","dst":"slide:physics1-diffusion/19","origin":"imported","status":"approved"}
+{"id":"rel:a1d2148ca621","src":"q:74t3tc","type":"cites","dst":"slide:physics1-water/07","origin":"imported","status":"approved"}
+{"id":"rel:a2b7db198c00","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-osmosis","origin":"imported","status":"approved","attrs":{"group":"Physics: Membranes and major functions"}}
+{"id":"rel:a2e564deba4d","src":"q:195brhz","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":3}}
+{"id":"rel:a6ca2c859764","src":"q:17p0xxe","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":20}}
+{"id":"rel:a6ec3b280c6f","src":"q:so9ket","type":"cites","dst":"slide:physics1-energetics/19","origin":"imported","status":"approved"}
+{"id":"rel:a70f15ce9d44","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:biophys1-hearing","origin":"imported","status":"approved","attrs":{"group":"Biophysics: Senses"}}
+{"id":"rel:a73f3b7734ce","src":"q:1oziw5f","type":"cites","dst":"slide:physics1-states/15","origin":"imported","status":"approved"}
+{"id":"rel:a811a8f4de2b","src":"q:spfo3v","type":"cites","dst":"slide:physics1-fluid-transfers/13","origin":"imported","status":"approved"}
+{"id":"rel:a973e99e0f9e","src":"q:l68f6a","type":"cites","dst":"slide:physics1-states/04","origin":"imported","status":"approved"}
+{"id":"rel:aa0d1b2091b3","src":"q:aq77n0","type":"cites","dst":"slide:physics1-diffusion/07","origin":"imported","status":"approved"}
+{"id":"rel:ab61980854db","src":"q:jfijvx","type":"cites","dst":"slide:physics1-migration/13","origin":"imported","status":"approved"}
+{"id":"rel:ac3b2570b7de","src":"q:1kxn11o","type":"cites","dst":"slide:physics1-energetics/13","origin":"imported","status":"approved"}
+{"id":"rel:ace0aea18544","src":"q:8cv0zb","type":"cites","dst":"slide:physics1-units/08","origin":"imported","status":"approved"}
+{"id":"rel:afc322f9a1a1","src":"q:15ymb3t","type":"cites","dst":"slide:physics1-osmosis/16","origin":"imported","status":"approved"}
+{"id":"rel:b1c8c585ac66","src":"lec:physics1-gases","type":"references","dst":"res:9ddd3382b9","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Gas laws (Khan Academy)","why":"Ideal gas law and partial pressures."}}
+{"id":"rel:b211490124b1","src":"q:1ayoz0c","type":"cites","dst":"slide:physics1-migration/05","origin":"imported","status":"approved"}
+{"id":"rel:b41108a891c7","src":"q:1ylmb0d","type":"cites","dst":"slide:physics1-osmosis/16","origin":"imported","status":"approved"}
+{"id":"rel:b90254a93c9e","src":"q:1yajqys","type":"cites","dst":"slide:physics1-acid-base/26","origin":"imported","status":"approved"}
+{"id":"rel:b908f0efc7c2","src":"q:7bh64m","type":"cites","dst":"slide:physics1-water/07","origin":"imported","status":"approved"}
+{"id":"rel:b9ce55d33d24","src":"q:v5siux","type":"cites","dst":"slide:physics1-migration/03","origin":"imported","status":"approved"}
+{"id":"rel:bac9b81e6595","src":"q:5vse8y","type":"cites","dst":"slide:physics1-energetics/06","origin":"imported","status":"approved"}
+{"id":"rel:bc3656c39959","src":"q:1fzldy0","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":7}}
+{"id":"rel:be080539425a","src":"q:d6ujan","type":"cites","dst":"slide:physics1-water/18","origin":"imported","status":"approved","attrs":{"boxes":[[5.91,58.32,69.94,27.87]]}}
+{"id":"rel:be5fb06ccef7","src":"q:aq77n0","type":"cites","dst":"slide:physics1-diffusion/12","origin":"imported","status":"approved"}
+{"id":"rel:bec2a7139b45","src":"q:1jmr1in","type":"cites","dst":"slide:physics1-gases/11","origin":"imported","status":"approved"}
+{"id":"rel:beeff44a06a7","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:biophys1-radioprotection","origin":"imported","status":"approved","attrs":{"group":"Biophysics: Ionising radiation"}}
+{"id":"rel:bf81f31e4d02","src":"q:18drdeq","type":"cites","dst":"slide:physics1-respiration/18","origin":"imported","status":"approved"}
+{"id":"rel:c0bae6b72112","src":"q:195brhz","type":"cites","dst":"slide:physics1-units/17","origin":"imported","status":"approved","attrs":{"boxes":[[1.58,9.92,68.86,18.9],[2.36,53.36,62.73,16.36],[2.36,76.12,67.21,16.37]]}}
+{"id":"rel:c0d6cbf679af","src":"q:k3xpq7","type":"cites","dst":"slide:physics1-states/13","origin":"imported","status":"approved","attrs":{"boxes":[[2.36,30.18,49.26,54.96]]}}
+{"id":"rel:c11fd5526901","src":"q:bian89","type":"cites","dst":"slide:physics1-water/12","origin":"imported","status":"approved"}
+{"id":"rel:c198fc71fd5d","src":"lec:physics1-states","type":"references","dst":"res:648eef38cf","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Colligative properties (Chemistry LibreTexts)","why":"Search 'freezing point depression'."}}
+{"id":"rel:c379d0cafbb9","src":"q:3nbctu","type":"cites","dst":"slide:physics1-energetics/24","origin":"imported","status":"approved"}
+{"id":"rel:c456bc2f9082","src":"q:d6ujan","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":19}}
+{"id":"rel:c4e95b2fc78c","src":"q:1blgz2d","type":"cites","dst":"slide:physics1-energetics/11","origin":"imported","status":"approved"}
+{"id":"rel:c53f368b8688","src":"q:jx2522","type":"cites","dst":"slide:physics1-states/26","origin":"imported","status":"approved"}
+{"id":"rel:c6a0b15b103f","src":"q:4pwvj","type":"cites","dst":"slide:physics1-gases/22","origin":"imported","status":"approved","attrs":{"boxes":[[5.4,25.97,81.6,32.23]]}}
+{"id":"rel:c72d9814e7c2","src":"q:4jja2y","type":"cites","dst":"slide:physics1-viscosity/15","origin":"imported","status":"approved"}
+{"id":"rel:c7e71ad63f07","src":"q:1e34eiq","type":"cites","dst":"slide:physics1-respiration/10","origin":"imported","status":"approved"}
+{"id":"rel:c862766478cc","src":"q:14xdpv4","type":"cites","dst":"slide:physics1-viscosity/07","origin":"imported","status":"approved"}
+{"id":"rel:c8c4ffa19ff7","src":"q:1qmadhk","type":"cites","dst":"slide:physics1-gases/16","origin":"imported","status":"approved"}
+{"id":"rel:cc5eb308968e","src":"lec:physics1-states","type":"references","dst":"res:71077348fc","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"States of matter (Khan Academy)","why":"Intermolecular forces and phase changes."}}
+{"id":"rel:cca305d31f1d","src":"q:quc64s","type":"cites","dst":"slide:physics1-water/04","origin":"imported","status":"approved"}
+{"id":"rel:cd680ace5da8","src":"q:l68f6a","type":"cites","dst":"slide:physics1-states/33","origin":"imported","status":"approved"}
+{"id":"rel:cdc4e65c2852","src":"q:15enldy","type":"cites","dst":"slide:physics1-circulation/18","origin":"imported","status":"approved"}
+{"id":"rel:ce94034a78d4","src":"q:i2wldd","type":"cites","dst":"slide:physics1-water/07","origin":"imported","status":"approved","attrs":{"boxes":[[2.36,24.78,93.4,27.48]]}}
+{"id":"rel:ced673d7ed46","src":"lec:physics1-respiration","type":"references","dst":"res:13bfc9f99b","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Respiratory distress syndrome (NHLBI)","why":"Surfactant deficiency in premature babies."}}
+{"id":"rel:cf07ac77297f","src":"q:1dtpkbl","type":"cites","dst":"slide:physics1-units/12","origin":"imported","status":"approved"}
+{"id":"rel:cf2f808c3baa","src":"q:gik2f2","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":13}}
+{"id":"rel:cfae48ae41ca","src":"q:b8q5uq","type":"cites","dst":"slide:physics1-fluid-transfers/09","origin":"imported","status":"approved"}
+{"id":"rel:cff7fed3189b","src":"lec:physics1-diffusion","type":"references","dst":"res:43bb778a26","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Membrane potential (Khan Academy)","why":"Equilibrium potentials and the Nernst equation."}}
+{"id":"rel:d1003a374197","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-circulation","origin":"imported","status":"approved","attrs":{"group":"Physics: Membranes and major functions"}}
+{"id":"rel:d232a2dc408d","src":"q:1y7dpti","type":"cites","dst":"slide:physics1-water/14","origin":"imported","status":"approved"}
+{"id":"rel:d2b9fe113878","src":"q:1nuvzsu","type":"cites","dst":"slide:physics1-fluid-transfers/10","origin":"imported","status":"approved"}
+{"id":"rel:d2c48aa61b47","src":"lec:physics1-gases","type":"references","dst":"res:00cb210b80","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Pulmonary function test conditions (NCBI StatPearls)","why":"BTPS and spirometry basics."}}
+{"id":"rel:d351ee47cc92","src":"q:o5mbcx","type":"cites","dst":"slide:physics1-units/22","origin":"imported","status":"approved"}
+{"id":"rel:d3915f264295","src":"q:1olif0q","type":"cites","dst":"slide:physics1-gases/07","origin":"imported","status":"approved"}
+{"id":"rel:d41528f2ad57","src":"q:6rthb7","type":"cites","dst":"slide:physics1-acid-base/07","origin":"imported","status":"approved"}
+{"id":"rel:d50043e1731f","src":"q:z9pg7d","type":"cites","dst":"slide:physics1-diffusion/14","origin":"imported","status":"approved"}
+{"id":"rel:d5289991aa98","src":"q:s5l5zn","type":"cites","dst":"slide:physics1-fluid-transfers/11","origin":"imported","status":"approved"}
+{"id":"rel:d634dac0832e","src":"lec:physics1-units","type":"references","dst":"res:2b89c13819","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"SI base units (NIST)","why":"Official definitions of the SI units."}}
+{"id":"rel:d70f291c8228","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:biophys1-interactions","origin":"imported","status":"approved","attrs":{"group":"Biophysics: Ionising radiation"}}
+{"id":"rel:d74fc0039f05","src":"q:uc3evt","type":"cites","dst":"slide:physics1-acid-base/18","origin":"imported","status":"approved"}
+{"id":"rel:da627c6c3fc3","src":"q:21ocys","type":"cites","dst":"slide:physics1-gases/07","origin":"imported","status":"approved"}
+{"id":"rel:db0fb4826bd4","src":"q:z474wh","type":"cites","dst":"slide:physics1-water/06","origin":"imported","status":"approved","attrs":{"boxes":[[2.55,47.19,93.55,22.39]]}}
+{"id":"rel:dc7b56f0f1c2","src":"q:1d1ekhn","type":"cites","dst":"slide:physics1-fluid-transfers/04","origin":"imported","status":"approved"}
+{"id":"rel:de5bbd2b8cd3","src":"q:1bo1nd8","type":"cites","dst":"slide:physics1-gases/19","origin":"imported","status":"approved","attrs":{"boxes":[[4.21,59.2,77.8,18.51],[4.21,77.3,90.26,19]]}}
+{"id":"rel:de92b9c77a86","src":"q:19kqp6l","type":"cites","dst":"slide:physics1-circulation/13","origin":"imported","status":"approved"}
+{"id":"rel:e04922e8017f","src":"q:1o8mo9e","type":"cites","dst":"slide:physics1-circulation/09","origin":"imported","status":"approved"}
+{"id":"rel:e0d596194a51","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:biophys1-radioactivity","origin":"imported","status":"approved","attrs":{"group":"Biophysics: Ionising radiation"}}
+{"id":"rel:e14503a15cda","src":"q:mrr6h8","type":"cites","dst":"slide:physics1-viscosity/18","origin":"imported","status":"approved"}
+{"id":"rel:e216806969fa","src":"q:1dnphe7","type":"cites","dst":"slide:physics1-acid-base/13","origin":"imported","status":"approved"}
+{"id":"rel:e4396437c295","src":"lec:physics1-energetics","type":"references","dst":"res:648eef38cf","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Chemical potential (Chemistry LibreTexts)","why":"Search 'chemical potential'."}}
+{"id":"rel:e6d16ab659b5","src":"q:1dhg5wy","type":"cites","dst":"slide:physics1-acid-base/22","origin":"imported","status":"approved"}
+{"id":"rel:e8556cee9fc5","src":"q:17pgigf","type":"cites","dst":"slide:physics1-water/04","origin":"imported","status":"approved"}
+{"id":"rel:e8c65a69dd36","src":"q:1eynzr7","type":"cites","dst":"slide:physics1-states/07","origin":"imported","status":"approved"}
+{"id":"rel:e9993da648e6","src":"q:1i7ug7i","type":"cites","dst":"slide:physics1-gases/16","origin":"imported","status":"approved"}
+{"id":"rel:ea9532e29d2c","src":"q:1afbeog","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":4}}
+{"id":"rel:eb7a4c9e347d","src":"q:yuq7w6","type":"cites","dst":"slide:physics1-acid-base/29","origin":"imported","status":"approved"}
+{"id":"rel:eeabbfe0f2e6","src":"q:7aiscm","type":"cites","dst":"slide:physics1-diffusion/12","origin":"imported","status":"approved"}
+{"id":"rel:f0ae8cc75db8","src":"exam:physics1-biophys1-midterm","type":"covers","dst":"lec:physics1-water","origin":"imported","status":"approved","attrs":{"group":"Physics: States of matter and energetics"}}
+{"id":"rel:f0b9bf68790f","src":"q:5vse8y","type":"cites","dst":"slide:physics1-energetics/16","origin":"imported","status":"approved"}
+{"id":"rel:f104efe92e50","src":"q:bnyoob","type":"cites","dst":"slide:physics1-diffusion/18","origin":"imported","status":"approved"}
+{"id":"rel:f156fd5ea98d","src":"q:1rv0i3r","type":"cites","dst":"slide:physics1-units/16","origin":"imported","status":"approved"}
+{"id":"rel:f1935efdd439","src":"q:djtss0","type":"cites","dst":"slide:physics1-gases/21","origin":"imported","status":"approved"}
+{"id":"rel:f1bf90a67259","src":"q:3pofwt","type":"cites","dst":"slide:physics1-units/43","origin":"imported","status":"approved"}
+{"id":"rel:f442d21f2ab9","src":"q:16sc04u","type":"cites","dst":"slide:physics1-viscosity/05","origin":"imported","status":"approved"}
+{"id":"rel:f5a9bf70509a","src":"q:oomr2g","type":"cites","dst":"slide:physics1-osmosis/08","origin":"imported","status":"approved"}
+{"id":"rel:f692b4b2de05","src":"q:zyhes1","type":"cites","dst":"slide:physics1-energetics/06","origin":"imported","status":"approved"}
+{"id":"rel:f6b4783181ea","src":"q:oxzisr","type":"cites","dst":"slide:physics1-viscosity/17","origin":"imported","status":"approved"}
+{"id":"rel:f7f433134f4f","src":"lec:physics1-migration","type":"references","dst":"res:881d5cbc35","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Erythrocyte sedimentation rate (MedlinePlus)","why":"What the ESR test shows."}}
+{"id":"rel:f80629383747","src":"q:mrr6h8","type":"cites","dst":"slide:physics1-viscosity/21","origin":"imported","status":"approved"}
+{"id":"rel:f8173515e985","src":"q:1fddq6z","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":5}}
+{"id":"rel:f81bcc849943","src":"q:h6t2as","type":"cites","dst":"slide:physics1-diffusion/09","origin":"imported","status":"approved"}
+{"id":"rel:f857bc38f35a","src":"q:mupwmx","type":"cites","dst":"slide:physics1-water/05","origin":"imported","status":"approved"}
+{"id":"rel:f96c78e1cbf3","src":"q:19z431h","type":"cites","dst":"slide:physics1-migration/20","origin":"imported","status":"approved"}
+{"id":"rel:f96ebcc5c4c0","src":"q:1dx9ici","type":"cites","dst":"slide:physics1-diffusion/05","origin":"imported","status":"approved"}
+{"id":"rel:f9cd8ad794f2","src":"q:i2wldd","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":16}}
+{"id":"rel:fb0c113a3b0b","src":"lec:physics1-acid-base","type":"references","dst":"res:1f558a6a9b","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Physiology, acid base balance (NCBI StatPearls)","why":"Buffers and compensation."}}
+{"id":"rel:fc7ee7d82703","src":"q:1fddq6z","type":"cites","dst":"slide:physics1-units/15","origin":"imported","status":"approved","attrs":{"boxes":[[4.67,56.79,7.25,6.46]]}}
+{"id":"rel:fd082f463a65","src":"q:1jsmvrz","type":"cites","dst":"slide:physics1-diffusion/05","origin":"imported","status":"approved"}
+{"id":"rel:fd573fb21f9a","src":"q:jhu9h9","type":"cites","dst":"slide:physics1-units/51","origin":"imported","status":"approved"}
+{"id":"rel:fd5be3397659","src":"q:1msucba","type":"appears-in","dst":"paper:y1-physics1-sina-mock","origin":"imported","status":"approved","attrs":{"n":22}}

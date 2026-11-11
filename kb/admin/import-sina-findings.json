@@ -1,0 +1,2795 @@
+[
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:anat3-blood-supply",
+  "detail": "index: Blood supply of the region"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:anat3-oral-cavity",
+  "detail": "index: Oral cavity proper"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:anat3-sinuses",
+  "detail": "index: Paranasal sinuses"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:anat3-ear-1",
+  "detail": "index: Ear anatomy, part 1"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:anat3-ear-2",
+  "detail": "index: Ear anatomy, part 2"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:anat3-descending-tracts",
+  "detail": "index: Anatomy of the descending tracts"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:anat3-pns",
+  "detail": "index: The peripheral nervous system"
+ },
+ {
+  "kind": "lecture-without-content",
+  "id": "lec:semio-endo-parathyroid",
+  "detail": "listed on Sina but has no data yet"
+ },
+ {
+  "kind": "lecture-without-content",
+  "id": "lec:semio-endo-gonads",
+  "detail": "listed on Sina but has no data yet"
+ },
+ {
+  "kind": "lecture-without-content",
+  "id": "lec:semio-endo-lipids",
+  "detail": "listed on Sina but has no data yet"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:fa-cardiovascular"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:fa-renal"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:fa-endocrine"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:fa-immune"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:fa-digestive"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:pathanat-adaptation"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:pathanat-vascular"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:pathanat-onco-intro"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-atb-principles"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-antivirals"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-antifungals"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-hiv"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-hiv-manifestations"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-meningitis"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-cholera"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-tiac"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-leptospirosis"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-rickettsiosis"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-rabies"
+ },
+ {
+  "kind": "lecture-without-slides",
+  "id": "lec:infect-prolonged-fever"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-cardio",
+  "detail": "index: Cardiovascular system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-resp",
+  "detail": "index: Respiratory system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-gi",
+  "detail": "index: Digestive system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-endocrine",
+  "detail": "index: Endocrine system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-nervous",
+  "detail": "index: Nervous system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-immune",
+  "detail": "index: Immune system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-repro",
+  "detail": "index: Reproductive system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-msk",
+  "detail": "index: Musculoskeletal system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:term1-skin",
+  "detail": "index: Integumentary system"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:genetics1-mutation",
+  "detail": "index: Gene mutation"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:physics1-migration",
+  "detail": "index: Migration movements"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:physics1-osmosis",
+  "detail": "index: Osmotic phenomena"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:physics1-respiration",
+  "detail": "index: Biophysics of respiration"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:immuno1-testing",
+  "detail": "index: Immunological testing"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:hemato1-wbc-1",
+  "detail": "index: White blood cells, part I"
+ },
+ {
+  "kind": "lecture-title-differs-from-index",
+  "id": "lec:hemato1-wbc-2",
+  "detail": "index: White blood cells, part II"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1cnl1j7",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1v5i4oe",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6h1hkf",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:v0ve7i",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ns5afm",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ax2cdk",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:mapm46",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ry14aw",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1xhyykx",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1lbm33f",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:m6q732",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:lzv411",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:u9tog7",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1uqi4uv",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:zohe16",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1am53hm",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:124py0v",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jf6fn7",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:as2nim",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ox1chq",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1skb305",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:289cok",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6tebqd",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:aijd0n",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:zgxxja",
+  "detail": "again in paper:semio-mock-2805"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:vmkzqx",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:12wsnfn",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:115ahb6",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1wux7fk",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:e5zvqj",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:aeo7oo",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:tqdsnz",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:71nvpb",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:fag8jq",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:yfidh7",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1p1qmey",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:5f1tkm",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:rln9kg",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:17btwu2",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:11cii2i",
+  "detail": "again in paper:semio-endo-hristov"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1yze3kd",
+  "detail": "again in paper:biochem-mock-2026"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1obw5fq",
+  "detail": "again in paper:biochem-final-2324"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1qgauxf",
+  "detail": "again in paper:biochem-final-2324"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:lbdb0z",
+  "detail": "again in paper:biochem-final-2324"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:32sm99",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:dpm712",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1pf27rn",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1l1qfy6",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:198ys8w",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:31tzcq",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1coasw2",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:i8o8o3",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6ogonn",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1d5cpdj",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:10guq2t",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:lt5m4m",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:cf65zy",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:4yzo1r",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:oehnms",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1u5oomg",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1qcdiy2",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:dm5y2d",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:8msveu",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w74xit",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:12w5vri",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1gguo69",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:asel8d",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:12kw3t4",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:84q7i2",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:cwgnmh",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16vukyr",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:rn1sok",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:43e1hw",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1nwxptg",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1841n6l",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:3yd5pr",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:zjtesy",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ff3jdm",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1gvttme",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:cfj3a7",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:43yao0",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:10lc6a5",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1glgxjv",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:qyhxej",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ep15of",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:l49lze",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jf82o4",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:rs312c",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1yhl7la",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:12y7gps",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:y7mgfc",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1sy5m2v",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:19w3cyb",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1hlvinz",
+  "detail": "again in paper:y1-anat2-june23"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:8msveu",
+  "detail": "again in paper:y1-anat2-abdomen-answers"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6ojp30",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:dhg5ey",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2tgagi",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1h5n6rq",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:gjb9i2",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1faqh4t",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16qjoh5",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1r5hg82",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:jc9zbm",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1s7yxcu",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dv65qy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1e85vbp",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:103gq0j",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:y3qcif",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:10p6zwm",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jq8gk8",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:pjmdn6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13p7m1r",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1fdsyuo",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jqr9va",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w1ubip",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:b26a6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1k89h9b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1i28bcu",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16136y4",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13hrtw0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:rbd4tz",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dy8kgy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ifq0az",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ova6w",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1lhects",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:yx87rv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:a5qj8b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:kh4pg1",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ujpiif",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:cpey70",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1faqh4t",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2tgagi",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jqr9va",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ue9kvv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1cktd2l",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w9ssn",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6ojp30",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1xo0xmt",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:r02r8v",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:3fpaa9",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dv65qy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:xn5wvf",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1mog1l3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16136y4",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:kh4pg1",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:cpey70",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:eo51k6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:rbd4tz",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1h5n6rq",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1lhects",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:pjmdn6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13wlti2",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ifq0az",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ujpiif",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:e57oew",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:17esvee",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:jc9zbm",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16qjoh5",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:4b3t9u",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1k89h9b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w1ubip",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:b26a6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13p7m1r",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:103gq0j",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ova6w",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:187zrg3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:a5qj8b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1s7yxcu",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1e85vbp",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:dhg5ey",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13hrtw0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dy8kgy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1fdsyuo",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:hwptqg",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:gjb9i2",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1chp33g",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:hwptqg",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:jc9zbm",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:r02r8v",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1faqh4t",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ujpiif",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:gjb9i2",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6ojp30",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:17la5w8",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:xn5wvf",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:y3qcif",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dv65qy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:187zrg3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1azj60j",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:dhg5ey",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:pjmdn6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w9ssn",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:103gq0j",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1hvuige",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ue9kvv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:e57oew",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1x9ak2a",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13wlti2",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:3fpaa9",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1e85vbp",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1i28bcu",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13p7m1r",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1m76ua3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:a5qj8b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16136y4",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13hrtw0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w1ubip",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jq33xx",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:rbd4tz",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:4b3t9u",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6sxgbn",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2tgagi",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:b26a6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1xo0xmt",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jqr9va",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:kh4pg1",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1k8rx2z",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1brdpw0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ifq0az",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:h5w991",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1h5n6rq",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1lhects",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1cktd2l",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1tjyj7f",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1mog1l3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1k89h9b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:10p6zwm",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ova6w",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1h5n6rq",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:jc9zbm",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:3fpaa9",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1chp33g",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:rbd4tz",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ujpiif",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1mog1l3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16136y4",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:187zrg3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1hvuige",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:a5qj8b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1brdpw0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:eo51k6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1cktd2l",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:yx87rv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1r5hg82",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:gjb9i2",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w1ubip",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:h5w991",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13p7m1r",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6ojp30",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1k8rx2z",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w9ssn",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:cpey70",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1e85vbp",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1tjyj7f",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1x9ak2a",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:xn5wvf",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:y3qcif",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6sxgbn",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ue9kvv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13hrtw0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:nioewm",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1k89h9b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jq8gk8",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:e57oew",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1lq0sq",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1fdsyuo",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:hwptqg",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:103gq0j",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jqr9va",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1azj60j",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1faqh4t",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2tgagi",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13wlti2",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:b26a6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:17la5w8",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dy8kgy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:493isv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jtrfe6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:pxted1",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1t3lo65",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1f1a1ho",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1qdwsty",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:gq2ahv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:14uz6tz",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1q892sq",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:d84e2r",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1quuscg",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1rd4l3p",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ww9un3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:zht0t1",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:199wv01",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1bybhi7",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1agt02x",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:110jv0l",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1596qx6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:10jocxy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:md3ppo",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1bybhi7",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1t3lo65",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jtf5sy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:9h7y25",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:awb3gj",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:493isv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:tz9744",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:zht0t1",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1pm96v0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:wp7yk8",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:gle7o4",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jbxr65",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1uou3ke",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:19mv20g",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:nja69q",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:xdawms",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:gq2ahv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:jqhn3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:14j0mxd",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jtrfe6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:nrf7he",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16kl3vt",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ywep6q",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1auqpiv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1n8lttp",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1596qx6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ehfxnh",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:cbz9a",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1q73h09",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1q892sq",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:w14u9z",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ozdwop",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1nfuqs0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1k913rw",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dyq1ns",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1quuscg",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:199wv01",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:110jv0l",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:14wd24x",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:a284um",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:19jyn6d",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:nrf7he",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dyq1ns",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:82xoog",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jbxr65",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:189eeos",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1q892sq",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:271qr9",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:n1095r",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ntd8uh",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ywep6q",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:9h7y25",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1kl2mwx",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1qdwsty",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:cbz9a",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1pm96v0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1q73h09",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2q8g1a",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:tlvfvy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1r5cjky",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:md3ppo",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:19mv20g",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:rsd6wy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1n4lfof",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2mxrvz",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:a4pgjg",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1auqpiv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:b8isqa",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ls095y",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1jtrfe6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dx22u",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:awb3gj",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:110jv0l",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1f1a1ho",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16kl3vt",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:9s1k63",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:t1m2c9",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1agt02x",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1bj8srj",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1idoylx",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1596qx6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1nfuqs0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:14wd24x",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:199wv01",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1rd4l3p",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:pxted1",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16pe74x",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1596qx6",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:9s1k63",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ywep6q",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:md3ppo",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1rd4l3p",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1k913rw",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1n4lfof",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:r2a5iu",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16kl3vt",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:nja69q",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1n8lttp",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1nfuqs0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:xdawms",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1idoylx",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:bkzzwm",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:110jv0l",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:a284um",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:b8isqa",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dx22u",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2mxrvz",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:yg6ecp",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:gq2ahv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:ls095y",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1kug14d",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:pk52rx",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:tlvfvy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1dyq1ns",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1pm96v0",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:14wd24x",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1f1a1ho",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:493isv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:tz9744",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6wphzo",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1auqpiv",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:t1m2c9",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:msa8ut",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:10jocxy",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1kl2mwx",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:14j0mxd",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:nrf7he",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:b0mz9w",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:271qr9",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:jqhn3",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:q0p49g",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13our4b",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:q7nfu7",
+  "detail": "again in paper:y1-anat-5mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:f3ljbh",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1f2c965",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:16krvr1",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1mbyrj8",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:8tw7z5",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1awmzn1",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1gqsura",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:o114q8",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1xco67n",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:meism2",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w38z5o",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:n57jx0",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1r6qaxx",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1rydsja",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:myxft8",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:h1sfvk",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1c7i26v",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1wddkuh",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:62r1lt",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:mrcjpk",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:21qg7l",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1d8u1x3",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:6gf0v1",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:21mpon",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:4171hu",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:19km5m9",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:7hh7n1",
+  "detail": "again in paper:y1-histo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:152w9qx",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:3b545y",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2i9r3f",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:j0a9cz",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:17uw39g",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:nku9lr",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:vm4uho",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:93z8mq",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:dru4uw",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1esza7u",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1s8hb",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:h8etzq",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:3oku9h",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:x2m6m4",
+  "detail": "again in paper:y1-embryo-partiel"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1qlxnhi",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:enurth",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:3mvoy1",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1211cwy",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1reb7i0",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1vbuj2t",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1j9qujt",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1g7u8br",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1w7twsb",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1tsy9gz",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1bpd86y",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:v1trpg",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1ys58aj",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:12wcxxj",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1olqa1b",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:dnlics",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1o0rh8x",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1np78m5",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1fki7dg",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1vehtch",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1osmgfw",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1n0qg71",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1c65n5k",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:dtrc2z",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1sjsj0r",
+  "detail": "again in paper:y1-hemato-immuno-mock"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1o1tta8",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1px4ppf",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1bwiw7r",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1iqdjyq",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:kjtvzd",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1yx3xwm",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:fceoeh",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:bvh9ut",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1iqdjyq",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:15908i5",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:2tnhxh",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:j13itt",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:1idpam9",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:hx891s",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:zqmv1h",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:7pjo83",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "question-repeated",
+  "id": "q:13diq8h",
+  "detail": "again in paper:y1-bact-mcqs"
+ },
+ {
+  "kind": "subject-created-for-papers",
+  "id": "subj:y1-other",
+  "detail": "not in Sina's subject list; exists only to hold past papers"
+ },
+ {
+  "kind": "paper-lecture-links-unmatched",
+  "detail": "40 of 657 entries in paperLec match no paper question"
+ },
+ {
+  "kind": "highlights-not-attached",
+  "detail": "52 highlight entries name a question or slide that no longer exists"
+ }
+]

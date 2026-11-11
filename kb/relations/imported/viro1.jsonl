@@ -1,0 +1,203 @@
+{"id":"rel:000d6527245f","src":"q:3gq09k","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":11}}
+{"id":"rel:036aca1f9408","src":"q:t8fkf8","type":"cites","dst":"slide:viro1-rabies/19","origin":"imported","status":"approved"}
+{"id":"rel:03c111f15b2d","src":"q:g3lrld","type":"cites","dst":"slide:viro1-rabies/12","origin":"imported","status":"approved"}
+{"id":"rel:03e0c180c26d","src":"q:wjkicu","type":"cites","dst":"slide:viro1-diagnosis/35","origin":"imported","status":"approved"}
+{"id":"rel:04ee73bb537b","src":"q:16uwh5d","type":"cites","dst":"slide:viro1-herpesviruses/22","origin":"imported","status":"approved"}
+{"id":"rel:0730e323ca03","src":"q:1rankpq","type":"cites","dst":"slide:viro1-rabies/10","origin":"imported","status":"approved"}
+{"id":"rel:074966185415","src":"q:1njtj59","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/48","origin":"imported","status":"approved"}
+{"id":"rel:0753083b8c41","src":"q:8ayhbb","type":"cites","dst":"slide:viro1-diagnosis/05","origin":"imported","status":"approved"}
+{"id":"rel:078852f6345e","src":"q:rjqpuj","type":"cites","dst":"slide:viro1-rabies/08","origin":"imported","status":"approved"}
+{"id":"rel:07a63aa41849","src":"q:10f1a8f","type":"cites","dst":"slide:viro1-vaccines-antivirals/25","origin":"imported","status":"approved"}
+{"id":"rel:0835b6671b85","src":"q:1ga51tq","type":"cites","dst":"slide:viro1-hepatitis/42","origin":"imported","status":"approved"}
+{"id":"rel:08cfab66405d","src":"q:1wf801l","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":7}}
+{"id":"rel:08e12273e679","src":"q:of5jxs","type":"cites","dst":"slide:viro1-retroviruses/05","origin":"imported","status":"approved"}
+{"id":"rel:0923d4aede76","src":"q:bs8vz1","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/17","origin":"imported","status":"approved"}
+{"id":"rel:09f7f22ac833","src":"q:18yq0r7","type":"cites","dst":"slide:viro1-hepatitis/41","origin":"imported","status":"approved"}
+{"id":"rel:0bdb96fcd81d","src":"q:1efq0d3","type":"cites","dst":"slide:viro1-diagnosis/17","origin":"imported","status":"approved"}
+{"id":"rel:0bf23ce8bc3c","src":"q:1uc1y7h","type":"cites","dst":"slide:viro1-gastroenteritis/07","origin":"imported","status":"approved"}
+{"id":"rel:0d294bfe913c","src":"q:1ogeito","type":"cites","dst":"slide:viro1-gastroenteritis/11","origin":"imported","status":"approved"}
+{"id":"rel:0dafbfdb420d","src":"lec:viro1-intro","type":"references","dst":"res:15fcba7d31","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Multiplication (Medical Microbiology, NCBI)","why":"The viral replication cycle."}}
+{"id":"rel:10dda1016e24","src":"q:w9p0yq","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":5}}
+{"id":"rel:1215e8333e5d","src":"q:1tfnuv6","type":"cites","dst":"slide:viro1-retroviruses/13","origin":"imported","status":"approved"}
+{"id":"rel:146a9593251a","src":"q:1sp6d1i","type":"cites","dst":"slide:viro1-rabies/03","origin":"imported","status":"approved"}
+{"id":"rel:159b3aa99558","src":"q:91d1zu","type":"cites","dst":"slide:viro1-hepatitis/46","origin":"imported","status":"approved"}
+{"id":"rel:15a638bf6f01","src":"q:18j99a1","type":"cites","dst":"slide:viro1-vaccines-antivirals/30","origin":"imported","status":"approved"}
+{"id":"rel:16ca7d3b8061","src":"q:7pytv5","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/23","origin":"imported","status":"approved"}
+{"id":"rel:1a40956ff54a","src":"q:141gbuv","type":"cites","dst":"slide:viro1-hpv/42","origin":"imported","status":"approved"}
+{"id":"rel:1a41695a01e4","src":"q:1jtsdd6","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/29","origin":"imported","status":"approved"}
+{"id":"rel:1c973e0f1f67","src":"lec:viro1-diagnosis","type":"references","dst":"res:1ad67e40a1","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Polymerase Chain Reaction (NCBI StatPearls)","why":"PCR principles and clinical uses."}}
+{"id":"rel:1e36c01d1317","src":"q:prwklg","type":"cites","dst":"slide:viro1-intro/11","origin":"imported","status":"approved"}
+{"id":"rel:1fc2d690ef40","src":"q:uxju0g","type":"cites","dst":"slide:viro1-hpv/45","origin":"imported","status":"approved"}
+{"id":"rel:20bbcc342b9c","src":"lec:viro1-orthomyxo-paramyxo","type":"references","dst":"res:edf38b276f","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Influenza (NCBI StatPearls)","why":"Virology, clinical picture and treatment."}}
+{"id":"rel:249a49ecdfeb","src":"q:12782m5","type":"cites","dst":"slide:viro1-rabies/13","origin":"imported","status":"approved"}
+{"id":"rel:24fad6a3bc94","src":"q:wxu4wp","type":"cites","dst":"slide:viro1-intro/32","origin":"imported","status":"approved"}
+{"id":"rel:25e90ec9585e","src":"q:1phlqgk","type":"cites","dst":"slide:viro1-retroviruses/32","origin":"imported","status":"approved"}
+{"id":"rel:2851ceabc0cc","src":"q:prwklg","type":"cites","dst":"slide:viro1-intro/20","origin":"imported","status":"approved"}
+{"id":"rel:2a0f05491b71","src":"q:ns5m9j","type":"cites","dst":"slide:viro1-rabies/11","origin":"imported","status":"approved"}
+{"id":"rel:2b58dab3abcc","src":"q:wf0td2","type":"cites","dst":"slide:viro1-hpv/45","origin":"imported","status":"approved"}
+{"id":"rel:2bd0871a2fdf","src":"lec:viro1-herpesviruses","type":"references","dst":"res:690ae33c68","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Epstein-Barr Virus (NCBI StatPearls)","why":"Mononucleosis and EBV-related cancers."}}
+{"id":"rel:2e057aa165cb","src":"lec:viro1-herpesviruses","type":"references","dst":"res:f7a15cf83f","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Herpes Zoster (NCBI StatPearls)","why":"Reactivation of VZV and its treatment."}}
+{"id":"rel:2e89d0c3bfbc","src":"q:nziyrq","type":"cites","dst":"slide:viro1-herpesviruses/26","origin":"imported","status":"approved"}
+{"id":"rel:318344eb690a","src":"q:p21sol","type":"cites","dst":"slide:viro1-vaccines-antivirals/20","origin":"imported","status":"approved"}
+{"id":"rel:333e094fbd42","src":"q:1xzj4c2","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":10}}
+{"id":"rel:33b81b530c04","src":"q:1oktk5j","type":"cites","dst":"slide:viro1-gastroenteritis/11","origin":"imported","status":"approved"}
+{"id":"rel:34060b50f66e","src":"q:1a1dryc","type":"cites","dst":"slide:viro1-vaccines-antivirals/22","origin":"imported","status":"approved"}
+{"id":"rel:3408d3aafa42","src":"q:bxl30k","type":"cites","dst":"slide:viro1-hepatitis/60","origin":"imported","status":"approved"}
+{"id":"rel:342692e69dd8","src":"q:12wdxf7","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/48","origin":"imported","status":"approved"}
+{"id":"rel:34712ae3e0d7","src":"q:oxkgc2","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":3}}
+{"id":"rel:34853317ae0b","src":"q:17ze9gv","type":"cites","dst":"slide:viro1-hepatitis/19","origin":"imported","status":"approved"}
+{"id":"rel:34b3992a05a0","src":"q:7pytv5","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/52","origin":"imported","status":"approved"}
+{"id":"rel:352c7bb9d88d","src":"q:1f6dj0q","type":"cites","dst":"slide:viro1-diagnosis/44","origin":"imported","status":"approved"}
+{"id":"rel:35735872de58","src":"q:vs9bcm","type":"cites","dst":"slide:viro1-herpesviruses/09","origin":"imported","status":"approved"}
+{"id":"rel:376d1638a2db","src":"q:10vo92r","type":"cites","dst":"slide:viro1-hpv/45","origin":"imported","status":"approved"}
+{"id":"rel:3894229a5de9","src":"q:343cv0","type":"cites","dst":"slide:viro1-hpv/45","origin":"imported","status":"approved"}
+{"id":"rel:38ce2f724ff0","src":"q:1tr40wi","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/53","origin":"imported","status":"approved"}
+{"id":"rel:3be28611dc6e","src":"q:ih0e57","type":"cites","dst":"slide:viro1-intro/30","origin":"imported","status":"approved"}
+{"id":"rel:3c10462a9d2c","src":"q:f7k3vx","type":"cites","dst":"slide:viro1-diagnosis/44","origin":"imported","status":"approved"}
+{"id":"rel:3d6afde3a2bf","src":"q:1vy9sb2","type":"cites","dst":"slide:viro1-vaccines-antivirals/13","origin":"imported","status":"approved"}
+{"id":"rel:405aa27ee2b9","src":"q:hd3hrl","type":"cites","dst":"slide:viro1-vaccines-antivirals/03","origin":"imported","status":"approved"}
+{"id":"rel:40edd02e0c74","src":"q:11eafhk","type":"cites","dst":"slide:viro1-diagnosis/28","origin":"imported","status":"approved"}
+{"id":"rel:41a148ee7298","src":"q:184y461","type":"cites","dst":"slide:viro1-hpv/42","origin":"imported","status":"approved"}
+{"id":"rel:427698878807","src":"q:ikv3bt","type":"cites","dst":"slide:viro1-intro/07","origin":"imported","status":"approved"}
+{"id":"rel:46ff4e43d4dc","src":"lec:viro1-vaccines-antivirals","type":"references","dst":"res:370d7655cd","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"A guide to vaccinology: from basic principles to new developments (Nature Reviews Immunology)","why":"The review behind many of the lecture's figures."}}
+{"id":"rel:47a7ec05dc52","src":"q:62zxi7","type":"cites","dst":"slide:viro1-gastroenteritis/25","origin":"imported","status":"approved"}
+{"id":"rel:47baad65592c","src":"q:8ayhbb","type":"cites","dst":"slide:viro1-diagnosis/17","origin":"imported","status":"approved"}
+{"id":"rel:47f87099a1f7","src":"q:cnyvzc","type":"cites","dst":"slide:viro1-retroviruses/28","origin":"imported","status":"approved"}
+{"id":"rel:493c1895505a","src":"q:52r9ah","type":"cites","dst":"slide:viro1-retroviruses/18","origin":"imported","status":"approved"}
+{"id":"rel:494ea68c795d","src":"q:127vi2b","type":"cites","dst":"slide:viro1-rabies/10","origin":"imported","status":"approved"}
+{"id":"rel:49660dc68bd1","src":"q:1efq0d3","type":"cites","dst":"slide:viro1-diagnosis/20","origin":"imported","status":"approved"}
+{"id":"rel:4b76a9f1e57a","src":"q:1p0aw8f","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":4}}
+{"id":"rel:4c19ee891afe","src":"q:7qzvgo","type":"cites","dst":"slide:viro1-retroviruses/22","origin":"imported","status":"approved"}
+{"id":"rel:4c23b18dcfb4","src":"q:171yjsf","type":"cites","dst":"slide:viro1-diagnosis/10","origin":"imported","status":"approved"}
+{"id":"rel:4d1a03c6fcf1","src":"q:1aokh9t","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/23","origin":"imported","status":"approved"}
+{"id":"rel:4d6ed83e1b82","src":"lec:viro1-hepatitis","type":"references","dst":"res:2be29a70b3","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Hepatitis C (NCBI StatPearls)","why":"Diagnosis and direct-acting antivirals."}}
+{"id":"rel:4ee51e8ef216","src":"lec:viro1-orthomyxo-paramyxo","type":"references","dst":"res:e504eaf6f9","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Parainfluenza Virus (NCBI StatPearls)","why":"Croup and lower respiratory infection."}}
+{"id":"rel:4eec2e47ce54","src":"q:trrbrq","type":"cites","dst":"slide:viro1-retroviruses/38","origin":"imported","status":"approved"}
+{"id":"rel:52235cc36f62","src":"q:h8yjgp","type":"cites","dst":"slide:viro1-hepatitis/67","origin":"imported","status":"approved"}
+{"id":"rel:53742282e476","src":"q:1tab02p","type":"cites","dst":"slide:viro1-intro/24","origin":"imported","status":"approved"}
+{"id":"rel:566ad6b6e1b1","src":"q:91d1zu","type":"cites","dst":"slide:viro1-hepatitis/42","origin":"imported","status":"approved"}
+{"id":"rel:57af08c40a48","src":"q:1w88sxr","type":"cites","dst":"slide:viro1-herpesviruses/10","origin":"imported","status":"approved"}
+{"id":"rel:5b3d4bc17997","src":"q:j6jk8n","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/29","origin":"imported","status":"approved"}
+{"id":"rel:5bb0d4d39bbe","src":"q:t3yd6a","type":"cites","dst":"slide:viro1-vaccines-antivirals/21","origin":"imported","status":"approved"}
+{"id":"rel:5e1a08ba08a0","src":"lec:viro1-orthomyxo-paramyxo","type":"references","dst":"res:2ed51ae22b","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Measles (NCBI StatPearls)","why":"Clinical features and complications."}}
+{"id":"rel:5fe94b65bec3","src":"q:1b6a3g8","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/42","origin":"imported","status":"approved"}
+{"id":"rel:610c880aa216","src":"q:qljfce","type":"cites","dst":"slide:viro1-intro/04","origin":"imported","status":"approved"}
+{"id":"rel:61534f42b67e","src":"q:ltolr5","type":"cites","dst":"slide:viro1-intro/11","origin":"imported","status":"approved"}
+{"id":"rel:6229b30e514d","src":"lec:viro1-vaccines-antivirals","type":"references","dst":"res:3e03e82a74","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Antiviral Agents (LiverTox, NCBI)","why":"Overview of antiviral classes."}}
+{"id":"rel:6233404002a1","src":"q:10vo92r","type":"cites","dst":"slide:viro1-hpv/28","origin":"imported","status":"approved"}
+{"id":"rel:630d3debb860","src":"q:v3ls8q","type":"cites","dst":"slide:viro1-hpv/45","origin":"imported","status":"approved"}
+{"id":"rel:637464771341","src":"q:1p9xt2","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":2}}
+{"id":"rel:63874adefed4","src":"q:1hri5q5","type":"cites","dst":"slide:viro1-hepatitis/57","origin":"imported","status":"approved"}
+{"id":"rel:63e0e0237230","src":"q:11blip5","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/46","origin":"imported","status":"approved"}
+{"id":"rel:64a4a95bbe10","src":"q:fnr162","type":"cites","dst":"slide:viro1-retroviruses/38","origin":"imported","status":"approved"}
+{"id":"rel:65cb0d2164f7","src":"q:98p4uq","type":"cites","dst":"slide:viro1-retroviruses/10","origin":"imported","status":"approved"}
+{"id":"rel:66a368dd034e","src":"q:6j8nte","type":"cites","dst":"slide:viro1-intro/10","origin":"imported","status":"approved"}
+{"id":"rel:6886b7c916ee","src":"q:ofbxl2","type":"cites","dst":"slide:viro1-rabies/05","origin":"imported","status":"approved"}
+{"id":"rel:6a3c72f140ed","src":"q:1m25se6","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/57","origin":"imported","status":"approved"}
+{"id":"rel:6a7ff5530366","src":"q:1tr40wi","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/58","origin":"imported","status":"approved"}
+{"id":"rel:6d509b02c0a5","src":"q:1ft4m45","type":"cites","dst":"slide:viro1-diagnosis/33","origin":"imported","status":"approved"}
+{"id":"rel:6df9ec3f3652","src":"q:1g3k2tm","type":"cites","dst":"slide:viro1-intro/20","origin":"imported","status":"approved"}
+{"id":"rel:6ed9c6e81b0f","src":"q:1gh0ynq","type":"cites","dst":"slide:viro1-rabies/19","origin":"imported","status":"approved"}
+{"id":"rel:6f9f89a787db","src":"lec:viro1-hpv","type":"references","dst":"res:56294fe349","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Human papillomavirus and cancer (WHO fact sheet)","why":"Burden, screening and vaccination."}}
+{"id":"rel:7161a0d1a8f2","src":"q:oy2gzg","type":"cites","dst":"slide:viro1-diagnosis/18","origin":"imported","status":"approved"}
+{"id":"rel:7287e4209c3d","src":"lec:viro1-retroviruses","type":"references","dst":"res:90d78f57c8","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"HIV and AIDS (NCBI StatPearls)","why":"Virology, natural history and treatment."}}
+{"id":"rel:73235cd840db","src":"q:t2l5y0","type":"cites","dst":"slide:viro1-herpesviruses/24","origin":"imported","status":"approved"}
+{"id":"rel:74f2e5520f11","src":"q:h5mnhw","type":"cites","dst":"slide:viro1-gastroenteritis/17","origin":"imported","status":"approved"}
+{"id":"rel:77b98e1c8fef","src":"q:8qiu0r","type":"cites","dst":"slide:viro1-hepatitis/57","origin":"imported","status":"approved"}
+{"id":"rel:79afcfdb2c3d","src":"q:sm66s3","type":"cites","dst":"slide:viro1-diagnosis/15","origin":"imported","status":"approved"}
+{"id":"rel:7a7c7f10c5cc","src":"q:152w8kz","type":"cites","dst":"slide:viro1-intro/17","origin":"imported","status":"approved"}
+{"id":"rel:7b0415ec2f69","src":"q:1ro7lpa","type":"cites","dst":"slide:viro1-hepatitis/13","origin":"imported","status":"approved"}
+{"id":"rel:7c5a0de60efc","src":"lec:viro1-hpv","type":"references","dst":"res:6c81faf28e","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Human Papillomavirus (NCBI StatPearls)","why":"HPV types, diseases and vaccines."}}
+{"id":"rel:7c9514d66d03","src":"q:1r78m0n","type":"cites","dst":"slide:viro1-hepatitis/34","origin":"imported","status":"approved"}
+{"id":"rel:7ce590fc7c87","src":"q:6j8nte","type":"cites","dst":"slide:viro1-intro/11","origin":"imported","status":"approved"}
+{"id":"rel:830d4b62377f","src":"q:1afcl4y","type":"cites","dst":"slide:viro1-herpesviruses/12","origin":"imported","status":"approved"}
+{"id":"rel:83b5c5c85229","src":"q:175a75l","type":"cites","dst":"slide:viro1-vaccines-antivirals/21","origin":"imported","status":"approved"}
+{"id":"rel:8446da4aa3cc","src":"q:2c8a8j","type":"cites","dst":"slide:viro1-retroviruses/15","origin":"imported","status":"approved"}
+{"id":"rel:85e1ee21a58c","src":"q:1z4gfy","type":"cites","dst":"slide:viro1-herpesviruses/16","origin":"imported","status":"approved"}
+{"id":"rel:86078caecce9","src":"q:1wye1hp","type":"cites","dst":"slide:viro1-gastroenteritis/12","origin":"imported","status":"approved"}
+{"id":"rel:866694e089a9","src":"q:18rr0pp","type":"cites","dst":"slide:viro1-retroviruses/13","origin":"imported","status":"approved"}
+{"id":"rel:87c4bc6226e1","src":"q:gmuzha","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":12}}
+{"id":"rel:8c47f3548ec8","src":"q:1nepva","type":"cites","dst":"slide:viro1-intro/35","origin":"imported","status":"approved"}
+{"id":"rel:8e2ff78379d4","src":"q:1f6mqqs","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/15","origin":"imported","status":"approved"}
+{"id":"rel:95a89a7c2056","src":"q:nufypu","type":"cites","dst":"slide:viro1-intro/30","origin":"imported","status":"approved"}
+{"id":"rel:96ef3f39eb4d","src":"q:1klvh4p","type":"cites","dst":"slide:viro1-intro/29","origin":"imported","status":"approved"}
+{"id":"rel:97840da65e47","src":"lec:viro1-retroviruses","type":"references","dst":"res:40d23dd81d","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Human T-lymphotropic virus type 1 (WHO fact sheet)","why":"HTLV-1 transmission and diseases."}}
+{"id":"rel:9bf1724cf012","src":"q:of5jxs","type":"cites","dst":"slide:viro1-retroviruses/13","origin":"imported","status":"approved"}
+{"id":"rel:9c0abaf900ee","src":"lec:viro1-hepatitis","type":"references","dst":"res:c6c70e4867","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Hepatitis B (WHO fact sheet)","why":"Global burden, prevention and treatment."}}
+{"id":"rel:9faddae20d8c","src":"q:vs9bcm","type":"cites","dst":"slide:viro1-herpesviruses/10","origin":"imported","status":"approved"}
+{"id":"rel:a1325d7157ba","src":"q:2c8a8j","type":"cites","dst":"slide:viro1-retroviruses/11","origin":"imported","status":"approved"}
+{"id":"rel:a2e7c6534c9e","src":"q:1b3bu8n","type":"cites","dst":"slide:viro1-rabies/18","origin":"imported","status":"approved"}
+{"id":"rel:a33b5a624e3d","src":"q:1toz0or","type":"cites","dst":"slide:viro1-rabies/19","origin":"imported","status":"approved"}
+{"id":"rel:a47bfa2c1fe7","src":"q:qbcdig","type":"cites","dst":"slide:viro1-retroviruses/22","origin":"imported","status":"approved"}
+{"id":"rel:a4a50c053869","src":"lec:viro1-hepatitis","type":"references","dst":"res:7fce44deea","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Hepatitis A (NCBI StatPearls)","why":"Transmission, serology and vaccine."}}
+{"id":"rel:a6a1353f3128","src":"q:1toz0or","type":"cites","dst":"slide:viro1-rabies/16","origin":"imported","status":"approved"}
+{"id":"rel:a879df8599eb","src":"q:e7t6kn","type":"cites","dst":"slide:viro1-hpv/31","origin":"imported","status":"approved"}
+{"id":"rel:a99884abb0a8","src":"q:1mnt4ys","type":"cites","dst":"slide:viro1-herpesviruses/25","origin":"imported","status":"approved"}
+{"id":"rel:a9a97981afe9","src":"q:g8sjo8","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/40","origin":"imported","status":"approved"}
+{"id":"rel:ab1bd718b0db","src":"q:bx9ab5","type":"cites","dst":"slide:viro1-rabies/03","origin":"imported","status":"approved"}
+{"id":"rel:ae034fddb590","src":"q:djwa2z","type":"cites","dst":"slide:viro1-hpv/32","origin":"imported","status":"approved"}
+{"id":"rel:ae280de770ba","src":"q:1gqsa7k","type":"cites","dst":"slide:viro1-herpesviruses/20","origin":"imported","status":"approved"}
+{"id":"rel:ae7f1dc77bea","src":"q:1y5pvc3","type":"cites","dst":"slide:viro1-intro/20","origin":"imported","status":"approved"}
+{"id":"rel:af92268f0526","src":"q:32lhf6","type":"cites","dst":"slide:viro1-herpesviruses/19","origin":"imported","status":"approved"}
+{"id":"rel:b1c70d5f8efd","src":"q:1o7whym","type":"cites","dst":"slide:viro1-gastroenteritis/13","origin":"imported","status":"approved"}
+{"id":"rel:b2002ae119d4","src":"q:1njtj59","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/31","origin":"imported","status":"approved"}
+{"id":"rel:b6502812c1b3","src":"q:187983q","type":"cites","dst":"slide:viro1-intro/04","origin":"imported","status":"approved"}
+{"id":"rel:b770f8d30f5c","src":"q:oqj2q8","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":9}}
+{"id":"rel:b7bf9882ef84","src":"q:1w88sxr","type":"cites","dst":"slide:viro1-herpesviruses/19","origin":"imported","status":"approved"}
+{"id":"rel:b8559b8da055","src":"q:11blip5","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/35","origin":"imported","status":"approved"}
+{"id":"rel:bab56c87254c","src":"lec:viro1-diagnosis","type":"references","dst":"res:def7fe0d00","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"PCR Tests (MedlinePlus)","why":"Patient-level explanation of PCR testing."}}
+{"id":"rel:bc1802e75a90","src":"q:ox7xn4","type":"cites","dst":"slide:viro1-retroviruses/30","origin":"imported","status":"approved"}
+{"id":"rel:be791b3aa32b","src":"q:1y19fvc","type":"cites","dst":"slide:viro1-hepatitis/52","origin":"imported","status":"approved"}
+{"id":"rel:bf063b86709a","src":"q:1060ykh","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":8}}
+{"id":"rel:c2179c482791","src":"q:1l9uho9","type":"cites","dst":"slide:viro1-vaccines-antivirals/22","origin":"imported","status":"approved"}
+{"id":"rel:c23cd287781e","src":"lec:viro1-diagnosis","type":"references","dst":"res:09910f39b5","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"General principles of the laboratory diagnosis of viral infections (PubMed)","why":"Review of isolation, antigen, molecular and serological methods."}}
+{"id":"rel:c425a1fc269f","src":"q:hopljn","type":"cites","dst":"slide:viro1-retroviruses/21","origin":"imported","status":"approved"}
+{"id":"rel:c43e9b07abf0","src":"q:1ju3in1","type":"cites","dst":"slide:viro1-hepatitis/42","origin":"imported","status":"approved"}
+{"id":"rel:c492c418a3bc","src":"q:pkc8ez","type":"cites","dst":"slide:viro1-vaccines-antivirals/29","origin":"imported","status":"approved"}
+{"id":"rel:c6c445e09ba3","src":"q:152w8kz","type":"cites","dst":"slide:viro1-intro/18","origin":"imported","status":"approved"}
+{"id":"rel:c9375c9ada49","src":"q:9p2tna","type":"cites","dst":"slide:viro1-herpesviruses/11","origin":"imported","status":"approved"}
+{"id":"rel:c96cacddf380","src":"q:1dp5t7x","type":"cites","dst":"slide:viro1-intro/34","origin":"imported","status":"approved"}
+{"id":"rel:ca55c75430ef","src":"q:1jnxjb1","type":"cites","dst":"slide:viro1-gastroenteritis/13","origin":"imported","status":"approved"}
+{"id":"rel:cbb63d61ec0d","src":"q:p98r5q","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":1}}
+{"id":"rel:cd1808936b0e","src":"q:33t3","type":"cites","dst":"slide:viro1-vaccines-antivirals/16","origin":"imported","status":"approved"}
+{"id":"rel:ce4031c36435","src":"q:1a1cf2m","type":"cites","dst":"slide:viro1-herpesviruses/15","origin":"imported","status":"approved"}
+{"id":"rel:ce9bcc3772c8","src":"lec:viro1-vaccines-antivirals","type":"references","dst":"res:6fdd7426a5","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"A review: Mechanism of action of antiviral drugs (PMC)","why":"Targets in the viral cycle."}}
+{"id":"rel:cf1b13f8f4b0","src":"q:rjgigf","type":"cites","dst":"slide:viro1-gastroenteritis/23","origin":"imported","status":"approved"}
+{"id":"rel:cf23466ec16b","src":"lec:viro1-gastroenteritis","type":"references","dst":"res:98bba655af","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Rotavirus (NCBI StatPearls)","why":"Epidemiology and vaccines."}}
+{"id":"rel:d20a52bc5577","src":"lec:viro1-orthomyxo-paramyxo","type":"references","dst":"res:7092d87b66","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Respiratory Syncytial Virus Infection in Children (NCBI StatPearls)","why":"Bronchiolitis and prevention."}}
+{"id":"rel:d2dddea825bc","src":"q:x4b06x","type":"cites","dst":"slide:viro1-herpesviruses/16","origin":"imported","status":"approved"}
+{"id":"rel:d344279c6372","src":"q:1hri5q5","type":"cites","dst":"slide:viro1-hepatitis/38","origin":"imported","status":"approved"}
+{"id":"rel:d4a9aba45b0a","src":"q:fu4fmv","type":"cites","dst":"slide:viro1-vaccines-antivirals/21","origin":"imported","status":"approved"}
+{"id":"rel:d4ef23c8fd0f","src":"q:1dk7g8r","type":"cites","dst":"slide:viro1-hepatitis/42","origin":"imported","status":"approved"}
+{"id":"rel:d5617ce8c0e1","src":"q:b4tiia","type":"cites","dst":"slide:viro1-retroviruses/05","origin":"imported","status":"approved"}
+{"id":"rel:d9bfc43bff5d","src":"q:1ku3khu","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/20","origin":"imported","status":"approved"}
+{"id":"rel:dcac1cd730f8","src":"q:1rrlsx2","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/20","origin":"imported","status":"approved"}
+{"id":"rel:de5e12198eb6","src":"q:13jdaj6","type":"cites","dst":"slide:viro1-hepatitis/57","origin":"imported","status":"approved"}
+{"id":"rel:df688326e350","src":"q:1jslrka","type":"cites","dst":"slide:viro1-rabies/19","origin":"imported","status":"approved"}
+{"id":"rel:e171225e6840","src":"q:1onvs9i","type":"cites","dst":"slide:viro1-gastroenteritis/23","origin":"imported","status":"approved"}
+{"id":"rel:e1ce26038eb4","src":"q:43p7g7","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/37","origin":"imported","status":"approved"}
+{"id":"rel:e2f419ff9185","src":"q:1xism48","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/13","origin":"imported","status":"approved"}
+{"id":"rel:e335b4c516cd","src":"lec:viro1-rabies","type":"references","dst":"res:6747b60cff","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Rabies (NCBI StatPearls)","why":"Pathogenesis, clinical forms and prophylaxis."}}
+{"id":"rel:e398990275ad","src":"q:137nhlk","type":"cites","dst":"slide:viro1-diagnosis/30","origin":"imported","status":"approved"}
+{"id":"rel:e43cbb8c63d9","src":"q:6bxr3g","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":13}}
+{"id":"rel:e6a24189c9f0","src":"q:kvpbp9","type":"appears-in","dst":"paper:y1-viro-exam-ans","origin":"imported","status":"approved","attrs":{"n":6}}
+{"id":"rel:e77ed410f10c","src":"q:wh2de4","type":"cites","dst":"slide:viro1-diagnosis/15","origin":"imported","status":"approved"}
+{"id":"rel:e8174446437f","src":"q:vfg43k","type":"cites","dst":"slide:viro1-diagnosis/43","origin":"imported","status":"approved"}
+{"id":"rel:e92a3aa10100","src":"q:13jdaj6","type":"cites","dst":"slide:viro1-hepatitis/68","origin":"imported","status":"approved"}
+{"id":"rel:e949326644cb","src":"q:1f6mqqs","type":"cites","dst":"slide:viro1-orthomyxo-paramyxo/08","origin":"imported","status":"approved"}
+{"id":"rel:e9ce8cccc5b9","src":"q:1egf06n","type":"cites","dst":"slide:viro1-hpv/43","origin":"imported","status":"approved"}
+{"id":"rel:ec37c4e576d6","src":"q:1nh35hm","type":"cites","dst":"slide:viro1-retroviruses/29","origin":"imported","status":"approved"}
+{"id":"rel:ee132a266d22","src":"q:17zi26n","type":"cites","dst":"slide:viro1-herpesviruses/12","origin":"imported","status":"approved"}
+{"id":"rel:ee4a860c94c3","src":"lec:viro1-gastroenteritis","type":"references","dst":"res:482340e293","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Norovirus (NCBI StatPearls)","why":"Outbreaks and infection control."}}
+{"id":"rel:efbaed94b912","src":"q:nziyrq","type":"cites","dst":"slide:viro1-herpesviruses/27","origin":"imported","status":"approved"}
+{"id":"rel:f45781570f39","src":"q:n8hgf7","type":"cites","dst":"slide:viro1-hpv/38","origin":"imported","status":"approved"}
+{"id":"rel:f5f9457c7956","src":"q:18062nv","type":"cites","dst":"slide:viro1-herpesviruses/28","origin":"imported","status":"approved"}
+{"id":"rel:f6f6f4cc49ff","src":"lec:viro1-rabies","type":"references","dst":"res:5a81d85fbb","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Rabies (WHO fact sheet)","why":"Exposure categories and PEP."}}
+{"id":"rel:f866c84e5a56","src":"lec:viro1-intro","type":"references","dst":"res:48e757616d","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Structure and Classification of Viruses (Medical Microbiology, NCBI)","why":"Capsids, envelopes and families."}}
+{"id":"rel:f8b1ea959905","src":"q:70h6x2","type":"cites","dst":"slide:viro1-retroviruses/13","origin":"imported","status":"approved"}
+{"id":"rel:f99e2c7fefde","src":"lec:viro1-hepatitis","type":"references","dst":"res:84a972daa9","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"Hepatitis B (NHS)","why":"Patient-level overview."}}
+{"id":"rel:fba88d302ac8","src":"lec:viro1-retroviruses","type":"references","dst":"res:7f4a7aeafd","origin":"imported","status":"approved","attrs":{"roles":["reading","checked-against"],"title":"HIV-1-Associated Opportunistic Infections (NCBI StatPearls)","why":"What happens when CD4 falls."}}
+{"id":"rel:fd04408606b4","src":"q:52r9ah","type":"cites","dst":"slide:viro1-retroviruses/05","origin":"imported","status":"approved"}
+{"id":"rel:fd1726102d39","src":"q:1lrx66y","type":"cites","dst":"slide:viro1-vaccines-antivirals/21","origin":"imported","status":"approved"}
+{"id":"rel:feb97c9198bb","src":"q:n6nsw","type":"cites","dst":"slide:viro1-hepatitis/42","origin":"imported","status":"approved"}
+{"id":"rel:ffb016c49dd4","src":"q:rjgigf","type":"cites","dst":"slide:viro1-gastroenteritis/07","origin":"imported","status":"approved"}

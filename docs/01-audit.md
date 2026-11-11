@@ -2,6 +2,8 @@
 
 Audit date: 11 November 2026. Counts were measured by loading the site's data files in Node, not estimated, unless marked otherwise.
 
+Three figures were corrected after the first full import (Phase 3) and are marked *corrected*. The live numbers are in [`kb/admin/COVERAGE.md`](../kb/admin/COVERAGE.md).
+
 ## 1.1 Repositories
 
 | Repository | Role | Notes |
@@ -30,17 +32,17 @@ Audit date: 11 November 2026. Counts were measured by loading the site's data fi
 | Lectures with data | 337 | `js/data/lectures-*.js` |
 | Lectures listed without data | 3 (`semio-endo-parathyroid`, `semio-endo-gonads`, `semio-endo-lipids`) | PDFs exist in `files/src/` |
 | Summary sections | 1,599 (about 1.14 million characters of text) | `lecture.summary[]` |
-| Lecture MCQs | 10,509 (10,494 distinct question keys) | `lecture.mcqs[]` |
-| MCQs linked to a slide | 7,205 | `mcq.slides[] = {src, lec, n}` |
+| Lecture MCQs | 10,509, all distinct. 15 pairs of figure questions share a Sina question key (*corrected*; see 1.4) | `lecture.mcqs[]` |
+| Lecture MCQs linked to a slide | 7,205 (7,849 questions in total once paper questions are counted) | `mcq.slides[] = {src, lec, n}` |
 | MCQs with per-option notes | 2,167 | `mcq.notes[]` |
 | Multi-answer MCQs | 1,139 | `mcq.answers[]` |
 | Flashcards | 5,578 | `lecture.cards[]` |
 | Past papers and mocks | 133 | `SINA.papers` |
-| Paper questions | 2,583 (2,073 distinct keys; none shared with lecture MCQs) | `SINA.paperQs`, `paper.questions` |
-| Paper question to lecture links | 657 | `SINA.paperLec` |
+| Paper questions | 3,721 occurrences (2,583 in `paperQs` plus 1,138 inline), 3,207 distinct; none shared with lecture MCQs (*corrected*: the first count missed the inline ones) | `SINA.paperQs`, `paper.questions` |
+| Paper question to lecture links | 657 entries, of which 617 match a current question | `SINA.paperLec` |
 | Slide images | 5,079 across 317 lectures | `files/slides/<lecture>/<nn>.jpg` |
-| Slides with OCR text and line boxes | 4,654 (67,471 lines) | `sina-build/hl/lines.json` |
-| Slide highlight boxes for questions | 3,425 question keys | `js/data/highlights.js` |
+| Slides with OCR text and line boxes | 4,581 (*corrected*: of 4,654 OCR entries, 71 are for slide files that no longer exist and 2 are empty) | `sina-build/hl/lines.json` |
+| Slide highlight boxes for questions | 3,425 question keys, 52 entries stale | `js/data/highlights.js` |
 | External reading resources | 732 | `lecture.resources[]` |
 | "Deeper" notes | 551 | `lecture.deeper[]` |
 | Interactive SVG figures | one per lecture | `lecture.visual` |
@@ -70,6 +72,8 @@ MCQ: `q, options[], answer | answers[], why, notes[]?, slides[]?, multi?, hint?,
 Flashcard: `id, type ("text" | "image"), front, back, target?`
 
 **Question identity.** Sina has no stored question ID. `qKey()` in `js/app.js` hashes the stem plus options (djb2-xor, base 36). When a question's wording is edited, `js/data/qalias.js` maps the new hash back to the old one so saved progress survives. There are 169 aliases today. All progress (`sina:asked`, `sina:mistakes`, `sina:srs`, `sina:right`) is keyed by this value.
+
+**Key collisions.** The hash ignores the `target` field, so two "Which structure is at the arrow?" questions with the same options but different arrows get the same key. This happens 15 times. On Sina those pairs share progress: answering one marks the other as seen.
 
 **Flashcard identity.** `lectureId + "|" + card.id`. Card IDs are unique within a lecture (checked).
 
@@ -109,7 +113,9 @@ Flashcard: `id, type ("text" | "image"), front, back, target?`
 | 6 | AnKing password and login stored in plaintext in the private build repo | Outside Brain's scope, flagged for the owner |
 | 7 | Apps Script endpoint accepts unauthenticated writes | Can be spammed; do not build admin functions on it |
 | 8 | Every lecture has a `verified` date but `checks` is empty everywhere | There is no record of what was verified; Brain needs an explicit verification status |
-| 9 | 3 lectures listed without data, 20 lectures without slide images, 425 slides without OCR | Shows up as gaps in the coverage report |
+| 9 | 3 lectures listed without data, 20 lectures without slide images, 498 slides without text | Shows up as gaps in the coverage report |
+| 13 | 15 pairs of figure questions share one Sina key | Brain adds the figure target to the ID; on Sina each pair shares progress (a small bug the owner may want to fix) |
+| 14 | 928 paper questions carry an answer key written by Sina, not an official one | Brain labels these |
 | 10 | Site loads about 15 MB of data scripts on first visit; one large untested script | Brain does not copy this structure. No change proposed to Sina |
 | 11 | Stale duplicate files at the site's repo root (`app.js`, `style.css`, `anat3-*.js`, `sina-med/`, empty `download`) | Left untouched; flagged only |
 | 12 | Translation uses an unofficial Google endpoint | May stop working without notice; not reused |
