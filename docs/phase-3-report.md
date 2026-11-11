@@ -52,8 +52,7 @@ No web app, no AI-prepared content, and no change to the Sina site.
 | Idempotency | A second import, with a different date, wrote 0 files and the directory was byte-identical |
 | Validation | 0 problems across all records, relations and registry entries |
 | Tests | 29 of 29 pass, including that the validator rejects deliberately broken data and that a vanished question stops the import |
-
-Not checked: CI has not run on GitHub yet at the time of writing; it runs on the push that carries this report.
+| CI on GitHub | Tests, validation and the coverage-report check all passed on the first run (commit `6a7a6b2`) |
 
 ## What the import found in Sina's data
 
