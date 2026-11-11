@@ -30,8 +30,8 @@ function goodResult() {
   return {
     lecture: LEC, prompt_version: "p1", abstract: "The lecture covers fast and slow pain and the definition of allodynia.", keywords: ["pain", "allodynia", "c fibres"],
     concepts: [
-      { key: "allodynia", name: "Allodynia", kind: "sign-symptom", aliases: [], definition: "Pain from a harmless stimulus.", importance: 3, evidence: [E("q:1egt1vv", "Pain from a harmless stimulus"), E("slide:physio-pain/04", "Allodynia")], self_confidence: "high" },
-      { key: "fast-pain", name: "Fast pain", kind: "process", aliases: ["First pain"], definition: "Pain carried by A-delta fibres.", importance: 2, evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "high" },
+      { key: "allodynia", name: "Allodynia", kind: "principle", aliases: [], definition: "Pain from a harmless stimulus.", importance: 3, evidence: [E("q:1egt1vv", "Pain from a harmless stimulus"), E("slide:physio-pain/04", "Allodynia")], self_confidence: "high" },
+      { key: "fast-pain", name: "Fast pain", kind: "process", aliases: ["First pain"], definition: "Pain carried by A-delta fibres, lost after nerve injury.", importance: 2, evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "high" },
       { key: "pain", name: "Pain", kind: "process", aliases: [], definition: "Pain travels in two lanes.", importance: 3, evidence: [E("sec:physio-pain/big", "Pain has two lanes")], self_confidence: "high" },
       { key: "ghost", name: "Substance P", kind: "structure", aliases: [], definition: "A transmitter of slow pain.", importance: 1, evidence: [E("sec:physio-pain/big", "substance P is released by C fibres")], self_confidence: "medium" },
       { key: "neuropathy", name: "Neuropathic pain", kind: "condition", aliases: [], definition: "Pain has two lanes in this condition.", importance: 1, evidence: [E("sec:physio-pain/big", "Pain has two lanes")], self_confidence: "medium" },
@@ -113,6 +113,7 @@ test("assemble routes items by confidence and risk, and the output validates", (
   assert.deepEqual([allo.origin, allo.status, allo.verification, allo.confidence], ["ai", "auto-accepted", "unverified", "high"]);
   assert.equal(allo.body.definitions[0].evidence[0].unit, "q:1egt1vv");
   assert.equal(concepts.get("c:fast-pain").confidence, "medium");               // one quotation, not tested
+  assert.deepEqual(concepts.get("c:fast-pain").body.definitions[0].held_for, ["clinical-wording"]);   // "injury" in an ordinary definition: held as a clinical statement
   assert.equal(concepts.get("c:pain").confidence, "high");                      // quoted and tested
   assert.deepEqual([concepts.get("c:substance-p").status, concepts.get("c:substance-p").confidence], ["proposed", "low"]);   // quotation not found
   const neuro = concepts.get("c:neuropathic-pain");
@@ -136,7 +137,7 @@ test("assemble routes items by confidence and risk, and the output validates", (
   assert.deepEqual(validateKb(ctx.kb).errors, []);
   const st = computeStats(ctx.kb).preparation;
   assert.deepEqual([st.lectures_processed, st.lectures_remaining, st.concepts.total, st.relationships.suggested], [1, 0, 5, 3]);
-  assert.match(lectureReport(ctx.kb, LEC), /\*\*Allodynia\*\* \| sign-symptom \| high → shown/);
+  assert.match(lectureReport(ctx.kb, LEC), /\*\*Allodynia\*\* \| principle \| high → shown/);
 });
 
 test("assemble is repeatable and keeps concept IDs when another lecture is added", () => {
@@ -163,7 +164,7 @@ test("the same concept from two lectures merges; plural and alias forms are reco
     concepts: [
       { key: "allodynias", name: "Allodynias", kind: "condition", definition: "Pain from light touch.", importance: 2, evidence: [E("sec:physio-a/s", "Allodynia is pain from light touch")], self_confidence: "high" },
       { key: "first-pain", name: "First pain", kind: "process", definition: "The sharp early pain.", importance: 2, evidence: [E("sec:physio-a/s", "First pain is sharp")], self_confidence: "high" },
-      { key: "hyper", name: "Hyperalgesia", kind: "sign-symptom", definition: "Exaggerated pain.", importance: 2, evidence: [E("sec:physio-a/s", "Hyperalgesia is exaggerated pain")], self_confidence: "high" }],
+      { key: "hyper", name: "Hyperalgesia", kind: "principle", definition: "Exaggerated pain.", importance: 2, evidence: [E("sec:physio-a/s", "Hyperalgesia is exaggerated pain")], self_confidence: "high" }],
     relations: [{ src: "first-pain", type: "is-a", dst: "allodynias", statement: "Deliberately reversed for the test.", evidence: [E("sec:physio-a/s", "First pain is sharp")], self_confidence: "medium" },
       { src: "allodynias", type: "is-a", dst: "first-pain", statement: "And the other way round.", evidence: [E("sec:physio-a/s", "First pain is sharp")], self_confidence: "medium" }] });
   assert.deepEqual(ingest(ctx).lectures.map((l) => l.state), ["done", "done"]);
@@ -267,4 +268,23 @@ test("the validator refuses AI records that claim more than they may", () => {
   assert.match(errors, /c:substance-p: low-confidence AI record must not be auto-accepted/);
   assert.match(errors, /c:neuropathic-pain: clinical definition must not be auto-accepted/);
   assert.match(errors, /clinical relation must not be auto-accepted/);
+});
+
+test("an alternative name shared across subjects is sent for review, not merged automatically", () => {
+  const sina = sampleSina();
+  sina.subjects.push({ id: "anat", name: "Anatomy", semester: "S3", status: "live", program: "y2-anglo", groups: [{ name: "Neuro", items: [{ id: "anat-hypo", title: "Hypothalamus" }] }] });
+  sina.lectures["anat-hypo"] = { id: "anat-hypo", title: "Hypothalamus", summary: [{ id: "s", title: "S", html: "<p>The median eminence lies at the base of the hypothalamus.</p>" }], mcqs: [], cards: [] };
+  const site = writeSite(sina), kb = tmpKb(), work = mkdtempSync(join(tmpdir(), "sina-work-")), ctx = { kb, work, now: "2026-01-02T00:00:00Z" };
+  runImport({ sina: site.dir, ocr: site.ocr, kb, quiet: true, date: "2026-01-01" });
+  pack({ ...ctx, next: 10 });
+  const base = goodResult();
+  base.concepts[2] = { ...base.concepts[2], aliases: ["Median eminence"] };          // "Pain", wrongly given another structure's name as an alias
+  write(ctx, "results/physio-pain.json", base);
+  write(ctx, "results/anat-hypo.json", { lecture: "lec:anat-hypo", prompt_version: "p1", abstract: "A lecture on the hypothalamus and its median eminence, for testing.", keywords: ["hypothalamus", "median eminence", "base"], tests: [], conflicts: [], relations: [],
+    concepts: [{ key: "me", name: "Median eminence", kind: "structure", definition: "A structure at the base of the hypothalamus.", importance: 2, evidence: [E("sec:anat-hypo/s", "The median eminence lies at the base of the hypothalamus")], self_confidence: "high" }] });
+  ingest(ctx);
+  runAssemble(ctx);
+  const ids = readJsonl(join(kb, "records/concepts.jsonl")).map((c) => c.id);
+  assert.ok(ids.includes("c:median-eminence") && ids.includes("c:pain"));           // kept apart
+  assert.ok(readJsonl(join(kb, "admin/review-queue.jsonl")).some((q) => q.reason === "possible-duplicate" && /different subject/.test(q.detail)));
 });

@@ -4,12 +4,13 @@
     "discovered": 340,
     "imported": 337,
     "inaccessible": 3,
-    "knowledge_prepared": 0,
-    "awaiting_knowledge_preparation": 337
+    "knowledge_prepared": 2,
+    "awaiting_knowledge_preparation": 335
   },
   "records": {
-    "total": 27576,
+    "total": 27718,
     "by_type": {
+      "concept": 142,
       "exam": 4,
       "flashcard": 5578,
       "lecture": 340,
@@ -25,31 +26,54 @@
       "subject": 30
     },
     "by_origin": {
+      "ai": 142,
       "original": 8899,
       "sina": 18677
     },
     "by_status": {
-      "approved": 27576
+      "approved": 27576,
+      "auto-accepted": 142
     }
   },
   "relations": {
-    "total": 13977,
+    "total": 14873,
     "by_type": {
+      "acts-on": 9,
       "appears-in": 3368,
+      "attaches-to": 18,
+      "branch-of": 15,
+      "causes": 3,
       "cites": 9088,
-      "covers": 46,
+      "contrasts-with": 12,
+      "covers": 189,
+      "depends-on": 9,
+      "develops-from": 3,
+      "drains": 2,
+      "explains": 228,
+      "innervates": 5,
+      "is-a": 9,
+      "located-in": 30,
+      "part-of": 33,
+      "passes-through": 8,
+      "presents-with": 3,
       "references": 858,
-      "tests": 617
+      "related-to": 39,
+      "supplies": 4,
+      "tests": 939,
+      "treats": 1
     },
     "by_origin": {
+      "ai": 896,
       "imported": 13977
     },
     "by_status": {
-      "approved": 13977
+      "approved": 13977,
+      "auto-accepted": 879,
+      "proposed": 17
     }
   },
   "concepts": {
-    "total": 0,
+    "total": 142,
     "approved": 0,
     "awaiting_review": 0,
     "tested_by_a_question": 0
@@ -78,59 +102,95 @@
     "records_checked_in_brain": 0
   },
   "registry": {
-    "active": 27576,
+    "active": 27718,
     "retired": 0,
     "merged": 0
   },
   "preparation": {
     "lectures_eligible": 337,
-    "lectures_processed": 0,
-    "lectures_remaining": 337,
+    "lectures_processed": 2,
+    "lectures_remaining": 335,
     "lectures_failed": 0,
     "failed": [],
-    "summaries_generated": 0,
+    "summaries_generated": 2,
     "concepts": {
-      "total": 0,
-      "by_status": {},
-      "by_confidence": {},
-      "found_in_more_than_one_lecture": 0
+      "total": 142,
+      "by_status": {
+        "auto-accepted": 142
+      },
+      "by_confidence": {
+        "high": 122,
+        "medium": 20
+      },
+      "found_in_more_than_one_lecture": 1
     },
     "definitions": {
-      "total": 0,
-      "shown": 0,
-      "held": 0
+      "total": 143,
+      "shown": 125,
+      "held": 18
     },
     "relationships": {
-      "suggested": 0,
-      "by_status": {},
-      "by_confidence": {},
-      "by_type": {}
+      "suggested": 203,
+      "by_status": {
+        "auto-accepted": 186,
+        "proposed": 17
+      },
+      "by_confidence": {
+        "high": 142,
+        "medium": 61
+      },
+      "by_type": {
+        "acts-on": 9,
+        "attaches-to": 18,
+        "branch-of": 15,
+        "causes": 3,
+        "contrasts-with": 12,
+        "depends-on": 9,
+        "develops-from": 3,
+        "drains": 2,
+        "innervates": 5,
+        "is-a": 9,
+        "located-in": 30,
+        "part-of": 33,
+        "passes-through": 8,
+        "presents-with": 3,
+        "related-to": 39,
+        "supplies": 4,
+        "treats": 1
+      }
     },
     "links": {
-      "question_or_card_to_concept": 0,
-      "section_or_slide_to_concept": 0,
-      "lecture_to_concept": 0
+      "question_or_card_to_concept": 322,
+      "section_or_slide_to_concept": 228,
+      "lecture_to_concept": 143
     },
     "evidence": {
-      "average_share_found_word_for_word": null,
+      "average_share_found_word_for_word": 0.997,
       "items_dropped": 0
     },
     "review_queue": {
-      "total": 0,
-      "by_reason": {},
-      "by_severity": {}
+      "total": 42,
+      "by_reason": {
+        "clinical-claim": 17,
+        "clinical-definition": 18,
+        "lecture-conflict": 7
+      },
+      "by_severity": {
+        "high": 24,
+        "medium": 18
+      }
     },
     "duplicates": {
-      "contributions_merged_automatically": 0,
+      "contributions_merged_automatically": 1,
       "possible_duplicates_for_review": 0
     },
     "processing": {
-      "worker_seconds": 0,
-      "worker_tokens": 0,
+      "worker_seconds": 1285,
+      "worker_tokens": 439092,
       "audit_seconds": 0,
       "audit_tokens": 0,
       "lectures_audited": 0,
-      "packet_characters": 0
+      "packet_characters": 133701
     }
   },
   "import_findings": {
@@ -364,7 +424,7 @@
       "flashcards": 900,
       "slides": 527,
       "slides_with_text": 479,
-      "concepts": 0
+      "concepts": 142
     },
     "subj:bacterio1": {
       "title": "Bacteriology",

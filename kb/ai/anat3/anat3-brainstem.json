@@ -1,0 +1,3989 @@
+{
+ "lecture": "lec:anat3-brainstem",
+ "input_hash": "256958d50b219bd9",
+ "prompt_version": "p1",
+ "provenance": {
+  "worker": "subagent (fresh context)",
+  "model": "claude-fable-5-2",
+  "finished_at": "2026-11-11T18:52:23Z",
+  "seconds": 585,
+  "tokens": 203935,
+  "usage": {
+   "output": 75771,
+   "cache_write": 128144,
+   "cache_read": 801407,
+   "input": 20,
+   "note": "tokens = input + cache_write + output; cache reads listed separately"
+  },
+  "tool_uses": 12,
+  "packet_chars": 59186,
+  "result_chars": 104836
+ },
+ "evidence": {
+  "exact": 312,
+  "approximate": 0,
+  "weak": 0,
+  "failed": 0,
+  "bad-ref": 0
+ },
+ "dropped": [],
+ "result": {
+  "lecture": "lec:anat3-brainstem",
+  "prompt_version": "p1",
+  "abstract": "The lecture describes the brainstem, the stalk connecting the cerebrum to the spinal cord and cerebellum, made of the midbrain, pons and medulla oblongata, with its embryological origin, connections and external and internal configuration. It dwells on where each cranial nerve emerges, on the fourth ventricle, the reticular formation and the running tracts, and on the fact that the brainstem runs vital functions. It ends with the blood supply from the basilar artery and the alternating syndrome that locates a lesion to a level of the brainstem.",
+  "keywords": [
+   "brainstem",
+   "midbrain",
+   "pons",
+   "medulla oblongata",
+   "cranial nerve emergence",
+   "fourth ventricle",
+   "reticular formation",
+   "cerebellar peduncles",
+   "pyramidal decussation",
+   "cerebellopontine angle",
+   "alternating syndrome",
+   "facial colliculus"
+  ],
+  "concepts": [
+   {
+    "key": "brainstem",
+    "name": "Brainstem",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The stalk connecting the cerebrum to the spinal cord and cerebellum, made of the midbrain, pons and medulla oblongata from above downwards. It lies in the posterior cranial fossa and is responsible for vital functions such as breathing, consciousness, blood pressure, heart rate and sleep.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "The brainstem connects the cerebrum to the spinal cord and cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:1",
+      "quote": "Brainstem: midbrain, pons, medulla, in the posterior cranial fossa on the clivus",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/03",
+      "quote": "It is composed of 3 sections in descending order: the midbrain, pons, and medulla oblongata",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "midbrain",
+    "name": "Midbrain",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The uppermost and smallest part of the brainstem, about 2 cm long, which passes through the tentorial opening. It has two parts: the tectum behind the cerebral aqueduct and the paired cerebral peduncles anterolaterally.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The smallest part, about 2 cm, passing through the tentorial opening (foramen of Pacchioni)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/09",
+      "quote": "The midbrain is the smallest of the three regions of the brainstem, measuring around 2cm in length",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:5",
+      "quote": "Midbrain: smallest, 2 cm; tectum with four colliculi; peduncles with CN III between them",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "pons",
+    "name": "Pons",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The middle and largest part of the brainstem, derived from the metencephalon with the cerebellum. Its ventral bulge, about 2.5 cm, is made by transverse pontocerebellar fibres, and CN V to VIII are associated with it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The largest part, from the metencephalon with the cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:7",
+      "quote": "Pons: largest; basilar artery in the basilar groove; CN V to VIII",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "The anterior or ventral surface of the pons is marked by a bulging formed by the transverse pontocerebellar fibres",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "medulla-oblongata",
+    "name": "Medulla oblongata",
+    "kind": "structure",
+    "aliases": [
+     "Medulla"
+    ],
+    "definition": "The lowest part of the brainstem, continuous with the spinal cord, bearing the pyramids and olives on its ventral surface. Four cranial nerves emerge from it and it holds the respiratory and cardiovascular centres.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:10",
+      "quote": "Medulla: pyramids (corticospinal), olives (inferior olivary nucleus)",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the respiratory and cardiovascular centres are in the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/17",
+      "quote": "Nerves emerging from Medulla (4 nerves)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mesencephalon",
+    "name": "Mesencephalon",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The third embryonic vesicle, which forms the midbrain.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Midbrain | Mesencephalon (third vesicle)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/04",
+      "quote": "the mesencephalon (third vesicle)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "metencephalon",
+    "name": "Metencephalon",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The fourth embryonic vesicle, which forms the pons together with the cerebellum.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Pons | Metencephalon (fourth vesicle)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/04",
+      "quote": "the metencephalon (fourth vesicle)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "myelencephalon",
+    "name": "Myelencephalon",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The fifth embryonic vesicle, which forms the medulla oblongata.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Medulla oblongata | Myelencephalon (fifth vesicle)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/04",
+      "quote": "the myelencephalon (fifth vesicle)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cephalic-flexure",
+    "name": "Cephalic flexure",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "One of the bends that the growing neural tube develops along its length; the slide places it between the brainstem and the spinal cord.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "The growing neural tube bends at the cephalic flexure and the mesencephalic (cranial) flexure",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/04",
+      "quote": "the cephalic flexure: brainstem and spinal cord",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "mesencephalic-flexure",
+    "name": "Mesencephalic flexure",
+    "kind": "structure",
+    "aliases": [
+     "cranial flexure"
+    ],
+    "definition": "One of the bends that the growing neural tube develops along its length, also called the cranial flexure.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "The growing neural tube bends at the cephalic flexure and the mesencephalic (cranial) flexure",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/04",
+      "quote": "mesencephalic or cranial flexure",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "cerebellar-peduncle",
+    "name": "Cerebellar peduncle",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "One of three paired bundles, superior, middle and inferior, that connect each part of the brainstem to the cerebellum behind it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Behind, the cerebellum by the cerebellar peduncles: superior to the midbrain, middle to the pons, inferior to the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "Each part of brainstem is connected to cerebellum by cerebellar peduncles (superior, middle & inferior)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "superior-cerebellar-peduncle",
+    "name": "Superior cerebellar peduncle",
+    "kind": "structure",
+    "aliases": [
+     "Superior peduncle"
+    ],
+    "definition": "The cerebellar peduncle that connects the midbrain with the cerebellum.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "Superior peduncle connects midbrain with cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:4",
+      "quote": "Cerebellar peduncles: superior to midbrain, middle to pons, inferior to medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "middle-cerebellar-peduncle",
+    "name": "Middle cerebellar peduncle",
+    "kind": "structure",
+    "aliases": [
+     "Middle peduncle"
+    ],
+    "definition": "The cerebellar peduncle that connects the pons with the cerebellum; the largest of the three.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "Middle peduncle connects pons with cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:4",
+      "quote": "superior → midbrain; middle → pons (largest); inferior → medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "inferior-cerebellar-peduncle",
+    "name": "Inferior cerebellar peduncle",
+    "kind": "structure",
+    "aliases": [
+     "Inferior peduncle"
+    ],
+    "definition": "The cerebellar peduncle that connects the medulla oblongata with the cerebellum.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "Inferior peduncle connects medulla oblongata with cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:4",
+      "quote": "Cerebellar peduncles: superior to midbrain, middle to pons, inferior to medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cerebellum",
+    "name": "Cerebellum",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The part of the brain lying behind the brainstem, to which each part of the brainstem is connected by the cerebellar peduncles.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/big",
+      "quote": "with the cerebellum hanging behind it",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/05",
+      "quote": "backward: cerebellum by cerebellar peduncles",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "diencephalon",
+    "name": "Diencephalon",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The part of the brain above the brainstem, joined to it at the transverse fissure of Bichat; the thalamus belongs to it.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Above, the diencephalon by the transverse fissure of Bichat",
+      "check": "exact"
+     },
+     {
+      "ref": "q:6ip67b",
+      "quote": "The thalamus belongs to the diencephalon",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "thalamus",
+    "name": "Thalamus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "A structure belonging to the diencephalon; it is not part of the brainstem.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "hy:1",
+      "quote": "The thalamus is NOT brainstem",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the thalamus is not part of the brainstem",
+      "check": "exact"
+     },
+     {
+      "ref": "q:6ip67b",
+      "quote": "The thalamus belongs to the diencephalon",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "transverse-fissure-of-bichat",
+    "name": "Transverse fissure of Bichat",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The fissure by which the brainstem is connected above to the diencephalon; the upper limit of the brainstem.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Above, the diencephalon by the transverse fissure of Bichat",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/05",
+      "quote": "Above: diencephalon by transverse fissure of BICHAT",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "foramen-magnum",
+    "name": "Foramen magnum",
+    "kind": "structure",
+    "aliases": [
+     "foramen of magnum"
+    ],
+    "definition": "The opening through which the brainstem is continuous below with the spinal cord; the lower limit of the brainstem.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Below, the spinal cord through the foramen magnum",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/05",
+      "quote": "Downward: spinal cord by foramen of magnum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "posterior-cranial-fossa",
+    "name": "Posterior cranial fossa",
+    "kind": "structure",
+    "aliases": [
+     "posterior fossa",
+     "posterior cerebral fossa",
+     "cerebral posterior fossa"
+    ],
+    "definition": "The cranial fossa in which the brainstem lies, on the clivus and under the tentorium cerebelli.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "It lies in the posterior cranial fossa, on the clivus, under the tentorium cerebelli",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/05",
+      "quote": "It lies at the cerebral posterior fossa, on the basilar part of occipital bone (clivus)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "clivus",
+    "name": "Clivus",
+    "kind": "structure",
+    "aliases": [
+     "basilar part of occipital bone"
+    ],
+    "definition": "The basilar part of the occipital bone, on which the brainstem lies in the posterior cranial fossa.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/05",
+      "quote": "on the basilar part of occipital bone (clivus) under the tentorium of the cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:1",
+      "quote": "in the posterior cranial fossa on the clivus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "tentorium-cerebelli",
+    "name": "Tentorium cerebelli",
+    "kind": "structure",
+    "aliases": [
+     "tentorium of the cerebellum"
+    ],
+    "definition": "The structure under which the brainstem lies in the posterior cranial fossa; the midbrain travels through its opening.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "on the clivus, under the tentorium cerebelli",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/09",
+      "quote": "It travels through the opening in the tentorium cerebelli",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "tentorial-opening",
+    "name": "Tentorial opening",
+    "kind": "structure",
+    "aliases": [
+     "foramen of Pacchioni",
+     "foramen of PACCHIONNI"
+    ],
+    "definition": "The opening in the tentorium cerebelli, also called the foramen of Pacchioni, through which the midbrain passes.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "passing through the tentorial opening (foramen of Pacchioni)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/09",
+      "quote": "the opening in the tentorium cerebelli: foramen of PACCHIONNI",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "tectum",
+    "name": "Tectum",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The part of the midbrain behind the cerebral aqueduct, housing four colliculi, two superior and two inferior, just below the pineal gland.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "Tectum, behind the cerebral aqueduct: two superior and two inferior colliculi below the pineal gland",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/10",
+      "quote": "The tectum houses four rounded prominences named colliculi which sit directly inferior to the pineal gland",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "superior-colliculus",
+    "name": "Superior colliculus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "One of the upper pair of rounded prominences of the tectum on the back of the midbrain, linked with the retina by the superior brachium and concerned with vision.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The superior brachium links the superior colliculus with the retina (vision)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:foqnfo",
+      "quote": "The upper pair of bumps on the back of the midbrain: visual reflexes",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "inferior-colliculus",
+    "name": "Inferior colliculus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "One of the lower pair of rounded prominences of the tectum on the back of the midbrain, on the auditory pathway; its fibres run in the inferior brachium to the medial geniculate body.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "the inferior brachium carries lateral lemniscus and inferior colliculus fibres to the medial geniculate body (hearing)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1rv0l99",
+      "quote": "The lower pair of bumps on the back of the midbrain: auditory pathway",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "superior-quadrigeminal-brachium",
+    "name": "Superior quadrigeminal brachium",
+    "kind": "structure",
+    "aliases": [
+     "superior brachium"
+    ],
+    "definition": "The brachium extending laterally from the superior colliculus that forms a pathway between the superior colliculus and the retina, for vision.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/10",
+      "quote": "Superior quadrigeminal brachium forms a pathway between the superior colliculus and the retina of the eye( vision)",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The superior brachium links the superior colliculus with the retina (vision)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "inferior-quadrigeminal-brachium",
+    "name": "Inferior quadrigeminal brachium",
+    "kind": "structure",
+    "aliases": [
+     "inferior brachium"
+    ],
+    "definition": "The brachium that conveys fibres from the lateral lemniscus and inferior colliculus to the medial geniculate body, for hearing.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/10",
+      "quote": "Inferior quadrigeminal brachium conveys fibres from the lateral lemniscus and inferior colliculus to the medial geniculate body (hearing)",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "the inferior brachium carries lateral lemniscus and inferior colliculus fibres to the medial geniculate body (hearing)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cerebral-peduncle",
+    "name": "Cerebral peduncle",
+    "kind": "structure",
+    "aliases": [
+     "crus cerebri"
+    ],
+    "definition": "One of the paired thick pillars on the anterolateral midbrain, extending from the cerebral hemispheres to converge at the pons and carrying descending fibres; the two are separated by the interpeduncular fossa.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "Cerebral peduncles, paired and anterolateral, separated by the interpeduncular fossa",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/11",
+      "quote": "The paired cerebral peduncles extend from the cerebral hemispheres to converge as they meet the pons",
+      "check": "exact"
+     },
+     {
+      "ref": "q:lni6ww",
+      "quote": "The thick pillar on the front of the midbrain carrying descending fibres",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "interpeduncular-fossa",
+    "name": "Interpeduncular fossa",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The midline depression that separates the two cerebral peduncles anteriorly, in which the oculomotor nerve exits.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/11",
+      "quote": "They are separated anteriorly in the midline by the interpeduncular fossa",
+      "check": "exact"
+     },
+     {
+      "ref": "q:bapl3l",
+      "quote": "CN III exits between the peduncles, in the interpeduncular fossa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cerebral-aqueduct",
+    "name": "Cerebral aqueduct",
+    "kind": "structure",
+    "aliases": [
+     "aqueduct of Sylvius",
+     "Sylvius Aqueduct",
+     "aqueduct"
+    ],
+    "definition": "The part of the ependymal cavity of the brainstem that runs through the midbrain, with the tectum lying behind it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "hy:7",
+      "quote": "Aqueduct runs through the midbrain",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "an ependymal cavity (the fourth ventricle and aqueduct of Sylvius)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/09",
+      "quote": "Tectum: located posterior to the cerebral aqueduct",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "oculomotor-nerve",
+    "name": "Oculomotor nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN III",
+     "common occulomotor nerve"
+    ],
+    "definition": "The third cranial nerve, which exits the anterior surface of the midbrain between the cerebral peduncles.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/11",
+      "quote": "The oculomotor nerve (CN III) is seen exiting from between the peduncles",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Anterior, midbrain | III between the cerebral peduncles",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "trochlear-nerve",
+    "name": "Trochlear nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN IV",
+     "pathetic nerve"
+    ],
+    "definition": "The fourth cranial nerve, which emerges below the colliculi from the dorsal surface of the midbrain; it is the only cranial nerve emerging dorsally.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/22",
+      "quote": "the trochlear nerve (cranial nerve IV), which emerges from the dorsal surface of the midbrain",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:6",
+      "quote": "CN IV is the only nerve emerging dorsally",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/10",
+      "quote": "Inferior to the colliculi, the trochlear nerve (CN IV) emerges before sweeping across to the anterior surface",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "trigeminal-nerve",
+    "name": "Trigeminal nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN V"
+    ],
+    "definition": "The fifth cranial nerve, a large nerve that emerges from the lateral aspect of the mid-pons.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "CN V, trigeminal | Lateral mid-pons",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "Cranial nerve V: trigeminal originates from the lateral aspect of mid pons",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "abducens-nerve",
+    "name": "Abducens nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN VI",
+     "external oculomotor"
+    ],
+    "definition": "The sixth cranial nerve, which emerges at the pontomedullary junction close to the midline.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "CN VI, abducens | Pontomedullary junction, near the midline",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "Cranial nerve VI: abducens originates from the pontomedullary junction, close to the midline",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "facial-nerve",
+    "name": "Facial nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN VII"
+    ],
+    "definition": "The seventh cranial nerve, which emerges at the cerebellopontine angle, the more lateral aspect of the pontomedullary junction; its fibres loop around the abducens nucleus to form the facial colliculus.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "CN VII, facial | Cerebellopontine angle",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "Cranial nerve VII: facial originates from the cerebellopontine angle, the more lateral aspect of the pontomedullary junction",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:8",
+      "quote": "Facial colliculus: facial fibres looping around the abducens nucleus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "intermediate-nerve",
+    "name": "Intermediate nerve",
+    "kind": "structure",
+    "aliases": [
+     "VII bis",
+     "intermediate nerve of Wrisberg",
+     "Wrisberg intermediate"
+    ],
+    "definition": "The nerve labelled VII bis, the intermediate nerve of Wrisberg, which emerges at the bulbopontine groove between the facial and vestibulocochlear nerves.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "VI, VII, VII bis (intermediate nerve of Wrisberg) and VIII, from medial to lateral",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/20",
+      "quote": "VII bis Wrisberg intermediate",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "vestibulocochlear-nerve",
+    "name": "Vestibulocochlear nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN VIII",
+     "cochleo-vestibular"
+    ],
+    "definition": "The eighth cranial nerve, which emerges lateral to the facial nerve at the cerebellopontine angle.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "CN VIII, vestibulocochlear | Lateral to CN VII",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "Cranial nerve VIII: vestibulocochlear originates laterally to the facial nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "glossopharyngeal-nerve",
+    "name": "Glossopharyngeal nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN IX"
+    ],
+    "definition": "The ninth cranial nerve, one of the mixed nerves, which leaves the medulla behind the olive, above the vagus nerve.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Lateral, behind the olive | IX, X and XI, the mixed nerves",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1ny4yhh",
+      "quote": "Leaves the medulla behind the olive, above the vagus",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/20",
+      "quote": "IX the glossopharyngeal nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vagus-nerve",
+    "name": "Vagus nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN X"
+    ],
+    "definition": "The tenth cranial nerve, one of the mixed nerves, which leaves the medulla behind the olive, below the glossopharyngeal nerve.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Lateral, behind the olive | IX, X and XI, the mixed nerves",
+      "check": "exact"
+     },
+     {
+      "ref": "q:udxx3u",
+      "quote": "Leaves the medulla behind the olive, below IX",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/20",
+      "quote": "X the vagus nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "accessory-nerve",
+    "name": "Accessory nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN XI",
+     "spinal nerve"
+    ],
+    "definition": "The eleventh cranial nerve, one of the mixed nerves; its cranial part emerges from the medulla behind the olive, below the glossopharyngeal and vagus nerves.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Lateral, behind the olive | IX, X and XI, the mixed nerves",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/17",
+      "quote": "cranial part of accessory(11th)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/20",
+      "quote": "XI the spinal nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "hypoglossal-nerve",
+    "name": "Hypoglossal nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN XII"
+    ],
+    "definition": "The twelfth cranial nerve, which emerges from the medulla in the sulcus between the pyramid and the olive.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "CN XII between pyramid and olive",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/17",
+      "quote": "Hypoglossal(12th): from sulcus between pyramid & olive",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "optic-nerve",
+    "name": "Optic nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN II"
+    ],
+    "definition": "The second cranial nerve, running from the eye to the optic chiasm; one of the two cranial nerves that do not arise from the brainstem.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/22",
+      "quote": "with the exception of two: the optic nerve and the olfactory nerve",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:2",
+      "quote": "Ten of twelve cranial nerves arise from it; not CN I or II",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "olfactory-nerve",
+    "name": "Olfactory nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN I"
+    ],
+    "definition": "The first cranial nerve; one of the two cranial nerves that do not arise from the brainstem.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/22",
+      "quote": "with the exception of two: the optic nerve and the olfactory nerve",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "All cranial nerves arise from the brainstem except the optic and olfactory nerves",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cranial-nerve-nucleus",
+    "name": "Cranial nerve nucleus",
+    "kind": "structure",
+    "aliases": [
+     "nuclei of origin of cranial nerves"
+    ],
+    "definition": "Grey matter of the brainstem from which a cranial nerve arises; ten of the twelve cranial nerves arise from their nuclei in the brainstem.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/03",
+      "quote": "Ten of the twelve cranial nerves arise from their cranial nerve nuclei in the brainstem",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "grey matter (the cranial nerve nuclei and the reticular formation)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "basilar-groove",
+    "name": "Basilar groove",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The groove marking the midline of the ventral surface of the pons, in which the basilar artery lies.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "The basilar groove demarcates the midline of the ventral surface and is where the basilar artery is located",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The basilar groove holds the basilar artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "basilar-artery",
+    "name": "Basilar artery",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The artery lying in the basilar groove of the pons which, with its branches, supplies the brainstem. Its branches include the posterior cerebral artery and its peduncular branch, the superior cerebellar artery, the posterior choroidal artery and the interpeduncular branches.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/30",
+      "quote": "The brainstem receives vascular supply from the basilar artery and its branches",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the basilar artery and its branches: the posterior cerebral artery and its peduncular branch, the superior cerebellar artery, the posterior choroidal artery and the interpeduncular branches",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "pontomedullary-junction",
+    "name": "Pontomedullary junction",
+    "kind": "structure",
+    "aliases": [
+     "bulbopontine groove"
+    ],
+    "definition": "The angle between the lower border of the pons and the superior border of the medulla, an important landmark where CN VI, VII and VIII emerge from medial to lateral.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "The pontomedullary junction is an important anatomical landmark defined by the angle between the lower border of the pons and the superior border of the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:2",
+      "quote": "VI, VII, VIII at the pontomedullary junction (medial to lateral)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cerebellopontine-angle",
+    "name": "Cerebellopontine angle",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The angle formed at the junction of the pons, medulla and cerebellum, where the cerebellar flocculus, the choroid plexus and the emerging CN VII and VIII surround the foramen of Luschka.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The angle formed at the junction of the pons, medulla, and cerebellum is another anatomical landmark and is named cerebellopontine angle",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:9",
+      "quote": "Cerebellopontine angle: CN VII and VIII beside the foramen of Luschka",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "foramen-of-luschka",
+    "name": "Foramen of Luschka",
+    "kind": "structure",
+    "aliases": [
+     "lateral aperture of the fourth ventricle",
+     "Luschka"
+    ],
+    "definition": "One of the two lateral apertures of the fourth ventricle, by which CSF leaves it; it lies at the cerebellopontine angle beside the emerging CN VII and VIII.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "the lateral apertures of the fourth ventricle (the foramen of Luschka)",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "CSF leaves by the median foramen of Magendie and two lateral foramina of Luschka",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "foramen-of-magendie",
+    "name": "Foramen of Magendie",
+    "kind": "structure",
+    "aliases": [
+     "Magendie",
+     "median foramen of Magendie"
+    ],
+    "definition": "The single median foramen of the fourth ventricle, by which CSF leaves it.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "CSF leaves by the median foramen of Magendie and two lateral foramina of Luschka",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:7",
+      "quote": "CSF exits via Magendie (median) and Luschka (lateral)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "fourth-ventricle",
+    "name": "Fourth ventricle",
+    "kind": "structure",
+    "aliases": [
+     "4th ventricle"
+    ],
+    "definition": "The ependymal cavity lying behind the pons and medulla. Its roof is the superior and inferior medullary vela, its floor the rhomboid fossa and its side walls the vela and cerebellar peduncles; CSF leaves it by the foramen of Magendie and the two foramina of Luschka.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Roof: the superior and inferior medullary vela. Floor: the rhomboid fossa. Side walls: the vela and cerebellar peduncles",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The floor of the fourth ventricle is composed of the dorsal surface of the pons and the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/29",
+      "quote": "The roof, located dorsally is formed by the superior medullary velum and inferior medullary velum overlying the cerebellum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "rhomboid-fossa",
+    "name": "Rhomboid fossa",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The diamond-shaped depression on the dorsal surface of the pons and upper half of the medulla that forms the floor of the fourth ventricle.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/29",
+      "quote": "formed by the rhomboid fossa, a diamond-shaped depression on the dorsal surface of the pons and upper half of the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:12",
+      "quote": "fourth ventricle floor is the rhomboid fossa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "obex",
+    "name": "Obex",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The most caudal tip of the fourth ventricle.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/29",
+      "quote": "The obex is the most caudal tip of the fourth ventricle",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "The peak is the fastigium; the caudal tip the obex",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "fastigium",
+    "name": "Fastigium",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The peak of the fourth ventricle within the cerebellum, lying under the fastigial nucleus.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/29",
+      "quote": "The peak of the fourth ventricle within the cerebellum is the fastigium and it underlies the fastigial nucleus",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "The peak is the fastigium; the caudal tip the obex",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "facial-colliculus",
+    "name": "Facial colliculus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "A bulge in the floor of the fourth ventricle formed by fibres of the facial nerve looping around the abducens nucleus; a lesion there gives an ipsilateral VI and VII palsy.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The facial colliculus is a bulging formed by the fibres of the facial nerve looping around the abducens nucleus",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:6",
+      "quote": "Facial colliculus (floor of the 4th ventricle) = facial fibres looping round the abducens nucleus",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:8",
+      "quote": "Facial colliculus: facial fibres looping around the abducens nucleus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "stria-medullaris-of-the-fourth-ventricle",
+    "name": "Stria medullaris of the fourth ventricle",
+    "kind": "structure",
+    "aliases": [
+     "stria medullaris"
+    ],
+    "definition": "A bundle of nerve fibres crossing the floor of the fourth ventricle transversely from the lateral aspect into the midline, marking the posterior border between the pons and the medulla.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The stria medullaris of the fourth ventricle is a bundle of nerve fibres crossing transversely from the lateral aspect into the midline",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "the stria medullaris marking the pons-medulla border",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "medial-eminence",
+    "name": "Medial eminence",
+    "kind": "structure",
+    "aliases": [
+     "median eminence"
+    ],
+    "definition": "The landmark that marks the midline of the floor of the fourth ventricle.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The medial eminence marks the midline of the floor",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "the floor of the fourth ventricle: the medial eminence in the midline",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "ventral-median-fissure",
+    "name": "Ventral median fissure",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The midline fissure on the ventral surface of the medulla, continuous with that of the spinal cord, which divides the medulla into two halves; its lower part is marked by the decussation of most corticospinal fibres.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/16",
+      "quote": "Continuation of ventral median fissure of spinal cord. Divides the medulla into 2 halves",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The ventral median fissure, continuous with the cord's, is marked below by the decussation of 75 to 90 percent of corticospinal fibres",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "pyramid-of-the-medulla",
+    "name": "Pyramid of the medulla",
+    "kind": "structure",
+    "aliases": [
+     "Pyramid",
+     "pyramids"
+    ],
+    "definition": "An elevation on either side of the ventral median fissure of the medulla, produced by the corticospinal tract.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The pyramid on each side is made by the corticospinal tract",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/16",
+      "quote": "An elevation, lies on either (lateral)side of ventral median fissure Produced by corticospinal tract",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "olive",
+    "name": "Olive",
+    "kind": "structure",
+    "aliases": [
+     "bulbar olive"
+    ],
+    "definition": "An elevation on the medulla lying lateral to the pyramid, produced by the inferior olivary nucleus.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "the olive lateral to it by the inferior olivary nucleus",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/16",
+      "quote": "An elevation, lies lateral to the pyramid. Produced by inferior olivary nucleus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "inferior-olivary-nucleus",
+    "name": "Inferior olivary nucleus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The nucleus that produces the olive of the medulla; it is important in the control of movement.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/16",
+      "quote": "Produced by inferior olivary nucleus (important in control of movement)",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "Olive = inferior olivary nucleus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "pyramidal-decussation",
+    "name": "Pyramidal decussation",
+    "kind": "structure",
+    "aliases": [
+     "decussation of the pyramids"
+    ],
+    "definition": "The crossing of most corticospinal fibres, 75 to 90 percent, in the lower medulla, marking the lower part of the ventral median fissure.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/16",
+      "quote": "Its lower part is marked by decussation of most of pyramidal(corticospinal) fibers (75%-90%)",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "Pyramids = corticospinal tracts; 75-90% decussate in the lower medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the pyramids decussate in the medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "corticospinal-tract",
+    "name": "Corticospinal tract",
+    "kind": "structure",
+    "aliases": [
+     "pyramidal fibres"
+    ],
+    "definition": "A descending motor tract which, with the corticobulbar tract, forms the motor pathway for voluntary movement of the body and face. It produces the pyramid of the medulla, and 75 to 90 percent of its fibres cross in the lower medulla.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Corticospinal and corticobulbar | Descending | Voluntary movement of body and face",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/24",
+      "quote": "the motor pathway, which is composed by the corticospinal and corticobulbar tracts",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "Pyramids = corticospinal tracts; 75-90% decussate in the lower medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "corticobulbar-tract",
+    "name": "Corticobulbar tract",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "A descending tract which, with the corticospinal tract, forms the motor pathway controlling voluntary skeletal muscle activity of the body and face.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/24",
+      "quote": "composed by the corticospinal and corticobulbar tracts. It controls the voluntary skeletal muscle activity of the body and face",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Corticospinal and corticobulbar | Descending | Voluntary movement of body and face",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "dorsal-column-medial-lemniscus-pathway",
+    "name": "Dorsal column-medial lemniscus pathway",
+    "kind": "structure",
+    "aliases": [
+     "dorsal column-medial lemniscus",
+     "dorsal column-medial lemniscal pathway"
+    ],
+    "definition": "An ascending conscious tract through the brainstem carrying touch, proprioception and vibration.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Dorsal column-medial lemniscus | Ascending, conscious | Touch, proprioception, vibration",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/24",
+      "quote": "Conscious tracts : comprised of the dorsal column-medial lemniscal pathway and the anterolateral system",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "anterolateral-system",
+    "name": "Anterolateral system",
+    "kind": "structure",
+    "aliases": [
+     "spinothalamic",
+     "anterolateral or spinothalamic system"
+    ],
+    "definition": "An ascending conscious tract through the brainstem, also called spinothalamic, carrying crude touch, pain and temperature.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Anterolateral (spinothalamic) | Ascending, conscious | Crude touch, pain, temperature",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/24",
+      "quote": "Conscious tracts : comprised of the dorsal column-medial lemniscal pathway and the anterolateral system",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "spinocerebellar-tract",
+    "name": "Spinocerebellar tract",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "An ascending unconscious tract through the brainstem carrying proprioception to the cerebellum.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Spinocerebellar | Ascending, unconscious | Proprioception to the cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/24",
+      "quote": "Unconscious tracts : comprised of the spinocerebellar tracts",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "reticular-formation",
+    "name": "Reticular formation",
+    "kind": "structure",
+    "aliases": [
+     "RF"
+    ],
+    "definition": "A network of neuronal cell bodies and small axon bundles running in many directions, without distinct boundaries, spread from the spinal cord through the brainstem to the hypothalamus and thalamus. It integrates vital functions: arousal, consciousness, sleep-wake cycles, motor coordination, cardiovascular and respiratory control, pain modulation and habituation.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "It integrates vital functions: arousal, consciousness, sleep-wake cycles, motor coordination, cardiovascular and respiratory control, pain modulation and habituation",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/23",
+      "quote": "The reticular formation (RF) consists of an intricate mixture of neuronal cell bodies and fascicles of axons running in small bundles",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:13",
+      "quote": "Reticular formation: consciousness, sleep, breathing, heart rate, pain",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "respiratory-and-cardiovascular-centres",
+    "name": "Respiratory and cardiovascular centres",
+    "kind": "structure",
+    "aliases": [
+     "vital centres",
+     "respiratory and cardiovascular centers"
+    ],
+    "definition": "The centres for breathing and cardiovascular control, located in the medulla oblongata, which is why compression or a lesion of the medulla is life-threatening.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the respiratory and cardiovascular centres are in the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:10",
+      "quote": "cardiovascular and respiratory centres (medulla)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:3fuxbc",
+      "quote": "The respiratory and cardiovascular centres are in the medulla, which is why medullary compression is life-threatening",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "alternating-syndrome",
+    "name": "Alternating syndrome",
+    "kind": "condition",
+    "aliases": [
+     "crossed syndrome",
+     "alternating (crossed) syndrome"
+    ],
+    "definition": "The association of a peripheral cranial nerve palsy on one side with a hemiplegia on the opposite side. It locates the lesion to a level in the brainstem, the cranial nerve involved indicating the level.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "A peripheral cranial nerve lesion on one side with a hemiplegia on the other locates the lesion to a level in the brainstem",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:15",
+      "quote": "Alternating syndrome: ipsilateral cranial nerve palsy plus contralateral hemiplegia",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/32",
+      "quote": "The association of the peripheral involvement of a cranial nerve with a hemiplegia realizes an alternating syndrome",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "hemiplegia",
+    "name": "Hemiplegia",
+    "kind": "sign-symptom",
+    "aliases": [],
+    "definition": "Weakness of the arm and leg on one side of the body; in an alternating syndrome it lies on the side opposite the cranial nerve palsy.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "exam:15",
+      "quote": "ipsilateral cranial nerve palsy plus contralateral hemiplegia",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1od1cdt",
+      "quote": "A cranial nerve palsy on one side with hemiplegia on the other side is an alternating syndrome",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "acoustic-neuroma",
+    "name": "Acoustic neuroma",
+    "kind": "condition",
+    "aliases": [],
+    "definition": "A tumour at the cerebellopontine angle that gives unilateral deafness and tinnitus, then facial and trigeminal signs.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "hy:9",
+      "quote": "an acoustic neuroma gives unilateral deafness, tinnitus, then facial and trigeminal signs",
+      "check": "exact"
+     },
+     {
+      "ref": "deeper:4",
+      "quote": "A tumour of the vestibulocochlear nerve sheath grows there and presses on CN VIII first, causing one-sided hearing loss and tinnitus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   }
+  ],
+  "relations": [
+   {
+    "src": "midbrain",
+    "type": "part-of",
+    "dst": "brainstem",
+    "statement": "The midbrain is the uppermost of the three parts of the brainstem.",
+    "evidence": [
+     {
+      "ref": "exam:1",
+      "quote": "Brainstem: midbrain, pons, medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "q:4jpptq",
+      "quote": "The brainstem has three sections in descending order: midbrain, pons and medulla oblongata",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pons",
+    "type": "part-of",
+    "dst": "brainstem",
+    "statement": "The pons is the middle of the three parts of the brainstem.",
+    "evidence": [
+     {
+      "ref": "exam:1",
+      "quote": "Brainstem: midbrain, pons, medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "q:4jpptq",
+      "quote": "The brainstem has three sections in descending order: midbrain, pons and medulla oblongata",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "medulla-oblongata",
+    "type": "part-of",
+    "dst": "brainstem",
+    "statement": "The medulla oblongata is the lowest of the three parts of the brainstem.",
+    "evidence": [
+     {
+      "ref": "exam:1",
+      "quote": "Brainstem: midbrain, pons, medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/03",
+      "quote": "It is composed of 3 sections in descending order: the midbrain, pons, and medulla oblongata",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "midbrain",
+    "type": "develops-from",
+    "dst": "mesencephalon",
+    "statement": "The midbrain develops from the mesencephalon, the third vesicle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Midbrain | Mesencephalon (third vesicle)",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:3",
+      "quote": "Myelencephalon to medulla, metencephalon to pons, mesencephalon to midbrain",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pons",
+    "type": "develops-from",
+    "dst": "metencephalon",
+    "statement": "The pons develops from the metencephalon, the fourth vesicle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Pons | Metencephalon (fourth vesicle)",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:3",
+      "quote": "Myelencephalon to medulla, metencephalon to pons, mesencephalon to midbrain",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "medulla-oblongata",
+    "type": "develops-from",
+    "dst": "myelencephalon",
+    "statement": "The medulla oblongata develops from the myelencephalon, the fifth vesicle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Medulla oblongata | Myelencephalon (fifth vesicle)",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:3",
+      "quote": "Myelencephalon to medulla, metencephalon to pons, mesencephalon to midbrain",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "brainstem",
+    "type": "located-in",
+    "dst": "posterior-cranial-fossa",
+    "statement": "The brainstem lies in the posterior cranial fossa.",
+    "evidence": [
+     {
+      "ref": "exam:1",
+      "quote": "Brainstem: midbrain, pons, medulla, in the posterior cranial fossa on the clivus",
+      "check": "exact"
+     },
+     {
+      "ref": "q:x8zxce",
+      "quote": "The brainstem lies in the posterior fossa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "brainstem",
+    "type": "located-in",
+    "dst": "clivus",
+    "statement": "The brainstem lies on the clivus, the basilar part of the occipital bone.",
+    "evidence": [
+     {
+      "ref": "exam:1",
+      "quote": "Brainstem: midbrain, pons, medulla, in the posterior cranial fossa on the clivus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "thalamus",
+    "type": "part-of",
+    "dst": "diencephalon",
+    "statement": "The thalamus belongs to the diencephalon, not to the brainstem.",
+    "evidence": [
+     {
+      "ref": "q:6ip67b",
+      "quote": "The thalamus belongs to the diencephalon",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "transverse-fissure-of-bichat",
+    "type": "related-to",
+    "dst": "diencephalon",
+    "statement": "The brainstem is connected above to the diencephalon by the transverse fissure of Bichat.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Above, the diencephalon by the transverse fissure of Bichat",
+      "check": "exact"
+     },
+     {
+      "ref": "q:e3mp4l",
+      "quote": "The brainstem connects above to the diencephalon at the transverse fissure of Bichat",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "brainstem",
+    "type": "related-to",
+    "dst": "foramen-magnum",
+    "statement": "The brainstem is connected below to the spinal cord through the foramen magnum.",
+    "evidence": [
+     {
+      "ref": "q:e3mp4l",
+      "quote": "The brainstem connects above to the diencephalon at the transverse fissure of Bichat, and below to the cord at the foramen magnum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cerebellar-peduncle",
+    "type": "related-to",
+    "dst": "cerebellum",
+    "statement": "The cerebellar peduncles connect the brainstem to the cerebellum behind it.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "Each part of brainstem is connected to cerebellum by cerebellar peduncles",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/05",
+      "quote": "backward: cerebellum by cerebellar peduncles",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-cerebellar-peduncle",
+    "type": "is-a",
+    "dst": "cerebellar-peduncle",
+    "statement": "The superior peduncle is one of the three cerebellar peduncles.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "connected to cerebellum by cerebellar peduncles (superior, middle & inferior)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "middle-cerebellar-peduncle",
+    "type": "is-a",
+    "dst": "cerebellar-peduncle",
+    "statement": "The middle peduncle is one of the three cerebellar peduncles.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "connected to cerebellum by cerebellar peduncles (superior, middle & inferior)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-cerebellar-peduncle",
+    "type": "is-a",
+    "dst": "cerebellar-peduncle",
+    "statement": "The inferior peduncle is one of the three cerebellar peduncles.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "connected to cerebellum by cerebellar peduncles (superior, middle & inferior)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-cerebellar-peduncle",
+    "type": "related-to",
+    "dst": "midbrain",
+    "statement": "The superior cerebellar peduncle connects the midbrain with the cerebellum.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "Superior peduncle connects midbrain with cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "q:rdq826",
+      "quote": "Superior: midbrain. Middle: pons. Inferior: medulla oblongata",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "middle-cerebellar-peduncle",
+    "type": "related-to",
+    "dst": "pons",
+    "statement": "The middle cerebellar peduncle connects the pons with the cerebellum.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "Middle peduncle connects pons with cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "q:rdq826",
+      "quote": "The middle peduncle joins the pons",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-cerebellar-peduncle",
+    "type": "related-to",
+    "dst": "medulla-oblongata",
+    "statement": "The inferior cerebellar peduncle connects the medulla oblongata with the cerebellum.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/07",
+      "quote": "Inferior peduncle connects medulla oblongata with cerebellum",
+      "check": "exact"
+     },
+     {
+      "ref": "q:rdq826",
+      "quote": "Superior: midbrain. Middle: pons. Inferior: medulla oblongata",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cerebral-peduncle",
+    "type": "contrasts-with",
+    "dst": "cerebellar-peduncle",
+    "statement": "The cerebral peduncle is part of the midbrain and is not one of the cerebellar peduncles.",
+    "evidence": [
+     {
+      "ref": "q:rdq826",
+      "quote": "The cerebral peduncle  — Part of the midbrain, not cerebellar",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "midbrain",
+    "type": "passes-through",
+    "dst": "tentorial-opening",
+    "statement": "The midbrain passes through the tentorial opening, the foramen of Pacchioni.",
+    "evidence": [
+     {
+      "ref": "q:1uum2w1",
+      "quote": "The midbrain measures around 2 cm and passes through the tentorial opening",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "passing through the tentorial opening (foramen of Pacchioni)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "tentorial-opening",
+    "type": "part-of",
+    "dst": "tentorium-cerebelli",
+    "statement": "The foramen of Pacchioni is the opening in the tentorium cerebelli.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/09",
+      "quote": "the opening in the tentorium cerebelli: foramen of PACCHIONNI",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "tectum",
+    "type": "part-of",
+    "dst": "midbrain",
+    "statement": "The tectum is one of the two main parts of the midbrain.",
+    "evidence": [
+     {
+      "ref": "exam:5",
+      "quote": "Midbrain: smallest, 2 cm; tectum with four colliculi; peduncles with CN III between them",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-brainstem/s1",
+      "quote": "The midbrain, the smallest part, about 2 cm, containing the tectum and cerebral peduncles",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cerebral-peduncle",
+    "type": "part-of",
+    "dst": "midbrain",
+    "statement": "The paired cerebral peduncles are one of the two main parts of the midbrain, lying anteriorly and laterally.",
+    "evidence": [
+     {
+      "ref": "card:anat3-brainstem/s1",
+      "quote": "The midbrain, the smallest part, about 2 cm, containing the tectum and cerebral peduncles",
+      "check": "exact"
+     },
+     {
+      "ref": "q:lni6ww",
+      "quote": "Cerebral peduncle (crus cerebri): the thick pillar on the front of the midbrain",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "tectum",
+    "type": "related-to",
+    "dst": "cerebral-aqueduct",
+    "statement": "The tectum lies posterior to the cerebral aqueduct.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/09",
+      "quote": "Tectum: located posterior to the cerebral aqueduct",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "Tectum, behind the cerebral aqueduct",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-colliculus",
+    "type": "part-of",
+    "dst": "tectum",
+    "statement": "The tectum houses two superior colliculi.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "Tectum, behind the cerebral aqueduct: two superior and two inferior colliculi",
+      "check": "exact"
+     },
+     {
+      "ref": "q:eimr7t",
+      "quote": "The tectum, behind the cerebral aqueduct, houses two superior and two inferior colliculi",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-colliculus",
+    "type": "part-of",
+    "dst": "tectum",
+    "statement": "The tectum houses two inferior colliculi.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "Tectum, behind the cerebral aqueduct: two superior and two inferior colliculi",
+      "check": "exact"
+     },
+     {
+      "ref": "q:eimr7t",
+      "quote": "The tectum, behind the cerebral aqueduct, houses two superior and two inferior colliculi",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-colliculus",
+    "type": "contrasts-with",
+    "dst": "inferior-colliculus",
+    "statement": "The superior colliculi are the upper pair, concerned with visual reflexes, while the inferior colliculi are the lower pair, on the auditory pathway.",
+    "evidence": [
+     {
+      "ref": "q:foqnfo",
+      "quote": "Superior colliculus: the upper pair of bumps on the back of the midbrain: visual reflexes",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1rv0l99",
+      "quote": "Inferior colliculus: the lower pair of bumps on the back of the midbrain: auditory pathway",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-quadrigeminal-brachium",
+    "type": "related-to",
+    "dst": "superior-colliculus",
+    "statement": "The superior quadrigeminal brachium forms a pathway between the superior colliculus and the retina, for vision.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/10",
+      "quote": "Superior quadrigeminal brachium forms a pathway between the superior colliculus and the retina of the eye( vision)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-quadrigeminal-brachium",
+    "type": "related-to",
+    "dst": "inferior-colliculus",
+    "statement": "The inferior quadrigeminal brachium conveys fibres from the lateral lemniscus and inferior colliculus to the medial geniculate body, for hearing.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/10",
+      "quote": "Inferior quadrigeminal brachium conveys fibres from the lateral lemniscus and inferior colliculus to the medial geniculate body",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-quadrigeminal-brachium",
+    "type": "contrasts-with",
+    "dst": "inferior-quadrigeminal-brachium",
+    "statement": "The superior brachium serves vision, linking the superior colliculus with the retina, while the inferior brachium serves hearing, running to the medial geniculate body.",
+    "evidence": [
+     {
+      "ref": "q:1ej7qkw",
+      "quote": "The superior brachium links the superior colliculus with the retina, for vision. The inferior brachium carries lateral lemniscus and inferior colliculus fibres to the medial geniculate body, for hearing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "interpeduncular-fossa",
+    "type": "related-to",
+    "dst": "cerebral-peduncle",
+    "statement": "The interpeduncular fossa separates the two cerebral peduncles anteriorly in the midline.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "Cerebral peduncles, paired and anterolateral, separated by the interpeduncular fossa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cerebral-aqueduct",
+    "type": "passes-through",
+    "dst": "midbrain",
+    "statement": "The cerebral aqueduct, the aqueduct of Sylvius, runs through the midbrain.",
+    "evidence": [
+     {
+      "ref": "hy:7",
+      "quote": "Aqueduct runs through the midbrain",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the aqueduct passes through the midbrain",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "fourth-ventricle",
+    "type": "related-to",
+    "dst": "cerebral-aqueduct",
+    "statement": "The fourth ventricle and the aqueduct of Sylvius together make up the ependymal cavity of the brainstem; the aqueduct runs through the midbrain and the fourth ventricle lies behind the pons and medulla.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "an ependymal cavity (the fourth ventricle and aqueduct of Sylvius)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:kelqui",
+      "quote": "the aqueduct of Sylvius runs through the midbrain; the fourth ventricle lies behind the pons and medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "oculomotor-nerve",
+    "type": "branch-of",
+    "dst": "midbrain",
+    "statement": "The oculomotor nerve emerges from the anterior surface of the midbrain.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Anterior, midbrain | III between the cerebral peduncles",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1cgydrs",
+      "quote": "Oculomotor nerve (III): leaves the midbrain between the cerebral peduncles",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "oculomotor-nerve",
+    "type": "located-in",
+    "dst": "interpeduncular-fossa",
+    "statement": "The oculomotor nerve exits between the cerebral peduncles, in the interpeduncular fossa.",
+    "evidence": [
+     {
+      "ref": "q:bapl3l",
+      "quote": "CN III exits between the peduncles, in the interpeduncular fossa",
+      "check": "exact"
+     },
+     {
+      "ref": "q:rm6xhf",
+      "quote": "The oculomotor nerve exits from the interpeduncular fossa, between the peduncles",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "trochlear-nerve",
+    "type": "branch-of",
+    "dst": "midbrain",
+    "statement": "The trochlear nerve emerges from the dorsal surface of the midbrain, the only cranial nerve to emerge dorsally.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/22",
+      "quote": "the trochlear nerve (cranial nerve IV), which emerges from the dorsal surface of the midbrain",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Posterior, midbrain | IV, the only nerve emerging dorsally",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "trochlear-nerve",
+    "type": "related-to",
+    "dst": "inferior-colliculus",
+    "statement": "The trochlear nerve emerges dorsally just below the inferior colliculi.",
+    "evidence": [
+     {
+      "ref": "hy:2",
+      "quote": "IV dorsally below the inferior colliculi (the only dorsal one)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "trigeminal-nerve",
+    "type": "branch-of",
+    "dst": "pons",
+    "statement": "The trigeminal nerve emerges from the lateral aspect of the mid-pons.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "Cranial nerve V: trigeminal originates from the lateral aspect of mid pons",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1x9drsf",
+      "quote": "Trigeminal nerve (V): the large nerve leaving the side of the pons",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "abducens-nerve",
+    "type": "located-in",
+    "dst": "pontomedullary-junction",
+    "statement": "The abducens nerve emerges at the pontomedullary junction, close to the midline.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "Cranial nerve VI: abducens originates from the pontomedullary junction, close to the midline",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1jm9m0l",
+      "quote": "Abducens nerve (VI): leaves at the pontomedullary junction, near the midline",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "abducens-nerve",
+    "type": "branch-of",
+    "dst": "pons",
+    "statement": "The abducens nerve is one of the cranial nerves originating from the ventral surface of the pons.",
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "Pons: largest; basilar artery in the basilar groove; CN V to VIII",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1k0tvxq",
+      "quote": "CN V from the mid-pons, CN VI, VII and VIII from the pontomedullary region",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "facial-nerve",
+    "type": "located-in",
+    "dst": "cerebellopontine-angle",
+    "statement": "The facial nerve emerges at the cerebellopontine angle.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "Cranial nerve VII: facial originates from the cerebellopontine angle",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:9",
+      "quote": "Cerebellopontine angle: CN VII and VIII beside the foramen of Luschka",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vestibulocochlear-nerve",
+    "type": "located-in",
+    "dst": "cerebellopontine-angle",
+    "statement": "The vestibulocochlear nerve emerges at the cerebellopontine angle, lateral to the facial nerve.",
+    "evidence": [
+     {
+      "ref": "exam:9",
+      "quote": "Cerebellopontine angle: CN VII and VIII beside the foramen of Luschka",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The cerebellopontine angle, where CN VII and VIII emerge beside the foramen of Luschka",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "intermediate-nerve",
+    "type": "located-in",
+    "dst": "pontomedullary-junction",
+    "statement": "The intermediate nerve of Wrisberg (VII bis) emerges at the bulbopontine groove between the facial and vestibulocochlear nerves.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Anterior, bulbopontine groove | VI, VII, VII bis (intermediate nerve of Wrisberg) and VIII, from medial to lateral",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "cerebellopontine-angle",
+    "type": "located-in",
+    "dst": "pontomedullary-junction",
+    "statement": "The cerebellopontine angle is the more lateral aspect of the pontomedullary junction.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "the cerebellopontine angle, the more lateral aspect of the pontomedullary junction",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-of-luschka",
+    "type": "located-in",
+    "dst": "cerebellopontine-angle",
+    "statement": "The foramen of Luschka lies at the cerebellopontine angle, surrounded by the flocculus, the choroid plexus and the emerging CN VII and VIII.",
+    "evidence": [
+     {
+      "ref": "exam:9",
+      "quote": "Cerebellopontine angle: CN VII and VIII beside the foramen of Luschka",
+      "check": "exact"
+     },
+     {
+      "ref": "q:10bfz5n",
+      "quote": "the flocculus, choroid plexus and emerging CN VII and VIII surround the foramen of Luschka",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "acoustic-neuroma",
+    "type": "located-in",
+    "dst": "cerebellopontine-angle",
+    "statement": "An acoustic neuroma arises at the cerebellopontine angle, where CN VII and VIII emerge.",
+    "evidence": [
+     {
+      "ref": "hy:9",
+      "quote": "Cerebellopontine angle (VII, VIII by the foramen of Luschka): an acoustic neuroma gives unilateral deafness",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "acoustic-neuroma",
+    "type": "related-to",
+    "dst": "vestibulocochlear-nerve",
+    "statement": "A tumour of the vestibulocochlear nerve sheath at the cerebellopontine angle presses on CN VIII first, causing one-sided hearing loss and tinnitus.",
+    "evidence": [
+     {
+      "ref": "deeper:4",
+      "quote": "A tumour of the vestibulocochlear nerve sheath grows there and presses on CN VIII first, causing one-sided hearing loss and tinnitus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "basilar-groove",
+    "type": "located-in",
+    "dst": "pons",
+    "statement": "The basilar groove marks the midline of the ventral surface of the pons.",
+    "evidence": [
+     {
+      "ref": "q:hcwy9m",
+      "quote": "The basilar groove marks the midline of the ventral pons and carries the basilar artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "basilar-artery",
+    "type": "located-in",
+    "dst": "basilar-groove",
+    "statement": "The basilar artery lies in the basilar groove of the pons.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The basilar groove holds the basilar artery",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "The basilar groove demarcates the midline of the ventral surface and is where the basilar artery is located",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "basilar-artery",
+    "type": "supplies",
+    "dst": "brainstem",
+    "statement": "The brainstem is supplied by the basilar artery and its branches.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/30",
+      "quote": "The brainstem receives vascular supply from the basilar artery and its branches",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:14",
+      "quote": "Supplied by the basilar artery and its branches",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "facial-colliculus",
+    "type": "located-in",
+    "dst": "fourth-ventricle",
+    "statement": "The facial colliculus lies in the floor of the fourth ventricle.",
+    "evidence": [
+     {
+      "ref": "hy:6",
+      "quote": "Facial colliculus (floor of the 4th ventricle)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:psqllx",
+      "quote": "In the floor of the fourth ventricle, the facial colliculus is a bulge made by facial nerve fibres",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "facial-nerve",
+    "type": "related-to",
+    "dst": "facial-colliculus",
+    "statement": "The facial colliculus is formed by fibres of the facial nerve looping around the abducens nucleus.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The facial colliculus is a bulging formed by the fibres of the facial nerve looping around the abducens nucleus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "stria-medullaris-of-the-fourth-ventricle",
+    "type": "located-in",
+    "dst": "fourth-ventricle",
+    "statement": "The stria medullaris crosses the floor of the fourth ventricle transversely and marks the border between pons and medulla.",
+    "evidence": [
+     {
+      "ref": "q:zdor62",
+      "quote": "The stria medullaris crosses the floor transversely and marks the pons-medulla border",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The stria medullaris of the fourth ventricle is a bundle of nerve fibres crossing transversely",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "medial-eminence",
+    "type": "located-in",
+    "dst": "fourth-ventricle",
+    "statement": "The medial eminence marks the midline of the floor of the fourth ventricle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "the floor of the fourth ventricle: the medial eminence in the midline",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "rhomboid-fossa",
+    "type": "part-of",
+    "dst": "fourth-ventricle",
+    "statement": "The rhomboid fossa forms the floor of the fourth ventricle.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "fourth ventricle floor is the rhomboid fossa",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:7",
+      "quote": "4th ventricle: floor = rhomboid fossa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "obex",
+    "type": "part-of",
+    "dst": "fourth-ventricle",
+    "statement": "The obex is the most caudal tip of the fourth ventricle.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/29",
+      "quote": "The obex is the most caudal tip of the fourth ventricle",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "fastigium",
+    "type": "part-of",
+    "dst": "fourth-ventricle",
+    "statement": "The fastigium is the peak of the fourth ventricle within the cerebellum.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/29",
+      "quote": "The peak of the fourth ventricle within the cerebellum is the fastigium",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "obex",
+    "type": "contrasts-with",
+    "dst": "fastigium",
+    "statement": "The obex is the most caudal tip of the fourth ventricle, whereas the fastigium is its peak inside the cerebellum.",
+    "evidence": [
+     {
+      "ref": "q:11sf1cy",
+      "quote": "The obex is the most caudal tip; the fastigium is the peak inside the cerebellum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-of-luschka",
+    "type": "part-of",
+    "dst": "fourth-ventricle",
+    "statement": "The foramina of Luschka are the lateral apertures of the fourth ventricle.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "the lateral apertures of the fourth ventricle (the foramen of Luschka)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-of-magendie",
+    "type": "part-of",
+    "dst": "fourth-ventricle",
+    "statement": "CSF leaves the fourth ventricle by the median foramen of Magendie.",
+    "evidence": [
+     {
+      "ref": "hy:7",
+      "quote": "4th ventricle: floor = rhomboid fossa; CSF exits via Magendie (median) and Luschka (lateral)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-of-magendie",
+    "type": "contrasts-with",
+    "dst": "foramen-of-luschka",
+    "statement": "The foramen of Magendie is the single median opening of the fourth ventricle, whereas the foramina of Luschka are the two lateral ones.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "CSF leaves by the median foramen of Magendie and two lateral foramina of Luschka",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ventral-median-fissure",
+    "type": "located-in",
+    "dst": "medulla-oblongata",
+    "statement": "The ventral median fissure lies on the ventral surface of the medulla and divides it into two halves.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/16",
+      "quote": "Ventral median fissure: Continuation of ventral median fissure of spinal cord. Divides the medulla into 2 halves",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pyramid-of-the-medulla",
+    "type": "located-in",
+    "dst": "medulla-oblongata",
+    "statement": "The pyramids are elevations on the ventral surface of the medulla.",
+    "evidence": [
+     {
+      "ref": "exam:10",
+      "quote": "Medulla: pyramids (corticospinal), olives (inferior olivary nucleus)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:4amusp-pyramid",
+      "quote": "the ridge on the front of the medulla carrying corticospinal fibres",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "olive",
+    "type": "located-in",
+    "dst": "medulla-oblongata",
+    "statement": "The olives are elevations on the medulla, lateral to the pyramids.",
+    "evidence": [
+     {
+      "ref": "exam:10",
+      "quote": "Medulla: pyramids (corticospinal), olives (inferior olivary nucleus)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:19pvclw-olive",
+      "quote": "the oval swelling on the side of the upper medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "corticospinal-tract",
+    "type": "passes-through",
+    "dst": "pyramid-of-the-medulla",
+    "statement": "The pyramid is produced by the corticospinal tract, whose fibres it carries.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The pyramid on each side is made by the corticospinal tract",
+      "check": "exact"
+     },
+     {
+      "ref": "q:4amusp-pyramid",
+      "quote": "the ridge on the front of the medulla carrying corticospinal fibres",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-olivary-nucleus",
+    "type": "located-in",
+    "dst": "olive",
+    "statement": "The olive is produced by the inferior olivary nucleus.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "the olive lateral to it by the inferior olivary nucleus",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "Olive = inferior olivary nucleus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pyramid-of-the-medulla",
+    "type": "contrasts-with",
+    "dst": "olive",
+    "statement": "The pyramid is made by the corticospinal tract, whereas the olive, lateral to it, is made by the inferior olivary nucleus.",
+    "evidence": [
+     {
+      "ref": "q:428bgx",
+      "quote": "The pyramid is made by the corticospinal tract; the olive, lateral to it, by the inferior olivary nucleus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pyramidal-decussation",
+    "type": "located-in",
+    "dst": "medulla-oblongata",
+    "statement": "The pyramids decussate in the lower medulla.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the pyramids decussate in the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "75-90% decussate in the lower medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pyramidal-decussation",
+    "type": "located-in",
+    "dst": "ventral-median-fissure",
+    "statement": "The lower part of the ventral median fissure is marked by the decussation of 75 to 90 percent of corticospinal fibres.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "The ventral median fissure, continuous with the cord's, is marked below by the decussation of 75 to 90 percent of corticospinal fibres",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "corticospinal-tract",
+    "type": "related-to",
+    "dst": "pyramidal-decussation",
+    "statement": "Most corticospinal (pyramidal) fibres, 75 to 90 percent, cross in the pyramidal decussation; the rest descend uncrossed.",
+    "evidence": [
+     {
+      "ref": "q:1ocvlp5",
+      "quote": "Most pyramidal fibres (75 to 90%) cross in the pyramidal decussation; the rest descend uncrossed",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1drfer4",
+      "quote": "the decussation of the pyramids, 75 to 90 percent of corticospinal fibres, marks the lower medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "hypoglossal-nerve",
+    "type": "branch-of",
+    "dst": "medulla-oblongata",
+    "statement": "The hypoglossal nerve emerges from the medulla, in the sulcus between the pyramid and the olive.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/17",
+      "quote": "Nerves emerging from Medulla (4 nerves): Hypoglossal(12th): from sulcus between pyramid & olive",
+      "check": "exact"
+     },
+     {
+      "ref": "q:h5qxqs",
+      "quote": "Hypoglossal nerve (XII): leaves the medulla between the pyramid and the olive",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "hypoglossal-nerve",
+    "type": "related-to",
+    "dst": "olive",
+    "statement": "The hypoglossal nerve emerges in front of the olive, between the pyramid and the olive.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "CN XII between pyramid and olive",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Anterior, opposite the olive | XII",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "hypoglossal-nerve",
+    "type": "related-to",
+    "dst": "pyramid-of-the-medulla",
+    "statement": "The hypoglossal nerve emerges from the sulcus between the pyramid and the olive.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "CN XII between pyramid and olive",
+      "check": "exact"
+     },
+     {
+      "ref": "q:130csae",
+      "quote": "CN XII emerges from the sulcus between pyramid and olive",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "glossopharyngeal-nerve",
+    "type": "branch-of",
+    "dst": "medulla-oblongata",
+    "statement": "The glossopharyngeal nerve emerges from the medulla, behind the olive.",
+    "evidence": [
+     {
+      "ref": "q:arozri",
+      "quote": "Four nerves emerge from the medulla: IX, X and the cranial part of XI behind the olive, and XII between pyramid and olive",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1ny4yhh",
+      "quote": "Glossopharyngeal nerve (IX): leaves the medulla behind the olive, above the vagus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vagus-nerve",
+    "type": "branch-of",
+    "dst": "medulla-oblongata",
+    "statement": "The vagus nerve emerges from the medulla, behind the olive.",
+    "evidence": [
+     {
+      "ref": "q:arozri",
+      "quote": "Four nerves emerge from the medulla: IX, X and the cranial part of XI behind the olive, and XII between pyramid and olive",
+      "check": "exact"
+     },
+     {
+      "ref": "q:udxx3u",
+      "quote": "Vagus nerve (X): leaves the medulla behind the olive, below IX",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "accessory-nerve",
+    "type": "branch-of",
+    "dst": "medulla-oblongata",
+    "statement": "The cranial part of the accessory nerve emerges from the medulla, behind the olive.",
+    "evidence": [
+     {
+      "ref": "q:arozri",
+      "quote": "Four nerves emerge from the medulla: IX, X and the cranial part of XI behind the olive, and XII between pyramid and olive",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "glossopharyngeal-nerve",
+    "type": "related-to",
+    "dst": "olive",
+    "statement": "The glossopharyngeal nerve emerges behind the olive.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "CN IX, X, XI behind the olive",
+      "check": "exact"
+     },
+     {
+      "ref": "q:10d0yxo",
+      "quote": "Behind the olive: IX, X and the cranial part of XI",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vagus-nerve",
+    "type": "related-to",
+    "dst": "olive",
+    "statement": "The vagus nerve emerges behind the olive.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "CN IX, X, XI behind the olive",
+      "check": "exact"
+     },
+     {
+      "ref": "q:10d0yxo",
+      "quote": "Behind the olive: IX, X and the cranial part of XI",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "accessory-nerve",
+    "type": "related-to",
+    "dst": "olive",
+    "statement": "The cranial part of the accessory nerve emerges behind the olive.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "CN IX, X, XI behind the olive",
+      "check": "exact"
+     },
+     {
+      "ref": "q:10d0yxo",
+      "quote": "Behind the olive: IX, X and the cranial part of XI",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cranial-nerve-nucleus",
+    "type": "located-in",
+    "dst": "brainstem",
+    "statement": "Ten of the twelve cranial nerves arise from their nuclei in the brainstem.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/03",
+      "quote": "Ten of the twelve cranial nerves arise from their cranial nerve nuclei in the brainstem",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "reticular-formation",
+    "type": "located-in",
+    "dst": "brainstem",
+    "statement": "The reticular formation is dispersed throughout the brainstem, as part of its grey matter.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/23",
+      "quote": "It does not have any distinct cytoarchitectural boundaries and is dispersed throughout the brainstem",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1bhhmqw",
+      "quote": "Which network, spread through the brainstem, keeps us awake and conscious",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "respiratory-and-cardiovascular-centres",
+    "type": "located-in",
+    "dst": "medulla-oblongata",
+    "statement": "The respiratory and cardiovascular centres are located in the medulla oblongata.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the respiratory and cardiovascular centres are in the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "q:3fuxbc",
+      "quote": "The respiratory and cardiovascular centres are in the medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "reticular-formation",
+    "type": "related-to",
+    "dst": "respiratory-and-cardiovascular-centres",
+    "statement": "The functions of the reticular formation include cardiovascular and respiratory control, with the centres in the medulla.",
+    "evidence": [
+     {
+      "ref": "hy:10",
+      "quote": "Reticular formation: consciousness and arousal, sleep-wake, cardiovascular and respiratory centres (medulla), pain modulation",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "corticospinal-tract",
+    "type": "passes-through",
+    "dst": "brainstem",
+    "statement": "The corticospinal tract, part of the descending motor pathway, travels through the brainstem.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/24",
+      "quote": "tracts travel the entire brainstem. The most important descending one is the motor pathway, which is composed by the corticospinal and corticobulbar tracts",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "corticobulbar-tract",
+    "type": "related-to",
+    "dst": "corticospinal-tract",
+    "statement": "The corticobulbar and corticospinal tracts together make up the descending motor pathway for voluntary movement of the body and face.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/24",
+      "quote": "the motor pathway, which is composed by the corticospinal and corticobulbar tracts",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "dorsal-column-medial-lemniscus-pathway",
+    "type": "contrasts-with",
+    "dst": "anterolateral-system",
+    "statement": "Both are ascending conscious tracts: the dorsal column-medial lemniscus carries touch, proprioception and vibration, whereas the anterolateral system carries crude touch, pain and temperature.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Dorsal column-medial lemniscus | Ascending, conscious | Touch, proprioception, vibration Anterolateral (spinothalamic) | Ascending, conscious | Crude touch, pain, temperature",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "spinocerebellar-tract",
+    "type": "contrasts-with",
+    "dst": "dorsal-column-medial-lemniscus-pathway",
+    "statement": "The spinocerebellar tracts are unconscious ascending tracts, whereas the dorsal column-medial lemniscus pathway is a conscious one.",
+    "evidence": [
+     {
+      "ref": "q:u2xf18",
+      "quote": "Conscious: dorsal column-medial lemniscus and anterolateral system. Unconscious: spinocerebellar tracts",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "alternating-syndrome",
+    "type": "presents-with",
+    "dst": "hemiplegia",
+    "statement": "An alternating syndrome shows a cranial nerve palsy on one side with a hemiplegia on the opposite side.",
+    "evidence": [
+     {
+      "ref": "exam:15",
+      "quote": "Alternating syndrome: ipsilateral cranial nerve palsy plus contralateral hemiplegia",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/32",
+      "quote": "The association of the peripheral involvement of a cranial nerve with a hemiplegia realizes an alternating syndrome",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "alternating-syndrome",
+    "type": "located-in",
+    "dst": "brainstem",
+    "statement": "An alternating syndrome locates the lesion to a level in the brainstem.",
+    "evidence": [
+     {
+      "ref": "q:1od1cdt",
+      "quote": "is an alternating syndrome; it locates the lesion in the brainstem",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/32",
+      "quote": "an alternating syndrome and makes it possible to locate the level of the lesion in the brainstem",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "alternating-syndrome",
+    "type": "depends-on",
+    "dst": "pyramidal-decussation",
+    "statement": "An alternating syndrome arises because a cranial nerve leaves the brainstem on its own side while the corticospinal fibres running past it have not yet crossed, doing so in the lower medulla.",
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "the corticospinal fibres running past it have not yet crossed, doing so in the lower medulla",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   }
+  ],
+  "tests": [
+   {
+    "item": "q:6ip67b",
+    "concepts": [
+     "thalamus",
+     "brainstem",
+     "diencephalon"
+    ]
+   },
+   {
+    "item": "q:x8zxce",
+    "concepts": [
+     "posterior-cranial-fossa",
+     "brainstem"
+    ]
+   },
+   {
+    "item": "q:1jt5ijo",
+    "concepts": [
+     "cranial-nerve-nucleus",
+     "brainstem"
+    ]
+   },
+   {
+    "item": "q:1hy2wj0",
+    "concepts": [
+     "mesencephalon",
+     "midbrain"
+    ]
+   },
+   {
+    "item": "q:njirnb",
+    "concepts": [
+     "cerebellar-peduncle"
+    ]
+   },
+   {
+    "item": "q:rdq826",
+    "concepts": [
+     "middle-cerebellar-peduncle",
+     "cerebellar-peduncle"
+    ]
+   },
+   {
+    "item": "q:1uum2w1",
+    "concepts": [
+     "midbrain"
+    ]
+   },
+   {
+    "item": "q:eimr7t",
+    "concepts": [
+     "tectum",
+     "superior-colliculus",
+     "inferior-colliculus"
+    ]
+   },
+   {
+    "item": "q:1ej7qkw",
+    "concepts": [
+     "superior-quadrigeminal-brachium",
+     "superior-colliculus"
+    ]
+   },
+   {
+    "item": "q:yplahp",
+    "concepts": [
+     "trochlear-nerve"
+    ]
+   },
+   {
+    "item": "q:bapl3l",
+    "concepts": [
+     "oculomotor-nerve",
+     "interpeduncular-fossa",
+     "cerebral-peduncle"
+    ]
+   },
+   {
+    "item": "q:hcwy9m",
+    "concepts": [
+     "basilar-groove",
+     "basilar-artery"
+    ]
+   },
+   {
+    "item": "q:35nv4a",
+    "concepts": [
+     "abducens-nerve",
+     "pontomedullary-junction"
+    ]
+   },
+   {
+    "item": "q:psqllx",
+    "concepts": [
+     "facial-colliculus",
+     "facial-nerve"
+    ]
+   },
+   {
+    "item": "q:10bfz5n",
+    "concepts": [
+     "cerebellopontine-angle",
+     "facial-nerve",
+     "vestibulocochlear-nerve"
+    ]
+   },
+   {
+    "item": "q:1drfer4",
+    "concepts": [
+     "pyramidal-decussation",
+     "corticospinal-tract"
+    ]
+   },
+   {
+    "item": "q:428bgx",
+    "concepts": [
+     "olive",
+     "inferior-olivary-nucleus"
+    ]
+   },
+   {
+    "item": "q:130csae",
+    "concepts": [
+     "hypoglossal-nerve",
+     "pyramid-of-the-medulla",
+     "olive"
+    ]
+   },
+   {
+    "item": "q:1yj1ml9",
+    "concepts": [
+     "optic-nerve",
+     "olfactory-nerve"
+    ]
+   },
+   {
+    "item": "q:kelqui",
+    "concepts": [
+     "cerebral-aqueduct",
+     "midbrain"
+    ]
+   },
+   {
+    "item": "q:1ll2t2d",
+    "concepts": [
+     "rhomboid-fossa",
+     "fourth-ventricle"
+    ]
+   },
+   {
+    "item": "q:11sf1cy",
+    "concepts": [
+     "obex",
+     "fourth-ventricle"
+    ]
+   },
+   {
+    "item": "q:8g64rq",
+    "concepts": [
+     "basilar-artery"
+    ]
+   },
+   {
+    "item": "q:1r8zvq8",
+    "concepts": [
+     "alternating-syndrome"
+    ]
+   },
+   {
+    "item": "q:1k0tvxq",
+    "concepts": [
+     "trigeminal-nerve",
+     "abducens-nerve",
+     "pons"
+    ]
+   },
+   {
+    "item": "q:1a0ma0o",
+    "concepts": [
+     "reticular-formation"
+    ]
+   },
+   {
+    "item": "q:u2xf18",
+    "concepts": [
+     "dorsal-column-medial-lemniscus-pathway",
+     "anterolateral-system",
+     "spinocerebellar-tract"
+    ]
+   },
+   {
+    "item": "q:10d0yxo",
+    "concepts": [
+     "glossopharyngeal-nerve",
+     "vagus-nerve",
+     "olive"
+    ]
+   },
+   {
+    "item": "q:1v4evxz-midbrain",
+    "concepts": [
+     "midbrain"
+    ]
+   },
+   {
+    "item": "q:hjdjyz-pons",
+    "concepts": [
+     "pons"
+    ]
+   },
+   {
+    "item": "q:14o4mne-medulla",
+    "concepts": [
+     "medulla-oblongata"
+    ]
+   },
+   {
+    "item": "q:1kl1awt-peduncles",
+    "concepts": [
+     "cerebral-peduncle"
+    ]
+   },
+   {
+    "item": "q:4amusp-pyramid",
+    "concepts": [
+     "pyramid-of-the-medulla"
+    ]
+   },
+   {
+    "item": "q:19pvclw-olive",
+    "concepts": [
+     "olive"
+    ]
+   },
+   {
+    "item": "q:4jpptq",
+    "concepts": [
+     "brainstem"
+    ]
+   },
+   {
+    "item": "q:1vp1xqr",
+    "concepts": [
+     "brainstem",
+     "reticular-formation",
+     "respiratory-and-cardiovascular-centres"
+    ]
+   },
+   {
+    "item": "q:3fuxbc",
+    "concepts": [
+     "respiratory-and-cardiovascular-centres",
+     "medulla-oblongata"
+    ]
+   },
+   {
+    "item": "q:rm6xhf",
+    "concepts": [
+     "oculomotor-nerve",
+     "cerebral-peduncle"
+    ]
+   },
+   {
+    "item": "q:arozri",
+    "concepts": [
+     "medulla-oblongata",
+     "glossopharyngeal-nerve",
+     "hypoglossal-nerve"
+    ]
+   },
+   {
+    "item": "q:1od1cdt",
+    "concepts": [
+     "alternating-syndrome",
+     "hemiplegia"
+    ]
+   },
+   {
+    "item": "q:1bhhmqw",
+    "concepts": [
+     "reticular-formation"
+    ]
+   },
+   {
+    "item": "q:1f4qjw5",
+    "concepts": [
+     "cerebellar-peduncle"
+    ]
+   },
+   {
+    "item": "q:1ocvlp5",
+    "concepts": [
+     "pyramidal-decussation",
+     "corticospinal-tract"
+    ]
+   },
+   {
+    "item": "q:zdor62",
+    "concepts": [
+     "stria-medullaris-of-the-fourth-ventricle",
+     "fourth-ventricle"
+    ]
+   },
+   {
+    "item": "q:mmqn0i",
+    "concepts": [
+     "mesencephalon",
+     "metencephalon",
+     "myelencephalon"
+    ]
+   },
+   {
+    "item": "q:e3mp4l",
+    "concepts": [
+     "transverse-fissure-of-bichat",
+     "diencephalon"
+    ]
+   },
+   {
+    "item": "q:1uy5no3",
+    "concepts": [
+     "fastigium",
+     "fourth-ventricle"
+    ]
+   },
+   {
+    "item": "q:1u4dr0t",
+    "concepts": [
+     "midbrain"
+    ]
+   },
+   {
+    "item": "q:1opivo9",
+    "concepts": [
+     "pons"
+    ]
+   },
+   {
+    "item": "q:1bd15j7",
+    "concepts": [
+     "medulla-oblongata"
+    ]
+   },
+   {
+    "item": "q:lni6ww",
+    "concepts": [
+     "cerebral-peduncle"
+    ]
+   },
+   {
+    "item": "q:foqnfo",
+    "concepts": [
+     "superior-colliculus"
+    ]
+   },
+   {
+    "item": "q:1rv0l99",
+    "concepts": [
+     "inferior-colliculus"
+    ]
+   },
+   {
+    "item": "q:1cgydrs",
+    "concepts": [
+     "oculomotor-nerve"
+    ]
+   },
+   {
+    "item": "q:1x9drsf",
+    "concepts": [
+     "trigeminal-nerve"
+    ]
+   },
+   {
+    "item": "q:1jm9m0l",
+    "concepts": [
+     "abducens-nerve"
+    ]
+   },
+   {
+    "item": "q:1x5pdfx",
+    "concepts": [
+     "facial-nerve"
+    ]
+   },
+   {
+    "item": "q:1ny4yhh",
+    "concepts": [
+     "glossopharyngeal-nerve"
+    ]
+   },
+   {
+    "item": "q:udxx3u",
+    "concepts": [
+     "vagus-nerve"
+    ]
+   },
+   {
+    "item": "q:h5qxqs",
+    "concepts": [
+     "hypoglossal-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b1",
+    "concepts": [
+     "brainstem"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b2",
+    "concepts": [
+     "brainstem",
+     "posterior-cranial-fossa",
+     "clivus"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b3",
+    "concepts": [
+     "mesencephalon",
+     "metencephalon",
+     "myelencephalon"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/s1",
+    "concepts": [
+     "midbrain"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b4",
+    "concepts": [
+     "transverse-fissure-of-bichat",
+     "cerebellar-peduncle",
+     "foramen-magnum"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b5",
+    "concepts": [
+     "superior-cerebellar-peduncle",
+     "middle-cerebellar-peduncle",
+     "inferior-cerebellar-peduncle"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b6",
+    "concepts": [
+     "midbrain",
+     "tectum",
+     "cerebral-peduncle"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/s2",
+    "concepts": [
+     "pons"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b7",
+    "concepts": [
+     "tectum",
+     "superior-quadrigeminal-brachium",
+     "inferior-quadrigeminal-brachium"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b8",
+    "concepts": [
+     "cerebral-peduncle",
+     "interpeduncular-fossa",
+     "oculomotor-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b9",
+    "concepts": [
+     "pons",
+     "basilar-groove",
+     "pontomedullary-junction"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/s3",
+    "concepts": [
+     "medulla-oblongata",
+     "respiratory-and-cardiovascular-centres"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b10",
+    "concepts": [
+     "trigeminal-nerve",
+     "abducens-nerve",
+     "facial-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b11",
+    "concepts": [
+     "fourth-ventricle",
+     "facial-colliculus",
+     "stria-medullaris-of-the-fourth-ventricle"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b12",
+    "concepts": [
+     "cerebellopontine-angle",
+     "foramen-of-luschka"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/s4",
+    "concepts": [
+     "pyramid-of-the-medulla",
+     "corticospinal-tract"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b13",
+    "concepts": [
+     "ventral-median-fissure",
+     "pyramid-of-the-medulla",
+     "olive"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b14",
+    "concepts": [
+     "medulla-oblongata",
+     "hypoglossal-nerve",
+     "glossopharyngeal-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b15",
+    "concepts": [
+     "fourth-ventricle",
+     "cranial-nerve-nucleus",
+     "reticular-formation"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/s5",
+    "concepts": [
+     "olive",
+     "inferior-olivary-nucleus"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b16",
+    "concepts": [
+     "trochlear-nerve",
+     "pontomedullary-junction",
+     "olive"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b17",
+    "concepts": [
+     "trochlear-nerve",
+     "optic-nerve",
+     "olfactory-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b18",
+    "concepts": [
+     "reticular-formation"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/s6",
+    "concepts": [
+     "trigeminal-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b19",
+    "concepts": [
+     "corticospinal-tract",
+     "dorsal-column-medial-lemniscus-pathway",
+     "anterolateral-system"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b20",
+    "concepts": [
+     "fourth-ventricle",
+     "rhomboid-fossa",
+     "obex"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b21",
+    "concepts": [
+     "basilar-artery"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/s7",
+    "concepts": [
+     "oculomotor-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b22",
+    "concepts": [
+     "brainstem",
+     "reticular-formation"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b23",
+    "concepts": [
+     "alternating-syndrome"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/b24",
+    "concepts": [
+     "respiratory-and-cardiovascular-centres",
+     "medulla-oblongata"
+    ]
+   },
+   {
+    "item": "card:anat3-brainstem/s8",
+    "concepts": [
+     "hypoglossal-nerve"
+    ]
+   }
+  ],
+  "conflicts": [
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "Slide 20 says the trochlear nerve innervates the 'major oblique' muscle of the eye and that this ensures upward gaze. Standard teaching is that the superior oblique muscle supplied by CN IV turns the eye downwards (and inwards), not upwards.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/20",
+      "quote": "innervates the major oblique muscle of the eye: ensures upward gaze",
+      "check": "exact"
+     }
+    ]
+   },
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "The packet lists the cephalic flexure and the mesencephalic (cranial) flexure as two separate bends, and the slide places the cephalic flexure between the brainstem and spinal cord. In standard teaching the cephalic flexure is the mesencephalic flexure, and the bend between brainstem and spinal cord is the cervical flexure.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/04",
+      "quote": "the cephalic flexure: brainstem and spinal cord",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "The growing neural tube bends at the cephalic flexure and the mesencephalic (cranial) flexure",
+      "check": "exact"
+     }
+    ]
+   },
+   {
+    "kind": "internal",
+    "issue": "Slides 15 and 17 carry the heading 'THE MIDBRAIN' although their content describes the floor of the fourth ventricle on the pons and medulla (slide 15) and the nerves emerging from the medulla (slide 17). The headings look like copy errors.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "DESCRIPTIVE ANATOMY: THE MIDBRAIN Posterior Surface",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The floor of the fourth ventricle is composed of the dorsal surface of the pons and the medulla",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-brainstem/17",
+      "quote": "DESCRIPTIVE ANATOMY: THE MIDBRAIN Nerves emerging from Medulla (4 nerves)",
+      "check": "exact"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   "The packet contains no known-concept list, so all concept names are my own standard English forms.",
+   "The concept count (71) is above the typical range because the lecture names ten cranial nerves, each with its own emergence landmark, plus many surface and ventricular landmarks that are tested individually.",
+   "Cranial nerve emergence has no dedicated relation type. I used branch-of (read as 'arises from') for a nerve emerging from a part of the brainstem, located-in for a nerve emerging at a named landmark (interpeduncular fossa, pontomedullary junction, cerebellopontine angle), and related-to for emergence in front of or behind the olive or pyramid.",
+   "'Bulbopontine groove' (summary table and slide 20) is given as an alias of 'Pontomedullary junction' because the packet lists the same nerves (VI, VII, VIII, medial to lateral) at both; the packet never states the equivalence outright.",
+   "hy:1 writes 'Midbrain (mesencephalon, smallest)' as if mesencephalon were a synonym of midbrain; I kept Mesencephalon, Metencephalon and Myelencephalon as separate concepts for the embryonic vesicles, as the embryology table and questions treat them.",
+   "q:zdor62 calls the midline landmark of the fourth ventricle floor the 'median eminence' while the summary and slide 15 say 'medial eminence'; recorded as an alias.",
+   "Slide 20 uses older nerve names from OCR text: 'common occulomotor nerve' (III), 'external oculomotor' (VI), 'pathetic nerve' (IV), 'cochleo-vestibular' (VIII) and 'the spinal nerve' (XI); slide 17 instead speaks of the 'cranial part of accessory'. These are recorded as aliases.",
+   "Slide 3 and slide 5 say 'posterior cerebral fossa' / 'cerebral posterior fossa' where the summary says 'posterior cranial fossa'; recorded as aliases.",
+   "Acoustic neuroma: hy:9 names it and deeper:4 describes 'a tumour of the vestibulocochlear nerve sheath' at the same site without using the name; the link between the two is inferred, hence medium confidence.",
+   "Branches of the basilar artery (posterior cerebral, superior cerebellar, posterior choroidal, interpeduncular) and the medullary vela are only listed in the packet, so they are kept inside the definitions of Basilar artery and Fourth ventricle rather than made into separate concepts."
+  ]
+ }
+}

@@ -11,11 +11,11 @@ Imported from Sina commit `39f3ae6`.
 | Lectures discovered | 340 |
 | Lectures imported | 337 |
 | Lectures with no content available | 3 |
-| Lectures through knowledge preparation | 0 |
-| Lectures awaiting knowledge preparation | 337 |
-| Records | 27,576 |
-| Relations | 13,977 (0 awaiting review) |
-| Concepts | 0 (0 awaiting review) |
+| Lectures through knowledge preparation | 2 |
+| Lectures awaiting knowledge preparation | 335 |
+| Records | 27,718 |
+| Relations | 14,873 (17 awaiting review) |
+| Concepts | 142 (0 awaiting review) |
 | Repeated questions merged into one record | 514 |
 | Records checked inside Sina Brain | 0 |
 
@@ -26,30 +26,31 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 | Measure | Count |
 |---|---|
 | Lectures eligible | 337 |
-| Lectures processed | 0 |
-| Lectures remaining | 337 |
+| Lectures processed | 2 |
+| Lectures remaining | 335 |
 | Failed extractions | 0 |
-| Summaries generated | 0 |
-| Concepts extracted | 0 (none) |
-| Concepts by confidence | none |
-| Concept definitions | 0: 0 shown, 0 held for review |
-| Relationships suggested | 0 (none) |
-| Relationships by confidence | none |
-| Question and flashcard links to concepts | 0 |
-| Section and slide links to concepts | 0 |
-| Quotations found word for word (average per lecture) | – |
+| Summaries generated | 2 |
+| Concepts extracted | 142 (auto-accepted 142) |
+| Concepts by confidence | high 122, medium 20 |
+| Concept definitions | 143: 125 shown, 18 held for review |
+| Relationships suggested | 203 (auto-accepted 186, proposed 17) |
+| Relationships by confidence | high 142, medium 61 |
+| Question and flashcard links to concepts | 322 |
+| Section and slide links to concepts | 228 |
+| Quotations found word for word (average per lecture) | 99.7% |
 | Items dropped for structural errors | 0 |
-| Duplicate concepts merged automatically | 0 |
+| Duplicate concepts merged automatically | 1 |
 | Possible duplicates awaiting review | 0 |
-| Records requiring review | 0 (none) |
-| Review queue by reason | none |
-| Processing time | 0 s extraction, 0 s audit |
-| Resource usage | 0 tokens extraction, 0 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
+| Records requiring review | 42 (high 24, medium 18) |
+| Review queue by reason | clinical-claim 17, clinical-definition 18, lecture-conflict 7 |
+| Processing time | 1,285 s extraction, 0 s audit |
+| Resource usage | 439,092 tokens extraction, 0 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
 
 ## Records by type
 
 | Type | Count |
 |---|---|
+| concept | 142 |
 | exam | 4 |
 | flashcard | 5,578 |
 | lecture | 340 |
@@ -68,11 +69,29 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 
 | Type | Count |
 |---|---|
+| acts-on | 9 |
 | appears-in | 3,368 |
+| attaches-to | 18 |
+| branch-of | 15 |
+| causes | 3 |
 | cites | 9,088 |
-| covers | 46 |
+| contrasts-with | 12 |
+| covers | 189 |
+| depends-on | 9 |
+| develops-from | 3 |
+| drains | 2 |
+| explains | 228 |
+| innervates | 5 |
+| is-a | 9 |
+| located-in | 30 |
+| part-of | 33 |
+| passes-through | 8 |
+| presents-with | 3 |
 | references | 858 |
-| tests | 617 |
+| related-to | 39 |
+| supplies | 4 |
+| tests | 939 |
+| treats | 1 |
 
 ## Questions
 
@@ -96,7 +115,7 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 |---|---|---|---|---|---|---|---|---|---|
 | Anatomy 1 | 17/17 | 58 | 293 | 64% | 144 | 205 | 136 | 100% | 0 |
 | Anatomy 2 | 12/12 | 43 | 216 | 68% | 317 | 163 | 148 | 100% | 0 |
-| Anatomy 3 | 27/27 | 205 | 1,015 | 77% | 509 | 900 | 527 | 91% | 0 |
+| Anatomy 3 | 27/27 | 205 | 1,015 | 77% | 509 | 900 | 527 | 91% | 142 |
 | Bacteriology | 13/13 | 62 | 259 | 73% | 410 | 168 | 163 | 100% | 0 |
 | Clinical Biochemistry | 14/14 | 76 | 1,544 | 97% | 114 | 238 | 379 | 100% | 0 |
 | Biochemistry | 9/9 | 33 | 174 | 63% | 45 | 120 | 101 | 100% | 0 |

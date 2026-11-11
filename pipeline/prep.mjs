@@ -143,7 +143,7 @@ export function ingest(opts) {
       let checked;
       try { checked = checkResult(raw, packet, policy, m.id); } catch (e) { fail(e.message); continue; }
       const doc = { lecture: m.id, input_hash: m.input_hash, prompt_version: PROMPT_VERSION,
-        provenance: { worker: info.worker || "unknown", model: info.model || "unknown", finished_at: ctx.now(), seconds: info.seconds, tokens: info.tokens, tool_uses: info.tool_uses, packet_chars: packet.chars, result_chars: readFileSync(rf, "utf8").length },
+        provenance: { worker: info.worker || "unknown", model: info.model || "unknown", finished_at: ctx.now(), seconds: info.seconds, tokens: info.tokens, usage: info.usage, tool_uses: info.tool_uses, packet_chars: packet.chars, result_chars: readFileSync(rf, "utf8").length },
         evidence: checked.evidence, dropped: checked.dropped, result: checked.result };
       mkdirSync(dirname(stored), { recursive: true });
       writeFileSync(stored, JSON.stringify(doc, null, 1) + "\n");
@@ -158,7 +158,7 @@ export function ingest(opts) {
       try { audit = readJson(af); } catch (e) { ctx.log({ event: "audit-failed", lecture: m.id, error: e.message }); continue; }
       if (!okAudit(audit) || audit.lecture !== m.id) { ctx.log({ event: "audit-failed", lecture: m.id, error: explain(okAudit) || "wrong lecture" }); m.audit = { state: "failed" }; continue; }
       const doc = readJson(stored), a = (meta[m.id] || {}).audit || {};
-      doc.audit = { audit_version: AUDIT_VERSION, model: a.model || "unknown", seconds: a.seconds, tokens: a.tokens, findings: audit.findings, missed: audit.missed };
+      doc.audit = { audit_version: AUDIT_VERSION, model: a.model || "unknown", seconds: a.seconds, tokens: a.tokens, usage: a.usage, findings: audit.findings, missed: audit.missed };
       writeFileSync(stored, JSON.stringify(doc, null, 1) + "\n");
       m.audit = { state: "done", version: AUDIT_VERSION, findings: audit.findings.length, missed: audit.missed.length, seconds: a.seconds, tokens: a.tokens };
       ctx.log({ event: "audited", lecture: m.id, findings: audit.findings.length, missed: audit.missed.length });

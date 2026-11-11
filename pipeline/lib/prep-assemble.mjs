@@ -32,6 +32,8 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
   const severe = new Set(policy.severe_audit_verdicts);
   const clinicalRel = new Set(policy.clinical_relations), clinicalKind = new Set(policy.clinical_kinds);
   const asym = new Set(policy.asymmetric_relations);
+  const clinicalWords = new RegExp("\\b(" + (policy.clinical_terms || ["\\0"]).join("|") + ")\\b", "i");
+  const soundsClinical = (text) => clinicalWords.test(String(text || ""));
 
   // ---- 1. give every contributed concept an ID --------------------------
   const concepts = new Map();          // id -> working object
@@ -54,10 +56,17 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
     if (old && nameKey(old.name) === nameKey(c.name)) register(old.concept, c, r.lecture);   // keep IDs issued earlier
     else pending.push({ r, c });
   }
+  const subj = (lecture) => (byId.get(lecture) || {}).subject;
+  const aliasCandidates = [];          // same alternative name, different subject: too risky to merge without a person
   for (const { r, c } of pending) {
     const k = nameKey(c.name);
-    let id = byName.get(k) || byAlias.get(k);
-    if (!id) for (const a of c.aliases || []) { if (strongAlias(a) && byName.has(nameKey(a))) { id = byName.get(nameKey(a)); break; } }
+    let id = byName.get(k), viaAlias = null;
+    if (!id && byAlias.has(k)) viaAlias = byAlias.get(k);
+    if (!id && !viaAlias) for (const a of c.aliases || []) { if (strongAlias(a) && byName.has(nameKey(a))) { viaAlias = byName.get(nameKey(a)); break; } }
+    if (!id && viaAlias) {
+      if (concepts.get(viaAlias).contributions.some((x) => subj(x.lecture) === subj(r.lecture))) id = viaAlias;
+      else aliasCandidates.push({ lecture: r.lecture, key: c.key, other: viaAlias });
+    }
     if (!id) {
       const base = slug(nameKey(c.name)) || "concept";      // singular form, so the ID does not depend on which lecture came first
       id = "c:" + base;
@@ -117,15 +126,17 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
       const distinct = new Set(exact.map((e) => e.ref)).size;
       let k = "low";
       if (exact.length || approx.length) k = "medium";
-      if (exact.length && (isTested || distinct >= 2) && c.self_confidence !== "low" && !fs.length && !clinical) k = "high";
+      if (exact.length && (isTested || distinct >= 2) && c.self_confidence !== "low" && !fs.length && !clinical && !soundsClinical(c.definition)) k = "high";
       if (hasSevere(fs)) k = "low";
       conf = best(conf, k);
       const hold = [];
       if (k === "low") hold.push(hasSevere(fs) ? "audit" : "unsupported");
+      const wording = !clinical && soundsClinical(c.definition);
       if (clinical) hold.push("clinical-definition");
+      if (wording) hold.push("clinical-wording");
       defs.push(compact({ lecture, text: c.definition, confidence: k, status: hold.length ? "proposed" : "auto-accepted", held_for: hold, evidence: ev.map((e) => ({ ...prov(lecture, e), check: e.check })) }));
       if (k === "low") enqueue(hasSevere(fs) ? "audit-finding" : "unsupported-concept", "high", C.id, lecture, `${c.name}: ${c.definition}`, { detail: fs.map((f) => `${f.verdict}: ${f.detail}`).join(" | ") || "No quotation could be found in the cited block." });
-      else if (clinical) enqueue("clinical-definition", "medium", C.id, lecture, `${c.name}: ${c.definition}`, { evidence: ev.filter((e) => e.check === "exact").slice(0, 1).map((e) => prov(lecture, e)) });
+      else if (clinical || wording) enqueue("clinical-definition", "medium", C.id, lecture, `${c.name}: ${c.definition}`, { evidence: ev.filter((e) => e.check === "exact").slice(0, 1).map((e) => prov(lecture, e)) });
       for (const f of fs.filter((f) => !severe.has(f.verdict))) enqueue("audit-finding", "low", C.id, lecture, `${c.name}: ${f.verdict}`, { detail: f.detail });
       // where the concept is explained, and that the lecture covers it
       for (const e of exact) if (/^(sec|slide):/.test(e.ref)) addRel(subjectOf(lecture), { src: e.ref, type: "explains", dst: C.id, lecture, confidence: "high", provenance: [prov(lecture, e)] });
@@ -154,6 +165,7 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
   for (const c of list) for (const a of c.aliases) { const k = nameKey(a); if (!weakAlias.has(k)) weakAlias.set(k, []); weakAlias.get(k).push(c.id); }
   const dupSeen = new Set();
   const dup = (a, b, why) => { const k = [a, b].sort().join("|"); if (a === b || dupSeen.has(k)) return; dupSeen.add(k); enqueue("possible-duplicate", "medium", a, concepts.get(a).contributions[0].lecture, `${concepts.get(a).name} ↔ ${concepts.get(b).name}`, { detail: why, other: b }); };
+  for (const a of aliasCandidates) dup(assigned.get(a.lecture + "|" + a.key), a.other, "one is listed as another name for the other, in a different subject");
   for (const c of list) { const other = weakAlias.get(nameKey(c.name)); for (const o of other || []) dup(o, c.id, "one is listed as another name for the other"); }
   for (const ids of weakAlias.values()) for (let i = 1; i < ids.length; i++) dup(ids[0], ids[i], "they share an alternative name");
   for (let i = 0; i < list.length; i++) for (let j = i + 1; j < list.length; j++) {
@@ -183,7 +195,7 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
       k = worst(k, best(S.confidence, "medium") === S.confidence ? "high" : "low");
       k = worst(k, best(D.confidence, "medium") === D.confidence ? "high" : "low");
       const hold = [];
-      if (clinicalRel.has(rel.type)) hold.push("clinical-claim");
+      if (clinicalRel.has(rel.type) || soundsClinical(rel.statement)) hold.push("clinical-claim");
       if (k === "low") hold.push(hasSevere(fs) ? "audit" : "unsupported");
       addRel(subjectOf(r.lecture), { src, type: rel.type, dst, lecture: r.lecture, confidence: k, rationale: rel.statement, hold, provenance: ev.filter((e) => e.check === "exact" || e.check === "approximate").map((e) => prov(r.lecture, e)), audit: fs });
     }
