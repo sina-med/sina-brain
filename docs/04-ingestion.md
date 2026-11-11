@@ -107,3 +107,73 @@ If the pilot misses these targets, the instructions or the concept granularity a
 Documents a student adds for personal research are handled in the browser: text is extracted locally (PDF.js for PDF, simple parsers for TXT, Markdown and CSV; DOCX and PPTX through an unzip-and-parse library), indexed locally, and stored in IndexedDB. They are private and never enter the shared knowledge base.
 
 Documents an administrator wants to add to the shared knowledge base go through the pipeline above.
+
+## 4.9 Batch workflow (approved 11 November 2026, supersedes the per-lecture review in 4.7)
+
+The owner asked for a pipeline that runs in batches without approval between them, after a two-lecture pilot. This is how it is built.
+
+### One batch
+
+```
+node pipeline/prep.mjs pack --next 15          # choose the next unprocessed lectures, write one work packet each
+#   … one worker per packet writes .work/results/<lecture>.json, following pipeline/prep/instructions-p1.md …
+node pipeline/prep.mjs ingest --meta .work/meta.json   # check each result against its packet, store it in kb/ai/
+#   … optionally, one auditor per lecture writes .work/audits/<lecture>.json (pipeline/prep/audit-a1.md) …
+node pipeline/prep.mjs ingest                  # attach audits
+node pipeline/prep.mjs assemble                # rebuild concepts, AI relations and the review queue
+npm run validate && npm run stats              # then commit and push
+```
+
+- `pack` skips a lecture whose content hash and instruction version match its last successful run, and re-queues one whose content changed on Sina.
+- `ingest` fails a lecture, not the batch, when its result is unusable. A failed lecture is retried on its own with `pack --lectures <id>`.
+- `ingest` reports a **stop** condition when more than 20% of a batch failed or fewer than 90% of quotations were found word for word. The run halts for a person to look.
+- `assemble` is a pure function of the stored results, the policy file, human decisions and the concept map. Re-running it changes nothing.
+- Everything is committed and pushed after each batch. To resume after an interruption, run `pack --next` again.
+
+### What is stored where
+
+| File | Contents |
+|---|---|
+| `kb/ai/<subject>/<lecture>.json` | The worker's output exactly as checked, with each quotation marked exact / approximate / weak / failed, the model, timing, token usage, and the audit |
+| `kb/records/concepts.jsonl` | Concepts assembled from all results; one definition per lecture, each with its own sources |
+| `kb/relations/ai/<subject>.jsonl` | AI-suggested relations and the mechanical links (question → concept, section or slide → concept, lecture → concept) |
+| `kb/admin/prep-manifest.jsonl` | Per lecture: state, input hash, instruction version, attempts, error, timing, usage |
+| `kb/admin/prep-log.jsonl` | Append-only log of every pack, result, failure, audit and assemble |
+| `kb/admin/review-queue.jsonl` | Everything that needs a person |
+| `kb/admin/review-decisions.jsonl` | A person's approve / reject / merge decisions; applied on every assemble |
+| `kb/admin/concept-map.jsonl` | Which concept ID each lecture's concept was given, so IDs never move |
+
+### Statuses
+
+| Status | Meaning | Shown to students |
+|---|---|---|
+| `proposed` | Held: in the review queue | No |
+| `auto-accepted` | Passed the automated source checks; no person has looked | Yes, labelled “AI-generated — not medically verified” |
+| `approved` | A named reviewer accepted it | Yes, labelled AI-generated and reviewed |
+| `rejected` | A reviewer rejected it | No |
+
+`verification` stays `unverified` for every AI record unless a reviewer is named. The validator enforces this.
+
+### Confidence
+
+Computed by `assemble` from checkable signals, never taken from the model's own estimate alone (`pipeline/prep/policy.json`).
+
+| Item | High | Medium | Low → review queue |
+|---|---|---|---|
+| Concept definition | A quotation found word for word, and the concept is tested by a question or quoted from two places, no audit finding | Some quotation found | No quotation found, or a severe audit finding |
+| Relationship between concepts | Quotation found word for word in a block that names both ends, no audit finding | Some quotation found | No quotation, a severe audit finding, or an end that is itself low |
+| Question → concept | The concept's name appears in the question | Otherwise | Audit says it is wrong |
+
+Always held, whatever the confidence:
+
+- relations of type `causes`, `treats`, `presents-with`;
+- definitions of concepts classed as condition, drug, sign or symptom, procedure, or investigation;
+- any definition or relation whose wording contains clinical terms (lesion, palsy, injury, tumour, treatment, obstruction, …): a word screen, listed in the policy file;
+- both sides of a contradiction (the same one-way relation stated in both directions, or a loop in a hierarchy);
+- anything the lecture itself contradicts, as reported by the worker.
+
+When a definition is held, the concept still exists as an index entry and its page shows the lecture's own quoted words and slide instead of the AI sentence.
+
+### Duplicates
+
+Concepts merge automatically when their names match (ignoring case, punctuation and plural). They merge on an alternative name only inside the same subject; across subjects that case is sent to the review queue, because the same abbreviation or older term can mean different things. Near-identical names are listed as possible duplicates and never merged automatically.

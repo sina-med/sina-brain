@@ -12,6 +12,11 @@
 | D6 | The architecture, knowledge model and pilot plan in these documents are approved. |
 | D7 | Professor names and source file names are shown on records as their origin. |
 
+| D8 | Phase 4 runs as a batch pipeline, with no approval between batches after a two-lecture pilot (larynx, brainstem) is approved. |
+| D9 | AI records that pass automated checks may be shown without individual approval, labelled “AI-generated — not medically verified”. `proposed`, `auto-accepted` and `approved` stay distinct. High-risk clinical claims, unsupported statements, contradictions and low-confidence records stay in the review queue. |
+| D10 | Separate worker sessions are approved conditionally: same versioned instructions and schema, usage recorded, and no scaling up before the pilot shows they are worth their cost. |
+| D11 | Batches run in the interactive session; progress is committed and pushed so that “continue” resumes. No scheduled background processing yet. |
+
 Approved with D6:
 
 | # | What | Where |
@@ -37,6 +42,10 @@ These were made while building Phase 3. They are within the approved direction b
 | I5 | Records carry no dates; the ID registry does. | Lets an unchanged import rewrite nothing. |
 | I6 | A lecture's own source file is identified as `src:<lecture>`. | The original PDFs are in Drive and are not downloaded during import, so their hash is not yet known. The hash becomes a field when the file is first fetched. |
 | I7 | The imported records are committed to the repository (27 MB). | CI can validate without access to the private build repository, and every change to shared knowledge is visible as a diff. |
+
+| I8 | Clinical statements are caught by kind, by relation type and by a word screen (policy-2). | The pilot showed 9 of 142 ordinary anatomy definitions carrying a clinical sentence (“a lesion there gives…”) that kind-based routing alone would have published. |
+| I9 | Alternative-name matches across subjects go to review instead of merging. | The pilot produced “median eminence” as an alias of a fourth-ventricle landmark; elsewhere that name is a hypothalamic structure. |
+| I10 | Workers check their own draft against the packet before handing it in (`prep.mjs check`). | Cuts failed quotations to near zero. The reported failure rate is therefore after self-correction. |
 
 ## Open questions
 
