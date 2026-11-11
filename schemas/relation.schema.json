@@ -3,21 +3,69 @@
   "$id": "https://sina-med.github.io/brain/schemas/relation.schema.json",
   "title": "Sina Brain relation",
   "type": "object",
-  "required": ["id", "src", "type", "dst", "origin", "status"],
+  "required": [
+    "id",
+    "src",
+    "type",
+    "dst",
+    "origin",
+    "status"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id": { "type": "string", "pattern": "^rel:[0-9a-f]{12}$" },
-    "src": { "type": "string" },
-    "dst": { "type": "string" },
-    "type": { "type": "string", "pattern": "^(part-of|covers|explains|tests|appears-in|cites|related-to|depends-on|is-a|located-in|supplies|innervates|causes|treats|presents-with|contradicts|references|derived-from|duplicate-of|custom:[a-z0-9-]+)$" },
-    "origin": { "enum": ["imported", "ai", "admin"] },
-    "status": { "enum": ["proposed", "approved", "rejected"] },
-    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
-    "rationale": { "type": "string" },
-    "provenance": { "type": "array" },
-    "attrs": { "type": "object" },
-    "reviewed_by": { "type": "string" },
-    "created": { "type": "string" },
-    "updated": { "type": "string" }
+    "id": {
+      "type": "string",
+      "pattern": "^rel:[0-9a-f]{12}$"
+    },
+    "src": {
+      "type": "string"
+    },
+    "dst": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "pattern": "^(part-of|covers|explains|tests|appears-in|cites|related-to|depends-on|is-a|located-in|branch-of|supplies|drains|innervates|attaches-to|acts-on|passes-through|develops-from|contrasts-with|causes|treats|presents-with|contradicts|references|derived-from|duplicate-of|custom:[a-z0-9-]+)$"
+    },
+    "origin": {
+      "enum": [
+        "imported",
+        "ai",
+        "admin"
+      ]
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "auto-accepted",
+        "approved",
+        "rejected"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "array"
+    },
+    "attrs": {
+      "type": "object"
+    },
+    "reviewed_by": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    }
   }
 }

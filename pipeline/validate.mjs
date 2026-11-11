@@ -18,6 +18,7 @@ export function validateKb(kb = "kb") {
   const okRelation = ajv.compile(schema("relation.schema.json"));
   const okRegistry = ajv.compile(schema("registry.schema.json"));
   const { records, relations, registry } = loadKb(kb);
+  const policy = JSON.parse(readFileSync(join(here, "prep/policy.json"), "utf8"));
   const errors = [];
   const err = (where, msg) => errors.push(`${where}: ${msg}`);
   const explain = (v) => (v.errors || []).map((e) => `${e.instancePath || "/"} ${e.message}`).join("; ");
@@ -50,6 +51,18 @@ export function validateKb(kb = "kb") {
       if (Array.isArray(b.answer) && Array.isArray(b.options) && b.answer.some((a) => a >= b.options.length)) err(where, "answer index beyond the last option");
       if (b.option_notes && b.options && b.option_notes.length !== b.options.length) err(where, "option_notes count differs from options count");
     }
+    // AI-generated records: never verified, and never approved, without a named reviewer
+    if (row.origin === "ai") {
+      if (row.verification && row.verification !== "unverified" && !row.reviewed_by) err(where, `AI-generated record is marked "${row.verification}" but has no reviewer`);
+      if (row.status === "approved" && !row.reviewed_by) err(where, "AI-generated record is approved but has no reviewer");
+      if (row.status === "auto-accepted" && row.confidence === "low") err(where, "low-confidence AI record must not be auto-accepted");
+    } else if (row.status === "auto-accepted") err(where, "only AI-generated records can be auto-accepted");
+    if (row.type === "concept") for (const d of row.body.definitions || []) {
+      if (!byId.has(d.lecture)) err(where, `definition cites lecture "${d.lecture}" which does not exist`);
+      if (d.status === "auto-accepted" && d.confidence === "low") err(where, "low-confidence definition must not be auto-accepted");
+      if (d.status === "auto-accepted" && policy.clinical_kinds.includes(row.body.kind)) err(where, "clinical definition must not be auto-accepted");
+      for (const e of d.evidence || []) if (e.unit && !byId.has(e.unit)) err(where, `definition evidence "${e.unit}" does not exist`);
+    }
     if (row.type === "exam") for (const g of (row.body && row.body.groups) || []) for (const l of g.lectures || []) if (!byId.has(l)) err(where, `scope lecture "${l}" does not exist`);
   }
 
@@ -64,6 +77,13 @@ export function validateKb(kb = "kb") {
     if (!byId.has(row.dst)) err(where, `dst "${row.dst}" does not exist`);
     if (row.src === row.dst) err(where, "relation from a record to itself");
     if (row.origin === "ai" && row.status === "approved" && !row.reviewed_by) err(where, "AI-suggested relation is approved but has no reviewer");
+    if (row.status === "auto-accepted") {
+      if (row.origin !== "ai") err(where, "only AI-suggested relations can be auto-accepted");
+      if (policy.clinical_relations.includes(row.type)) err(where, "clinical relation must not be auto-accepted");
+      if (row.confidence !== "high" && row.confidence !== "medium") err(where, "auto-accepted relation needs high or medium confidence");
+      if (!["covers", "tests"].includes(row.type) && !(row.provenance || []).length) err(where, "auto-accepted relation has no source quotation");
+    }
+    for (const p of row.provenance || []) { if (p.unit && !byId.has(p.unit)) err(where, `evidence "${p.unit}" does not exist`); if (p.source && !byId.has(p.source)) err(where, `evidence source "${p.source}" does not exist`); }
   }
 
   // registry: every published record is registered as active, and nothing active is missing

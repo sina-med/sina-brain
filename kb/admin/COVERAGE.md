@@ -19,6 +19,33 @@ Imported from Sina commit `39f3ae6`.
 | Repeated questions merged into one record | 514 |
 | Records checked inside Sina Brain | 0 |
 
+## Knowledge preparation
+
+AI-prepared content. None of it is medically verified; “shown” means it passed automated source checks and is displayed with an “AI-generated — not medically verified” label.
+
+| Measure | Count |
+|---|---|
+| Lectures eligible | 337 |
+| Lectures processed | 0 |
+| Lectures remaining | 337 |
+| Failed extractions | 0 |
+| Summaries generated | 0 |
+| Concepts extracted | 0 (none) |
+| Concepts by confidence | none |
+| Concept definitions | 0: 0 shown, 0 held for review |
+| Relationships suggested | 0 (none) |
+| Relationships by confidence | none |
+| Question and flashcard links to concepts | 0 |
+| Section and slide links to concepts | 0 |
+| Quotations found word for word (average per lecture) | – |
+| Items dropped for structural errors | 0 |
+| Duplicate concepts merged automatically | 0 |
+| Possible duplicates awaiting review | 0 |
+| Records requiring review | 0 (none) |
+| Review queue by reason | none |
+| Processing time | 0 s extraction, 0 s audit |
+| Resource usage | 0 tokens extraction, 0 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
+
 ## Records by type
 
 | Type | Count |

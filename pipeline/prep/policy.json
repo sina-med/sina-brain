@@ -1,0 +1,15 @@
+{
+  "version": "policy-1",
+  "note": "Rules that decide what happens to AI-prepared items. Changing this file changes routing on the next assemble; it never changes what the workers wrote.",
+  "clinical_relations": ["causes", "treats", "presents-with"],
+  "clinical_kinds": ["condition", "drug"],
+  "asymmetric_relations": ["is-a", "part-of", "located-in", "branch-of", "supplies", "drains", "innervates", "attaches-to", "passes-through", "develops-from", "depends-on", "causes", "treats", "presents-with"],
+  "hierarchy_relations": ["is-a", "part-of", "branch-of", "develops-from"],
+  "severe_audit_verdicts": ["unsupported", "contradicts-lecture", "medically-doubtful", "wrong-direction", "wrong-type", "wrong-kind", "wrong-tests"],
+  "min_quote_words": 3,
+  "approximate_token_overlap": 0.85,
+  "batch_stop": {
+    "max_failed_lectures_share": 0.2,
+    "min_exact_evidence_share": 0.9
+  }
+}

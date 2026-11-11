@@ -4,7 +4,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { loadKb } from "./lib/kb.mjs";
-import { parseArgs, writeIfChanged } from "./lib/util.mjs";
+import { parseArgs, writeIfChanged, readJsonl } from "./lib/util.mjs";
 
 export function computeStats(kb = "kb") {
   const { records, relations, registry } = loadKb(kb);
@@ -60,6 +60,29 @@ export function computeStats(kb = "kb") {
   const imp = existsSync(join(kb, "admin/import-sina.json")) ? JSON.parse(readFileSync(join(kb, "admin/import-sina.json"), "utf8")) : {};
   const lectureCount = byType.lecture || 0;
 
+  // knowledge preparation (Phase 4)
+  const manifest = readJsonl(join(kb, "admin/prep-manifest.jsonl"));
+  const queue = readJsonl(join(kb, "admin/review-queue.jsonl"));
+  const done = manifest.filter((m) => m.state === "done"), failedPrep = manifest.filter((m) => m.state === "failed");
+  const sum = (xs, f) => xs.reduce((a, x) => a + (Number(f(x)) || 0), 0);
+  const tally = (xs, f) => sort(xs.reduce((a, x) => { const k = f(x); a[k] = (a[k] || 0) + 1; return a; }, {}));
+  const aiRel = relations.map((r) => r.row).filter((r) => r.origin === "ai");
+  const semantic = aiRel.filter((r) => !["covers", "tests", "explains"].includes(r.type));
+  const eligible = lectureCount - gaps.lectures_without_content.length;
+  const preparation = {
+    lectures_eligible: eligible, lectures_processed: done.length, lectures_remaining: eligible - done.length, lectures_failed: failedPrep.length,
+    failed: failedPrep.map((m) => ({ id: m.id, error: m.error, attempts: m.attempts })),
+    summaries_generated: done.length,
+    concepts: { total: concepts.length, by_status: tally(concepts, (c) => c.status), by_confidence: tally(concepts, (c) => c.confidence), found_in_more_than_one_lecture: concepts.filter((c) => c.body.lectures.length > 1).length },
+    definitions: { total: sum(concepts, (c) => c.body.definitions.length), shown: sum(concepts, (c) => c.body.definitions.filter((d) => d.status === "auto-accepted" || d.status === "approved").length), held: sum(concepts, (c) => c.body.definitions.filter((d) => d.status === "proposed").length) },
+    relationships: { suggested: semantic.length, by_status: tally(semantic, (r) => r.status), by_confidence: tally(semantic, (r) => r.confidence), by_type: tally(semantic, (r) => r.type) },
+    links: { question_or_card_to_concept: aiRel.filter((r) => r.type === "tests").length, section_or_slide_to_concept: aiRel.filter((r) => r.type === "explains").length, lecture_to_concept: aiRel.filter((r) => r.type === "covers").length },
+    evidence: { average_share_found_word_for_word: done.length ? Math.round((sum(done, (m) => m.evidence_exact_share) / done.length) * 1000) / 1000 : null, items_dropped: sum(done, (m) => m.dropped) },
+    review_queue: { total: queue.length, by_reason: tally(queue, (q) => q.reason), by_severity: tally(queue, (q) => q.severity) },
+    duplicates: { contributions_merged_automatically: sum(concepts, (c) => c.body.definitions.length - 1), possible_duplicates_for_review: queue.filter((q) => q.reason === "possible-duplicate").length },
+    processing: { worker_seconds: sum(done, (m) => m.seconds), worker_tokens: sum(done, (m) => m.tokens), audit_seconds: sum(done, (m) => m.audit && m.audit.seconds), audit_tokens: sum(done, (m) => m.audit && m.audit.tokens), lectures_audited: done.filter((m) => m.audit && m.audit.state === "done").length, packet_characters: sum(done, (m) => m.packet_chars) },
+  };
+
   return {
     sina_commit: imp.sina_commit || null,
     resources: {
@@ -67,8 +90,8 @@ export function computeStats(kb = "kb") {
       discovered: lectureCount,
       imported: lectureCount - gaps.lectures_without_content.length,
       inaccessible: gaps.lectures_without_content.length,
-      knowledge_prepared: 0,
-      awaiting_knowledge_preparation: lectureCount - gaps.lectures_without_content.length,
+      knowledge_prepared: done.length,
+      awaiting_knowledge_preparation: eligible - done.length,
     },
     records: { total: rows.length, by_type: sort(byType), by_origin: sort(byOrigin), by_status: sort(byStatus) },
     relations: { total: relations.length, by_type: sort(relByType), by_origin: sort(relByOrigin), by_status: sort(relByStatus) },
@@ -83,6 +106,7 @@ export function computeStats(kb = "kb") {
     duplicates: { repeated_questions_merged: (imp.findings || {})["question-repeated"] || 0, proposed: relByType["duplicate-of"] || 0 },
     verification: { lectures_sina_verified: rows.filter((r) => r.type === "lecture" && r.verification === "sina-verified").length, lectures_unverified: gaps.lectures_unverified.length, records_checked_in_brain: rows.filter((r) => r.verification === "checked-against-source" || r.verification === "expert-reviewed").length },
     registry: { active: registry.filter((e) => e.status === "active").length, retired: registry.filter((e) => e.status === "retired").length, merged: registry.filter((e) => e.status === "merged").length },
+    preparation,
     import_findings: imp.findings || {},
     not_imported: imp.not_imported || [],
     gaps,
@@ -109,6 +133,30 @@ export function coverageMarkdown(s) {
     `| Concepts | ${n(s.concepts.total)} (${n(s.concepts.awaiting_review)} awaiting review) |`,
     `| Repeated questions merged into one record | ${n(s.duplicates.repeated_questions_merged)} |`,
     `| Records checked inside Sina Brain | ${n(s.verification.records_checked_in_brain)} |`, "");
+  const p = s.preparation, kv = (o) => Object.entries(o).map(([k, v]) => `${k} ${n(v)}`).join(", ") || "none";
+  out.push("## Knowledge preparation", "", "AI-prepared content. None of it is medically verified; “shown” means it passed automated source checks and is displayed with an “AI-generated — not medically verified” label.", "",
+    "| Measure | Count |", "|---|---|",
+    `| Lectures eligible | ${n(p.lectures_eligible)} |`,
+    `| Lectures processed | ${n(p.lectures_processed)} |`,
+    `| Lectures remaining | ${n(p.lectures_remaining)} |`,
+    `| Failed extractions | ${n(p.lectures_failed)} |`,
+    `| Summaries generated | ${n(p.summaries_generated)} |`,
+    `| Concepts extracted | ${n(p.concepts.total)} (${kv(p.concepts.by_status)}) |`,
+    `| Concepts by confidence | ${kv(p.concepts.by_confidence)} |`,
+    `| Concept definitions | ${n(p.definitions.total)}: ${n(p.definitions.shown)} shown, ${n(p.definitions.held)} held for review |`,
+    `| Relationships suggested | ${n(p.relationships.suggested)} (${kv(p.relationships.by_status)}) |`,
+    `| Relationships by confidence | ${kv(p.relationships.by_confidence)} |`,
+    `| Question and flashcard links to concepts | ${n(p.links.question_or_card_to_concept)} |`,
+    `| Section and slide links to concepts | ${n(p.links.section_or_slide_to_concept)} |`,
+    `| Quotations found word for word (average per lecture) | ${p.evidence.average_share_found_word_for_word === null ? "–" : Math.round(p.evidence.average_share_found_word_for_word * 1000) / 10 + "%"} |`,
+    `| Items dropped for structural errors | ${n(p.evidence.items_dropped)} |`,
+    `| Duplicate concepts merged automatically | ${n(p.duplicates.contributions_merged_automatically)} |`,
+    `| Possible duplicates awaiting review | ${n(p.duplicates.possible_duplicates_for_review)} |`,
+    `| Records requiring review | ${n(p.review_queue.total)} (${kv(p.review_queue.by_severity)}) |`,
+    `| Review queue by reason | ${kv(p.review_queue.by_reason)} |`,
+    `| Processing time | ${n(p.processing.worker_seconds)} s extraction, ${n(p.processing.audit_seconds)} s audit |`,
+    `| Resource usage | ${n(p.processing.worker_tokens)} tokens extraction, ${n(p.processing.audit_tokens)} tokens audit (as reported by the worker sessions; plan allowance is not visible) |`, "");
+  if (p.failed.length) out.push("Failed lectures:", "", ...p.failed.map((f) => `- \`${f.id}\` (attempt ${f.attempts}): ${f.error}`), "");
   out.push("## Records by type", "", "| Type | Count |", "|---|---|", ...Object.entries(s.records.by_type).map(([k, v]) => `| ${k} | ${n(v)} |`), "");
   out.push("## Relations by type", "", "| Type | Count |", "|---|---|", ...Object.entries(s.relations.by_type).map(([k, v]) => `| ${k} | ${n(v)} |`), "");
   out.push("## Questions", "", "| Measure | Count |", "|---|---|",
