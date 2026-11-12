@@ -11,3 +11,4 @@
 {"at":"2026-11-12T00:14:29Z","event":"pack","lectures":["lec:anat3-larynx","lec:anat3-brainstem"]}
 {"at":"2026-11-12T00:14:49Z","event":"pack","lectures":["lec:anat3-larynx","lec:anat3-brainstem"]}
 {"at":"2026-11-12T00:25:19Z","event":"done","lecture":"lec:anat3-brainstem","concepts":50,"relations":70,"evidence":{"exact":242,"approximate":0,"weak":0,"failed":0,"bad-ref":0},"dropped":0,"seconds":600,"tokens":265588}
+{"at":"2026-11-12T00:25:59Z","event":"done","lecture":"lec:anat3-larynx","concepts":50,"relations":70,"evidence":{"exact":227,"approximate":0,"weak":0,"failed":0,"bad-ref":0},"dropped":0,"seconds":651,"tokens":326564}
