@@ -1,5 +1,5 @@
 {
-  "version": "policy-2",
+  "version": "policy-3",
   "note": "Rules that decide what happens to AI-prepared items. Changing this file changes routing on the next assemble; it never changes what the workers wrote.",
   "clinical_relations": [
     "causes",
@@ -18,6 +18,7 @@
     "part-of",
     "located-in",
     "branch-of",
+    "emerges-from",
     "supplies",
     "drains",
     "innervates",
@@ -38,9 +39,11 @@
   "severe_audit_verdicts": [
     "unsupported",
     "contradicts-lecture",
+    "evidence-does-not-support",
     "medically-doubtful",
     "wrong-direction",
     "wrong-type",
+    "overstated",
     "wrong-kind",
     "wrong-tests"
   ],
@@ -101,5 +104,12 @@
     "emergency",
     "risk"
   ],
-  "note_clinical_terms": "A definition or relationship whose wording matches any of these is treated as a clinical statement and held for review, whatever kind of concept it belongs to. This is a word screen, not a judgement: it holds some harmless sentences and can miss a clinical claim phrased without these words."
+  "note_clinical_terms": "A definition or relationship whose wording matches any of these is treated as a clinical statement and held for review, whatever kind of concept it belongs to. This is a word screen, not a judgement: it holds some harmless sentences and can miss a clinical claim phrased without these words.",
+  "opposite_relations": [
+    [
+      "increases",
+      "decreases"
+    ]
+  ],
+  "require_audit": true
 }

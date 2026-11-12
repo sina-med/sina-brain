@@ -23,7 +23,9 @@ const strongAlias = (a) => { const n = normalise(a); return n.includes(" ") || n
  * @param {object[]} [input.conceptMap] previous assignment of (lecture, key) to concept IDs
  */
 export function assemble({ results, byId, policy, decisions = [], conceptMap = [] }) {
-  results = results.slice().sort((a, b) => (a.lecture < b.lecture ? -1 : 1));
+  // With require_audit, a lecture whose result has not been independently audited contributes nothing yet.
+  const awaitingAudit = policy.require_audit ? results.filter((r) => !r.audit).map((r) => r.lecture).sort() : [];
+  results = results.filter((r) => !policy.require_audit || r.audit).sort((a, b) => (a.lecture < b.lecture ? -1 : 1));
   const queue = [];
   const enqueue = (reason, severity, target, lecture, summary, extra = {}) =>
     queue.push(compact({ id: "rq:" + shortHash([reason, target, lecture, summary].join("|")), reason, severity, target, lecture, summary, ...extra }));
@@ -80,8 +82,10 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
   const tested = new Map();            // concept id -> Set of item ids
   const itemText = (id) => { const x = byId.get(id); if (!x) return ""; const b = x.body; return [b.stem, ...(b.options || []), b.explanation, ...(b.option_notes || []), b.front, b.back].filter(Boolean).join(" "); };
   const audit = new Map();             // "lec|target" -> findings
+  const disputed = new Map();          // "lec|target" -> conflicts the worker reported in the lecture that this item rests on
   for (const r of results) {
-    for (const f of (r.audit && r.audit.findings) || []) { const k = r.lecture + "|" + f.target; if (!audit.has(k)) audit.set(k, []); audit.get(k).push(f); }
+    for (const f of (r.audit && r.audit.findings) || []) for (const target of f.targets || [f.target]) { const k = r.lecture + "|" + target; if (!audit.has(k)) audit.set(k, []); audit.get(k).push(f); }
+    for (const c of r.result.conflicts || []) for (const target of c.affects || []) { const k = r.lecture + "|" + target; if (!disputed.has(k)) disputed.set(k, []); disputed.get(k).push(c); }
     for (const t of r.result.tests) for (const key of t.concepts) {
       const id = assigned.get(r.lecture + "|" + key); if (!id) continue;
       if (!tested.has(id)) tested.set(id, new Set()); tested.get(id).add(t.item);
@@ -89,6 +93,7 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
   }
   const findings = (lecture, target) => audit.get(lecture + "|" + target) || [];
   const hasSevere = (fs) => fs.some((f) => severe.has(f.verdict));
+  const inDispute = (lecture, target) => (disputed.get(lecture + "|" + target) || []).length > 0;
 
   // ---- 3. concept records -------------------------------------------------
   const relations = new Map();
@@ -126,13 +131,14 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
       const distinct = new Set(exact.map((e) => e.ref)).size;
       let k = "low";
       if (exact.length || approx.length) k = "medium";
-      if (exact.length && (isTested || distinct >= 2) && c.self_confidence !== "low" && !fs.length && !clinical && !soundsClinical(c.definition)) k = "high";
+      if (exact.length && (isTested || distinct >= 2) && c.self_confidence !== "low" && !fs.length && !clinical && !soundsClinical(c.definition) && !inDispute(lecture, "concept:" + c.key)) k = "high";
       // A severe audit finding is about what the definition says. It holds the definition; the concept itself
       // (a name with pointers to the lecture) stays, so one doubted detail does not hide a whole topic.
       conf = best(conf, k);
       const hold = [];
       if (k === "low") hold.push("unsupported");
       if (hasSevere(fs)) hold.push("audit");
+      if (inDispute(lecture, "concept:" + c.key)) hold.push("lecture-conflict");
       const wording = !clinical && soundsClinical(c.definition);
       if (clinical) hold.push("clinical-definition");
       if (wording) hold.push("clinical-wording");
@@ -193,12 +199,14 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
       const coMention = exact.some((e) => { const t = e.quote + " " + blocksText(e); return named(S, t) && named(D, t); });
       let k = "low";
       if (exact.length || approx.length) k = "medium";
-      if (exact.length && coMention && rel.self_confidence !== "low" && !fs.length) k = "high";
+      const relTarget = `relation:${rel.src}|${rel.type}|${rel.dst}`;
+      if (exact.length && coMention && rel.self_confidence !== "low" && !fs.length && !inDispute(r.lecture, relTarget)) k = "high";
       if (hasSevere(fs)) k = "low";
       k = worst(k, best(S.confidence, "medium") === S.confidence ? "high" : "low");
       k = worst(k, best(D.confidence, "medium") === D.confidence ? "high" : "low");
       const hold = [];
       if (clinicalRel.has(rel.type) || soundsClinical(rel.statement)) hold.push("clinical-claim");
+      if (inDispute(r.lecture, relTarget)) hold.push("lecture-conflict");
       if (k === "low") hold.push(hasSevere(fs) ? "audit" : "unsupported");
       addRel(subjectOf(r.lecture), { src, type: rel.type, dst, lecture: r.lecture, confidence: k, rationale: rel.statement, hold, provenance: ev.filter((e) => e.check === "exact" || e.check === "approximate").map((e) => prov(r.lecture, e)), audit: fs });
     }
@@ -210,7 +218,8 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
       const k = hasSevere(fs) ? "low" : lexical ? "high" : "medium";
       addRel(subjectOf(r.lecture), { src: t.item, type: "tests", dst: id, lecture: r.lecture, confidence: worst(k, C.confidence === "low" ? "low" : "high"), hold: k === "low" ? ["audit"] : C.confidence === "low" ? ["unsupported"] : [], audit: fs });
     }
-    for (const c of r.result.conflicts || []) enqueue("lecture-conflict", "high", r.lecture, r.lecture, c.issue, { detail: c.kind, evidence: (c.evidence || []).map((e) => prov(r.lecture, e)) });
+    for (const c of r.result.conflicts || []) enqueue("lecture-conflict", "high", r.lecture, r.lecture, c.issue, { detail: c.kind + ((c.affects || []).length ? `; holds ${c.affects.length} item(s): ${c.affects.join(", ")}` : ""), evidence: (c.evidence || []).map((e) => prov(r.lecture, e)) });
+    for (const t of (r.audit && r.audit.unmatched_targets) || []) enqueue("audit-finding", "medium", r.lecture, r.lecture, `Auditor named an item that is not in the result: ${t.target}`, { detail: `${t.verdict}: ${t.detail}` });
     for (const m of (r.audit && r.audit.missed) || []) enqueue("missed-concept", "low", r.lecture, r.lecture, `${m.name}: ${m.why}`);
     for (const f of findings(r.lecture, "abstract")) enqueue("audit-finding", "medium", r.lecture, r.lecture, `Abstract: ${f.verdict}`, { detail: f.detail });
     for (const d of r.dropped || []) enqueue("dropped-item", "low", r.lecture, r.lecture, d);
@@ -224,6 +233,11 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
     const other = all.find((x) => x.src === r.dst && x.dst === r.src && x.type === r.type);
     for (const x of [r, other]) x.hold = [...new Set([...(x.hold || []), "contradiction"])];
     enqueue("contradiction", "high", r.id, r.lectures[0], `"${name(r.src)} ${r.type} ${name(r.dst)}" and the reverse are both stated`, { other: other.id });
+  }
+  for (const [up, down] of policy.opposite_relations || []) for (const r of all) if (r.type === up && have.has(r.src + "|" + down + "|" + r.dst)) {
+    const other = all.find((x) => x.src === r.src && x.dst === r.dst && x.type === down);
+    for (const x of [r, other]) x.hold = [...new Set([...(x.hold || []), "contradiction"])];
+    enqueue("contradiction", "high", r.id, r.lectures[0], `"${name(r.src)} ${up} ${name(r.dst)}" and "${down}" are both stated`, { other: other.id });
   }
   for (const type of policy.hierarchy_relations) {
     const next = new Map();
@@ -269,5 +283,5 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
   const seenQ = new Set();
   const order = { high: 0, medium: 1, low: 2 };
   const uniqueQueue = queue.filter((q) => !seenQ.has(q.id) && seenQ.add(q.id) && !decided.has(q.target)).sort((a, b) => order[a.severity] - order[b.severity] || (a.reason < b.reason ? -1 : a.reason > b.reason ? 1 : a.id < b.id ? -1 : 1));
-  return { concepts: conceptRows, relations: relationRows, queue: uniqueQueue, conceptMap: newMap.sort((a, b) => (a.id < b.id ? -1 : 1)), merges, droppedSelf };
+  return { concepts: conceptRows, relations: relationRows, queue: uniqueQueue, conceptMap: newMap.sort((a, b) => (a.id < b.id ? -1 : 1)), merges, droppedSelf, awaitingAudit };
 }

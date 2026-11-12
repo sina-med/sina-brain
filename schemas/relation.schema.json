@@ -25,7 +25,7 @@
     },
     "type": {
       "type": "string",
-      "pattern": "^(part-of|covers|explains|tests|appears-in|cites|related-to|depends-on|is-a|located-in|branch-of|supplies|drains|innervates|attaches-to|acts-on|passes-through|develops-from|contrasts-with|causes|treats|presents-with|contradicts|references|derived-from|duplicate-of|custom:[a-z0-9-]+)$"
+      "pattern": "^(part-of|covers|explains|tests|appears-in|cites|related-to|depends-on|is-a|located-in|branch-of|emerges-from|connects|supplies|drains|innervates|attaches-to|acts-on|increases|decreases|passes-through|develops-from|contrasts-with|causes|treats|presents-with|contradicts|references|derived-from|duplicate-of|custom:[a-z0-9-]+)$"
     },
     "origin": {
       "enum": [

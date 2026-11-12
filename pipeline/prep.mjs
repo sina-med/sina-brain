@@ -21,8 +21,8 @@ import { assemble } from "./lib/prep-assemble.mjs";
 import { readJsonl, writeJsonl, writeIfChanged, listJsonl, parseArgs } from "./lib/util.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
-export const PROMPT_VERSION = "p1";
-export const AUDIT_VERSION = "a1";
+export const PROMPT_VERSION = "p2";
+export const AUDIT_VERSION = "a2";
 const readJson = (f) => JSON.parse(readFileSync(f, "utf8"));
 const policyOf = () => readJson(join(here, "prep/policy.json"));
 const fileSlug = (lectureId) => lectureId.replace(/^lec:/, "");
@@ -79,6 +79,11 @@ export function pack(opts) {
   return out;
 }
 
+/** Every item an audit finding may point at. */
+function auditTargets(result) {
+  return new Set(["abstract", ...result.concepts.map((c) => "concept:" + c.key), ...result.relations.map((r) => `relation:${r.src}|${r.type}|${r.dst}`), ...result.tests.map((t) => "tests:" + t.item)]);
+}
+
 /** Checks one worker result against its packet. Returns the stored form, or throws with the reason it is unusable. */
 export function checkResult(result, packet, policy, lectureId) {
   if (result.lecture !== lectureId) throw new Error(`result is for ${result.lecture}, expected ${lectureId}`);
@@ -115,7 +120,13 @@ export function checkResult(result, packet, policy, lectureId) {
   }
   const missing = packet.items.filter((i) => !seenItem.has(i));
   if (missing.length) dropped.push(`tests: ${missing.length} of ${packet.items.length} questions and flashcards were not listed (${missing.slice(0, 5).join(", ")}${missing.length > 5 ? ", …" : ""})`);
-  const conflicts = (result.conflicts || []).map((c) => ({ ...c, evidence: mark(c.evidence) }));
+  const relKeys = new Set(relations.map((r) => `${r.src}|${r.type}|${r.dst}`));
+  const exists = (t) => (t.startsWith("concept:") ? keys.has(t.slice(8)) : t.startsWith("relation:") ? relKeys.has(t.slice(9)) : false);
+  const conflicts = (result.conflicts || []).map((c) => {
+    const bad = (c.affects || []).filter((t) => !exists(t));
+    if (bad.length) dropped.push(`conflict "${c.issue.slice(0, 60)}…": affects ${bad.join(", ")}, which is not in the result`);
+    return { ...c, affects: (c.affects || []).filter(exists), evidence: mark(c.evidence) };
+  });
   return { result: { ...result, concepts, relations, tests, conflicts }, evidence: tally, dropped, untagged_items: missing.length };
 }
 
@@ -127,7 +138,7 @@ export function ingest(opts) {
   const meta = opts.meta && existsSync(opts.meta) ? readJson(opts.meta) : {};
   const explain = (v) => (v.errors || []).slice(0, 6).map((e) => `${e.instancePath || "/"} ${e.message}`).join("; ");
   const report = [];
-  for (const m of [...ctx.manifest.values()].filter((x) => x.state === "packed" || (opts.reaudit && x.state === "done"))) {
+  for (const m of [...ctx.manifest.values()].filter((x) => x.state === "packed" || x.state === "done")) {
     const s = fileSlug(m.id), rf = join(ctx.work, "results", s + ".json"), af = join(ctx.work, "audits", s + ".json");
     const stored = join(ctx.kb, "ai", m.subject.slice(5), s + ".json");
     const info = meta[m.id] || {};
@@ -158,7 +169,12 @@ export function ingest(opts) {
       try { audit = readJson(af); } catch (e) { ctx.log({ event: "audit-failed", lecture: m.id, error: e.message }); continue; }
       if (!okAudit(audit) || audit.lecture !== m.id) { ctx.log({ event: "audit-failed", lecture: m.id, error: explain(okAudit) || "wrong lecture" }); m.audit = { state: "failed" }; continue; }
       const doc = readJson(stored), a = (meta[m.id] || {}).audit || {};
-      doc.audit = { audit_version: AUDIT_VERSION, model: a.model || "unknown", seconds: a.seconds, tokens: a.tokens, usage: a.usage, findings: audit.findings, missed: audit.missed };
+      const known = auditTargets(doc.result), unmatched = [];
+      const findings = audit.findings.map((f) => {
+        for (const t of f.targets.filter((t) => !known.has(t))) unmatched.push({ target: t, verdict: f.verdict, detail: f.detail });
+        return { ...f, targets: f.targets.filter((t) => known.has(t)) };
+      }).filter((f) => f.targets.length);
+      doc.audit = { audit_version: AUDIT_VERSION, model: a.model || "unknown", seconds: a.seconds, tokens: a.tokens, usage: a.usage, findings, unmatched_targets: unmatched, missed: audit.missed };
       writeFileSync(stored, JSON.stringify(doc, null, 1) + "\n");
       m.audit = { state: "done", version: AUDIT_VERSION, findings: audit.findings.length, missed: audit.missed.length, seconds: a.seconds, tokens: a.tokens };
       ctx.log({ event: "audited", lecture: m.id, findings: audit.findings.length, missed: audit.missed.length });
@@ -214,7 +230,7 @@ export function runAssemble(opts) {
     lectures: results.length, concepts: out.concepts.length, contributions_merged: out.merges,
     concept_status: count(out.concepts, (c) => c.status), concept_confidence: count(out.concepts, (c) => c.confidence),
     relations: out.relations.length, relation_status: count(out.relations, (r) => r.row.status), relation_types: count(out.relations, (r) => r.row.type),
-    queue: out.queue.length, queue_reasons: count(out.queue, (q) => q.reason), files_written: written,
+    queue: out.queue.length, queue_reasons: count(out.queue, (q) => q.reason), awaiting_audit: out.awaitingAudit, files_written: written,
   };
   ctx.log({ event: "assemble", ...summary });
   return summary;
@@ -266,6 +282,23 @@ function reviewMarkdown(queue, byId) {
   return o.join("\n");
 }
 
+/** For auditors: check a draft audit against the result it is about. Changes nothing. */
+export function checkAudit(opts) {
+  if (!opts.lecture || !opts.file) throw new Error("check-audit needs --lecture and --file");
+  const ctx = context(opts);
+  const ajv = new Ajv({ allErrors: true, strict: false });
+  const ok = ajv.compile(readJson(join(here, "../schemas/prep-audit.schema.json")));
+  let raw;
+  try { raw = readJson(opts.file); } catch (e) { return { ok: false, problems: ["not valid JSON: " + e.message] }; }
+  if (!ok(raw)) return { ok: false, problems: (ok.errors || []).slice(0, 20).map((e) => `schema: ${e.instancePath || "/"} ${e.message}`) };
+  const problems = [];
+  if (raw.lecture !== opts.lecture) problems.push(`audit is for ${raw.lecture}, expected ${opts.lecture}`);
+  const resultFile = opts.result || join(ctx.work, "results", fileSlug(opts.lecture) + ".json");
+  const known = auditTargets(readJson(resultFile));
+  for (const f of raw.findings) for (const t of f.targets) if (!known.has(t)) problems.push(`target "${t}" is not an item in the result; copy concept keys and relation triples exactly`);
+  return { ok: problems.length === 0, findings: raw.findings.length, targets: raw.findings.reduce((a, f) => a + f.targets.length, 0), missed: raw.missed.length, problems };
+}
+
 export function status(opts) {
   const ctx = context(opts);
   const states = {};
@@ -276,7 +309,7 @@ export function status(opts) {
 if (import.meta.url === `file://${process.argv[1]}`) {
   const [cmd, ...rest] = process.argv.slice(2);
   const opts = parseArgs(rest);
-  const run = { pack, ingest, assemble: runAssemble, status, check }[cmd];
+  const run = { pack, ingest, assemble: runAssemble, status, check, "check-audit": checkAudit }[cmd];
   if (!run) { console.error("Usage: node pipeline/prep.mjs pack|ingest|assemble|status [options]"); process.exit(2); }
   try { console.log(JSON.stringify(run(opts), null, 2)); }
   catch (e) { console.error(`prep ${cmd} failed: ${e.message}`); process.exit(1); }

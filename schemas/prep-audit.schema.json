@@ -1,27 +1,104 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://sina-med.github.io/brain/schemas/prep-audit.schema.json",
-  "title": "Knowledge preparation audit (instructions a1)",
+  "title": "Knowledge preparation audit (instructions a2)",
   "type": "object",
-  "required": ["lecture", "audit_version", "findings", "missed"],
+  "required": [
+    "lecture",
+    "audit_version",
+    "findings",
+    "missed"
+  ],
   "additionalProperties": false,
   "properties": {
-    "lecture": { "type": "string", "pattern": "^lec:" },
-    "audit_version": { "type": "string" },
+    "lecture": {
+      "type": "string",
+      "pattern": "^lec:"
+    },
+    "audit_version": {
+      "type": "string"
+    },
     "findings": {
-      "type": "array", "items": {
-        "type": "object", "required": ["target", "verdict", "detail"], "additionalProperties": false,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "targets",
+          "verdict",
+          "detail"
+        ],
+        "additionalProperties": false,
         "properties": {
-          "target": { "type": "string", "pattern": "^(concept:|relation:|tests:|abstract$)" },
-          "verdict": { "enum": ["unsupported", "contradicts-lecture", "wrong-kind", "wrong-direction", "wrong-type", "wrong-tests", "duplicate", "medically-doubtful"] },
-          "detail": { "type": "string", "minLength": 5 },
-          "evidence": { "type": "array", "items": { "type": "object", "required": ["ref", "quote"], "properties": { "ref": { "type": "string" }, "quote": { "type": "string" } } } }
-        } }
+          "verdict": {
+            "enum": [
+              "unsupported",
+              "contradicts-lecture",
+              "evidence-does-not-support",
+              "wrong-kind",
+              "wrong-direction",
+              "wrong-type",
+              "overstated",
+              "wrong-tests",
+              "wrong-alias",
+              "duplicate",
+              "medically-doubtful"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "minLength": 5
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "ref",
+                "quote"
+              ],
+              "properties": {
+                "ref": {
+                  "type": "string"
+                },
+                "quote": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "targets": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^(concept:|relation:|tests:|abstract$)"
+            }
+          }
+        }
+      }
     },
     "missed": {
-      "type": "array", "maxItems": 10, "items": {
-        "type": "object", "required": ["name", "why"], "additionalProperties": false,
-        "properties": { "name": { "type": "string" }, "why": { "type": "string" }, "evidence": { "type": "array" } } }
+      "type": "array",
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "why"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "why": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array"
+          }
+        }
+      }
     }
   }
 }

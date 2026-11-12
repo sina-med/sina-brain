@@ -1,59 +1,280 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://sina-med.github.io/brain/schemas/prep-result.schema.json",
-  "title": "Knowledge preparation result (instructions p1)",
+  "title": "Knowledge preparation result (instructions p2)",
   "type": "object",
-  "required": ["lecture", "prompt_version", "abstract", "keywords", "concepts", "relations", "tests", "conflicts"],
+  "required": [
+    "lecture",
+    "prompt_version",
+    "abstract",
+    "keywords",
+    "concepts",
+    "relations",
+    "tests",
+    "conflicts"
+  ],
   "additionalProperties": false,
   "definitions": {
     "evidence": {
-      "type": "array", "items": {
-        "type": "object", "required": ["ref", "quote"], "additionalProperties": false,
-        "properties": { "ref": { "type": "string", "minLength": 3 }, "quote": { "type": "string", "minLength": 3 } } }
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ref",
+          "quote"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "ref": {
+            "type": "string",
+            "minLength": 3
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
+      },
+      "maxItems": 2
     },
-    "confidence": { "enum": ["high", "medium", "low"] },
-    "key": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    }
   },
   "properties": {
-    "lecture": { "type": "string", "pattern": "^lec:" },
-    "prompt_version": { "type": "string" },
-    "abstract": { "type": "string", "minLength": 40, "maxLength": 900 },
-    "keywords": { "type": "array", "minItems": 3, "maxItems": 15, "items": { "type": "string", "minLength": 2 } },
+    "lecture": {
+      "type": "string",
+      "pattern": "^lec:"
+    },
+    "prompt_version": {
+      "type": "string"
+    },
+    "abstract": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 900
+    },
+    "keywords": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "string",
+        "minLength": 2
+      }
+    },
     "concepts": {
-      "type": "array", "minItems": 1, "items": {
-        "type": "object", "required": ["key", "name", "kind", "definition", "importance", "evidence", "self_confidence"], "additionalProperties": false,
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "name",
+          "kind",
+          "definition",
+          "importance",
+          "evidence",
+          "self_confidence"
+        ],
+        "additionalProperties": false,
         "properties": {
-          "key": { "$ref": "#/definitions/key" },
-          "name": { "type": "string", "minLength": 2, "maxLength": 120 },
-          "kind": { "enum": ["structure", "process", "condition", "drug", "organism", "sign-symptom", "investigation", "procedure", "principle", "other"] },
-          "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
-          "definition": { "type": "string", "minLength": 15, "maxLength": 600 },
-          "importance": { "enum": [1, 2, 3] },
-          "evidence": { "$ref": "#/definitions/evidence" },
-          "self_confidence": { "$ref": "#/definitions/confidence" }
-        } }
+          "key": {
+            "$ref": "#/definitions/key"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 120
+          },
+          "kind": {
+            "enum": [
+              "structure",
+              "process",
+              "condition",
+              "drug",
+              "organism",
+              "sign-symptom",
+              "investigation",
+              "procedure",
+              "principle",
+              "other"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 15,
+            "maxLength": 600
+          },
+          "importance": {
+            "enum": [
+              1,
+              2,
+              3
+            ]
+          },
+          "evidence": {
+            "allOf": [
+              {
+                "$ref": "#/definitions/evidence"
+              },
+              {
+                "minItems": 1
+              }
+            ]
+          },
+          "self_confidence": {
+            "$ref": "#/definitions/confidence"
+          }
+        }
+      },
+      "maxItems": 50
     },
     "relations": {
-      "type": "array", "items": {
-        "type": "object", "required": ["src", "type", "dst", "statement", "evidence", "self_confidence"], "additionalProperties": false,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "src",
+          "type",
+          "dst",
+          "statement",
+          "evidence",
+          "self_confidence"
+        ],
+        "additionalProperties": false,
         "properties": {
-          "src": { "$ref": "#/definitions/key" }, "dst": { "$ref": "#/definitions/key" },
-          "type": { "enum": ["is-a", "part-of", "located-in", "branch-of", "supplies", "drains", "innervates", "attaches-to", "acts-on", "passes-through", "develops-from", "depends-on", "contrasts-with", "related-to", "causes", "presents-with", "treats"] },
-          "statement": { "type": "string", "minLength": 10, "maxLength": 400 },
-          "evidence": { "$ref": "#/definitions/evidence" },
-          "self_confidence": { "$ref": "#/definitions/confidence" }
-        } }
+          "src": {
+            "$ref": "#/definitions/key"
+          },
+          "dst": {
+            "$ref": "#/definitions/key"
+          },
+          "type": {
+            "enum": [
+              "is-a",
+              "part-of",
+              "located-in",
+              "branch-of",
+              "emerges-from",
+              "connects",
+              "supplies",
+              "drains",
+              "innervates",
+              "attaches-to",
+              "acts-on",
+              "increases",
+              "decreases",
+              "passes-through",
+              "develops-from",
+              "depends-on",
+              "contrasts-with",
+              "related-to",
+              "causes",
+              "presents-with",
+              "treats"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 400
+          },
+          "evidence": {
+            "allOf": [
+              {
+                "$ref": "#/definitions/evidence"
+              },
+              {
+                "minItems": 1
+              }
+            ]
+          },
+          "self_confidence": {
+            "$ref": "#/definitions/confidence"
+          }
+        }
+      },
+      "maxItems": 70
     },
     "tests": {
-      "type": "array", "items": {
-        "type": "object", "required": ["item", "concepts"], "additionalProperties": false,
-        "properties": { "item": { "type": "string", "pattern": "^(q|card):" }, "concepts": { "type": "array", "maxItems": 4, "items": { "$ref": "#/definitions/key" } } } }
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item",
+          "concepts"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "item": {
+            "type": "string",
+            "pattern": "^(q|card):"
+          },
+          "concepts": {
+            "type": "array",
+            "maxItems": 4,
+            "items": {
+              "$ref": "#/definitions/key"
+            }
+          }
+        }
+      }
     },
     "conflicts": {
-      "type": "array", "items": {
-        "type": "object", "required": ["kind", "issue"], "additionalProperties": false,
-        "properties": { "kind": { "enum": ["internal", "differs-from-standard-teaching"] }, "issue": { "type": "string", "minLength": 10 }, "evidence": { "$ref": "#/definitions/evidence" } } }
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "issue",
+          "affects"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "enum": [
+              "internal",
+              "differs-from-standard-teaching"
+            ]
+          },
+          "issue": {
+            "type": "string",
+            "minLength": 10
+          },
+          "evidence": {
+            "$ref": "#/definitions/evidence"
+          },
+          "affects": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^(concept:[a-z0-9-]+|relation:[a-z0-9-]+\\|[a-z-]+\\|[a-z0-9-]+)$"
+            }
+          }
+        }
+      }
     },
-    "notes": { "type": "array", "items": { "type": "string" } }
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }

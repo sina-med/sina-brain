@@ -6,7 +6,7 @@ import { join } from "node:path";
 import { runImport } from "../pipeline/import-sina.mjs";
 import { validateKb } from "../pipeline/validate.mjs";
 import { computeStats } from "../pipeline/stats.mjs";
-import { pack, ingest, runAssemble, status, check } from "../pipeline/prep.mjs";
+import { pack, ingest, runAssemble, status, check, checkAudit } from "../pipeline/prep.mjs";
 import { lectureReport } from "../pipeline/prep-report.mjs";
 import { checkQuote, normalise, mentions } from "../pipeline/lib/evidence.mjs";
 import { nameKey } from "../pipeline/lib/prep-assemble.mjs";
@@ -28,7 +28,7 @@ function setup() {
 const E = (ref, quote) => ({ ref, quote });
 function goodResult() {
   return {
-    lecture: LEC, prompt_version: "p1", abstract: "The lecture covers fast and slow pain and the definition of allodynia.", keywords: ["pain", "allodynia", "c fibres"],
+    lecture: LEC, prompt_version: "p2", abstract: "The lecture covers fast and slow pain and the definition of allodynia.", keywords: ["pain", "allodynia", "c fibres"],
     concepts: [
       { key: "allodynia", name: "Allodynia", kind: "principle", aliases: [], definition: "Pain from a harmless stimulus.", importance: 3, evidence: [E("q:1egt1vv", "Pain from a harmless stimulus"), E("slide:physio-pain/04", "Allodynia")], self_confidence: "high" },
       { key: "fast-pain", name: "Fast pain", kind: "process", aliases: ["First pain"], definition: "Pain carried by A-delta fibres, lost after nerve injury.", importance: 2, evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "high" },
@@ -40,14 +40,16 @@ function goodResult() {
       { src: "fast-pain", type: "is-a", dst: "pain", statement: "Fast pain is one of the two lanes of pain.", evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "high" },
       { src: "neuropathy", type: "causes", dst: "allodynia", statement: "Neuropathic pain causes allodynia.", evidence: [E("q:1egt1vv", "Pain from a harmless stimulus")], self_confidence: "high" },
       { src: "ghost", type: "related-to", dst: "pain", statement: "Substance P relates to pain.", evidence: [E("sec:physio-pain/big", "nothing like this is written")], self_confidence: "high" },
-      { src: "pain", type: "is-a", dst: "nowhere", statement: "Refers to a missing concept.", evidence: [], self_confidence: "low" },
+      { src: "pain", type: "is-a", dst: "nowhere", statement: "Refers to a missing concept.", evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "low" },
     ],
     tests: ITEMS.map((item, i) => ({ item, concepts: i === 0 ? ["allodynia"] : i === 1 ? ["pain"] : [] })),
-    conflicts: [{ kind: "internal", issue: "The slide and the summary disagree about something.", evidence: [E("slide:physio-pain/04", "Allodynia")] }],
+    conflicts: [{ kind: "internal", issue: "The slide and the summary disagree about something.", evidence: [E("slide:physio-pain/04", "Allodynia")], affects: [] }],
     notes: [],
   };
 }
 const write = (ctx, name, obj) => writeFileSync(join(ctx.work, name), JSON.stringify(obj));
+/** An independent audit is required before a lecture's results are assembled; by default it finds nothing. */
+const audit = (ctx, slug = "physio-pain", findings = [], missed = []) => write(ctx, `audits/${slug}.json`, { lecture: "lec:" + slug, audit_version: "a2", findings, missed });
 
 test("quotation checking", () => {
   const block = "The posterior cricoarytenoid is the ONLY abductor (‘safety muscle’): paralysis → airway closes.";
@@ -105,6 +107,7 @@ test("assemble routes items by confidence and risk, and the output validates", (
   const ctx = setup();
   pack({ ...ctx, lectures: LEC });
   write(ctx, "results/physio-pain.json", goodResult());
+  audit(ctx);
   ingest(ctx);
   const s = runAssemble(ctx);
   assert.equal(s.concepts, 5);
@@ -144,6 +147,7 @@ test("assemble is repeatable and keeps concept IDs when another lecture is added
   const ctx = setup();
   pack({ ...ctx, lectures: LEC });
   write(ctx, "results/physio-pain.json", goodResult());
+  audit(ctx);
   ingest(ctx);
   runAssemble(ctx);
   const snap = () => ["records/concepts.jsonl", "relations/ai/physio.jsonl", "admin/review-queue.jsonl", "admin/concept-map.jsonl"].map((f) => readFileSync(join(ctx.kb, f), "utf8"));
@@ -160,13 +164,14 @@ test("the same concept from two lectures merges; plural and alias forms are reco
   runImport({ sina: site.dir, ocr: site.ocr, kb, quiet: true, date: "2026-01-01" });
   pack({ ...ctx, next: 10 });
   write(ctx, "results/physio-pain.json", goodResult());
-  write(ctx, "results/physio-a.json", { lecture: "lec:physio-a", prompt_version: "p1", abstract: "A second lecture about allodynia and first pain, for testing.", keywords: ["allodynia", "first pain", "hyperalgesia"], tests: [], conflicts: [],
+  write(ctx, "results/physio-a.json", { lecture: "lec:physio-a", prompt_version: "p2", abstract: "A second lecture about allodynia and first pain, for testing.", keywords: ["allodynia", "first pain", "hyperalgesia"], tests: [], conflicts: [],
     concepts: [
       { key: "allodynias", name: "Allodynias", kind: "condition", definition: "Pain from light touch.", importance: 2, evidence: [E("sec:physio-a/s", "Allodynia is pain from light touch")], self_confidence: "high" },
       { key: "first-pain", name: "First pain", kind: "process", definition: "The sharp early pain.", importance: 2, evidence: [E("sec:physio-a/s", "First pain is sharp")], self_confidence: "high" },
       { key: "hyper", name: "Hyperalgesia", kind: "principle", definition: "Exaggerated pain.", importance: 2, evidence: [E("sec:physio-a/s", "Hyperalgesia is exaggerated pain")], self_confidence: "high" }],
     relations: [{ src: "first-pain", type: "is-a", dst: "allodynias", statement: "Deliberately reversed for the test.", evidence: [E("sec:physio-a/s", "First pain is sharp")], self_confidence: "medium" },
       { src: "allodynias", type: "is-a", dst: "first-pain", statement: "And the other way round.", evidence: [E("sec:physio-a/s", "First pain is sharp")], self_confidence: "medium" }] });
+  audit(ctx); audit(ctx, "physio-a");
   assert.deepEqual(ingest(ctx).lectures.map((l) => l.state), ["done", "done"]);
   const s = runAssemble(ctx);
   assert.equal(s.concepts, 6);                                                  // 5 + 3 − allodynia − first pain
@@ -218,8 +223,8 @@ test("an audit finding takes an item out of automatic publication; a human decis
   const ctx = setup();
   pack({ ...ctx, lectures: LEC });
   write(ctx, "results/physio-pain.json", goodResult());
-  write(ctx, "audits/physio-pain.json", { lecture: LEC, audit_version: "a1", missed: [{ name: "Hyperalgesia", why: "tested by a question" }],
-    findings: [{ target: "relation:fast-pain|is-a|pain", verdict: "wrong-direction", detail: "Should be the other way." }, { target: "concept:pain", verdict: "duplicate", detail: "Same as fast pain." }] });
+  audit(ctx, "physio-pain", [{ targets: ["relation:fast-pain|is-a|pain", "relation:nobody|is-a|nothing"], verdict: "wrong-direction", detail: "Should be the other way." }, { targets: ["concept:pain"], verdict: "duplicate", detail: "Same as fast pain." }],
+    [{ name: "Hyperalgesia", why: "tested by a question" }]);
   ingest(ctx);
   runAssemble(ctx);
   let rel = readJsonl(join(ctx.kb, "relations/ai/physio.jsonl")).find((r) => r.type === "is-a");
@@ -227,6 +232,7 @@ test("an audit finding takes an item out of automatic publication; a human decis
   const q = readJsonl(join(ctx.kb, "admin/review-queue.jsonl"));
   assert.ok(q.some((x) => x.reason === "audit-finding" && x.target === rel.id && x.severity === "high"));
   assert.ok(q.some((x) => x.reason === "missed-concept"));
+  assert.ok(q.some((x) => /not in the result: relation:nobody\|is-a\|nothing/.test(x.summary)));   // a finding about an unknown item is surfaced, not lost
   assert.equal(readJsonl(join(ctx.kb, "records/concepts.jsonl")).find((c) => c.id === "c:pain").confidence, "medium");   // a non-severe finding stops it being "high"
 
   writeFileSync(join(ctx.kb, "admin/review-decisions.jsonl"), JSON.stringify({ target: rel.id, action: "approve", by: "Dr Reviewer", date: "2026-01-03" }) + "\n" + JSON.stringify({ target: "c:substance-p", action: "reject", by: "Dr Reviewer", date: "2026-01-03" }) + "\n");
@@ -252,6 +258,7 @@ test("the validator refuses AI records that claim more than they may", () => {
   const ctx = setup();
   pack({ ...ctx, lectures: LEC });
   write(ctx, "results/physio-pain.json", goodResult());
+  audit(ctx);
   ingest(ctx); runAssemble(ctx);
   const f = join(ctx.kb, "records/concepts.jsonl"), rows = readJsonl(f);
   rows.find((c) => c.id === "c:allodynia").verification = "expert-reviewed";
@@ -280,11 +287,66 @@ test("an alternative name shared across subjects is sent for review, not merged 
   const base = goodResult();
   base.concepts[2] = { ...base.concepts[2], aliases: ["Median eminence"] };          // "Pain", wrongly given another structure's name as an alias
   write(ctx, "results/physio-pain.json", base);
-  write(ctx, "results/anat-hypo.json", { lecture: "lec:anat-hypo", prompt_version: "p1", abstract: "A lecture on the hypothalamus and its median eminence, for testing.", keywords: ["hypothalamus", "median eminence", "base"], tests: [], conflicts: [], relations: [],
+  write(ctx, "results/anat-hypo.json", { lecture: "lec:anat-hypo", prompt_version: "p2", abstract: "A lecture on the hypothalamus and its median eminence, for testing.", keywords: ["hypothalamus", "median eminence", "base"], tests: [], conflicts: [], relations: [],
     concepts: [{ key: "me", name: "Median eminence", kind: "structure", definition: "A structure at the base of the hypothalamus.", importance: 2, evidence: [E("sec:anat-hypo/s", "The median eminence lies at the base of the hypothalamus")], self_confidence: "high" }] });
+  audit(ctx); audit(ctx, "anat-hypo");
   ingest(ctx);
   runAssemble(ctx);
   const ids = readJsonl(join(kb, "records/concepts.jsonl")).map((c) => c.id);
   assert.ok(ids.includes("c:median-eminence") && ids.includes("c:pain"));           // kept apart
   assert.ok(readJsonl(join(kb, "admin/review-queue.jsonl")).some((q) => q.reason === "possible-duplicate" && /different subject/.test(q.detail)));
+});
+
+test("without an independent audit a lecture's results are not assembled", () => {
+  const ctx = setup();
+  pack({ ...ctx, lectures: LEC });
+  write(ctx, "results/physio-pain.json", goodResult());
+  ingest({ ...ctx });
+  const first = runAssemble(ctx);
+  assert.deepEqual([first.concepts, first.awaiting_audit], [0, [LEC]]);
+  audit(ctx);
+  ingest(ctx);                                                                  // the audit arrives later
+  assert.equal(runAssemble(ctx).concepts, 5);
+  assert.equal(readJsonl(join(ctx.kb, "admin/prep-manifest.jsonl"))[0].audit.state, "done");
+});
+
+test("items resting on a conflict the worker reported are held, and one audit finding can hold many items", () => {
+  const ctx = setup();
+  pack({ ...ctx, lectures: LEC });
+  const r = goodResult();
+  r.conflicts = [{ kind: "differs-from-standard-teaching", issue: "The lecture's figure differs from standard teaching.", evidence: [E("exam:1", "Fast pain: A-delta")], affects: ["concept:pain", "relation:fast-pain|is-a|pain", "concept:does-not-exist"] }];
+  r.relations.push({ src: "pain", type: "increases", dst: "allodynia", statement: "Pain increases allodynia.", evidence: [E("sec:physio-pain/big", "Pain has two lanes")], self_confidence: "high" },
+    { src: "pain", type: "decreases", dst: "allodynia", statement: "Pain decreases allodynia.", evidence: [E("sec:physio-pain/big", "Pain has two lanes")], self_confidence: "high" });
+  write(ctx, "results/physio-pain.json", r);
+  audit(ctx, "physio-pain", [{ targets: ["concept:allodynia", "concept:fast-pain"], verdict: "evidence-does-not-support", detail: "The quotations do not state the definition." }]);
+  const ing = ingest(ctx);
+  assert.ok(ing.lectures[0].dropped.some((d) => /affects concept:does-not-exist/.test(d)));
+  runAssemble(ctx);
+  const concepts = new Map(readJsonl(join(ctx.kb, "records/concepts.jsonl")).map((c) => [c.id, c]));
+  assert.deepEqual(concepts.get("c:pain").body.definitions[0].held_for, ["lecture-conflict"]);
+  assert.equal(concepts.get("c:pain").status, "auto-accepted");                 // the concept stays as an index entry; its definition is held
+  assert.deepEqual(concepts.get("c:allodynia").body.definitions[0].held_for, ["audit"]);
+  assert.ok(concepts.get("c:fast-pain").body.definitions[0].held_for.includes("audit"));
+  const rels = readJsonl(join(ctx.kb, "relations/ai/physio.jsonl"));
+  assert.deepEqual(rels.find((x) => x.type === "is-a").attrs.held_for, ["lecture-conflict"]);
+  for (const t of ["increases", "decreases"]) assert.ok(rels.find((x) => x.type === t).attrs.held_for.includes("contradiction"));
+  assert.deepEqual(validateKb(ctx.kb).errors, []);
+});
+
+test("the size limits and the audit checker are enforced", () => {
+  const ctx = setup();
+  pack({ ...ctx, lectures: LEC });
+  const big = goodResult();
+  for (let i = 0; i < 50; i++) big.concepts.push({ key: "extra-" + i, name: "Extra " + i, kind: "structure", aliases: [], definition: "An extra concept for the test.", importance: 1, evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "low" });
+  write(ctx, "draft.json", big);
+  assert.ok(check({ ...ctx, lecture: LEC, file: join(ctx.work, "draft.json") }).problems.some((p) => /concepts must NOT have more than 50 items/.test(p)));
+  const three = goodResult(); three.concepts[0].evidence.push(E("exam:1", "Fast pain: A-delta"));
+  write(ctx, "draft.json", three);
+  assert.ok(check({ ...ctx, lecture: LEC, file: join(ctx.work, "draft.json") }).problems.some((p) => /must NOT have more than 2 items/.test(p)));
+
+  write(ctx, "results/physio-pain.json", goodResult());
+  audit(ctx, "physio-pain", [{ targets: ["concept:pain", "concept:typo"], verdict: "unsupported", detail: "Not in the packet." }]);
+  const a = checkAudit({ ...ctx, lecture: LEC, file: join(ctx.work, "audits/physio-pain.json") });
+  assert.deepEqual([a.ok, a.targets], [false, 2]);
+  assert.match(a.problems[0], /"concept:typo" is not an item in the result/);
 });
