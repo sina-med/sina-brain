@@ -37,7 +37,11 @@ function context(opts) {
   const log = (event) => { mkdirSync(join(kb, "admin"), { recursive: true }); appendFileSync(join(kb, "admin/prep-log.jsonl"), JSON.stringify({ at: now(), ...event }) + "\n"); };
   const save = () => writeJsonl(manifestFile, [...manifest.values()]);
   const eligible = rows.filter((r) => r.type === "lecture" && !(r.flags || []).includes("no-content"));
-  const known = () => rows.filter((r) => r.type === "concept" && r.status !== "rejected").map((c) => ({ name: c.title, kind: c.body.kind, aliases: c.body.aliases || [], subject: c.subject }));
+  // Concepts a worker may be told about: those established by another lecture under the current instructions.
+  // A lecture never sees its own earlier output, and output from an older instruction version does not steer new work.
+  const current = (id) => { const m = manifest.get(id); return m && m.state === "done" && m.prompt_version === PROMPT_VERSION; };
+  const known = (forLecture) => rows.filter((r) => r.type === "concept" && r.status !== "rejected" && r.body.lectures.some((l) => l !== forLecture && current(l)))
+    .map((c) => ({ name: c.title, kind: c.body.kind, aliases: c.body.aliases || [], subject: c.subject }));
   return { kb, work, rows, byId, manifest, now, log, save, eligible, known };
 }
 
@@ -61,7 +65,7 @@ export function pack(opts) {
   mkdirSync(join(ctx.work, "audits"), { recursive: true });
   for (const lec of chosen) {
     if (out.length >= max || (opts.next && out.length && total > budget)) break;
-    const known = ctx.known().filter((k) => k.subject === lec.subject);
+    const known = ctx.known(lec.id).filter((k) => k.subject === lec.subject);
     const p = buildPacket(lec.id, ctx.byId, ctx.rows, known);
     const m = ctx.manifest.get(lec.id);
     const unchanged = m && m.state === "done" && m.input_hash === p.hash && m.prompt_version === PROMPT_VERSION;
