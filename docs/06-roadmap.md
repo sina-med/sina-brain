@@ -12,7 +12,7 @@ Result: [01-audit.md](01-audit.md).
 
 Result: the documents in this folder, approved by the owner on 11 November 2026.
 
-## Phase 3: Core data infrastructure — built, awaiting review
+## Phase 3: Core data infrastructure — done
 
 Report: [phase-3-report.md](phase-3-report.md).
 
@@ -31,7 +31,9 @@ Done when:
 - Tests cover ID derivation, alias handling, duplicate questions across papers and a deliberately broken record.
 - A first coverage report exists, listing the known gaps (3 lectures without data, 20 without slides, 425 slides without text).
 
-## Phase 4: Ingestion and knowledge preparation (pilot)
+## Phase 4: Ingestion and knowledge preparation — pilot done, awaiting review
+
+Report: [phase-4-pilot-report.md](phase-4-pilot-report.md). The workflow changed on 11 November 2026 to batch processing after a two-lecture pilot ([04-ingestion.md](04-ingestion.md) section 4.9); the text below is the original plan.
 
 Build:
 

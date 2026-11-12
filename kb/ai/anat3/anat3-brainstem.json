@@ -3985,5 +3985,236 @@
    "Acoustic neuroma: hy:9 names it and deeper:4 describes 'a tumour of the vestibulocochlear nerve sheath' at the same site without using the name; the link between the two is inferred, hence medium confidence.",
    "Branches of the basilar artery (posterior cerebral, superior cerebellar, posterior choroidal, interpeduncular) and the medullary vela are only listed in the packet, so they are kept inside the definitions of Basilar artery and Fourth ventricle rather than made into separate concepts."
   ]
+ },
+ "audit": {
+  "audit_version": "a1",
+  "model": "claude-fable-5-2",
+  "seconds": 256,
+  "tokens": 196873,
+  "usage": {
+   "output": 28128,
+   "cache_write": 168727,
+   "cache_read": 821058,
+   "input": 18
+  },
+  "findings": [
+   {
+    "target": "concept:cephalic-flexure",
+    "verdict": "medically-doubtful",
+    "detail": "The packet supports the definition, but standard embryology calls the bend between brainstem and spinal cord the cervical flexure; the cephalic flexure is the mesencephalic flexure itself. In standard teaching this concept and 'mesencephalic-flexure' are therefore one and the same thing, not two bends (the result records this under conflicts but still keeps two concepts).",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/04",
+      "quote": "the cephalic flexure: brainstem and spinal cord"
+     },
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "The growing neural tube bends at the cephalic flexure and the mesencephalic (cranial) flexure"
+     }
+    ]
+   },
+   {
+    "target": "concept:medial-eminence",
+    "verdict": "medically-doubtful",
+    "detail": "The packet says the medial eminence marks the midline, but in standard teaching the midline of the floor of the fourth ventricle is the median sulcus; the medial eminence is the paired longitudinal elevation on each side of it (the facial colliculus is its lower part). The alias 'median eminence', taken from a question option, is in standard usage a hypothalamic structure, not this landmark.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "The medial eminence marks the midline of the floor"
+     },
+     {
+      "ref": "q:zdor62",
+      "quote": "The median eminence marks the midline"
+     }
+    ]
+   },
+   {
+    "target": "concept:accessory-nerve",
+    "verdict": "medically-doubtful",
+    "detail": "The definition calls the accessory nerve 'one of the mixed nerves', which the packet supports (the French grouping of IX, X and XI), but standard teaching is that CN XI is a purely motor nerve; only IX and X are mixed. The alias 'spinal nerve' is the slide's literal rendering of the French name for CN XI and in English means a nerve of the spinal cord, so it is misleading as a search alias.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Lateral, behind the olive | IX, X and XI, the mixed nerves"
+     },
+     {
+      "ref": "slide:anat3-brainstem/20",
+      "quote": "XI the spinal nerve"
+     }
+    ]
+   },
+   {
+    "target": "concept:basilar-artery",
+    "verdict": "medically-doubtful",
+    "detail": "The definition says the basilar artery and its branches supply the brainstem, as the slide does, but standard teaching is the vertebrobasilar system: the medulla is supplied mainly by the vertebral arteries and their branches, which the packet itself hints at and the definition leaves out. The posterior choroidal artery is also normally taught as a branch of the posterior cerebral artery, not of the basilar artery directly.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/30",
+      "quote": "The brainstem receives vascular supply from the basilar artery and its branches"
+     },
+     {
+      "ref": "hy:10",
+      "quote": "Blood supply = basilar (+ vertebral) system"
+     }
+    ]
+   },
+   {
+    "target": "relation:oculomotor-nerve|branch-of|midbrain",
+    "verdict": "wrong-type",
+    "detail": "Read as a sentence, 'Oculomotor nerve is a branch of Midbrain' is not what the packet says: it says the nerve emerges from (exits) the surface of the midbrain, and branch-of is meant for a nerve or vessel arising from a parent nerve or vessel. The same applies to the other seven branch-of relations (trochlear-nerve to midbrain; trigeminal-nerve and abducens-nerve to pons; hypoglossal-, glossopharyngeal-, vagus- and accessory-nerve to medulla-oblongata); related-to, or located-in as used for the facial and vestibulocochlear nerves, would not misstate the link.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Anterior, midbrain | III between the cerebral peduncles"
+     },
+     {
+      "ref": "slide:anat3-brainstem/22",
+      "quote": "All cranial nerves emerge from the anterolateral surface of the brainstem except one"
+     }
+    ]
+   }
+  ],
+  "missed": [
+   {
+    "name": "Abducens nucleus",
+    "why": "The facial colliculus is defined by facial fibres looping round this nucleus, which is the marked answer of q:psqllx and explains the ipsilateral VI and VII palsy of a lesion there; the result has the abducens nerve but no concept for its nucleus.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Facial colliculus: facial fibres looping around the abducens nucleus"
+     },
+     {
+      "ref": "hy:6",
+      "quote": "A lesion there → ipsilateral VI and VII palsy"
+     }
+    ]
+   },
+   {
+    "name": "Medullary velum (superior and inferior)",
+    "why": "The vela form the roof and part of the side walls of the fourth ventricle; they are an option in q:1ll2t2d and on card b20, but appear only inside the fourth ventricle definition.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Roof: the superior and inferior medullary vela"
+     },
+     {
+      "ref": "q:1ll2t2d",
+      "quote": "The roof is the superior and inferior medullary vela"
+     }
+    ]
+   },
+   {
+    "name": "Pontocerebellar fibres",
+    "why": "The transverse pontocerebellar fibres make the ventral bulge that identifies the pons (cards s2 and b9, option in q:psqllx); there is no concept for them.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "Its ventral bulge, about 2.5 cm, is made by transverse pontocerebellar fibres"
+     },
+     {
+      "ref": "card:anat3-brainstem/s2",
+      "quote": "The pons, the largest part, its bulge made by transverse pontocerebellar fibres"
+     }
+    ]
+   },
+   {
+    "name": "Sulci of the medulla where nerves emerge (anterior collateral groove between pyramid and olive; posterior collateral groove behind the olive)",
+    "why": "The lecture names the two grooves from which CN XII and CN IX to XI emerge, and several questions and cards test them; the result only links the nerves loosely to the olive and pyramid with related-to.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/17",
+      "quote": "Hypoglossal(12th): from sulcus between pyramid & olive"
+     },
+     {
+      "ref": "slide:anat3-brainstem/20",
+      "quote": "at the level of the posterior collateral groove (The bundle of mixed nerves)"
+     },
+     {
+      "ref": "q:130csae",
+      "quote": "CN IX, X and the cranial part of XI emerge from the sulcus behind the olive"
+     }
+    ]
+   },
+   {
+    "name": "Spinal cord",
+    "why": "The brainstem is defined by its connection to the spinal cord below, the cord is a distractor in several questions, and the neighbouring cerebellum and diencephalon were given concepts while the cord was not.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Below, the spinal cord through the foramen magnum"
+     },
+     {
+      "ref": "sec:anat3-brainstem/big",
+      "quote": "The brainstem is the stalk connecting the cerebrum to the spinal cord"
+     }
+    ]
+   },
+   {
+    "name": "Cranial nerve palsy (ipsilateral)",
+    "why": "It is the other half of the alternating syndrome and the part that gives the level of the lesion; hemiplegia has a concept and a presents-with relation, the nerve palsy has neither.",
+    "evidence": [
+     {
+      "ref": "exam:15",
+      "quote": "Alternating syndrome: ipsilateral cranial nerve palsy plus contralateral hemiplegia"
+     },
+     {
+      "ref": "hy:8",
+      "quote": "the nerve tells you the level (III → midbrain, VI/VII → pons, XII → medulla)"
+     }
+    ]
+   },
+   {
+    "name": "Choroid plexus of the fourth ventricle",
+    "why": "Taught as lining the roof of the fourth ventricle along the tela choroidea and as one of the structures at the cerebellopontine angle; the tela choroidea is an option in q:1ll2t2d.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/29",
+      "quote": "The fourth ventricle contains choroid plexus along its roof along the tela choroidea"
+     },
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Choroid plexus lines the roof"
+     }
+    ]
+   },
+   {
+    "name": "Medial geniculate body",
+    "why": "The destination of the inferior quadrigeminal brachium on the hearing pathway, named in the summary, slide 10, card b7 and the explanation of q:1ej7qkw.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "the inferior brachium carries lateral lemniscus and inferior colliculus fibres to the medial geniculate body (hearing)"
+     }
+    ]
+   },
+   {
+    "name": "Posterior cerebral artery and superior cerebellar artery",
+    "why": "The named branches of the basilar artery supplying the brainstem, listed on slide 30, card b21 and in the explanation of q:8g64rq; they exist only inside the basilar artery definition, with no branch-of relations.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/30",
+      "quote": "Posterior cerebral artery and its peduncular branch"
+     },
+     {
+      "ref": "card:anat3-brainstem/b21",
+      "quote": "the posterior cerebral artery and its peduncular branch, the superior cerebellar artery"
+     }
+    ]
+   },
+   {
+    "name": "Unilateral deafness and tinnitus",
+    "why": "The presenting signs of an acoustic neuroma at the cerebellopontine angle; the result has the tumour but no sign concept and so no presents-with relation for it.",
+    "evidence": [
+     {
+      "ref": "hy:9",
+      "quote": "an acoustic neuroma gives unilateral deafness, tinnitus, then facial and trigeminal signs"
+     },
+     {
+      "ref": "deeper:4",
+      "quote": "presses on CN VIII first, causing one-sided hearing loss and tinnitus"
+     }
+    ]
+   }
+  ]
  }
 }

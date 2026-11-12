@@ -127,15 +127,18 @@ export function assemble({ results, byId, policy, decisions = [], conceptMap = [
       let k = "low";
       if (exact.length || approx.length) k = "medium";
       if (exact.length && (isTested || distinct >= 2) && c.self_confidence !== "low" && !fs.length && !clinical && !soundsClinical(c.definition)) k = "high";
-      if (hasSevere(fs)) k = "low";
+      // A severe audit finding is about what the definition says. It holds the definition; the concept itself
+      // (a name with pointers to the lecture) stays, so one doubted detail does not hide a whole topic.
       conf = best(conf, k);
       const hold = [];
-      if (k === "low") hold.push(hasSevere(fs) ? "audit" : "unsupported");
+      if (k === "low") hold.push("unsupported");
+      if (hasSevere(fs)) hold.push("audit");
       const wording = !clinical && soundsClinical(c.definition);
       if (clinical) hold.push("clinical-definition");
       if (wording) hold.push("clinical-wording");
       defs.push(compact({ lecture, text: c.definition, confidence: k, status: hold.length ? "proposed" : "auto-accepted", held_for: hold, evidence: ev.map((e) => ({ ...prov(lecture, e), check: e.check })) }));
-      if (k === "low") enqueue(hasSevere(fs) ? "audit-finding" : "unsupported-concept", "high", C.id, lecture, `${c.name}: ${c.definition}`, { detail: fs.map((f) => `${f.verdict}: ${f.detail}`).join(" | ") || "No quotation could be found in the cited block." });
+      if (k === "low") enqueue("unsupported-concept", "high", C.id, lecture, `${c.name}: ${c.definition}`, { detail: "No quotation could be found in the cited block." });
+      else if (hasSevere(fs)) enqueue("audit-finding", "high", C.id, lecture, `${c.name}: ${c.definition}`, { detail: fs.map((f) => `${f.verdict}: ${f.detail}`).join(" | ") });
       else if (clinical || wording) enqueue("clinical-definition", "medium", C.id, lecture, `${c.name}: ${c.definition}`, { evidence: ev.filter((e) => e.check === "exact").slice(0, 1).map((e) => prov(lecture, e)) });
       for (const f of fs.filter((f) => !severe.has(f.verdict))) enqueue("audit-finding", "low", C.id, lecture, `${c.name}: ${f.verdict}`, { detail: f.detail });
       // where the concept is explained, and that the lecture covers it

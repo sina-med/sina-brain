@@ -68,8 +68,8 @@
     },
     "by_status": {
       "approved": 13977,
-      "auto-accepted": 879,
-      "proposed": 17
+      "auto-accepted": 876,
+      "proposed": 20
     }
   },
   "concepts": {
@@ -119,25 +119,26 @@
         "auto-accepted": 142
       },
       "by_confidence": {
-        "high": 122,
-        "medium": 20
+        "high": 113,
+        "medium": 29
       },
       "found_in_more_than_one_lecture": 1
     },
     "definitions": {
       "total": 143,
-      "shown": 125,
-      "held": 18
+      "shown": 116,
+      "held": 27
     },
     "relationships": {
       "suggested": 203,
       "by_status": {
-        "auto-accepted": 186,
-        "proposed": 17
+        "auto-accepted": 183,
+        "proposed": 20
       },
       "by_confidence": {
-        "high": 142,
-        "medium": 61
+        "high": 138,
+        "low": 5,
+        "medium": 60
       },
       "by_type": {
         "acts-on": 9,
@@ -169,14 +170,17 @@
       "items_dropped": 0
     },
     "review_queue": {
-      "total": 42,
+      "total": 74,
       "by_reason": {
+        "audit-finding": 12,
         "clinical-claim": 17,
         "clinical-definition": 18,
-        "lecture-conflict": 7
+        "lecture-conflict": 7,
+        "missed-concept": 20
       },
       "by_severity": {
-        "high": 24,
+        "high": 36,
+        "low": 20,
         "medium": 18
       }
     },
@@ -187,9 +191,9 @@
     "processing": {
       "worker_seconds": 1285,
       "worker_tokens": 439092,
-      "audit_seconds": 0,
-      "audit_tokens": 0,
-      "lectures_audited": 0,
+      "audit_seconds": 521,
+      "audit_tokens": 409175,
+      "lectures_audited": 2,
       "packet_characters": 133701
     }
   },

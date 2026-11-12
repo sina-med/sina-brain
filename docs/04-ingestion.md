@@ -160,7 +160,7 @@ Computed by `assemble` from checkable signals, never taken from the model's own 
 
 | Item | High | Medium | Low → review queue |
 |---|---|---|---|
-| Concept definition | A quotation found word for word, and the concept is tested by a question or quoted from two places, no audit finding | Some quotation found | No quotation found, or a severe audit finding |
+| Concept definition | A quotation found word for word, and the concept is tested by a question or quoted from two places, no audit finding | Some quotation found | No quotation found |
 | Relationship between concepts | Quotation found word for word in a block that names both ends, no audit finding | Some quotation found | No quotation, a severe audit finding, or an end that is itself low |
 | Question → concept | The concept's name appears in the question | Otherwise | Audit says it is wrong |
 
@@ -169,6 +169,7 @@ Always held, whatever the confidence:
 - relations of type `causes`, `treats`, `presents-with`;
 - definitions of concepts classed as condition, drug, sign or symptom, procedure, or investigation;
 - any definition or relation whose wording contains clinical terms (lesion, palsy, injury, tumour, treatment, obstruction, …): a word screen, listed in the policy file;
+- any definition the auditor found unsupported, contradicted by the lecture, or at odds with standard medical teaching (the concept itself stays as an index entry);
 - both sides of a contradiction (the same one-way relation stated in both directions, or a loop in a hierarchy);
 - anything the lecture itself contradicts, as reported by the worker.
 

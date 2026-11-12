@@ -3,7 +3,7 @@
 A medical knowledge base, search and study workspace built on top of [Sina](https://sina-med.github.io/#/).
 It will be published at `https://sina-med.github.io/brain/`.
 
-**Status: Phase 3 (core data infrastructure) is built and awaiting review.** All of Sina's lectures, questions, flashcards, past papers and slides are imported into `kb/` as records with stable IDs. There is no web app yet, and no AI-prepared knowledge yet (no concepts, no suggested relationships). Nothing here changes the Sina website.
+**Status: Phase 4 pilot done, awaiting review.** All of Sina's lectures, questions, flashcards, past papers and slides are imported into `kb/` as records with stable IDs (Phase 3). The knowledge-preparation pipeline is built and has processed two lectures (larynx and brainstem); the other 335 wait for the owner's approval of the method. There is no web app yet. Nothing here changes the Sina website.
 
 What is in the knowledge base right now: [kb/admin/COVERAGE.md](kb/admin/COVERAGE.md).
 
@@ -16,6 +16,7 @@ What is in the knowledge base right now: [kb/admin/COVERAGE.md](kb/admin/COVERAG
 | [docs/05-search-and-ai.md](docs/05-search-and-ai.md) | Search, retrieval, the assistant, and what costs money |
 | [docs/06-roadmap.md](docs/06-roadmap.md) | Phases, what "done" means for each, and approval gates |
 | [docs/phase-3-report.md](docs/phase-3-report.md) | What Phase 3 built, how it was checked, and what it found |
+| [docs/phase-4-pilot-report.md](docs/phase-4-pilot-report.md) | The two-lecture pilot: quality against the original lectures, consistency, cost, review queue |
 | [docs/decisions.md](docs/decisions.md) | Decisions made so far, and questions still open |
 
 ## Ground rules
@@ -57,5 +58,7 @@ To re-import after Sina changes, with checkouts of the site and the private buil
 npm run import -- --sina ../sina-med.github.io --ocr ../sina-build/hl/lines.json
 npm run validate && npm run stats
 ```
+
+Knowledge preparation (Phase 4) is described in [docs/04-ingestion.md](docs/04-ingestion.md), section 4.9: `node pipeline/prep.mjs pack | ingest | assemble | status`.
 
 The import is safe to repeat: if nothing changed on Sina it writes nothing. If a record that existed before has disappeared it stops and explains why, without writing anything. The usual cause is a question reworded on Sina without an entry in `js/data/qalias.js`.

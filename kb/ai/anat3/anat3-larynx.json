@@ -4308,5 +4308,284 @@
    "The text says lymphatics are absent at the vocal cords but also that the anterior commissure, where the cords unite, contains vessels and lymphatics; reported here rather than as a conflict.",
    "Several figure questions and cards (hyoid bone, trachea, laryngeal prominence) are supported mainly by the question or card text itself, since the lecture sections mention these structures only in passing."
   ]
+ },
+ "audit": {
+  "audit_version": "a1",
+  "model": "claude-fable-5-2",
+  "seconds": 265,
+  "tokens": 212302,
+  "usage": {
+   "output": 29296,
+   "cache_write": 182988,
+   "cache_read": 868592,
+   "input": 18
+  },
+  "findings": [
+   {
+    "target": "relation:external-laryngeal-nerve-injury|causes|cadaveric-position-of-the-vocal-cords",
+    "verdict": "wrong-type",
+    "detail": "Read as a sentence, this says external laryngeal nerve injury leads to the cadaveric position. The packet gives that position only for combined bilateral recurrent plus external nerve damage; external nerve injury on its own is given only weakness of phonation, so 'causes' overstates the link (related-to at most).",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "If both recurrent and external laryngeal nerves are damaged on both sides, all the intrinsic muscles are paralysed and the cords are further abducted and fixed: the cadaveric position"
+     },
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "External laryngeal nerve: weakness of phonation from loss of the tightening effect of the cricothyroid"
+     }
+    ]
+   },
+   {
+    "target": "relation:recurrent-laryngeal-nerve-injury|causes|cadaveric-position-of-the-vocal-cords",
+    "verdict": "wrong-type",
+    "detail": "As a bare link this says recurrent laryngeal nerve injury leads to the cadaveric position, but the packet says recurrent nerve damage alone, even bilateral, leaves the cords paramedian. The cadaveric position needs the external laryngeal nerves damaged as well, so 'causes' is too strong for this pair (related-to at most).",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "bilaterally, both cords lie paramedian with loss of phonation and difficulty breathing"
+     },
+     {
+      "ref": "exam:15",
+      "quote": "Unilateral recurrent nerve palsy: paramedian cord. Bilateral with external nerve: cadaveric position."
+     }
+    ]
+   },
+   {
+    "target": "relation:vocalis-muscle|part-of|thyroarytenoid-muscle",
+    "verdict": "unsupported",
+    "detail": "The packet never says the vocalis is a part of the thyroarytenoid. It lists the superior thyroarytenoid and the 'inferior thyroarytenoid or vocal muscle' as two separate constrictors, and treats vocalis (tensor) and thyroarytenoid (relaxer) as different muscles; the part-of link is inferred from the name and from outside knowledge.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "superior thyroarytenoid (from the reentrant angle of the thyroid cartilage to the lower third of the arytenoid) and inferior thyroarytenoid or vocal muscle"
+     },
+     {
+      "ref": "exam:9",
+      "quote": "Tense: cricothyroid and vocalis. Relax: thyroarytenoid."
+     }
+    ]
+   },
+   {
+    "target": "concept:thyroarytenoid-muscle",
+    "verdict": "unsupported",
+    "detail": "The definition describes one thyroarytenoid muscle with 'a superior part' and 'an inferior part, the vocal muscle', and the alias equates it with the superior thyroarytenoid. The packet does not say either thing: it names superior and inferior thyroarytenoid as separate muscles and nowhere states that the 'thyroarytenoid' that relaxes the cords is the superior one.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "superior thyroarytenoid (from the reentrant angle of the thyroid cartilage to the lower third of the arytenoid) and inferior thyroarytenoid or vocal muscle"
+     },
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Relax the vocal cords | Thyroarytenoid"
+     }
+    ]
+   },
+   {
+    "target": "concept:laryngeal-prominence",
+    "verdict": "unsupported",
+    "detail": "The definition itself is supported by card g7, but the second evidence quote ('this is the forward bulge where the two thyroid laminae meet') is not in the cited block q:1yzsihk-prominence, which words it differently; that wording comes from the distractor notes of q:7a90hl-hyoid and q:1fefrzi-thyroid-cart.",
+    "evidence": [
+     {
+      "ref": "q:1yzsihk-prominence",
+      "quote": "This is at the arrow: the forward bulge where the two thyroid laminae meet."
+     },
+     {
+      "ref": "q:7a90hl-hyoid",
+      "quote": "Not at the arrow; this is the forward bulge where the two thyroid laminae meet."
+     }
+    ]
+   },
+   {
+    "target": "concept:acoustic-parameters-of-the-voice",
+    "verdict": "medically-doubtful",
+    "detail": "The packet supports 'pitch' as a third parameter set mainly by the shape of the supralaryngeal cavities, but standard teaching is that pitch is the perceived fundamental frequency of vocal fold vibration, and the parameter shaped by the resonating cavities is timbre (voice quality). The three parameters are normally frequency/pitch, intensity/loudness and timbre; the same applies to the relation acoustic-parameters-of-the-voice|related-to|supralaryngeal-cavity. The result lists only the internal inconsistency, not the departure from standard teaching.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "pitch, depending on the accommodation of the vocal folds but especially on the shape of the supralaryngeal cavities"
+     },
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "Loudness depends on the amplitude of vibration, pitch on the frequency"
+     }
+    ]
+   },
+   {
+    "target": "relation:external-laryngeal-nerve|innervates|infraglottic-cavity",
+    "verdict": "medically-doubtful",
+    "detail": "The packet does say this, but standard teaching is that the external laryngeal nerve is motor (to the cricothyroid) and that sensation below the vocal folds is carried by the recurrent laryngeal nerve, as the packet itself states elsewhere. The same doubt covers the external-laryngeal-nerve definition and its passes-through link to the cricothyroid membrane. The result already reports this under conflicts.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Innervates the cricothyroid muscle and perforates the cricothyroid membrane; sensory innervation of the subglottic stage"
+     },
+     {
+      "ref": "hy:4",
+      "quote": "below = recurrent laryngeal"
+     }
+    ]
+   },
+   {
+    "target": "concept:laryngeal-vein",
+    "verdict": "medically-doubtful",
+    "detail": "The packet supports drainage of the posterior laryngeal vein through the inferior thyroid vein to the subclavian vein. Standard teaching is that the inferior thyroid veins drain into the brachiocephalic veins, not the subclavian vein.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Posterior laryngeal vein to the inferior thyroid vein, then the subclavian vein"
+     }
+    ]
+   },
+   {
+    "target": "concept:larynx",
+    "verdict": "medically-doubtful",
+    "detail": "The packet supports an extent of C4 to C6, taking the upper border of the thyroid cartilage as the upper limit. Standard teaching gives the adult larynx as lying opposite C3 to C6, from the tip of the epiglottis / laryngeal inlet to the lower border of the cricoid.",
+    "evidence": [
+     {
+      "ref": "exam:3",
+      "quote": "Larynx extends from the upper thyroid cartilage at C4 to the lower cricoid at C6"
+     }
+    ]
+   }
+  ],
+  "missed": [
+   {
+    "name": "Thyrohyoid muscle",
+    "why": "The named extrinsic muscles (elevators thyrohyoid, mylohyoid, digastric; depressors sternothyroid, sternohyoid, omohyoid) are directly tested by q:19ix9j8 and card l22, but the result has only the class concept 'Extrinsic laryngeal muscle' and no concept for any individual muscle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Elevators: thyrohyoid, mylohyoid, digastric. Depressors: sternothyroid, sternohyoid, omohyoid."
+     },
+     {
+      "ref": "q:19ix9j8",
+      "quote": "Which are extrinsic muscles that elevate the larynx?"
+     }
+    ]
+   },
+   {
+    "name": "Galen's loop",
+    "why": "The named anastomosis between the ascending sensory branch of the recurrent laryngeal nerve and the superior laryngeal nerve is taught in the innervation table and on card l31; it appears nowhere in the result, not even as an alias or in a definition.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "sensory below the vocal folds through an ascending branch anastomosing with the superior laryngeal nerve: Galen's loop"
+     },
+     {
+      "ref": "card:anat3-larynx/l31",
+      "quote": "through an ascending branch that anastomoses with the superior laryngeal nerve: Galen's loop"
+     }
+    ]
+   },
+   {
+    "name": "Posterior commissure",
+    "why": "The result has the anterior commissure but not its counterpart, the posterior commissure / interarytenoid region, which the glottis text, both glottis slides and cards l23 and l24 describe.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Posteriorly they are separated by the interarytenoid region, the posterior commissure"
+     },
+     {
+      "ref": "slide:anat3-larynx/41",
+      "quote": "separated by the inter-arytenoid region forming the posterior commissure"
+     }
+    ]
+   },
+   {
+    "name": "Subglottic pressure",
+    "why": "The driving force of phonation: it sets voice intensity and opens the folds in the vibratory cycle. It recurs through the phonation section and cards l36 and l37 but has no concept.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "The expiratory blow creates a subglottic pressure that overcomes the resistance of the vocal cords"
+     },
+     {
+      "ref": "slide:anat3-larynx/58",
+      "quote": "depends on the force of pulmonary expiration (subglottic pressure)"
+     }
+    ]
+   },
+   {
+    "name": "Pretracheal and paratracheal lymph nodes",
+    "why": "These are the specific destination of infraglottic lymph, taught in the text, slide 51, card l29 and the explanation of q:ayr1r9. The result has only the internal jugular nodes as a concept, so the infraglottic drainage cannot be linked to its own nodes.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Infraglottic: pretracheal and paratracheal nodes and the internal jugular chain"
+     },
+     {
+      "ref": "slide:anat3-larynx/51",
+      "quote": "Pretracheal , paratracheal lymph nods"
+     }
+    ]
+   },
+   {
+    "name": "Aortic arch",
+    "why": "The high-yield point that the left recurrent nerve loops under the aortic arch (and the right under the subclavian artery), explaining hoarseness from chest disease, sits only inside the nerve's definition; neither vessel is a concept, so the course cannot be expressed as a relation.",
+    "evidence": [
+     {
+      "ref": "hy:7",
+      "quote": "The left recurrent nerve loops under the aortic arch (long course → more often damaged by chest disease); the right loops under the subclavian artery."
+     },
+     {
+      "ref": "deeper:2",
+      "quote": "dragging the nerve down under the aortic arch"
+     }
+    ]
+   },
+   {
+    "name": "Laryngeal oedema in children",
+    "why": "The lecture stresses, in the text, on both glottis slides, in the explanation of q:1u97fvo and in a 'deeper' block, that the child's glottis is narrow so obstructive oedema rapidly causes respiratory distress (croup, epiglottitis). The result mentions it only inside the glottis definition.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "a narrow zone in children, where obstructive oedema causes respiratory distress very rapidly"
+     },
+     {
+      "ref": "deeper:4",
+      "quote": "It is why croup and epiglottitis are emergencies in small children."
+     }
+    ]
+   },
+   {
+    "name": "Stridor",
+    "why": "The high-yield summary gives stridor and an airway emergency as the presentation of bilateral recurrent laryngeal palsy. The result has hoarseness as a sign but no concept for the airway sign of the bilateral lesion.",
+    "evidence": [
+     {
+      "ref": "hy:6",
+      "quote": "Bilateral: stridor, airway emergency."
+     }
+    ]
+   },
+   {
+    "name": "Superior thyroid notch",
+    "why": "A named landmark of the thyroid cartilage, given in the cartilage table (as the superior thyroid incisure), on cards g1 and l8, and used as a distractor in the figure question q:1yzsihk-prominence.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/g1",
+      "quote": "Its superior border carries the superior thyroid notch."
+     },
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "a superior border with the superior thyroid incisure"
+     }
+    ]
+   },
+   {
+    "name": "Piriform sinus",
+    "why": "The key lateral relation of the larynx, mentioned for the thyroid lamina and in the relations list (card l27) and used as a distractor in q:6pm3cu and q:ayr1r9.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Laterally: the piriform sinuses medial to the thyroid cartilage"
+     },
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "a posteromedial side (smooth, related to the piriform sinus)"
+     }
+    ]
+   }
+  ]
  }
 }

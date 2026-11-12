@@ -14,7 +14,7 @@ Imported from Sina commit `39f3ae6`.
 | Lectures through knowledge preparation | 2 |
 | Lectures awaiting knowledge preparation | 335 |
 | Records | 27,718 |
-| Relations | 14,873 (17 awaiting review) |
+| Relations | 14,873 (20 awaiting review) |
 | Concepts | 142 (0 awaiting review) |
 | Repeated questions merged into one record | 514 |
 | Records checked inside Sina Brain | 0 |
@@ -31,20 +31,20 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 | Failed extractions | 0 |
 | Summaries generated | 2 |
 | Concepts extracted | 142 (auto-accepted 142) |
-| Concepts by confidence | high 122, medium 20 |
-| Concept definitions | 143: 125 shown, 18 held for review |
-| Relationships suggested | 203 (auto-accepted 186, proposed 17) |
-| Relationships by confidence | high 142, medium 61 |
+| Concepts by confidence | high 113, medium 29 |
+| Concept definitions | 143: 116 shown, 27 held for review |
+| Relationships suggested | 203 (auto-accepted 183, proposed 20) |
+| Relationships by confidence | high 138, low 5, medium 60 |
 | Question and flashcard links to concepts | 322 |
 | Section and slide links to concepts | 228 |
 | Quotations found word for word (average per lecture) | 99.7% |
 | Items dropped for structural errors | 0 |
 | Duplicate concepts merged automatically | 1 |
 | Possible duplicates awaiting review | 0 |
-| Records requiring review | 42 (high 24, medium 18) |
-| Review queue by reason | clinical-claim 17, clinical-definition 18, lecture-conflict 7 |
-| Processing time | 1,285 s extraction, 0 s audit |
-| Resource usage | 439,092 tokens extraction, 0 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
+| Records requiring review | 74 (high 36, low 20, medium 18) |
+| Review queue by reason | audit-finding 12, clinical-claim 17, clinical-definition 18, lecture-conflict 7, missed-concept 20 |
+| Processing time | 1,285 s extraction, 521 s audit |
+| Resource usage | 439,092 tokens extraction, 409,175 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
 
 ## Records by type
 
