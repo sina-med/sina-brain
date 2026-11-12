@@ -13,9 +13,9 @@ Imported from Sina commit `39f3ae6`.
 | Lectures with no content available | 3 |
 | Lectures through knowledge preparation | 2 |
 | Lectures awaiting knowledge preparation | 335 |
-| Records | 27,718 |
-| Relations | 14,873 (20 awaiting review) |
-| Concepts | 142 (0 awaiting review) |
+| Records | 27,737 |
+| Relations | 14,833 (34 awaiting review) |
+| Concepts | 161 (0 awaiting review) |
 | Repeated questions merged into one record | 514 |
 | Records checked inside Sina Brain | 0 |
 
@@ -30,27 +30,27 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 | Lectures remaining | 335 |
 | Failed extractions | 0 |
 | Summaries generated | 2 |
-| Concepts extracted | 142 (auto-accepted 142) |
-| Concepts by confidence | high 113, medium 29 |
-| Concept definitions | 143: 116 shown, 27 held for review |
-| Relationships suggested | 203 (auto-accepted 183, proposed 20) |
-| Relationships by confidence | high 138, low 5, medium 60 |
-| Question and flashcard links to concepts | 322 |
-| Section and slide links to concepts | 228 |
-| Quotations found word for word (average per lecture) | 99.7% |
+| Concepts extracted | 161 (auto-accepted 161) |
+| Concepts by confidence | high 118, medium 43 |
+| Concept definitions | 161: 123 shown, 38 held for review |
+| Relationships suggested | 214 (auto-accepted 180, proposed 34) |
+| Relationships by confidence | high 114, low 3, medium 97 |
+| Question and flashcard links to concepts | 305 |
+| Section and slide links to concepts | 176 |
+| Quotations found word for word (average per lecture) | 100% |
 | Items dropped for structural errors | 0 |
-| Duplicate concepts merged automatically | 1 |
+| Duplicate concepts merged automatically | 0 |
 | Possible duplicates awaiting review | 0 |
-| Records requiring review | 74 (high 36, low 20, medium 18) |
-| Review queue by reason | audit-finding 12, clinical-claim 17, clinical-definition 18, lecture-conflict 7, missed-concept 20 |
-| Processing time | 1,285 s extraction, 521 s audit |
-| Resource usage | 439,092 tokens extraction, 409,175 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
+| Records requiring review | 83 (high 45, low 12, medium 26) |
+| Review queue by reason | audit-finding 7, clinical-claim 26, clinical-definition 26, lecture-conflict 12, missed-concept 12 |
+| Processing time | 889 s extraction, 313 s audit |
+| Resource usage | 361,677 tokens extraction, 271,045 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
 
 ## Records by type
 
 | Type | Count |
 |---|---|
-| concept | 142 |
+| concept | 161 |
 | exam | 4 |
 | flashcard | 5,578 |
 | lecture | 340 |
@@ -69,28 +69,32 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 
 | Type | Count |
 |---|---|
-| acts-on | 9 |
+| acts-on | 11 |
 | appears-in | 3,368 |
-| attaches-to | 18 |
-| branch-of | 15 |
-| causes | 3 |
+| attaches-to | 6 |
+| branch-of | 4 |
+| causes | 1 |
 | cites | 9,088 |
+| connects | 24 |
 | contrasts-with | 12 |
-| covers | 189 |
-| depends-on | 9 |
-| develops-from | 3 |
+| covers | 207 |
+| decreases | 1 |
+| depends-on | 3 |
+| develops-from | 4 |
 | drains | 2 |
-| explains | 228 |
+| emerges-from | 15 |
+| explains | 176 |
+| increases | 3 |
 | innervates | 5 |
-| is-a | 9 |
-| located-in | 30 |
-| part-of | 33 |
-| passes-through | 8 |
-| presents-with | 3 |
+| is-a | 12 |
+| located-in | 26 |
+| part-of | 25 |
+| passes-through | 6 |
+| presents-with | 11 |
 | references | 858 |
-| related-to | 39 |
+| related-to | 38 |
 | supplies | 4 |
-| tests | 939 |
+| tests | 922 |
 | treats | 1 |
 
 ## Questions
@@ -115,7 +119,7 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 |---|---|---|---|---|---|---|---|---|---|
 | Anatomy 1 | 17/17 | 58 | 293 | 64% | 144 | 205 | 136 | 100% | 0 |
 | Anatomy 2 | 12/12 | 43 | 216 | 68% | 317 | 163 | 148 | 100% | 0 |
-| Anatomy 3 | 27/27 | 205 | 1,015 | 77% | 509 | 900 | 527 | 91% | 142 |
+| Anatomy 3 | 27/27 | 205 | 1,015 | 77% | 509 | 900 | 527 | 91% | 161 |
 | Bacteriology | 13/13 | 62 | 259 | 73% | 410 | 168 | 163 | 100% | 0 |
 | Clinical Biochemistry | 14/14 | 76 | 1,544 | 97% | 114 | 238 | 379 | 100% | 0 |
 | Biochemistry | 9/9 | 33 | 174 | 63% | 45 | 120 | 101 | 100% | 0 |

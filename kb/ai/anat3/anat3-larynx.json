@@ -3943,5 +3943,126 @@
    "Superior and inferior thyroid arteries, the vagus, partial thyroidectomy, the piriform sinus and the named individual extrinsic muscles are mentioned only in passing and were kept inside definitions rather than made concepts.",
    "Left out as untested side material: the course of the left and right recurrent nerves under the aortic arch and subclavian artery (hy:7, deeper:2) and the narrow glottis and oedema in children (deeper:4)."
   ]
+ },
+ "audit": {
+  "audit_version": "a2",
+  "model": "claude-fable-5-2",
+  "seconds": 157,
+  "tokens": 172569,
+  "usage": {
+   "output": 16739,
+   "cache_write": 155820,
+   "cache_read": 363780,
+   "input": 10,
+   "note": "tokens = input + cache_write + output; cache reads listed separately"
+  },
+  "findings": [
+   {
+    "targets": [
+     "concept:thyroarytenoid-muscle"
+    ],
+    "verdict": "unsupported",
+    "detail": "The packet never describes one thyroarytenoid muscle 'with superior and inferior parts' running from the reentrant angle to the arytenoid; it lists a superior thyroarytenoid and an inferior thyroarytenoid (vocal muscle) as separate constrictors, and separately says 'thyroarytenoid' relaxes the cords. The definition merges them from outside knowledge, so its inferior part is the same muscle the result's vocalis concept says tenses the cord; the two quotes given state only the relaxing action.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "superior thyroarytenoid (from the reentrant angle of the thyroid cartilage to the lower third of the arytenoid) and inferior thyroarytenoid or vocal muscle"
+     },
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Relax the vocal cords | Thyroarytenoid"
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:cricothyroid-ligament",
+     "relation:vocal-ligament|part-of|cricothyroid-ligament"
+    ],
+    "verdict": "medically-doubtful",
+    "detail": "The packet supports this, but standard teaching separates the median cricothyroid ligament (the anterior midline band between cricoid arch and thyroid cartilage, the site of cricothyroidotomy) from the lateral part, the conus elasticus or cricovocal membrane, whose free upper edge is the vocal ligament. The result gives 'median cricothyroid ligament' and 'cricothyroid membrane' as aliases of the structure that forms the vocal ligament, and this is not reported under conflicts.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/g6",
+      "quote": "The median cricothyroid ligament, between the cricoid and thyroid cartilages. Its intrinsic part forms the vocal ligament"
+     },
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The cricothyroid ligament, stretched between the thyroid cartilage and the vocal process, forms the vocal ligament"
+     }
+    ]
+   }
+  ],
+  "unmatched_targets": [],
+  "missed": [
+   {
+    "name": "Superior thyroid artery",
+    "why": "It is part of the marked answer of q:1wpi6i9 and the stated parent of two laryngeal arteries; without it the branch-of links the lecture states cannot be recorded.",
+    "evidence": [
+     {
+      "ref": "q:1wpi6i9",
+      "quote": "The superior laryngeal artery, from the superior thyroid artery"
+     },
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Superior laryngeal artery | A branch of the superior thyroid artery"
+     }
+    ]
+   },
+   {
+    "name": "Vagus nerve",
+    "why": "The lecture states that the larynx is innervated by branches of the vagus and that both the superior and the recurrent laryngeal nerves arise from it; the result has no concept to carry those branch-of links.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "The larynx is innervated by branches of the"
+     },
+     {
+      "ref": "card:anat3-larynx/l31",
+      "quote": "It originates from the vagus, on the right at the base of the neck and on the left at the level of the thorax"
+     }
+    ]
+   },
+   {
+    "name": "Thyrohyoid muscle",
+    "why": "It is a marked correct answer of q:19ix9j8 (with mylohyoid) as an elevator of the larynx; the result only has the general extrinsic-muscle concept.",
+    "evidence": [
+     {
+      "ref": "q:19ix9j8",
+      "quote": "Elevators: thyrohyoid, mylohyoid and digastric"
+     }
+    ]
+   },
+   {
+    "name": "Thyroidectomy",
+    "why": "The lecture names partial thyroidectomy as the usual cause of recurrent laryngeal nerve damage, tested by card l32; no concept or causes link records it.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/l32",
+      "quote": "It is often damaged accidentally during partial thyroidectomy"
+     }
+    ]
+   },
+   {
+    "name": "Inferior thyroid artery",
+    "why": "Stated parent of the posteroinferior laryngeal artery and named in the explanation of q:1wpi6i9; needed for the branch-of link.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Posteroinferior laryngeal artery | A branch of the inferior thyroid artery"
+     }
+    ]
+   },
+   {
+    "name": "Interarytenoid region",
+    "why": "The lecture gives it its own defining sentence as the third part of the supraglottic compartment (card l23); the result only mentions it inside other definitions.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Interarytenoid region: the posterior part, where the mucosa covers the fibres of the interarytenoid muscle"
+     }
+    ]
+   }
+  ]
  }
 }

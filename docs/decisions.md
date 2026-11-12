@@ -47,6 +47,9 @@ These were made while building Phase 3. They are within the approved direction b
 | I9 | Alternative-name matches across subjects go to review instead of merging. | The pilot produced “median eminence” as an alias of a fourth-ventricle landmark; elsewhere that name is a hypothalamic structure. |
 | I10 | Workers check their own draft against the packet before handing it in (`prep.mjs check`). | Cuts failed quotations to near zero. The reported failure rate is therefore after self-correction. |
 
+| I11 | Instructions p3 and audit a2 are the working versions; hard size limits were tried (p2) and withdrawn. | [phase-4-instructions-comparison.md](phase-4-instructions-comparison.md): the limits removed 23 tested concepts and saved little. |
+| I12 | A lecture's results enter the knowledge base only after its independent audit. | Owner's priority: accuracy, traceability and consistency over speed. |
+
 ## Open questions
 
 | # | Question | Needed by |

@@ -17,6 +17,7 @@ What is in the knowledge base right now: [kb/admin/COVERAGE.md](kb/admin/COVERAG
 | [docs/06-roadmap.md](docs/06-roadmap.md) | Phases, what "done" means for each, and approval gates |
 | [docs/phase-3-report.md](docs/phase-3-report.md) | What Phase 3 built, how it was checked, and what it found |
 | [docs/phase-4-pilot-report.md](docs/phase-4-pilot-report.md) | The two-lecture pilot: quality against the original lectures, consistency, cost, review queue |
+| [docs/phase-4-instructions-comparison.md](docs/phase-4-instructions-comparison.md) | Three instruction versions compared on the pilot lectures: accuracy, information loss, cost |
 | [docs/decisions.md](docs/decisions.md) | Decisions made so far, and questions still open |
 
 ## Ground rules

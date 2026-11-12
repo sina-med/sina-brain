@@ -8,9 +8,9 @@
     "awaiting_knowledge_preparation": 335
   },
   "records": {
-    "total": 27718,
+    "total": 27737,
     "by_type": {
-      "concept": 142,
+      "concept": 161,
       "exam": 4,
       "flashcard": 5578,
       "lecture": 340,
@@ -26,54 +26,58 @@
       "subject": 30
     },
     "by_origin": {
-      "ai": 142,
+      "ai": 161,
       "original": 8899,
       "sina": 18677
     },
     "by_status": {
       "approved": 27576,
-      "auto-accepted": 142
+      "auto-accepted": 161
     }
   },
   "relations": {
-    "total": 14873,
+    "total": 14833,
     "by_type": {
-      "acts-on": 9,
+      "acts-on": 11,
       "appears-in": 3368,
-      "attaches-to": 18,
-      "branch-of": 15,
-      "causes": 3,
+      "attaches-to": 6,
+      "branch-of": 4,
+      "causes": 1,
       "cites": 9088,
+      "connects": 24,
       "contrasts-with": 12,
-      "covers": 189,
-      "depends-on": 9,
-      "develops-from": 3,
+      "covers": 207,
+      "decreases": 1,
+      "depends-on": 3,
+      "develops-from": 4,
       "drains": 2,
-      "explains": 228,
+      "emerges-from": 15,
+      "explains": 176,
+      "increases": 3,
       "innervates": 5,
-      "is-a": 9,
-      "located-in": 30,
-      "part-of": 33,
-      "passes-through": 8,
-      "presents-with": 3,
+      "is-a": 12,
+      "located-in": 26,
+      "part-of": 25,
+      "passes-through": 6,
+      "presents-with": 11,
       "references": 858,
-      "related-to": 39,
+      "related-to": 38,
       "supplies": 4,
-      "tests": 939,
+      "tests": 922,
       "treats": 1
     },
     "by_origin": {
-      "ai": 896,
+      "ai": 856,
       "imported": 13977
     },
     "by_status": {
       "approved": 13977,
-      "auto-accepted": 876,
-      "proposed": 20
+      "auto-accepted": 822,
+      "proposed": 34
     }
   },
   "concepts": {
-    "total": 142,
+    "total": 161,
     "approved": 0,
     "awaiting_review": 0,
     "tested_by_a_question": 0
@@ -102,8 +106,8 @@
     "records_checked_in_brain": 0
   },
   "registry": {
-    "active": 27718,
-    "retired": 0,
+    "active": 27737,
+    "retired": 20,
     "merged": 0
   },
   "preparation": {
@@ -114,85 +118,89 @@
     "failed": [],
     "summaries_generated": 2,
     "concepts": {
-      "total": 142,
+      "total": 161,
       "by_status": {
-        "auto-accepted": 142
+        "auto-accepted": 161
       },
       "by_confidence": {
-        "high": 113,
-        "medium": 29
+        "high": 118,
+        "medium": 43
       },
-      "found_in_more_than_one_lecture": 1
+      "found_in_more_than_one_lecture": 0
     },
     "definitions": {
-      "total": 143,
-      "shown": 116,
-      "held": 27
+      "total": 161,
+      "shown": 123,
+      "held": 38
     },
     "relationships": {
-      "suggested": 203,
+      "suggested": 214,
       "by_status": {
-        "auto-accepted": 183,
-        "proposed": 20
+        "auto-accepted": 180,
+        "proposed": 34
       },
       "by_confidence": {
-        "high": 138,
-        "low": 5,
-        "medium": 60
+        "high": 114,
+        "low": 3,
+        "medium": 97
       },
       "by_type": {
-        "acts-on": 9,
-        "attaches-to": 18,
-        "branch-of": 15,
-        "causes": 3,
+        "acts-on": 11,
+        "attaches-to": 6,
+        "branch-of": 4,
+        "causes": 1,
+        "connects": 24,
         "contrasts-with": 12,
-        "depends-on": 9,
-        "develops-from": 3,
+        "decreases": 1,
+        "depends-on": 3,
+        "develops-from": 4,
         "drains": 2,
+        "emerges-from": 15,
+        "increases": 3,
         "innervates": 5,
-        "is-a": 9,
-        "located-in": 30,
-        "part-of": 33,
-        "passes-through": 8,
-        "presents-with": 3,
-        "related-to": 39,
+        "is-a": 12,
+        "located-in": 26,
+        "part-of": 25,
+        "passes-through": 6,
+        "presents-with": 11,
+        "related-to": 38,
         "supplies": 4,
         "treats": 1
       }
     },
     "links": {
-      "question_or_card_to_concept": 322,
-      "section_or_slide_to_concept": 228,
-      "lecture_to_concept": 143
+      "question_or_card_to_concept": 305,
+      "section_or_slide_to_concept": 176,
+      "lecture_to_concept": 161
     },
     "evidence": {
-      "average_share_found_word_for_word": 0.997,
+      "average_share_found_word_for_word": 1,
       "items_dropped": 0
     },
     "review_queue": {
-      "total": 74,
+      "total": 83,
       "by_reason": {
-        "audit-finding": 12,
-        "clinical-claim": 17,
-        "clinical-definition": 18,
-        "lecture-conflict": 7,
-        "missed-concept": 20
+        "audit-finding": 7,
+        "clinical-claim": 26,
+        "clinical-definition": 26,
+        "lecture-conflict": 12,
+        "missed-concept": 12
       },
       "by_severity": {
-        "high": 36,
-        "low": 20,
-        "medium": 18
+        "high": 45,
+        "low": 12,
+        "medium": 26
       }
     },
     "duplicates": {
-      "contributions_merged_automatically": 1,
+      "contributions_merged_automatically": 0,
       "possible_duplicates_for_review": 0
     },
     "processing": {
-      "worker_seconds": 1285,
-      "worker_tokens": 439092,
-      "audit_seconds": 521,
-      "audit_tokens": 409175,
+      "worker_seconds": 889,
+      "worker_tokens": 361677,
+      "audit_seconds": 313,
+      "audit_tokens": 271045,
       "lectures_audited": 2,
       "packet_characters": 133701
     }
@@ -428,7 +436,7 @@
       "flashcards": 900,
       "slides": 527,
       "slides_with_text": 479,
-      "concepts": 142
+      "concepts": 161
     },
     "subj:bacterio1": {
       "title": "Bacteriology",

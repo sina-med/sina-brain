@@ -1,24 +1,44 @@
+{"id":"lec:anat3-brainstem|2-2-4-4-rule","concept":"c:2-2-4-4-rule-of-the-cranial-nerve","name":"2-2-4-4 rule of the cranial nerves"}
 {"id":"lec:anat3-brainstem|abducens-nerve","concept":"c:abducen-nerve","name":"Abducens nerve"}
+{"id":"lec:anat3-brainstem|abducens-nucleus","concept":"c:abducen-nucleus","name":"Abducens nucleus"}
 {"id":"lec:anat3-brainstem|accessory-nerve","concept":"c:accessory-nerve","name":"Accessory nerve"}
+{"id":"lec:anat3-brainstem|acoustic-neuroma","concept":"c:acoustic-neuroma","name":"Acoustic neuroma"}
 {"id":"lec:anat3-brainstem|alternating-syndrome","concept":"c:alternating-syndrome","name":"Alternating syndrome"}
 {"id":"lec:anat3-brainstem|anterolateral-system","concept":"c:anterolateral-system","name":"Anterolateral system"}
 {"id":"lec:anat3-brainstem|basilar-artery","concept":"c:basilar-artery","name":"Basilar artery"}
+{"id":"lec:anat3-brainstem|basilar-groove","concept":"c:basilar-groove","name":"Basilar groove"}
 {"id":"lec:anat3-brainstem|brainstem","concept":"c:brainstem","name":"Brainstem"}
 {"id":"lec:anat3-brainstem|cerebellar-peduncle","concept":"c:cerebellar-peduncle","name":"Cerebellar peduncle"}
 {"id":"lec:anat3-brainstem|cerebellopontine-angle","concept":"c:cerebellopontine-angle","name":"Cerebellopontine angle"}
+{"id":"lec:anat3-brainstem|cerebellum","concept":"c:cerebellum","name":"Cerebellum"}
 {"id":"lec:anat3-brainstem|cerebral-aqueduct","concept":"c:cerebral-aqueduct","name":"Cerebral aqueduct"}
 {"id":"lec:anat3-brainstem|cerebral-peduncle","concept":"c:cerebral-peduncle","name":"Cerebral peduncle"}
+{"id":"lec:anat3-brainstem|choroid-plexus-of-the-fourth-ventricle","concept":"c:choroid-plexus-of-the-fourth-ventricle","name":"Choroid plexus of the fourth ventricle"}
+{"id":"lec:anat3-brainstem|clivus","concept":"c:clivus","name":"Clivus"}
+{"id":"lec:anat3-brainstem|corticobulbar-tract","concept":"c:corticobulbar-tract","name":"Corticobulbar tract"}
 {"id":"lec:anat3-brainstem|corticospinal-tract","concept":"c:corticospinal-tract","name":"Corticospinal tract"}
+{"id":"lec:anat3-brainstem|cranial-nerve-palsy","concept":"c:cranial-nerve-palsy","name":"Cranial nerve palsy"}
+{"id":"lec:anat3-brainstem|diencephalon","concept":"c:diencephalon","name":"Diencephalon"}
 {"id":"lec:anat3-brainstem|dorsal-column-medial-lemniscus-pathway","concept":"c:dorsal-column-medial-lemniscus-pathway","name":"Dorsal column-medial lemniscus pathway"}
 {"id":"lec:anat3-brainstem|facial-colliculus","concept":"c:facial-colliculus","name":"Facial colliculus"}
+{"id":"lec:anat3-brainstem|facial-colliculus-lesion","concept":"c:facial-colliculus-lesion","name":"Facial colliculus lesion"}
 {"id":"lec:anat3-brainstem|facial-nerve","concept":"c:facial-nerve","name":"Facial nerve"}
 {"id":"lec:anat3-brainstem|fastigium","concept":"c:fastigium","name":"Fastigium"}
+{"id":"lec:anat3-brainstem|foramen-magnum","concept":"c:foramen-magnum","name":"Foramen magnum"}
+{"id":"lec:anat3-brainstem|foramen-of-luschka","concept":"c:foramen-of-luschka","name":"Foramen of Luschka"}
+{"id":"lec:anat3-brainstem|foramen-of-magendie","concept":"c:foramen-of-magendie","name":"Foramen of Magendie"}
 {"id":"lec:anat3-brainstem|fourth-ventricle","concept":"c:fourth-ventricle","name":"Fourth ventricle"}
 {"id":"lec:anat3-brainstem|glossopharyngeal-nerve","concept":"c:glossopharyngeal-nerve","name":"Glossopharyngeal nerve"}
+{"id":"lec:anat3-brainstem|hemiplegia","concept":"c:hemiplegia","name":"Hemiplegia"}
 {"id":"lec:anat3-brainstem|hypoglossal-nerve","concept":"c:hypoglossal-nerve","name":"Hypoglossal nerve"}
 {"id":"lec:anat3-brainstem|inferior-cerebellar-peduncle","concept":"c:inferior-cerebellar-peduncle","name":"Inferior cerebellar peduncle"}
 {"id":"lec:anat3-brainstem|inferior-colliculus","concept":"c:inferior-colliculus","name":"Inferior colliculus"}
+{"id":"lec:anat3-brainstem|inferior-medullary-velum","concept":"c:inferior-medullary-velum","name":"Inferior medullary velum"}
 {"id":"lec:anat3-brainstem|inferior-olivary-nucleus","concept":"c:inferior-olivary-nucleus","name":"Inferior olivary nucleus"}
+{"id":"lec:anat3-brainstem|inferior-quadrigeminal-brachium","concept":"c:inferior-quadrigeminal-brachium","name":"Inferior quadrigeminal brachium"}
+{"id":"lec:anat3-brainstem|intermediate-nerve","concept":"c:intermediate-nerve","name":"Intermediate nerve"}
+{"id":"lec:anat3-brainstem|interpeduncular-fossa","concept":"c:interpeduncular-fossa","name":"Interpeduncular fossa"}
+{"id":"lec:anat3-brainstem|medial-eminence","concept":"c:medial-eminence","name":"Medial eminence"}
 {"id":"lec:anat3-brainstem|medulla-oblongata","concept":"c:medulla-oblongata","name":"Medulla oblongata"}
 {"id":"lec:anat3-brainstem|mesencephalon","concept":"c:mesencephalon","name":"Mesencephalon"}
 {"id":"lec:anat3-brainstem|metencephalon","concept":"c:metencephalon","name":"Metencephalon"}
@@ -32,56 +52,93 @@
 {"id":"lec:anat3-brainstem|optic-nerve","concept":"c:optic-nerve","name":"Optic nerve"}
 {"id":"lec:anat3-brainstem|pons","concept":"c:pons","name":"Pons"}
 {"id":"lec:anat3-brainstem|pontomedullary-junction","concept":"c:pontomedullary-junction","name":"Pontomedullary junction"}
+{"id":"lec:anat3-brainstem|posterior-cerebral-artery","concept":"c:posterior-cerebral-artery","name":"Posterior cerebral artery"}
 {"id":"lec:anat3-brainstem|posterior-cranial-fossa","concept":"c:posterior-cranial-fossa","name":"Posterior cranial fossa"}
 {"id":"lec:anat3-brainstem|pyramid","concept":"c:pyramid","name":"Pyramid"}
 {"id":"lec:anat3-brainstem|pyramidal-decussation","concept":"c:pyramidal-decussation","name":"Pyramidal decussation"}
+{"id":"lec:anat3-brainstem|respiratory-and-cardiovascular-centres","concept":"c:respiratory-and-cardiovascular-centre","name":"Respiratory and cardiovascular centres"}
 {"id":"lec:anat3-brainstem|reticular-formation","concept":"c:reticular-formation","name":"Reticular formation"}
 {"id":"lec:anat3-brainstem|rhomboid-fossa","concept":"c:rhomboid-fossa","name":"Rhomboid fossa"}
+{"id":"lec:anat3-brainstem|spinal-cord","concept":"c:spinal-cord","name":"Spinal cord"}
+{"id":"lec:anat3-brainstem|spinocerebellar-tract","concept":"c:spinocerebellar-tract","name":"Spinocerebellar tract"}
 {"id":"lec:anat3-brainstem|stria-medullaris-of-the-fourth-ventricle","concept":"c:stria-medullaris-of-the-fourth-ventricle","name":"Stria medullaris of the fourth ventricle"}
+{"id":"lec:anat3-brainstem|superior-cerebellar-artery","concept":"c:superior-cerebellar-artery","name":"Superior cerebellar artery"}
 {"id":"lec:anat3-brainstem|superior-cerebellar-peduncle","concept":"c:superior-cerebellar-peduncle","name":"Superior cerebellar peduncle"}
 {"id":"lec:anat3-brainstem|superior-colliculus","concept":"c:superior-colliculus","name":"Superior colliculus"}
+{"id":"lec:anat3-brainstem|superior-medullary-velum","concept":"c:superior-medullary-velum","name":"Superior medullary velum"}
 {"id":"lec:anat3-brainstem|superior-quadrigeminal-brachium","concept":"c:superior-quadrigeminal-brachium","name":"Superior quadrigeminal brachium"}
 {"id":"lec:anat3-brainstem|tectum","concept":"c:tectum","name":"Tectum"}
+{"id":"lec:anat3-brainstem|tentorial-opening","concept":"c:tentorial-opening","name":"Tentorial opening"}
+{"id":"lec:anat3-brainstem|tentorium-cerebelli","concept":"c:tentorium-cerebelli","name":"Tentorium cerebelli"}
 {"id":"lec:anat3-brainstem|thalamus","concept":"c:thalamus","name":"Thalamus"}
+{"id":"lec:anat3-brainstem|tinnitus","concept":"c:tinnitus","name":"Tinnitus"}
 {"id":"lec:anat3-brainstem|transverse-fissure-of-bichat","concept":"c:transverse-fissure-of-bichat","name":"Transverse fissure of Bichat"}
 {"id":"lec:anat3-brainstem|trigeminal-nerve","concept":"c:trigeminal-nerve","name":"Trigeminal nerve"}
 {"id":"lec:anat3-brainstem|trochlear-nerve","concept":"c:trochlear-nerve","name":"Trochlear nerve"}
+{"id":"lec:anat3-brainstem|trochlear-nerve-injury","concept":"c:trochlear-nerve-injury","name":"Trochlear nerve injury"}
+{"id":"lec:anat3-brainstem|unilateral-hearing-loss","concept":"c:unilateral-hearing-loss","name":"Unilateral hearing loss"}
 {"id":"lec:anat3-brainstem|vagus-nerve","concept":"c:vagus-nerve","name":"Vagus nerve"}
+{"id":"lec:anat3-brainstem|ventral-median-fissure","concept":"c:ventral-median-fissure","name":"Ventral median fissure"}
+{"id":"lec:anat3-brainstem|vertical-double-vision","concept":"c:vertical-double-vision","name":"Vertical double vision"}
 {"id":"lec:anat3-brainstem|vestibulocochlear-nerve","concept":"c:vestibulocochlear-nerve","name":"Vestibulocochlear nerve"}
+{"id":"lec:anat3-brainstem|vital-functions-of-the-brainstem","concept":"c:vital-function-of-the-brainstem","name":"Vital functions of the brainstem"}
 {"id":"lec:anat3-larynx|acoustic-parameters-of-the-voice","concept":"c:acoustic-parameter-of-the-voice","name":"Acoustic parameters of the voice"}
+{"id":"lec:anat3-larynx|anterior-commissure","concept":"c:anterior-commissure","name":"Anterior commissure"}
+{"id":"lec:anat3-larynx|anteroinferior-laryngeal-artery","concept":"c:anteroinferior-laryngeal-artery","name":"Anteroinferior laryngeal artery"}
+{"id":"lec:anat3-larynx|aryepiglottic-fold","concept":"c:aryepiglottic-fold","name":"Aryepiglottic fold"}
 {"id":"lec:anat3-larynx|arytenoid-cartilage","concept":"c:arytenoid-cartilage","name":"Arytenoid cartilage"}
-{"id":"lec:anat3-larynx|cadaveric-position-of-the-vocal-cords","concept":"c:cadaveric-position-of-the-vocal-cord","name":"Cadaveric position of the vocal cords"}
+{"id":"lec:anat3-larynx|bilateral-recurrent-laryngeal-nerve-palsy","concept":"c:bilateral-recurrent-laryngeal-nerve-palsy","name":"Bilateral recurrent laryngeal nerve palsy"}
+{"id":"lec:anat3-larynx|cadaveric-position","concept":"c:cadaveric-position-of-the-vocal-cord-2","name":"Cadaveric position of the vocal cords"}
+{"id":"lec:anat3-larynx|combined-recurrent-and-external-laryngeal-nerve-injury","concept":"c:combined-bilateral-recurrent-and-external-laryngeal-nerve-injury","name":"Combined bilateral recurrent and external laryngeal nerve injury"}
 {"id":"lec:anat3-larynx|corniculate-cartilage","concept":"c:corniculate-cartilage","name":"Corniculate cartilage"}
 {"id":"lec:anat3-larynx|cricoarytenoid-joint","concept":"c:cricoarytenoid-joint","name":"Cricoarytenoid joint"}
 {"id":"lec:anat3-larynx|cricoid-cartilage","concept":"c:cricoid-cartilage","name":"Cricoid cartilage"}
 {"id":"lec:anat3-larynx|cricothyroid-joint","concept":"c:cricothyroid-joint","name":"Cricothyroid joint"}
 {"id":"lec:anat3-larynx|cricothyroid-ligament","concept":"c:cricothyroid-ligament","name":"Cricothyroid ligament"}
 {"id":"lec:anat3-larynx|cricothyroid-muscle","concept":"c:cricothyroid-muscle","name":"Cricothyroid muscle"}
+{"id":"lec:anat3-larynx|cricothyroidotomy","concept":"c:cricothyroidotomy","name":"Cricothyroidotomy"}
+{"id":"lec:anat3-larynx|cricotracheal-ligament","concept":"c:cricotracheal-ligament","name":"Cricotracheal ligament"}
 {"id":"lec:anat3-larynx|cuneiform-cartilage","concept":"c:cuneiform-cartilage","name":"Cuneiform cartilage"}
 {"id":"lec:anat3-larynx|epiglottis","concept":"c:epiglottis","name":"Epiglottis"}
 {"id":"lec:anat3-larynx|external-laryngeal-nerve","concept":"c:external-laryngeal-nerve","name":"External laryngeal nerve"}
 {"id":"lec:anat3-larynx|external-laryngeal-nerve-injury","concept":"c:external-laryngeal-nerve-injury","name":"External laryngeal nerve injury"}
 {"id":"lec:anat3-larynx|extrinsic-laryngeal-muscle","concept":"c:extrinsic-laryngeal-muscle","name":"Extrinsic laryngeal muscle"}
+{"id":"lec:anat3-larynx|galens-loop","concept":"c:galen-s-loop","name":"Galen's loop"}
+{"id":"lec:anat3-larynx|glottic-cancer","concept":"c:glottic-cancer","name":"Glottic cancer"}
 {"id":"lec:anat3-larynx|glottis","concept":"c:glottis","name":"Glottis"}
+{"id":"lec:anat3-larynx|heimlich-manoeuvre","concept":"c:heimlich-manoeuvre","name":"Heimlich manoeuvre"}
+{"id":"lec:anat3-larynx|hoarseness","concept":"c:hoarseness","name":"Hoarseness"}
+{"id":"lec:anat3-larynx|hyoepiglottic-ligament","concept":"c:hyoepiglottic-ligament","name":"Hyoepiglottic ligament"}
 {"id":"lec:anat3-larynx|hyoid-bone","concept":"c:hyoid-bone","name":"Hyoid bone"}
 {"id":"lec:anat3-larynx|infraglottic-cavity","concept":"c:infraglottic-cavity","name":"Infraglottic cavity"}
+{"id":"lec:anat3-larynx|internal-jugular-chain","concept":"c:internal-jugular-chain","name":"Internal jugular chain"}
 {"id":"lec:anat3-larynx|internal-laryngeal-nerve","concept":"c:internal-laryngeal-nerve","name":"Internal laryngeal nerve"}
 {"id":"lec:anat3-larynx|intrinsic-laryngeal-muscle","concept":"c:intrinsic-laryngeal-muscle","name":"Intrinsic laryngeal muscle"}
+{"id":"lec:anat3-larynx|laryngeal-cartilage","concept":"c:laryngeal-cartilage","name":"Laryngeal cartilage"}
+{"id":"lec:anat3-larynx|laryngeal-incompetence","concept":"c:laryngeal-incompetence","name":"Laryngeal incompetence"}
+{"id":"lec:anat3-larynx|laryngeal-lymphatic-drainage","concept":"c:lymphatic-drainage-of-the-larynx-2","name":"Lymphatic drainage of the larynx"}
 {"id":"lec:anat3-larynx|laryngeal-mucosa","concept":"c:laryngeal-mucosa","name":"Laryngeal mucosa"}
 {"id":"lec:anat3-larynx|laryngeal-obstruction","concept":"c:laryngeal-obstruction","name":"Laryngeal obstruction"}
 {"id":"lec:anat3-larynx|laryngeal-prominence","concept":"c:laryngeal-prominence","name":"Laryngeal prominence"}
+{"id":"lec:anat3-larynx|laryngeal-vein","concept":"c:laryngeal-vein","name":"Laryngeal vein"}
 {"id":"lec:anat3-larynx|laryngeal-ventricle","concept":"c:laryngeal-ventricle","name":"Laryngeal ventricle"}
-{"id":"lec:anat3-larynx|laryngeal-vestibule","concept":"c:laryngeal-vestibule","name":"Laryngeal vestibule"}
+{"id":"lec:anat3-larynx|laryngeal-vestibule","concept":"c:vestibule-of-the-larynx","name":"Vestibule of the larynx"}
 {"id":"lec:anat3-larynx|larynx","concept":"c:larynx","name":"Larynx"}
 {"id":"lec:anat3-larynx|lateral-cricoarytenoid-muscle","concept":"c:lateral-cricoarytenoid-muscle","name":"Lateral cricoarytenoid muscle"}
-{"id":"lec:anat3-larynx|lymphatic-drainage-of-the-larynx","concept":"c:lymphatic-drainage-of-the-larynx","name":"Lymphatic drainage of the larynx"}
+{"id":"lec:anat3-larynx|muscular-process","concept":"c:muscular-process","name":"Muscular process"}
+{"id":"lec:anat3-larynx|paramedian-position","concept":"c:paramedian-position-of-the-vocal-cord","name":"Paramedian position of the vocal cord"}
 {"id":"lec:anat3-larynx|phonation","concept":"c:phonation","name":"Phonation"}
+{"id":"lec:anat3-larynx|posterior-commissure","concept":"c:posterior-commissure","name":"Posterior commissure"}
 {"id":"lec:anat3-larynx|posterior-cricoarytenoid-muscle","concept":"c:posterior-cricoarytenoid-muscle","name":"Posterior cricoarytenoid muscle"}
+{"id":"lec:anat3-larynx|posterior-cricoarytenoid-paralysis","concept":"c:posterior-cricoarytenoid-paralysis","name":"Posterior cricoarytenoid paralysis"}
 {"id":"lec:anat3-larynx|posteroinferior-laryngeal-artery","concept":"c:posteroinferior-laryngeal-artery","name":"Posteroinferior laryngeal artery"}
 {"id":"lec:anat3-larynx|recurrent-laryngeal-nerve","concept":"c:recurrent-laryngeal-nerve","name":"Recurrent laryngeal nerve"}
-{"id":"lec:anat3-larynx|recurrent-laryngeal-nerve-injury","concept":"c:recurrent-laryngeal-nerve-injury","name":"Recurrent laryngeal nerve injury"}
+{"id":"lec:anat3-larynx|stridor","concept":"c:stridor","name":"Stridor"}
+{"id":"lec:anat3-larynx|subglottic-pressure","concept":"c:subglottic-pressure","name":"Subglottic pressure"}
 {"id":"lec:anat3-larynx|superior-laryngeal-artery","concept":"c:superior-laryngeal-artery","name":"Superior laryngeal artery"}
 {"id":"lec:anat3-larynx|superior-laryngeal-nerve","concept":"c:superior-laryngeal-nerve","name":"Superior laryngeal nerve"}
+{"id":"lec:anat3-larynx|supraglottic-cancer","concept":"c:supraglottic-cancer","name":"Supraglottic cancer"}
+{"id":"lec:anat3-larynx|supraglottic-compartment","concept":"c:supraglottic-compartment","name":"Supraglottic compartment"}
 {"id":"lec:anat3-larynx|supralaryngeal-cavity","concept":"c:supralaryngeal-cavity","name":"Supralaryngeal cavity"}
 {"id":"lec:anat3-larynx|thyroarytenoid-muscle","concept":"c:thyroarytenoid-muscle","name":"Thyroarytenoid muscle"}
 {"id":"lec:anat3-larynx|thyroepiglottic-ligament","concept":"c:thyroepiglottic-ligament","name":"Thyroepiglottic ligament"}
@@ -89,12 +146,16 @@
 {"id":"lec:anat3-larynx|thyroid-cartilage","concept":"c:thyroid-cartilage","name":"Thyroid cartilage"}
 {"id":"lec:anat3-larynx|trachea","concept":"c:trachea","name":"Trachea"}
 {"id":"lec:anat3-larynx|transverse-arytenoid-muscle","concept":"c:transverse-arytenoid-muscle","name":"Transverse arytenoid muscle"}
-{"id":"lec:anat3-larynx|vibratory-cycle","concept":"c:vibratory-cycle","name":"Vibratory cycle"}
-{"id":"lec:anat3-larynx|vocal-fold","concept":"c:vocal-fold","name":"Vocal fold"}
-{"id":"lec:anat3-larynx|vocal-fold-abduction","concept":"c:vocal-fold-abduction","name":"Vocal fold abduction"}
-{"id":"lec:anat3-larynx|vocal-fold-adduction","concept":"c:vocal-fold-adduction","name":"Vocal fold adduction"}
-{"id":"lec:anat3-larynx|vocal-fold-tension","concept":"c:vocal-fold-tension","name":"Vocal fold tension"}
+{"id":"lec:anat3-larynx|unilateral-recurrent-laryngeal-nerve-palsy","concept":"c:unilateral-recurrent-laryngeal-nerve-palsy","name":"Unilateral recurrent laryngeal nerve palsy"}
+{"id":"lec:anat3-larynx|vestibular-fold","concept":"c:vestibular-fold","name":"Vestibular fold"}
+{"id":"lec:anat3-larynx|vestibular-ligament","concept":"c:vestibular-ligament","name":"Vestibular ligament"}
+{"id":"lec:anat3-larynx|vibratory-cycle","concept":"c:vibratory-cycle-of-the-vocal-fold","name":"Vibratory cycle of the vocal folds"}
+{"id":"lec:anat3-larynx|vocal-cord","concept":"c:vocal-cord","name":"Vocal cord"}
+{"id":"lec:anat3-larynx|vocal-cord-abduction","concept":"c:vocal-cord-abduction","name":"Vocal cord abduction"}
+{"id":"lec:anat3-larynx|vocal-cord-adduction","concept":"c:vocal-cord-adduction","name":"Vocal cord adduction"}
+{"id":"lec:anat3-larynx|vocal-cord-tension","concept":"c:vocal-cord-tension","name":"Vocal cord tension"}
 {"id":"lec:anat3-larynx|vocal-ligament","concept":"c:vocal-ligament","name":"Vocal ligament"}
 {"id":"lec:anat3-larynx|vocal-nodule","concept":"c:vocal-nodule","name":"Vocal nodule"}
 {"id":"lec:anat3-larynx|vocal-process","concept":"c:vocal-process","name":"Vocal process"}
 {"id":"lec:anat3-larynx|vocalis-muscle","concept":"c:vocalis-muscle","name":"Vocalis muscle"}
+{"id":"lec:anat3-larynx|weakness-of-phonation","concept":"c:weakness-of-phonation","name":"Weakness of phonation"}
