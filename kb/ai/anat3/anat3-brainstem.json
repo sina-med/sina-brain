@@ -4462,5 +4462,151 @@
    "Slide 03 and 05 write 'posterior cerebral fossa' / 'cerebral posterior fossa' for the posterior cranial fossa; kept as an alias.",
    "Evidence quotes were kept to single lines of each block, so slide quotes are short fragments."
   ]
+ },
+ "audit": {
+  "audit_version": "a2",
+  "model": "claude-fable-5-2",
+  "seconds": 156,
+  "tokens": 98476,
+  "usage": {
+   "output": 16750,
+   "cache_write": 81714,
+   "cache_read": 445953,
+   "input": 12,
+   "note": "tokens = input + cache_write + output; cache reads listed separately"
+  },
+  "findings": [
+   {
+    "targets": [
+     "concept:accessory-nerve"
+    ],
+    "verdict": "medically-doubtful",
+    "detail": "The definition calls the accessory nerve a mixed nerve, following the packet's grouping of IX, X and XI as 'the mixed nerves'. Standard teaching: IX and X are mixed, but the accessory nerve (XI) is a purely motor nerve. The result's conflict on the accessory nerve covers only its naming and spinal root, not this claim.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Lateral, behind the olive | IX, X and XI, the mixed nerves"
+     }
+    ]
+   },
+   {
+    "targets": [
+     "relation:trochlear-nerve|emerges-from|inferior-colliculus"
+    ],
+    "verdict": "wrong-type",
+    "detail": "Read as a sentence this says the trochlear nerve emerges from the inferior colliculus. The packet only says it emerges from the dorsal midbrain below the colliculi; the colliculus is a neighbouring landmark, so the link is related-to (as the result did for hypoglossal nerve and pyramid/olive), not emerges-from.",
+    "evidence": [
+     {
+      "ref": "hy:2",
+      "quote": "IV dorsally below the inferior colliculi (the only dorsal one)"
+     },
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "CN IV emerges below the colliculi."
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:midbrain",
+     "relation:tectum|part-of|midbrain"
+    ],
+    "verdict": "medically-doubtful",
+    "detail": "Both state that the midbrain has two parts, tectum and cerebral peduncles. Standard teaching: the midbrain has a tectum, a tegmentum and the crura cerebri (the cerebral peduncle comprising tegmentum plus crus, with the substantia nigra between). The result reports this conflict but lists only the cerebral peduncle concept and its part-of relation in affects; these two items rest on the same statement and are missing there.",
+    "evidence": [
+     {
+      "ref": "card:anat3-brainstem/b6",
+      "quote": "Two parts: the tectum behind the cerebral aqueduct and the paired cerebral peduncles in front."
+     }
+    ]
+   }
+  ],
+  "unmatched_targets": [],
+  "missed": [
+   {
+    "name": "Neural tube flexures (cephalic flexure and mesencephalic flexure)",
+    "why": "Given their own bullets on the embryology slide, stated in the summary and in the answer of flashcard b3. The result reports a conflict about them but has no concept. Not a consequence of the concept limit (84 of 90 used).",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "The growing neural tube bends at the cephalic flexure and the mesencephalic (cranial) flexure."
+     },
+     {
+      "ref": "card:anat3-brainstem/b3",
+      "quote": "The growing neural tube bends at the cephalic and mesencephalic flexures."
+     }
+    ]
+   },
+   {
+    "name": "Posterior choroidal artery",
+    "why": "Has its own bullet among the major vessels on the vascularisation slide and is in the answer of flashcard b21; the result made concepts for the two other named arteries but not this one. Not a consequence of the limit.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/30",
+      "quote": "Posterior choroidal artery"
+     },
+     {
+      "ref": "card:anat3-brainstem/b21",
+      "quote": "the superior cerebellar artery, the posterior choroidal artery and the interpeduncular branches"
+     }
+    ]
+   },
+   {
+    "name": "Interpeduncular branches of the basilar artery",
+    "why": "Own bullet among the major vessels supplying the brainstem and part of the answer of flashcard b21. Not a consequence of the limit.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/30",
+      "quote": "Interpeduncular branches of the"
+     },
+     {
+      "ref": "sec:anat3-brainstem/vessels",
+      "quote": "the posterior choroidal artery and the interpeduncular branches"
+     }
+    ]
+   },
+   {
+    "name": "Cranial nerve nuclei of the brainstem (grey matter)",
+    "why": "Own bullet on the internal configuration slide as one of the two components of the grey matter, and in the answers of flashcards b15 and b22; only the reticular formation got a concept.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "grey matter (the cranial nerve nuclei and the reticular formation)"
+     },
+     {
+      "ref": "card:anat3-brainstem/b22",
+      "quote": "the site of origin of the nuclei of CN III to XII"
+     }
+    ]
+   },
+   {
+    "name": "Transverse pontocerebellar fibres",
+    "why": "The lecture gives a defining sentence (they form the ventral bulge of the pons) and flashcards s2 and b9 give them as what makes the bulge; no concept, only a mention inside the pons definition.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/external",
+      "quote": "Its ventral bulge, about 2.5 cm, is made by transverse pontocerebellar fibres."
+     },
+     {
+      "ref": "card:anat3-brainstem/s2",
+      "quote": "The pons, the largest part, its bulge made by transverse pontocerebellar fibres."
+     }
+    ]
+   },
+   {
+    "name": "Brainstem (medullary) compression",
+    "why": "The lecture has a headed block on why brainstem lesions are dangerous, and flashcard b24 and question 3fuxbc state that a medullary lesion or compression is life-threatening; no condition concept or clinical relation captures this.",
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "A small stroke or a raised pressure pushing the brainstem down through the foramen magnum can stop breathing or consciousness outright"
+     },
+     {
+      "ref": "q:3fuxbc",
+      "quote": "which is why medullary compression is life-threatening"
+     }
+    ]
+   }
+  ]
  }
 }
