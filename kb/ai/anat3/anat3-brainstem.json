@@ -3176,5 +3176,228 @@
    "Slide 20 has old or translated nerve names ('common occulomotor nerve', 'external oculomotor', 'pathetic nerve', 'cochleo-vestibular', 'major oblique muscle'); correctly spelt ones were kept as aliases. Slide 17 has run-together OCR text ('sulcusdorsolateralto').",
    "The thalamus, optic nerve and olfactory nerve are concepts because questions test them as things that are NOT brainstem; no part-of or emerges-from relation to the brainstem was written for them."
   ]
+ },
+ "audit": {
+  "audit_version": "a2",
+  "model": "claude-fable-5-2",
+  "seconds": 245,
+  "tokens": 129300,
+  "usage": {
+   "output": 27364,
+   "cache_write": 101922,
+   "cache_read": 586884,
+   "input": 14,
+   "note": "tokens = input + cache_write + output; cache reads listed separately"
+  },
+  "findings": [
+   {
+    "targets": [
+     "concept:accessory-nerve"
+    ],
+    "verdict": "medically-doubtful",
+    "detail": "The definition calls cranial nerve XI 'one of the mixed nerves', which the packet does say (it groups IX, X and XI as 'the mixed nerves'). Standard teaching is that the accessory nerve is purely motor; only IX and X of that group are mixed. The result does not report this under conflicts, so nothing lists concept:accessory-nerve as affected.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/nerves",
+      "quote": "Lateral, behind the olive | IX, X and XI, the mixed nerves"
+     },
+     {
+      "ref": "slide:anat3-brainstem/20",
+      "quote": "The bundle of mixed nerves"
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:transverse-fissure-of-bichat",
+     "relation:transverse-fissure-of-bichat|connects|brainstem"
+    ],
+    "verdict": "medically-doubtful",
+    "detail": "The packet supports 'the brainstem connects above to the diencephalon by the transverse fissure of Bichat', but in standard teaching the transverse cerebral fissure (of Bichat) is a cleft separating the cerebral hemispheres from the diencephalon and brainstem; it does not join the midbrain to the diencephalon, which are directly continuous. A fissure is also not a connecting structure, and the packet's own question says it 'separates'. Not reported under conflicts.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Above, the diencephalon by the transverse fissure of Bichat."
+     },
+     {
+      "ref": "q:e3mp4l",
+      "quote": "The brainstem connects above to the diencephalon at the transverse fissure of Bichat"
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:cerebral-peduncle"
+    ],
+    "verdict": "wrong-alias",
+    "detail": "The alias 'crus cerebri' is the standard name of a different thing: the anterior part of the cerebral peduncle only (the peduncle also includes the substantia nigra and tegmentum). The result's own notes admit this, yet it is listed as an alias and not reported under conflicts as the instructions require.",
+    "evidence": [
+     {
+      "ref": "q:lni6ww",
+      "quote": "Cerebral peduncle (crus cerebri): the thick pillar on the front of the midbrain carrying descending fibres."
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:middle-cerebellar-peduncle"
+    ],
+    "verdict": "evidence-does-not-support",
+    "detail": "The definition says the middle peduncle is 'the largest of the three', resting only on the parenthesis in hy:4, which follows the word 'pons' and may equally mean that the pons is the largest part, as hy:1 says with the same wording. No other block says the middle peduncle is the largest.",
+    "evidence": [
+     {
+      "ref": "hy:4",
+      "quote": "middle → pons (largest)"
+     },
+     {
+      "ref": "hy:1",
+      "quote": "pons (metencephalon, largest)"
+     }
+    ]
+   }
+  ],
+  "unmatched_targets": [],
+  "missed": [
+   {
+    "name": "Respiratory and cardiovascular centres",
+    "why": "Directly tested by q:3fuxbc, card b24 and the professor's review question 5, but only mentioned inside the Medulla oblongata definition. Consequence of the 50-concept limit (the result's notes say so).",
+    "evidence": [
+     {
+      "ref": "q:3fuxbc",
+      "quote": "The respiratory and cardiovascular centres are in the medulla"
+     },
+     {
+      "ref": "card:anat3-brainstem/b24",
+      "quote": "In the medulla oblongata, which is why a lesion there is life-threatening."
+     }
+    ]
+   },
+   {
+    "name": "Spinocerebellar tract",
+    "why": "Has its own table row and is the unconscious ascending tract a student must tell apart from the conscious ones in q:u2xf18 and card b19; it is not mentioned in any definition. Consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "Spinocerebellar | Ascending, unconscious | Proprioception to the cerebellum"
+     },
+     {
+      "ref": "slide:anat3-brainstem/24",
+      "quote": "Unconscious tracts : comprised of the spinocerebellar tracts."
+     }
+    ]
+   },
+   {
+    "name": "Foramen of Luschka",
+    "why": "The lateral aperture of the fourth ventricle, defined on slide 15 and named in exam:9, hy:7 and cards b12 and b20; only mentioned inside other definitions. Consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/15",
+      "quote": "lateral apertures of the fourth ventricle (the foramen of Luschka)"
+     },
+     {
+      "ref": "exam:9",
+      "quote": "Cerebellopontine angle: CN VII and VIII beside the foramen of Luschka."
+     }
+    ]
+   },
+   {
+    "name": "Interpeduncular fossa",
+    "why": "The landmark where CN III leaves, given a defining sentence on slide 11 and used in the answers to q:bapl3l and q:rm6xhf and in card b8; only mentioned inside other definitions. Consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/11",
+      "quote": "They are separated anteriorly in the midline by the interpeduncular fossa."
+     },
+     {
+      "ref": "q:bapl3l",
+      "quote": "CN III exits between the peduncles, in the interpeduncular fossa"
+     }
+    ]
+   },
+   {
+    "name": "Basilar groove",
+    "why": "q:hcwy9m asks directly what lies in it and slide 13 gives it a defining sentence; only mentioned inside the Pons and Basilar artery definitions. Consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/13",
+      "quote": "The basilar groove demarcates the midline of the ventral surface and is where the basilar artery is located."
+     },
+     {
+      "ref": "q:hcwy9m",
+      "quote": "The basilar groove marks the midline of the ventral pons and carries the basilar artery."
+     }
+    ]
+   },
+   {
+    "name": "Inferior quadrigeminal brachium",
+    "why": "Has its own defining sentence beside the superior brachium (which is a concept) and is needed for q:1ej7qkw and card b7; only mentioned inside the Inferior colliculus definition. Consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/10",
+      "quote": "Inferior quadrigeminal brachium conveys fibres from the lateral lemniscus and inferior colliculus to the medial geniculate body (hearing)."
+     },
+     {
+      "ref": "q:1ej7qkw",
+      "quote": "The inferior brachium carries lateral lemniscus and inferior colliculus fibres to the medial geniculate body, for hearing."
+     }
+    ]
+   },
+   {
+    "name": "Foramen of Magendie",
+    "why": "The median aperture of the fourth ventricle, a distractor explained in q:11sf1cy and part of card b20 and hy:7; only mentioned inside the Fourth ventricle definition. Consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/internal",
+      "quote": "CSF leaves by the median foramen of Magendie and two lateral foramina of Luschka"
+     },
+     {
+      "ref": "hy:7",
+      "quote": "CSF exits via Magendie (median) and Luschka (lateral)"
+     }
+    ]
+   },
+   {
+    "name": "Medullary velum (superior and inferior)",
+    "why": "Forms the roof of the fourth ventricle, with a defining sentence on slide 29; needed for q:1ll2t2d and card b20. Only mentioned inside the Fourth ventricle definition. Consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-brainstem/29",
+      "quote": "The roof, located dorsally is formed by the superior medullary velum and inferior medullary velum overlying the cerebellum."
+     },
+     {
+      "ref": "q:1ll2t2d",
+      "quote": "The roof is the superior and inferior medullary vela."
+     }
+    ]
+   },
+   {
+    "name": "Foramen magnum",
+    "why": "The lower connection of the brainstem, one of the three answers to card b4 (the other two are concepts) and a distractor in q:njirnb and q:e3mp4l; not mentioned in any definition. Consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-brainstem/intro",
+      "quote": "Below, the spinal cord through the foramen magnum."
+     },
+     {
+      "ref": "card:anat3-brainstem/b4",
+      "quote": "Below: the spinal cord, through the foramen magnum."
+     }
+    ]
+   },
+   {
+    "name": "Acoustic neuroma",
+    "why": "The only clinical condition besides the alternating syndrome; it has a high-yield point and its own 'deeper' heading with its presentation, but no concept and no presents-with relations. Not tested by a question or flashcard; left out under the 50-concept limit (the result's notes say so).",
+    "evidence": [
+     {
+      "ref": "hy:9",
+      "quote": "an acoustic neuroma gives unilateral deafness, tinnitus, then facial and trigeminal signs"
+     },
+     {
+      "ref": "deeper:4",
+      "quote": "A tumour of the vestibulocochlear nerve sheath grows there and presses on CN VIII first, causing one-sided hearing loss and tinnitus"
+     }
+    ]
+   }
+  ]
  }
 }
