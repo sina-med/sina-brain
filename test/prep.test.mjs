@@ -28,7 +28,7 @@ function setup() {
 const E = (ref, quote) => ({ ref, quote });
 function goodResult() {
   return {
-    lecture: LEC, prompt_version: "p2", abstract: "The lecture covers fast and slow pain and the definition of allodynia.", keywords: ["pain", "allodynia", "c fibres"],
+    lecture: LEC, prompt_version: "p3", abstract: "The lecture covers fast and slow pain and the definition of allodynia.", keywords: ["pain", "allodynia", "c fibres"],
     concepts: [
       { key: "allodynia", name: "Allodynia", kind: "principle", aliases: [], definition: "Pain from a harmless stimulus.", importance: 3, evidence: [E("q:1egt1vv", "Pain from a harmless stimulus"), E("slide:physio-pain/04", "Allodynia")], self_confidence: "high" },
       { key: "fast-pain", name: "Fast pain", kind: "process", aliases: ["First pain"], definition: "Pain carried by A-delta fibres, lost after nerve injury.", importance: 2, evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "high" },
@@ -164,7 +164,7 @@ test("the same concept from two lectures merges; plural and alias forms are reco
   runImport({ sina: site.dir, ocr: site.ocr, kb, quiet: true, date: "2026-01-01" });
   pack({ ...ctx, next: 10 });
   write(ctx, "results/physio-pain.json", goodResult());
-  write(ctx, "results/physio-a.json", { lecture: "lec:physio-a", prompt_version: "p2", abstract: "A second lecture about allodynia and first pain, for testing.", keywords: ["allodynia", "first pain", "hyperalgesia"], tests: [], conflicts: [],
+  write(ctx, "results/physio-a.json", { lecture: "lec:physio-a", prompt_version: "p3", abstract: "A second lecture about allodynia and first pain, for testing.", keywords: ["allodynia", "first pain", "hyperalgesia"], tests: [], conflicts: [],
     concepts: [
       { key: "allodynias", name: "Allodynias", kind: "condition", definition: "Pain from light touch.", importance: 2, evidence: [E("sec:physio-a/s", "Allodynia is pain from light touch")], self_confidence: "high" },
       { key: "first-pain", name: "First pain", kind: "process", definition: "The sharp early pain.", importance: 2, evidence: [E("sec:physio-a/s", "First pain is sharp")], self_confidence: "high" },
@@ -287,7 +287,7 @@ test("an alternative name shared across subjects is sent for review, not merged 
   const base = goodResult();
   base.concepts[2] = { ...base.concepts[2], aliases: ["Median eminence"] };          // "Pain", wrongly given another structure's name as an alias
   write(ctx, "results/physio-pain.json", base);
-  write(ctx, "results/anat-hypo.json", { lecture: "lec:anat-hypo", prompt_version: "p2", abstract: "A lecture on the hypothalamus and its median eminence, for testing.", keywords: ["hypothalamus", "median eminence", "base"], tests: [], conflicts: [], relations: [],
+  write(ctx, "results/anat-hypo.json", { lecture: "lec:anat-hypo", prompt_version: "p3", abstract: "A lecture on the hypothalamus and its median eminence, for testing.", keywords: ["hypothalamus", "median eminence", "base"], tests: [], conflicts: [], relations: [],
     concepts: [{ key: "me", name: "Median eminence", kind: "structure", definition: "A structure at the base of the hypothalamus.", importance: 2, evidence: [E("sec:anat-hypo/s", "The median eminence lies at the base of the hypothalamus")], self_confidence: "high" }] });
   audit(ctx); audit(ctx, "anat-hypo");
   ingest(ctx);
@@ -337,9 +337,9 @@ test("the size limits and the audit checker are enforced", () => {
   const ctx = setup();
   pack({ ...ctx, lectures: LEC });
   const big = goodResult();
-  for (let i = 0; i < 50; i++) big.concepts.push({ key: "extra-" + i, name: "Extra " + i, kind: "structure", aliases: [], definition: "An extra concept for the test.", importance: 1, evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "low" });
+  for (let i = 0; i < 90; i++) big.concepts.push({ key: "extra-" + i, name: "Extra " + i, kind: "structure", aliases: [], definition: "An extra concept for the test.", importance: 1, evidence: [E("exam:1", "Fast pain: A-delta")], self_confidence: "low" });
   write(ctx, "draft.json", big);
-  assert.ok(check({ ...ctx, lecture: LEC, file: join(ctx.work, "draft.json") }).problems.some((p) => /concepts must NOT have more than 50 items/.test(p)));
+  assert.ok(check({ ...ctx, lecture: LEC, file: join(ctx.work, "draft.json") }).problems.some((p) => /concepts must NOT have more than 90 items/.test(p)));
   const three = goodResult(); three.concepts[0].evidence.push(E("exam:1", "Fast pain: A-delta"));
   write(ctx, "draft.json", three);
   assert.ok(check({ ...ctx, lecture: LEC, file: join(ctx.work, "draft.json") }).problems.some((p) => /must NOT have more than 2 items/.test(p)));

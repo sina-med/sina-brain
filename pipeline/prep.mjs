@@ -21,7 +21,7 @@ import { assemble } from "./lib/prep-assemble.mjs";
 import { readJsonl, writeJsonl, writeIfChanged, listJsonl, parseArgs } from "./lib/util.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
-export const PROMPT_VERSION = "p2";
+export const PROMPT_VERSION = "p3";
 export const AUDIT_VERSION = "a2";
 const readJson = (f) => JSON.parse(readFileSync(f, "utf8"));
 const policyOf = () => readJson(join(here, "prep/policy.json"));

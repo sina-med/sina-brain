@@ -1,0 +1,3260 @@
+{
+ "lecture": "lec:anat3-larynx",
+ "input_hash": "987764e756490d91",
+ "prompt_version": "p2",
+ "provenance": {
+  "worker": "subagent (fresh context)",
+  "model": "claude-fable-5-2",
+  "finished_at": "2026-11-12T00:25:59Z",
+  "seconds": 651,
+  "tokens": 326564,
+  "usage": {
+   "output": 83382,
+   "cache_write": 243166,
+   "cache_read": 539987,
+   "input": 16,
+   "note": "tokens = input + cache_write + output; cache reads listed separately"
+  },
+  "tool_uses": 10,
+  "packet_chars": 74515,
+  "result_chars": 79592
+ },
+ "evidence": {
+  "exact": 227,
+  "approximate": 0,
+  "weak": 0,
+  "failed": 0,
+  "bad-ref": 0
+ },
+ "dropped": [],
+ "result": {
+  "lecture": "lec:anat3-larynx",
+  "prompt_version": "p2",
+  "abstract": "This lecture describes the anatomy of the larynx: its situation and fixation, its nine cartilages, joints, ligaments, intrinsic and extrinsic muscles, compartments, histology, relations, blood supply, lymphatic drainage and innervation. It then explains the physiology of phonation and the acoustic parameters of the voice. It ends with clinical correlations: laryngeal nerve damage, laryngeal obstruction and vocal nodules.",
+  "keywords": [
+   "larynx",
+   "laryngeal cartilages",
+   "cricoid cartilage",
+   "vocal cords",
+   "intrinsic laryngeal muscles",
+   "posterior cricoarytenoid",
+   "cricothyroid",
+   "recurrent laryngeal nerve",
+   "superior laryngeal nerve",
+   "glottis",
+   "phonation",
+   "vocal nodules"
+  ],
+  "concepts": [
+   {
+    "key": "larynx",
+    "name": "Larynx",
+    "kind": "structure",
+    "aliases": [
+     "organ of phonation"
+    ],
+    "definition": "The upper expanded part of the lower respiratory tract, modified for producing voice: an unpaired median tube of cartilages linked by joints, muscles and ligaments and lined by mucous membrane. It acts as a sphincter at the inlet of the lower respiratory tract.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/intro",
+      "quote": "The larynx is the upper expanded part of the lower respiratory tract, modified for producing voice, also called the organ of phonation",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/07",
+      "quote": "It acts as a sphincter at the inlet of lower respiratory tract to protect the trachea and the bronchial tree",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "thyroid-cartilage",
+    "name": "Thyroid cartilage",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Large unpaired laryngeal cartilage shaped like an open book, open backwards, with two vertical quadrilateral laminae, superior and inferior thyroid incisures and superior and inferior cornua; the inferior cornu carries a cricoid articular surface.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "Shaped like an open book, open backwards, with two vertical quadrilateral laminae",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "a thick vertical posterior margin extended by the superior and inferior cornua, the inferior carrying a cricoid articular surface",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cricoid-cartilage",
+    "name": "Cricoid cartilage",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Unpaired signet-shaped ring of cartilage with a narrow anterior arch and a broad posterior lamina, at the level of C6. It is the only cartilage that completely encircles the lumen of the larynx and is called the foundation stone of the larynx.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "A signet-shaped ring with a narrow anterior arch and a broad posterior lamina, at C6",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/20",
+      "quote": "The cricoid cartilage is situated at the level of C6 vertebra and completely encircles the lumen of the larynx",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "epiglottis",
+    "name": "Epiglottis",
+    "kind": "structure",
+    "aliases": [
+     "epiglottic cartilage",
+     "epiglottis cartilage"
+    ],
+    "definition": "Large unpaired laryngeal cartilage shaped like a tennis racket. Its posterior (laryngeal) side faces the vestibule and its anterior (lingual) side the base of the tongue and hyoid; its base is superior and free and its foot inserts into the reentrant angle of the thyroid cartilage.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "Shaped like a tennis racket with a curved lower handle forming its foot",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/19",
+      "quote": "Shape: tennis racket with curved lower handle forming the foot of the epiglottis",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "arytenoid-cartilage",
+    "name": "Arytenoid cartilage",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Small paired laryngeal cartilage shaped like a triangular pyramid about 15 mm high. Its apex articulates with the corniculate cartilage and its concave base with the cricoid lamina; the base bears the vocal process anteriorly and the muscular process laterally.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "Triangular pyramids about 15 mm high. The apex articulates with the corniculate cartilage, the concave base with the cricoid lamina",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The anterior angle of the base is extended by the vocal process",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "corniculate-cartilage",
+    "name": "Corniculate cartilage",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Small paired accessory cartilage of the larynx lying on the apex of the arytenoid cartilage, with which it articulates.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "Corniculate: on the apices of the arytenoids",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "Three paired and small: arytenoid, corniculate, cuneiform",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cuneiform-cartilage",
+    "name": "Cuneiform cartilage",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Small paired accessory cartilage of the larynx lying in the aryepiglottic fold.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "Cuneiform: in the aryepiglottic fold",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "Three paired and small: arytenoid, corniculate, cuneiform",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vocal-process",
+    "name": "Vocal process",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The extension of the anterior angle of the base of the arytenoid cartilage, which gives insertion to the vocal ligament.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "The anterior angle of the base extends as the vocal process (insertion of the vocal ligament)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The vocal process gives insertion to the : • Vocal ligament",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cricoarytenoid-joint",
+    "name": "Cricoarytenoid joint",
+    "kind": "structure",
+    "aliases": [
+     "crico-arytenoid joint"
+    ],
+    "definition": "Elliptical synovial joint uniting the base of the arytenoid with the upper edge of the cricoid lamina, reinforced by the posterior cricoarytenoid ligament. Functionally the most important laryngeal joint, allowing rotation of the arytenoid around a vertical axis and gliding of the arytenoids toward or away from each other.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "An elliptical synovial articulation reinforced by the posterior cricoarytenoid ligament, uniting the base of the arytenoid with the upper edge of the cricoid lamina",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/25",
+      "quote": "Rotatory movement, in which arytenoid cartilage moves around a vertical axis, thus abducting or adducting the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cricothyroid-joint",
+    "name": "Cricothyroid joint",
+    "kind": "structure",
+    "aliases": [
+     "crico-thyroid joint"
+    ],
+    "definition": "Flat synovial joint, reinforced by ligaments, joining the lower cornu of the thyroid cartilage and the lateral face of the cricoid cartilage. It allows tilting of the cricoid around a transverse axis, the arch up and the lamina down.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "A flat synovial joint reinforced by ligaments, joining the lower cornu of the thyroid cartilage and the lateral face of the cricoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/26",
+      "quote": "Flat synovial joint reinforced by ligaments joining the lower cornu of the thyroid cartilage and the lateral face of the cricoid cartilage",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "thyrohyoid-membrane",
+    "name": "Thyrohyoid membrane",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Extrinsic membrane of the larynx running from the upper edge of the thyroid cartilage to the lower edge of the hyoid bone, with a medial and two lateral thickenings. The internal branch of the superior laryngeal nerve and the superior laryngeal artery perforate it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Thyrohyoid membrane: from the upper edge of the thyroid cartilage to the lower edge of the hyoid bone",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Enters the larynx with the superior laryngeal artery by perforating the thyrohyoid membrane",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "thyroepiglottic-ligament",
+    "name": "Thyroepiglottic ligament",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Extrinsic ligament of the larynx attaching the lower narrow end (foot) of the epiglottis to the posterior surface of the thyroid angle.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Thyroepiglottic ligament: attaches the lower narrow end of the epiglottis to the posterior surface of the thyroid angle",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/19",
+      "quote": "inferior inserts into the reentrant angle of the thyroid cartilage through the thyroepiglottic ligament",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cricothyroid-ligament",
+    "name": "Cricothyroid ligament",
+    "kind": "structure",
+    "aliases": [
+     "median cricothyroid ligament",
+     "cricothyroid membrane"
+    ],
+    "definition": "Intrinsic ligament of the larynx, part of the fibroelastic inner tube, described as stretched between the thyroid cartilage and the vocal process, where it forms the vocal ligament. With the cricoid it surrounds the infraglottic cavity.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The cricothyroid ligament, stretched between the thyroid cartilage and the vocal process, forms the vocal ligament",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "The cavity below the vocal cords, surrounded by the cricoid and the cricothyroid ligament",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "vocal-ligament",
+    "name": "Vocal ligament",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Ligament formed by the cricothyroid ligament between the thyroid cartilage and the vocal process of the arytenoid, on which it inserts. Together with muscle it makes up the vocal cord.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The cricothyroid ligament, stretched between the thyroid cartilage and the vocal process, forms the vocal ligament",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The vocal process gives insertion to the : • Vocal ligament",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "posterior-cricoarytenoid-muscle",
+    "name": "Posterior cricoarytenoid muscle",
+    "kind": "structure",
+    "aliases": [
+     "posterior crico-arytenoid muscle",
+     "safety muscle of the larynx"
+    ],
+    "definition": "Paired intrinsic muscle of the larynx inserting on the muscular process of the arytenoid. It is the only dilator of the glottis and the only intrinsic muscle that abducts the vocal cords, hence called the safety muscle of the larynx.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:6",
+      "quote": "Posterior cricoarytenoids are the only abductors: the safety muscles of the larynx",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Posterior ericoarytenoids: abduct the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "lateral-cricoarytenoid-muscle",
+    "name": "Lateral cricoarytenoid muscle",
+    "kind": "structure",
+    "aliases": [
+     "lateral crico-arytenoid muscle"
+    ],
+    "definition": "Paired intrinsic muscle of the larynx inserting on the muscular process of the arytenoid; a constrictor of the glottis that adducts the vocal cords.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "the lateral angle bears the muscular process (insertion of the posterior and lateral cricoarytenoid muscles)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Lateral cricoarytenoids: adduct the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "transverse-arytenoid-muscle",
+    "name": "Transverse arytenoid muscle",
+    "kind": "structure",
+    "aliases": [
+     "interarytenoid muscle",
+     "interarytenoid"
+    ],
+    "definition": "The only unpaired intrinsic muscle of the larynx, inserting on the posterior side of the arytenoid cartilages; a constrictor of the glottis that adducts the vocal cords.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "All the intrinsic muscles are paired except the transverse arytenoid (interarytenoid), which is unpaired",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "Posterior side: gives insertion to the transverse arytenoid muscle",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cricothyroid-muscle",
+    "name": "Cricothyroid muscle",
+    "kind": "structure",
+    "aliases": [
+     "tuning fork of the larynx"
+    ],
+    "definition": "Paired intrinsic muscle and the only one lying on the outer aspect of the larynx. It elevates the cricoid arch and lowers the thyroid cartilage, tensing the vocal cord, and is important for the tone and pitch of the voice.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Vocal cord tensors: cricothyroid (paired). Action: elevation of the cricoid arch and lowering of the thyroid cartilage, tensing the vocal cord",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Crivothyroid: tenses the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vocalis-muscle",
+    "name": "Vocalis muscle",
+    "kind": "structure",
+    "aliases": [
+     "vocalis",
+     "vocal muscle",
+     "inferior thyroarytenoid"
+    ],
+    "definition": "Intrinsic muscle of the larynx, named in the lecture as the inferior thyroarytenoid, running from the reentrant angle of the thyroid cartilage to the anterolateral aspect of the arytenoid. It tilts the arytenoid forward and tenses the vocal cord.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "inferior thyroarytenoid or vocal muscle (from the reentrant angle to the anterolateral aspect of the arytenoid), which tilts the arytenoid forward and tenses the cord",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Vocals: tenses the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "thyroarytenoid-muscle",
+    "name": "Thyroarytenoid muscle",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Intrinsic muscle of the larynx that relaxes the vocal cords. The lecture lists a superior part, from the reentrant angle of the thyroid cartilage to the lower third of the arytenoid, and an inferior part among the constrictors of the glottis.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Relax the vocal cords | Thyroarytenoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Thyroarytenoid: relaxes the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "intrinsic-laryngeal-muscle",
+    "name": "Intrinsic laryngeal muscle",
+    "kind": "structure",
+    "aliases": [
+     "intrinsic muscle of the larynx"
+    ],
+    "definition": "Muscle of the larynx classified by its action as a vocal cord tensor, dilator of the glottis or constrictor of the glottis. All are paired except the transverse arytenoid, and all are supplied by the recurrent laryngeal nerve except the cricothyroid.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "All the intrinsic muscles are paired except the transverse arytenoid (interarytenoid), which is unpaired",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:10",
+      "quote": "Recurrent laryngeal nerve supplies all intrinsic muscles except the cricothyroid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "extrinsic-laryngeal-muscle",
+    "name": "Extrinsic laryngeal muscle",
+    "kind": "structure",
+    "aliases": [
+     "extrinsic muscle of the larynx"
+    ],
+    "definition": "Muscle ensuring laryngeal mobility, especially during swallowing. The elevators are the thyrohyoid, mylohyoid and digastric; the depressors are the sternothyroid, sternohyoid and omohyoid.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Extrinsic muscles ensure laryngeal mobility, especially during swallowing. Elevators: thyrohyoid, mylohyoid, digastric. Depressors: sternothyroid, sternohyoid, omohyoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/38",
+      "quote": "Extrinsic muscles: ensure laryngeal mobility especially during swallowing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vocal-fold-abduction",
+    "name": "Vocal fold abduction",
+    "kind": "process",
+    "aliases": [
+     "abduction of the vocal cords"
+    ],
+    "definition": "Movement in which the arytenoids rotate so that their vocal processes move laterally, giving a wide diamond-shaped opening of the glottis that lets air through the rima glottidis.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "the muscular processes of both arytenoids rotate medially and the vocal processes rotate laterally, giving a wide diamond-shaped opening",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/25",
+      "quote": "moves around a vertical axis, thus abducting or adducting the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vocal-fold-adduction",
+    "name": "Vocal fold adduction",
+    "kind": "process",
+    "aliases": [
+     "adduction of the vocal cords"
+    ],
+    "definition": "Movement bringing the vocal cords together, produced by rotation of the arytenoids around a vertical axis at the cricoarytenoid joint. Keeping the cords adducted is the first step of voice production.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Rotatory movement around a vertical axis, abducting or adducting the vocal cords",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/64",
+      "quote": "The voice is produced in following manner: 1. Vocal cords are kept adducted",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "vocal-fold-tension",
+    "name": "Vocal fold tension",
+    "kind": "process",
+    "aliases": [
+     "tension of the vocal cords"
+    ],
+    "definition": "Tightening of the vocal cord that makes it ready to vibrate when sound is about to be produced; it is produced by tilting of the cricoid around a transverse axis at the cricothyroid joint.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Tilting of the cricoid around a transverse axis (arch up, lamina down) tenses the vocal cords",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "when sound is about to be produced it tenses the cord and makes it ready to vibrate",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "laryngeal-vestibule",
+    "name": "Laryngeal vestibule",
+    "kind": "structure",
+    "aliases": [
+     "vestibule of larynx",
+     "vestibule"
+    ],
+    "definition": "Pyramidal space of the supraglottic compartment of the larynx, extending from the laryngeal margin to the ventricular bands: the space above the vestibular folds.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Vestibule: a pyramidal space from the laryngeal margin to the ventricular bands",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:12",
+      "quote": "vestibule above the vestibular folds",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "laryngeal-ventricle",
+    "name": "Laryngeal ventricle",
+    "kind": "structure",
+    "aliases": [
+     "Morgagni ventricle",
+     "ventricle of Morgagni",
+     "ventricle of the larynx"
+    ],
+    "definition": "Cavity of the supraglottic compartment of the larynx lying between the ventricular bands (false vocal cords, vestibular folds) above and the plane of the vocal cords below.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Laryngeal or Morgagni ventricle: between the ventricular bands (false vocal cords) above and the plane of the vocal cords below",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:12",
+      "quote": "ventricle between them and the vocal folds",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "glottis",
+    "name": "Glottis",
+    "kind": "structure",
+    "aliases": [
+     "rima glottidis"
+    ],
+    "definition": "The compartment of the larynx at the level of the two vocal cords, which delimit a triangular opening. It is narrower than the vestibular cleft.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "The glottis is triangular and narrower than the vestibular cleft",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/41",
+      "quote": "Glottis: delimited by the 2 vocal cords, it is triangular in shape",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vocal-fold",
+    "name": "Vocal fold",
+    "kind": "structure",
+    "aliases": [
+     "vocal cord",
+     "true cord"
+    ],
+    "definition": "One of two pearly white cords stretched between the reentrant angle of the thyroid cartilage in front and the arytenoid cartilage behind, made of vocal ligament and muscle. The two unite anteriorly at the anterior commissure and are separated posteriorly by the interarytenoid region.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Two pearly white vocal cords stretched between the reentrant angle of the thyroid cartilage in front and the arytenoid behind, made of vocal ligament and muscle",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/41",
+      "quote": "2 pearly white cords stretched between the reentrant angle of the thyroid cartilage in front and the arytenoid cartilage in back",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "infraglottic-cavity",
+    "name": "Infraglottic cavity",
+    "kind": "structure",
+    "aliases": [
+     "infraglottic compartment",
+     "subglottis"
+    ],
+    "definition": "The cavity of the larynx below the vocal cords, surrounded by the cricoid cartilage and the cricothyroid ligament.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "The cavity below the vocal cords, surrounded by the cricoid and the cricothyroid ligament",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/45",
+      "quote": "Infraglottic cavity — space inferior to vocal folds",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "superior-laryngeal-artery",
+    "name": "Superior laryngeal artery",
+    "kind": "structure",
+    "aliases": [
+     "SLA"
+    ],
+    "definition": "Branch of the superior thyroid artery that enters the larynx through the thyrohyoid membrane with the internal branch of the superior laryngeal nerve. It supplies the supraglottic part and anastomoses with the posteroinferior laryngeal artery.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Superior laryngeal artery | A branch of the superior thyroid artery. Supplies the supraglottic part and anastomoses with the posteroinferior laryngeal artery",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/49",
+      "quote": "branch of the Superior Thyroid Artery, it vascularizes the supraglottic part and anastomoses with ALPI",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "posteroinferior-laryngeal-artery",
+    "name": "Posteroinferior laryngeal artery",
+    "kind": "structure",
+    "aliases": [
+     "ALPI"
+    ],
+    "definition": "Branch of the inferior thyroid artery that supplies the posterior part of the laryngeal mucosa and anastomoses with the superior laryngeal artery.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Posteroinferior laryngeal artery | A branch of the inferior thyroid artery. Supplies the posterior part of the laryngeal mucosa",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/49",
+      "quote": "branch of the Inferior Thyroid Artery. It vascularizes the posterior part of the laryngeal mucosa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "superior-laryngeal-nerve",
+    "name": "Superior laryngeal nerve",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Branch of the vagus, mixed but essentially sensory, that descends against the pharyngeal wall and divides behind the greater horn of the hyoid into an internal and an external branch.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "A branch of the vagus, mixed but essentially sensory, descending against the pharyngeal wall and dividing behind the greater horn of the hyoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "internal-laryngeal-nerve",
+    "name": "Internal laryngeal nerve",
+    "kind": "structure",
+    "aliases": [
+     "internal branch of the superior laryngeal nerve",
+     "internal laryngeal"
+    ],
+    "definition": "Branch of the superior laryngeal nerve that enters the larynx with the superior laryngeal artery by perforating the thyrohyoid membrane. It gives sensory innervation to the mucosa above the vocal folds, plus autonomic fibres.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "Internal branch of the superior laryngeal nerve: sensation above the cords, piercing the thyrohyoid membrane",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "Pierces thyrohyoid membrane + Sensory from mucosa above vocal folds",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "external-laryngeal-nerve",
+    "name": "External laryngeal nerve",
+    "kind": "structure",
+    "aliases": [
+     "external branch of the superior laryngeal nerve",
+     "external nerve"
+    ],
+    "definition": "Branch of the superior laryngeal nerve that innervates the cricothyroid muscle. The lecture also says it perforates the cricothyroid membrane and gives sensory innervation to the subglottic stage.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "External branch | Innervates the cricothyroid muscle and perforates the cricothyroid membrane; sensory innervation of the subglottic stage",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "External branch - innervates cricothyroid m",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "recurrent-laryngeal-nerve",
+    "name": "Recurrent laryngeal nerve",
+    "kind": "structure",
+    "aliases": [
+     "inferior laryngeal nerve",
+     "recurrent nerve"
+    ],
+    "definition": "Branch of the vagus arising on the right at the base of the neck and on the left in the thorax. It is motor to all intrinsic laryngeal muscles except the cricothyroid and sensory below the vocal folds.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "From the vagus, on the right at the base of the neck and on the left at the thorax. Motor to all the intrinsic muscles except the cricothyroid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "Recurrent laryngeal n. + Motor to intrinsic muscles of larynx",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "lymphatic-drainage-of-the-larynx",
+    "name": "Lymphatic drainage of the larynx",
+    "kind": "other",
+    "aliases": [],
+    "definition": "Laryngeal lymphatics are very rich in the supraglottic zone, thinner in the subglottic zone and absent at the vocal cords. The supraglottic region drains to the internal jugular chain; the infraglottic region to pretracheal and paratracheal nodes and the internal jugular chain.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Very rich in the supraglottic zone, thinner in the subglottic zone, absent at the vocal cords. Supraglottic: the internal jugular chain",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/51",
+      "quote": "Very rich in the supraglottic zones, thinner in the subglottic zone, absent in the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "laryngeal-mucosa",
+    "name": "Laryngeal mucosa",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Thin, smooth, pale pink lining of the larynx, continuous with the pharyngeal mucosa above and the tracheal mucosa below. Its epithelium is respiratory type (cylindric stratified) except at the vocal cords and upper half of the epiglottis, where it is non-keratinized stratified squamous.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "The epithelium is respiratory type (cylindric stratified) throughout, except at the vocal cords and the upper half of the epiglottis, which are non-keratinized stratified squamous",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/47",
+      "quote": "Thin, smooth, pale pink in color. It continues above with the pharyngeal mucosa and below with the tracheal mucosa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "recurrent-laryngeal-nerve-injury",
+    "name": "Recurrent laryngeal nerve injury",
+    "kind": "condition",
+    "aliases": [
+     "recurrent laryngeal palsy",
+     "recurrent nerve palsy"
+    ],
+    "definition": "Damage to the recurrent laryngeal nerve, often accidental during partial thyroidectomy. Unilaterally, the cord on the affected side lies in the paramedian position and does not vibrate, though the other usually compensates; bilaterally, both cords lie paramedian with loss of phonation and difficulty breathing.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "Recurrent laryngeal nerve, often damaged accidentally during partial thyroidectomy: unilaterally, the cord lies in the paramedian position and does not vibrate, though the other usually compensates",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:15",
+      "quote": "Unilateral recurrent nerve palsy: paramedian cord",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cadaveric-position-of-the-vocal-cords",
+    "name": "Cadaveric position of the vocal cords",
+    "kind": "sign-symptom",
+    "aliases": [
+     "cadaveric position"
+    ],
+    "definition": "Position in which the vocal cords are further abducted and fixed because all the intrinsic muscles are paralysed, seen when both the recurrent and the external laryngeal nerves are damaged on both sides.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "If both recurrent and external laryngeal nerves are damaged on both sides, all the intrinsic muscles are paralysed and the cords are further abducted and fixed: the cadaveric position",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "This is known as the cadaveric postion of vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vocal-nodule",
+    "name": "Vocal nodule",
+    "kind": "condition",
+    "aliases": [
+     "singer's nodule",
+     "screamer's nodule"
+    ],
+    "definition": "Inflammatory nodule that develops in people who overuse the voice, at the junction of the anterior one third and posterior two thirds of the vocal cords, the area of maximum contact during vibration. Nodules are bilateral and symmetrical, soft and reddish early, later greyish or whitish.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:16",
+      "quote": "Vocal nodules form at the junction of the anterior third and posterior two thirds of the cords",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/64",
+      "quote": "teachers, pop singers, the inflammatory nodules develop at these sites called vocal nodules",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "acoustic-parameters-of-the-voice",
+    "name": "Acoustic parameters of the voice",
+    "kind": "principle",
+    "aliases": [
+     "voice parameters"
+    ],
+    "definition": "The three parameters the lecture uses to characterise the voice: frequency, in Hertz, depending on the vibration speed of the vocal folds; intensity, in dB, depending on the force of pulmonary expiration; and pitch, depending on vocal fold accommodation and especially the shape of the supralaryngeal cavities.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "The voice is characterised by three acoustic parameters: frequency, in Hertz, depending on the vibration speed of the vocal folds",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/58",
+      "quote": "The voice is characterized by 3 acoustic parameters",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "phonation",
+    "name": "Phonation",
+    "kind": "process",
+    "aliases": [],
+    "definition": "The set of mechanisms allowing vibration at the free edge of the vocal fold, transforming aerodynamic energy into acoustic energy. The sound produced is then modified and filtered by the supralaryngeal air cavities to become vowels and consonants.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "The set of mechanisms allowing vibration at the free edge of the vocal fold, transforming aerodynamic energy into acoustic energy",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/64",
+      "quote": "The phonation (speech) is produced by the vibrations of the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vibratory-cycle",
+    "name": "Vibratory cycle",
+    "kind": "process",
+    "aliases": [],
+    "definition": "The cycle of vocal fold movement during phonation: the folds close as the arytenoids come together; they open when subglottic pressure overcomes the muscular and elastic resistance, letting a puff of air pass at high speed; then the folds close again.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "Putting into phonatory position: the folds close as the arytenoids come together",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "Opening: when the subglottic pressure overcomes the muscular and elastic resistance, a puff of air passes at high speed, an acoustic impulse",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "supralaryngeal-cavity",
+    "name": "Supralaryngeal cavity",
+    "kind": "structure",
+    "aliases": [
+     "supralaryngeal air cavity",
+     "bucco-pharyngeal resonator"
+    ],
+    "definition": "One of the air cavities above the larynx, chiefly the pharynx and the oral cavity, which filter the laryngeal sound by resonance and shape it by articulation through the tongue, pharyngolarynx, jaws, lips and soft palate.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "The sound produced is immediately modified and filtered by the supralaryngeal air cavities to become vowels and consonants",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "Filter role: resonance and enrichment of certain frequencies or suppression of others, with two areas of particular enhancement, the pharynx and the oral cavity",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "laryngeal-obstruction",
+    "name": "Laryngeal obstruction",
+    "kind": "condition",
+    "aliases": [],
+    "definition": "Blockage of the larynx by a foreign body, causing choking when the explosive cough reflex set off by the very sensitive mucosa of the superior larynx is slowed or absent. The Heimlich manoeuvre of upward and backward abdominal thrusts is used to dislodge the foreign body.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "The mucosa of the superior larynx is very sensitive, so a foreign body causes immediate explosive coughing. If that reflex is slowed or absent, choking follows",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "give three or four abdominal thrusts directed upwards and backwards, squeezing the residual air up to dislodge the foreign body",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "hyoid-bone",
+    "name": "Hyoid bone",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Bone lying above the larynx with the base of the tongue. The larynx is united to it through muscles and ligaments, and the thyrohyoid membrane reaches its lower edge.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/intro",
+      "quote": "Above: the hyoid bone and base of the tongue",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/08",
+      "quote": "Top: hyoid bone and base of tongue",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "trachea",
+    "name": "Trachea",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The airway lying below the larynx, with which the larynx is continuous. The cricotracheal ligament runs between the lower edge of the cricoid and the upper edge of the first tracheal ring.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/intro",
+      "quote": "Above: the hyoid bone and base of the tongue. Below: the trachea",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Cricotracheal ligament: between the lower edge of the cricoid and the upper edge of the first tracheal ring",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "laryngeal-prominence",
+    "name": "Laryngeal prominence",
+    "kind": "structure",
+    "aliases": [
+     "Adam's apple"
+    ],
+    "definition": "The forward bulge formed where the two laminae of the thyroid cartilage meet in the midline.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/g7",
+      "quote": "The laryngeal prominence, the Adam's apple, formed where the two laminae of the thyroid cartilage meet in the midline",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1yzsihk-prominence",
+      "quote": "the forward bulge where the two thyroid laminae meet",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "external-laryngeal-nerve-injury",
+    "name": "External laryngeal nerve injury",
+    "kind": "condition",
+    "aliases": [
+     "external laryngeal nerve lesion"
+    ],
+    "definition": "Lesion of the external laryngeal nerve that paralyses the cricothyroid muscle, giving weakness of phonation from loss of its tightening effect on the vocal cords. The voice change is especially noticeable in singers.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "External laryngeal nerve: weakness of phonation from loss of the tightening effect of the cricothyroid",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "Paralysis after an external laryngeal nerve lesion alters the voice significantly, especially noticeable in singers",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   }
+  ],
+  "relations": [
+   {
+    "src": "cricoid-cartilage",
+    "type": "part-of",
+    "dst": "larynx",
+    "statement": "The cricoid is one of the principal cartilages of the larynx and completely encircles its lumen.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/15",
+      "quote": "The principal cartilages of the larynx are, cricoid, thyroid, and two arytenoids",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/20",
+      "quote": "The cricoid cartilage is situated at the level of C6 vertebra and completely encircles the lumen of the larynx",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "thyroid-cartilage",
+    "type": "part-of",
+    "dst": "larynx",
+    "statement": "The thyroid cartilage is one of the principal cartilages of the larynx.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/15",
+      "quote": "The principal cartilages of the larynx are, cricoid, thyroid, and two arytenoids",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "arytenoid-cartilage",
+    "type": "part-of",
+    "dst": "larynx",
+    "statement": "The two arytenoids are among the principal cartilages of the larynx.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/15",
+      "quote": "The principal cartilages of the larynx are, cricoid, thyroid, and two arytenoids",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "epiglottis",
+    "type": "part-of",
+    "dst": "larynx",
+    "statement": "The epiglottis is one of the three unpaired cartilages of the larynx.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/15",
+      "quote": "The larynx is composed of nine cartilages, of which three are unpaired and three are paired: 1. Unpaired cartilages: are large and comprise: (a) Thyroid (b) Cricoid (c) Epiglottis",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "corniculate-cartilage",
+    "type": "located-in",
+    "dst": "arytenoid-cartilage",
+    "statement": "The corniculate cartilages lie on the apices of the arytenoids.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "Corniculate: on the apices of the arytenoids",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "vocal-process",
+    "type": "part-of",
+    "dst": "arytenoid-cartilage",
+    "statement": "The vocal process is the extension of the anterior angle of the base of the arytenoid cartilage.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The arytenoid cartilages • The anterior angle of the base is extended by the vocal process",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocal-ligament",
+    "type": "attaches-to",
+    "dst": "vocal-process",
+    "statement": "The vocal ligament inserts on the vocal process of the arytenoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "The anterior angle of the base extends as the vocal process (insertion of the vocal ligament)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The vocal process gives insertion to the : • Vocal ligament",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocal-ligament",
+    "type": "attaches-to",
+    "dst": "thyroid-cartilage",
+    "statement": "The vocal ligament is stretched between the thyroid cartilage and the vocal process.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The cricothyroid ligament, stretched between the thyroid cartilage and the vocal process, forms the vocal ligament",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "posterior-cricoarytenoid-muscle",
+    "type": "attaches-to",
+    "dst": "arytenoid-cartilage",
+    "statement": "The posterior cricoarytenoid muscle inserts on the muscular process at the lateral angle of the arytenoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "the lateral angle bears the muscular process (insertion of the posterior and lateral cricoarytenoid muscles)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The lateral angle presents the muscular process on which insert: • The posterior crico-arytenoid muscle • The lateral crico-arytenoid muscle",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "lateral-cricoarytenoid-muscle",
+    "type": "attaches-to",
+    "dst": "arytenoid-cartilage",
+    "statement": "The lateral cricoarytenoid muscle inserts on the muscular process at the lateral angle of the arytenoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "the lateral angle bears the muscular process (insertion of the posterior and lateral cricoarytenoid muscles)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The lateral angle presents the muscular process on which insert: • The posterior crico-arytenoid muscle • The lateral crico-arytenoid muscle",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "transverse-arytenoid-muscle",
+    "type": "attaches-to",
+    "dst": "arytenoid-cartilage",
+    "statement": "The transverse arytenoid muscle inserts on the posterior side of the arytenoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "the posterior side takes the transverse arytenoid muscle",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "Posterior side: gives insertion to the transverse arytenoid muscle",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricoarytenoid-joint",
+    "type": "connects",
+    "dst": "arytenoid-cartilage",
+    "statement": "The cricoarytenoid joint unites the base of the arytenoid with the upper edge of the cricoid lamina.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "An elliptical synovial articulation reinforced by the posterior cricoarytenoid ligament, uniting the base of the arytenoid with the upper edge of the cricoid lamina",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricoarytenoid-joint",
+    "type": "connects",
+    "dst": "cricoid-cartilage",
+    "statement": "The cricoarytenoid joint unites the upper edge of the cricoid lamina with the base of the arytenoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "An elliptical synovial articulation reinforced by the posterior cricoarytenoid ligament, uniting the base of the arytenoid with the upper edge of the cricoid lamina",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricothyroid-joint",
+    "type": "connects",
+    "dst": "thyroid-cartilage",
+    "statement": "The cricothyroid joint joins the lower cornu of the thyroid cartilage to the lateral face of the cricoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "A flat synovial joint reinforced by ligaments, joining the lower cornu of the thyroid cartilage and the lateral face of the cricoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/26",
+      "quote": "Crico-thyroid joint • Flat synovial joint reinforced by ligaments joining the lower cornu of the thyroid cartilage and the lateral face of the cricoid cartilage",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricothyroid-joint",
+    "type": "connects",
+    "dst": "cricoid-cartilage",
+    "statement": "The cricothyroid joint joins the lateral face of the cricoid to the lower cornu of the thyroid cartilage.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "A flat synovial joint reinforced by ligaments, joining the lower cornu of the thyroid cartilage and the lateral face of the cricoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/26",
+      "quote": "Crico-thyroid joint • Flat synovial joint reinforced by ligaments joining the lower cornu of the thyroid cartilage and the lateral face of the cricoid cartilage",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricoarytenoid-joint",
+    "type": "acts-on",
+    "dst": "vocal-fold-abduction",
+    "statement": "Rotation at the cricoarytenoid joint abducts the vocal cords.",
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "Cricoarytenoid joint: rotation abducts and adducts",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/25",
+      "quote": "Rotatory movement, in which arytenoid cartilage moves around a vertical axis, thus abducting or adducting the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricoarytenoid-joint",
+    "type": "acts-on",
+    "dst": "vocal-fold-adduction",
+    "statement": "Rotation at the cricoarytenoid joint adducts the vocal cords.",
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "Cricoarytenoid joint: rotation abducts and adducts",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/25",
+      "quote": "Rotatory movement, in which arytenoid cartilage moves around a vertical axis, thus abducting or adducting the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricoarytenoid-joint",
+    "type": "acts-on",
+    "dst": "glottis",
+    "statement": "Gliding at the cricoarytenoid joint opens and closes the posterior part of the glottis.",
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "Cricoarytenoid joint: rotation abducts and adducts; gliding opens and closes the posterior glottis",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/25",
+      "quote": "one arytenoid glides towards the other or away from it, thus closing or opening the posterior part of glottis",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricothyroid-joint",
+    "type": "increases",
+    "dst": "vocal-fold-tension",
+    "statement": "Tilting of the cricoid at the cricothyroid joint tenses the vocal cords.",
+    "evidence": [
+     {
+      "ref": "exam:5",
+      "quote": "Cricothyroid joint: tilting tenses the vocal cords",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/26",
+      "quote": "tilting of the cricoid around a transverse axis inducing a tension of the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "thyrohyoid-membrane",
+    "type": "connects",
+    "dst": "thyroid-cartilage",
+    "statement": "The thyrohyoid membrane runs from the upper edge of the thyroid cartilage to the lower edge of the hyoid bone.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Thyrohyoid membrane: from the upper edge of the thyroid cartilage to the lower edge of the hyoid bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "thyrohyoid-membrane",
+    "type": "connects",
+    "dst": "hyoid-bone",
+    "statement": "The thyrohyoid membrane runs from the upper edge of the thyroid cartilage to the lower edge of the hyoid bone.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Thyrohyoid membrane: from the upper edge of the thyroid cartilage to the lower edge of the hyoid bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "thyroepiglottic-ligament",
+    "type": "connects",
+    "dst": "epiglottis",
+    "statement": "The thyroepiglottic ligament attaches the lower narrow end of the epiglottis to the posterior surface of the thyroid angle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Thyroepiglottic ligament: attaches the lower narrow end of the epiglottis to the posterior surface of the thyroid angle",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "thyroepiglottic-ligament",
+    "type": "connects",
+    "dst": "thyroid-cartilage",
+    "statement": "Through the thyroepiglottic ligament the foot of the epiglottis inserts into the reentrant angle of the thyroid cartilage.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/19",
+      "quote": "inferior inserts into the reentrant angle of the thyroid cartilage through the thyroepiglottic ligament",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Thyroepiglottic ligament: attaches the lower narrow end of the epiglottis to the posterior surface of the thyroid angle",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocal-ligament",
+    "type": "part-of",
+    "dst": "cricothyroid-ligament",
+    "statement": "The cricothyroid ligament forms the vocal ligament.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The cricothyroid ligament, stretched between the thyroid cartilage and the vocal process, forms the vocal ligament",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-larynx/g6",
+      "quote": "The median cricothyroid ligament, between the cricoid and thyroid cartilages. Its intrinsic part forms the vocal ligament",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "posterior-cricoarytenoid-muscle",
+    "type": "is-a",
+    "dst": "intrinsic-laryngeal-muscle",
+    "statement": "The posterior cricoarytenoids are the only intrinsic muscles that abduct the vocal cords.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "The posterior cricoarytenoids are the only intrinsic muscles that abduct the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricothyroid-muscle",
+    "type": "is-a",
+    "dst": "intrinsic-laryngeal-muscle",
+    "statement": "The cricothyroid is the one intrinsic muscle not supplied by the recurrent laryngeal nerve and the only one on the outer aspect of the larynx.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Motor to all the intrinsic muscles except the cricothyroid",
+      "check": "exact"
+     },
+     {
+      "ref": "q:f0cty",
+      "quote": "The cricothyroid is the only intrinsic muscle lying on the outer aspect of the larynx",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "transverse-arytenoid-muscle",
+    "type": "is-a",
+    "dst": "intrinsic-laryngeal-muscle",
+    "statement": "The transverse arytenoid is the only unpaired intrinsic muscle of the larynx.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Transverse arytenoid is the only unpaired intrinsic muscle",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "All the intrinsic muscles of the larynx are paired except transverse arytenoid, which is unpaired",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "posterior-cricoarytenoid-muscle",
+    "type": "acts-on",
+    "dst": "vocal-fold-abduction",
+    "statement": "The posterior cricoarytenoid is the only muscle that abducts the vocal cords.",
+    "evidence": [
+     {
+      "ref": "exam:6",
+      "quote": "Posterior cricoarytenoids are the only abductors: the safety muscles of the larynx",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Posterior ericoarytenoids: abduct the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lateral-cricoarytenoid-muscle",
+    "type": "acts-on",
+    "dst": "vocal-fold-adduction",
+    "statement": "The lateral cricoarytenoids adduct the vocal cords.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Adduct the vocal cords | Lateral cricoarytenoids, transverse arytenoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Lateral cricoarytenoids: adduct the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "transverse-arytenoid-muscle",
+    "type": "acts-on",
+    "dst": "vocal-fold-adduction",
+    "statement": "The transverse arytenoid adducts the vocal cords.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Adduct the vocal cords | Lateral cricoarytenoids, transverse arytenoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Transverse arytenoid: adduct the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricothyroid-muscle",
+    "type": "increases",
+    "dst": "vocal-fold-tension",
+    "statement": "The cricothyroid tenses the vocal cords.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Tense the vocal cords | Cricothyroid, vocalis",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Crivothyroid: tenses the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocalis-muscle",
+    "type": "increases",
+    "dst": "vocal-fold-tension",
+    "statement": "The vocalis tenses the vocal cords.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Tense the vocal cords | Cricothyroid, vocalis",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Vocals: tenses the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "thyroarytenoid-muscle",
+    "type": "decreases",
+    "dst": "vocal-fold-tension",
+    "statement": "The thyroarytenoid relaxes the vocal cords.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Relax the vocal cords | Thyroarytenoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/37",
+      "quote": "Thyroarytenoid: relaxes the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocalis-muscle",
+    "type": "related-to",
+    "dst": "thyroarytenoid-muscle",
+    "statement": "The lecture names the inferior thyroarytenoid as the vocal muscle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "inferior thyroarytenoid or vocal muscle (from the reentrant angle to the anterolateral aspect of the arytenoid)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "posterior-cricoarytenoid-muscle",
+    "type": "contrasts-with",
+    "dst": "lateral-cricoarytenoid-muscle",
+    "statement": "The posterior cricoarytenoids abduct the vocal cords, whereas the lateral cricoarytenoids adduct them.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/l18",
+      "quote": "Abduct: the posterior cricoarytenoids. Adduct: the lateral cricoarytenoids and the transverse arytenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricothyroid-muscle",
+    "type": "contrasts-with",
+    "dst": "thyroarytenoid-muscle",
+    "statement": "The cricothyroid tenses the vocal cords, whereas the thyroarytenoid relaxes them.",
+    "evidence": [
+     {
+      "ref": "exam:9",
+      "quote": "Tense: cricothyroid and vocalis. Relax: thyroarytenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cricothyroid-muscle",
+    "type": "acts-on",
+    "dst": "cricoid-cartilage",
+    "statement": "The cricothyroid elevates the cricoid arch and lowers the thyroid cartilage, tensing the vocal cord.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "cricothyroid (paired). Action: elevation of the cricoid arch and lowering of the thyroid cartilage, tensing the vocal cord",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "extrinsic-laryngeal-muscle",
+    "type": "acts-on",
+    "dst": "larynx",
+    "statement": "The extrinsic muscles ensure laryngeal mobility, especially during swallowing.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "Extrinsic muscles ensure laryngeal mobility, especially during swallowing",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/38",
+      "quote": "Extrinsic muscles: ensure laryngeal mobility especially during swallowing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "internal-laryngeal-nerve",
+    "type": "branch-of",
+    "dst": "superior-laryngeal-nerve",
+    "statement": "The internal laryngeal nerve is the internal branch of the superior laryngeal nerve.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "Internal branch of the superior laryngeal nerve: sensation above the cords",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "Superior laryngeal n. + External branch - innervates cricothyroid m + Internal branch",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "external-laryngeal-nerve",
+    "type": "branch-of",
+    "dst": "superior-laryngeal-nerve",
+    "statement": "The external laryngeal nerve is the external branch of the superior laryngeal nerve.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "Superior laryngeal n. + External branch - innervates cricothyroid m + Internal branch",
+      "check": "exact"
+     },
+     {
+      "ref": "q:100iv8a",
+      "quote": "The cricothyroid is supplied by the external branch of the superior laryngeal nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "external-laryngeal-nerve",
+    "type": "innervates",
+    "dst": "cricothyroid-muscle",
+    "statement": "The external laryngeal nerve innervates the cricothyroid muscle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "External branch | Innervates the cricothyroid muscle",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "External branch - innervates cricothyroid m",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "recurrent-laryngeal-nerve",
+    "type": "innervates",
+    "dst": "intrinsic-laryngeal-muscle",
+    "statement": "The recurrent laryngeal nerve supplies all the intrinsic muscles of the larynx except the cricothyroid.",
+    "evidence": [
+     {
+      "ref": "exam:10",
+      "quote": "Recurrent laryngeal nerve supplies all intrinsic muscles except the cricothyroid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "Recurrent laryngeal n. + Motor to intrinsic muscles of larynx",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "internal-laryngeal-nerve",
+    "type": "passes-through",
+    "dst": "thyrohyoid-membrane",
+    "statement": "The internal laryngeal nerve pierces the thyrohyoid membrane.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "Internal branch of the superior laryngeal nerve: sensation above the cords, piercing the thyrohyoid membrane",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "Internal branch * Pierces thyrohyoid membrane",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-laryngeal-artery",
+    "type": "passes-through",
+    "dst": "thyrohyoid-membrane",
+    "statement": "The superior laryngeal artery pierces the thyrohyoid membrane with the internal laryngeal nerve.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Enters the larynx with the superior laryngeal artery by perforating the thyrohyoid membrane",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:4",
+      "quote": "pierces the thyrohyoid membrane with the superior laryngeal artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "internal-laryngeal-nerve",
+    "type": "innervates",
+    "dst": "laryngeal-mucosa",
+    "statement": "The internal laryngeal nerve gives sensory innervation to the laryngeal mucosa above the vocal folds.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Internal branch | Enters the larynx with the superior laryngeal artery by perforating the thyrohyoid membrane. Sensory innervation of the supraglottic mucosa",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "Pierces thyrohyoid membrane + Sensory from mucosa above vocal folds",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "recurrent-laryngeal-nerve",
+    "type": "innervates",
+    "dst": "laryngeal-mucosa",
+    "statement": "The recurrent laryngeal nerve gives sensation below the vocal folds.",
+    "evidence": [
+     {
+      "ref": "exam:10",
+      "quote": "Recurrent laryngeal nerve supplies all intrinsic muscles except the cricothyroid, and sensation below the cords",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/55",
+      "quote": "Sensory from mucosa below vocal folds",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "internal-laryngeal-nerve",
+    "type": "contrasts-with",
+    "dst": "recurrent-laryngeal-nerve",
+    "statement": "Sensation above the vocal folds is from the internal laryngeal nerve; below them it is from the recurrent laryngeal nerve.",
+    "evidence": [
+     {
+      "ref": "hy:4",
+      "quote": "above the vocal folds = internal laryngeal (pierces the thyrohyoid membrane with the superior laryngeal artery); below = recurrent laryngeal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "recurrent-laryngeal-nerve",
+    "type": "related-to",
+    "dst": "superior-laryngeal-nerve",
+    "statement": "An ascending branch of the recurrent laryngeal nerve anastomoses with the superior laryngeal nerve, forming Galen's loop.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "sensory below the vocal folds through an ascending branch anastomosing with the superior laryngeal nerve: Galen's loop",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-larynx/l31",
+      "quote": "an ascending branch that anastomoses with the superior laryngeal nerve: Galen's loop",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-laryngeal-artery",
+    "type": "supplies",
+    "dst": "larynx",
+    "statement": "The superior laryngeal artery supplies the supraglottic part of the larynx.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Superior laryngeal artery | A branch of the superior thyroid artery. Supplies the supraglottic part",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/49",
+      "quote": "Superior Laryngeal Artery (SLA): branch of the Superior Thyroid Artery, it vascularizes the supraglottic part",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "posteroinferior-laryngeal-artery",
+    "type": "supplies",
+    "dst": "laryngeal-mucosa",
+    "statement": "The posteroinferior laryngeal artery supplies the posterior part of the laryngeal mucosa.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Posteroinferior laryngeal artery | A branch of the inferior thyroid artery. Supplies the posterior part of the laryngeal mucosa",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/49",
+      "quote": "Posteroinferior Laryngeal Artery (ALPI): branch of the Inferior Thyroid Artery. It vascularizes the posterior part of the laryngeal mucosa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lymphatic-drainage-of-the-larynx",
+    "type": "related-to",
+    "dst": "vocal-fold",
+    "statement": "Lymphatics are absent at the vocal cords.",
+    "evidence": [
+     {
+      "ref": "exam:14",
+      "quote": "Lymphatics are absent at the vocal cords, rich supraglottically",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/51",
+      "quote": "thinner in the subglottic zone, absent in the vocal cords",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "laryngeal-vestibule",
+    "type": "part-of",
+    "dst": "larynx",
+    "statement": "The vestibule is the space of the larynx above the vestibular folds.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/45",
+      "quote": "Spaces of Larynx + Vestibule of larynx — space above",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:12",
+      "quote": "Spaces: vestibule above the vestibular folds",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "laryngeal-ventricle",
+    "type": "part-of",
+    "dst": "larynx",
+    "statement": "The ventricle is the space of the larynx between the vestibular folds and the vocal folds.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Laryngeal or Morgagni ventricle: between the ventricular bands (false vocal cords) above and the plane of the vocal cords below",
+      "check": "exact"
+     },
+     {
+      "ref": "q:6pm3cu",
+      "quote": "The ventricle of the larynx — The ventricle lies between false and true folds",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocal-fold",
+    "type": "part-of",
+    "dst": "glottis",
+    "statement": "The glottis is made of the two vocal cords, which delimit it.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Glottis | Two pearly white vocal cords stretched between the reentrant angle of the thyroid cartilage in front and the arytenoid behind",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/41",
+      "quote": "Glottis: delimited by the 2 vocal cords, it is triangular in shape",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "vocal-ligament",
+    "type": "part-of",
+    "dst": "vocal-fold",
+    "statement": "The vocal cords are made of vocal ligament and muscle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Two pearly white vocal cords stretched between the reentrant angle of the thyroid cartilage in front and the arytenoid behind, made of vocal ligament and muscle",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocal-fold",
+    "type": "related-to",
+    "dst": "laryngeal-mucosa",
+    "statement": "At the vocal cords the laryngeal epithelium is non-keratinized stratified squamous instead of respiratory type.",
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "Epithelium is respiratory except at the vocal cords and upper half of the epiglottis: stratified squamous",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/47",
+      "quote": "Non-keratinized stratified squamous type at the vocal cords and the upper",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "trachea",
+    "type": "related-to",
+    "dst": "cricoid-cartilage",
+    "statement": "The trachea lies below the cricoid, joined to it by the cricotracheal ligament between the cricoid's lower edge and the first tracheal ring.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Cricotracheal ligament: between the lower edge of the cricoid and the upper edge of the first tracheal ring",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1vn91mn",
+      "quote": "Trachea: the tube of C-shaped cartilage rings below the cricoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "hyoid-bone",
+    "type": "related-to",
+    "dst": "larynx",
+    "statement": "The hyoid bone lies above the larynx and is closely associated with it.",
+    "evidence": [
+     {
+      "ref": "q:rjsqrb",
+      "quote": "Hyoid bone: the U-shaped bone above the larynx",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-larynx/g4",
+      "quote": "It is closely associated with the larynx but is usually considered a separate structure",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "laryngeal-prominence",
+    "type": "part-of",
+    "dst": "thyroid-cartilage",
+    "statement": "The laryngeal prominence is formed where the two laminae of the thyroid cartilage meet in the midline.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/g7",
+      "quote": "The laryngeal prominence, the Adam's apple, formed where the two laminae of the thyroid cartilage meet in the midline",
+      "check": "exact"
+     },
+     {
+      "ref": "q:10rzc41",
+      "quote": "Thyroid cartilage: the large shield-shaped cartilage with the laryngeal prominence",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "larynx",
+    "type": "acts-on",
+    "dst": "phonation",
+    "statement": "The larynx is the organ of phonation; phonation is one of its functions.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/intro",
+      "quote": "The larynx is the upper expanded part of the lower respiratory tract, modified for producing voice, also called the organ of phonation",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/07",
+      "quote": "The functions of larynx include the following: a) Phonation",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocal-fold",
+    "type": "acts-on",
+    "dst": "phonation",
+    "statement": "Phonation is produced by vibration of the vocal cords.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/64",
+      "quote": "The phonation (speech) is produced by the vibrations of the vocal cords",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "The set of mechanisms allowing vibration at the free edge of the vocal fold",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "phonation",
+    "type": "depends-on",
+    "dst": "vocal-fold-adduction",
+    "statement": "Voice production begins with the vocal cords kept adducted.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-larynx/64",
+      "quote": "The voice is produced in following manner: 1. Vocal cords are kept adducted",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "Putting into phonatory position: the folds close as the arytenoids come together",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vibratory-cycle",
+    "type": "part-of",
+    "dst": "phonation",
+    "statement": "The vibratory cycle of the vocal folds begins with the folds being put into phonatory position.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "The vibratory cycle. 1. Putting into phonatory position: the folds close as the arytenoids come together",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "supralaryngeal-cavity",
+    "type": "related-to",
+    "dst": "phonation",
+    "statement": "The sound produced in phonation is modified and filtered by the supralaryngeal air cavities to become vowels and consonants.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "The sound produced is immediately modified and filtered by the supralaryngeal air cavities to become vowels and consonants",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "recurrent-laryngeal-nerve-injury",
+    "type": "related-to",
+    "dst": "recurrent-laryngeal-nerve",
+    "statement": "The recurrent laryngeal nerve is often damaged accidentally during partial thyroidectomy.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "Recurrent laryngeal nerve, often damaged accidentally during partial thyroidectomy",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "external-laryngeal-nerve-injury",
+    "type": "related-to",
+    "dst": "external-laryngeal-nerve",
+    "statement": "Damage to the external laryngeal nerve gives weakness of phonation.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "External laryngeal nerve: weakness of phonation from loss of the tightening effect of the cricothyroid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "external-laryngeal-nerve-injury",
+    "type": "related-to",
+    "dst": "cricothyroid-muscle",
+    "statement": "An external laryngeal nerve lesion paralyses the cricothyroid, with loss of its tightening effect on the vocal cords.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "External laryngeal nerve: weakness of phonation from loss of the tightening effect of the cricothyroid",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "Paralysis after an external laryngeal nerve lesion alters the voice significantly, especially noticeable in singers",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "recurrent-laryngeal-nerve-injury",
+    "type": "related-to",
+    "dst": "cadaveric-position-of-the-vocal-cords",
+    "statement": "The cadaveric position arises only when both the recurrent and the external laryngeal nerves are damaged on both sides.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "If both recurrent and external laryngeal nerves are damaged on both sides, all the intrinsic muscles are paralysed and the cords are further abducted and fixed: the cadaveric position",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:15",
+      "quote": "Bilateral with external nerve: cadaveric position",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "external-laryngeal-nerve-injury",
+    "type": "related-to",
+    "dst": "cadaveric-position-of-the-vocal-cords",
+    "statement": "The cadaveric position arises only when both the external and the recurrent laryngeal nerves are damaged on both sides.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "If both recurrent and external laryngeal nerves are damaged on both sides, all the intrinsic muscles are paralysed and the cords are further abducted and fixed: the cadaveric position",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:15",
+      "quote": "Bilateral with external nerve: cadaveric position",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vocal-nodule",
+    "type": "located-in",
+    "dst": "vocal-fold",
+    "statement": "Vocal nodules form at the junction of the anterior third and posterior two thirds of the vocal cords.",
+    "evidence": [
+     {
+      "ref": "exam:16",
+      "quote": "Vocal nodules form at the junction of the anterior third and posterior two thirds of the cords",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/64",
+      "quote": "area of maximum contact between the vocal Cords is at the junction of their anterior one-third",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   }
+  ],
+  "tests": [
+   {
+    "item": "q:cn868i",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "q:1k7mf4g",
+    "concepts": [
+     "thyroid-cartilage",
+     "cricoid-cartilage",
+     "epiglottis"
+    ]
+   },
+   {
+    "item": "q:1s3kpqv",
+    "concepts": [
+     "larynx",
+     "thyroid-cartilage",
+     "cricoid-cartilage"
+    ]
+   },
+   {
+    "item": "q:1ioph6m",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "q:k9bmqj",
+    "concepts": [
+     "cricoid-cartilage"
+    ]
+   },
+   {
+    "item": "q:1qwigx3",
+    "concepts": [
+     "epiglottis"
+    ]
+   },
+   {
+    "item": "q:1a0xswg",
+    "concepts": [
+     "vocal-process",
+     "vocal-ligament",
+     "arytenoid-cartilage"
+    ]
+   },
+   {
+    "item": "q:webzgc",
+    "concepts": [
+     "cricoarytenoid-joint"
+    ]
+   },
+   {
+    "item": "q:8sjlip",
+    "concepts": [
+     "cricothyroid-joint"
+    ]
+   },
+   {
+    "item": "q:adude3",
+    "concepts": [
+     "posterior-cricoarytenoid-muscle",
+     "vocal-fold-abduction"
+    ]
+   },
+   {
+    "item": "q:1r85ttn",
+    "concepts": [
+     "cricothyroid-muscle",
+     "vocal-fold-tension"
+    ]
+   },
+   {
+    "item": "q:1tc2l6n",
+    "concepts": [
+     "transverse-arytenoid-muscle",
+     "intrinsic-laryngeal-muscle"
+    ]
+   },
+   {
+    "item": "q:f0cty",
+    "concepts": [
+     "cricothyroid-muscle"
+    ]
+   },
+   {
+    "item": "q:100iv8a",
+    "concepts": [
+     "external-laryngeal-nerve",
+     "cricothyroid-muscle"
+    ]
+   },
+   {
+    "item": "q:1yfktus",
+    "concepts": [
+     "internal-laryngeal-nerve"
+    ]
+   },
+   {
+    "item": "q:6pm3cu",
+    "concepts": [
+     "laryngeal-ventricle",
+     "laryngeal-vestibule",
+     "infraglottic-cavity"
+    ]
+   },
+   {
+    "item": "q:1u97fvo",
+    "concepts": [
+     "glottis"
+    ]
+   },
+   {
+    "item": "q:mk4jvs",
+    "concepts": [
+     "laryngeal-mucosa",
+     "vocal-fold"
+    ]
+   },
+   {
+    "item": "q:1wpi6i9",
+    "concepts": [
+     "superior-laryngeal-artery"
+    ]
+   },
+   {
+    "item": "q:ayr1r9",
+    "concepts": [
+     "lymphatic-drainage-of-the-larynx",
+     "vocal-fold"
+    ]
+   },
+   {
+    "item": "q:ciq1vx",
+    "concepts": [
+     "recurrent-laryngeal-nerve-injury"
+    ]
+   },
+   {
+    "item": "q:on4xi4",
+    "concepts": [
+     "cadaveric-position-of-the-vocal-cords"
+    ]
+   },
+   {
+    "item": "q:1g9vm87",
+    "concepts": [
+     "vocal-nodule"
+    ]
+   },
+   {
+    "item": "q:f5kq4r",
+    "concepts": [
+     "acoustic-parameters-of-the-voice"
+    ]
+   },
+   {
+    "item": "q:7zzfxk",
+    "concepts": [
+     "larynx",
+     "phonation"
+    ]
+   },
+   {
+    "item": "q:1e6wd2n",
+    "concepts": [
+     "lateral-cricoarytenoid-muscle",
+     "transverse-arytenoid-muscle",
+     "vocal-fold-adduction"
+    ]
+   },
+   {
+    "item": "q:1d7did9",
+    "concepts": [
+     "cricothyroid-muscle",
+     "vocalis-muscle",
+     "vocal-fold-tension"
+    ]
+   },
+   {
+    "item": "q:19ix9j8",
+    "concepts": [
+     "extrinsic-laryngeal-muscle"
+    ]
+   },
+   {
+    "item": "q:7a90hl-hyoid",
+    "concepts": [
+     "hyoid-bone"
+    ]
+   },
+   {
+    "item": "q:1yj8pvb-thyrohyoid",
+    "concepts": [
+     "thyrohyoid-membrane"
+    ]
+   },
+   {
+    "item": "q:izw05l-epiglottis",
+    "concepts": [
+     "epiglottis"
+    ]
+   },
+   {
+    "item": "q:1fefrzi-thyroid-cart",
+    "concepts": [
+     "thyroid-cartilage"
+    ]
+   },
+   {
+    "item": "q:1yzsihk-prominence",
+    "concepts": [
+     "laryngeal-prominence"
+    ]
+   },
+   {
+    "item": "q:10rzc41",
+    "concepts": [
+     "thyroid-cartilage"
+    ]
+   },
+   {
+    "item": "q:t5f81d",
+    "concepts": [
+     "cricoid-cartilage"
+    ]
+   },
+   {
+    "item": "q:3tutb8",
+    "concepts": [
+     "arytenoid-cartilage"
+    ]
+   },
+   {
+    "item": "q:154ym0l",
+    "concepts": [
+     "epiglottis"
+    ]
+   },
+   {
+    "item": "q:rjsqrb",
+    "concepts": [
+     "hyoid-bone"
+    ]
+   },
+   {
+    "item": "q:1vn91mn",
+    "concepts": [
+     "trachea"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l1",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l2",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l3",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l4",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l5",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/g1",
+    "concepts": [
+     "thyroid-cartilage"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l6",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l7",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l8",
+    "concepts": [
+     "thyroid-cartilage"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l9",
+    "concepts": [
+     "epiglottis"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l10",
+    "concepts": [
+     "cricoid-cartilage"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/g2",
+    "concepts": [
+     "cricoid-cartilage"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l11",
+    "concepts": [
+     "arytenoid-cartilage",
+     "vocal-process"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l12",
+    "concepts": [
+     "corniculate-cartilage",
+     "cuneiform-cartilage"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l13",
+    "concepts": [
+     "cricoarytenoid-joint"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l14",
+    "concepts": [
+     "cricothyroid-joint"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l15",
+    "concepts": [
+     "thyrohyoid-membrane",
+     "thyroepiglottic-ligament"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/g3",
+    "concepts": [
+     "epiglottis",
+     "thyroepiglottic-ligament"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l16",
+    "concepts": [
+     "cricothyroid-ligament",
+     "vocal-ligament"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l17",
+    "concepts": [
+     "intrinsic-laryngeal-muscle",
+     "cricothyroid-muscle",
+     "posterior-cricoarytenoid-muscle"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l18",
+    "concepts": [
+     "posterior-cricoarytenoid-muscle",
+     "lateral-cricoarytenoid-muscle",
+     "transverse-arytenoid-muscle"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l19",
+    "concepts": [
+     "cricothyroid-muscle",
+     "vocalis-muscle",
+     "thyroarytenoid-muscle"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l20",
+    "concepts": [
+     "intrinsic-laryngeal-muscle",
+     "cricothyroid-muscle",
+     "transverse-arytenoid-muscle"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/g4",
+    "concepts": [
+     "hyoid-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l21",
+    "concepts": [
+     "posterior-cricoarytenoid-muscle",
+     "vocal-fold-abduction"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l22",
+    "concepts": [
+     "extrinsic-laryngeal-muscle"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l23",
+    "concepts": [
+     "laryngeal-vestibule",
+     "laryngeal-ventricle"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l24",
+    "concepts": [
+     "glottis",
+     "vocal-fold"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l25",
+    "concepts": [
+     "infraglottic-cavity"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/g5",
+    "concepts": [
+     "thyrohyoid-membrane",
+     "internal-laryngeal-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l26",
+    "concepts": [
+     "laryngeal-mucosa"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l27",
+    "concepts": [
+     "larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l28",
+    "concepts": [
+     "superior-laryngeal-artery",
+     "posteroinferior-laryngeal-artery"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l29",
+    "concepts": [
+     "lymphatic-drainage-of-the-larynx"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l30",
+    "concepts": [
+     "superior-laryngeal-nerve",
+     "internal-laryngeal-nerve",
+     "external-laryngeal-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/g6",
+    "concepts": [
+     "cricothyroid-ligament"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l31",
+    "concepts": [
+     "recurrent-laryngeal-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l32",
+    "concepts": [
+     "recurrent-laryngeal-nerve-injury",
+     "cadaveric-position-of-the-vocal-cords"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l33",
+    "concepts": [
+     "laryngeal-obstruction"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l34",
+    "concepts": [
+     "vocal-nodule"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l35",
+    "concepts": [
+     "phonation"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/g7",
+    "concepts": [
+     "laryngeal-prominence"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l36",
+    "concepts": [
+     "acoustic-parameters-of-the-voice"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l37",
+    "concepts": [
+     "vibratory-cycle"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l38",
+    "concepts": [
+     "supralaryngeal-cavity"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/l39",
+    "concepts": [
+     "acoustic-parameters-of-the-voice",
+     "vocal-fold"
+    ]
+   },
+   {
+    "item": "card:anat3-larynx/g8",
+    "concepts": [
+     "trachea"
+    ]
+   }
+  ],
+  "conflicts": [
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "The packet says the external branch of the superior laryngeal nerve perforates the cricothyroid membrane and gives sensory innervation to the subglottic stage. Standard teaching is that the external laryngeal nerve is motor to the cricothyroid and that sensation below the vocal folds comes from the recurrent laryngeal nerve, which the packet also states elsewhere.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Innervates the cricothyroid muscle and perforates the cricothyroid membrane; sensory innervation of the subglottic stage",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:10",
+      "quote": "Recurrent laryngeal nerve supplies all intrinsic muscles except the cricothyroid, and sensation below the cords",
+      "check": "exact"
+     }
+    ],
+    "affects": [
+     "concept:external-laryngeal-nerve"
+    ]
+   },
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "The packet describes the respiratory-type laryngeal epithelium as 'cylindric stratified'. Standard teaching names respiratory epithelium pseudostratified ciliated columnar, which is the wording one of the packet's own question options uses for the rest of the larynx.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "The epithelium is respiratory type (cylindric stratified) throughout",
+      "check": "exact"
+     },
+     {
+      "ref": "q:mk4jvs",
+      "quote": "Ciliated pseudostratified columnar type — Lines the rest of the larynx",
+      "check": "exact"
+     }
+    ],
+    "affects": [
+     "concept:laryngeal-mucosa"
+    ]
+   },
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "The packet lists the three acoustic parameters as frequency, intensity and pitch, with pitch depending especially on the shape of the supralaryngeal cavities. In standard teaching the parameter shaped by the resonating cavities is timbre (quality), while pitch is set by the frequency of vocal fold vibration, which the packet itself says elsewhere.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/phonation",
+      "quote": "pitch, depending on the accommodation of the vocal folds but especially on the shape of the supralaryngeal cavities",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-larynx/64",
+      "quote": "pitch depends upon the frequency with which the vocal folds vibrate",
+      "check": "exact"
+     }
+    ],
+    "affects": [
+     "concept:acoustic-parameters-of-the-voice"
+    ]
+   },
+   {
+    "kind": "internal",
+    "issue": "The packet says all the intrinsic muscles adduct the vocal cords except the posterior cricoarytenoids, but elsewhere says the cricothyroid tenses the cords rather than adducting them and that the thyroarytenoid relaxes them.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "All of them adduct the vocal cords except the posterior cricoarytenoids, which abduct them",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1e6wd2n",
+      "quote": "The cricothyroid tenses the cords rather than adducting them",
+      "check": "exact"
+     }
+    ],
+    "affects": []
+   },
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "The packet says the posterior laryngeal vein drains to the inferior thyroid vein and then the subclavian vein. Standard teaching is that the inferior thyroid veins drain into the brachiocephalic veins.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Posterior laryngeal vein to the inferior thyroid vein, then the subclavian vein",
+      "check": "exact"
+     }
+    ],
+    "affects": []
+   },
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "The packet names the thickenings of the thyrohyoid membrane the medial thyroid ligament and lateral thyroid ligaments. The standard names are the median thyrohyoid ligament and the lateral thyrohyoid ligaments.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "with a medial thickening (medial thyroid ligament) and two lateral thickenings (lateral thyroid ligaments)",
+      "check": "exact"
+     }
+    ],
+    "affects": []
+   }
+  ],
+  "notes": [
+   "The packet lists no known concepts, so all names are my own standard English names.",
+   "More than 50 things met the selection rules. Left out because of the limit, and mentioned inside other definitions where possible: anteroinferior laryngeal artery, Heimlich manoeuvre, cricotracheal ligament, hyoepiglottic ligament, vestibular ligament, vestibular fold (false vocal cord), muscular process of the arytenoid, superior and inferior thyroid arteries, vagus nerve.",
+   "Slide 37 and slide 64 are badly garbled by OCR (two-column textbook page); quotes from them are copied as they appear, including misspellings such as 'ericoarytenoids', 'Crivothyroid', 'Vocals' and 'postion'.",
+   "Vocalis and thyroarytenoid: the packet lists them separately in its action table (vocalis tenses, thyroarytenoid relaxes) but also names the inferior thyroarytenoid as the vocal muscle. I kept two concepts and linked them with related-to rather than part-of.",
+   "Recurrent laryngeal nerve injury: the summary and card say phonation is not much affected in unilateral damage because the other cord compensates, while hy:6 gives 'hoarse voice' for unilateral palsy and 'stridor, airway emergency' for bilateral. I did not treat this as a contradiction; the definition follows the summary section.",
+   "The cricothyroid ligament is described in the summary as stretched between the thyroid cartilage and the vocal process, and in card g6 as lying between the cricoid and thyroid cartilages; the packet also calls it the cricothyroid membrane (deeper:3). Treated as one concept with medium confidence.",
+   "Glottis and rima glottidis are treated as one concept because the packet's question on the rima glottidis is explained with the description of the glottis."
+  ]
+ },
+ "audit": {
+  "audit_version": "a2",
+  "model": "claude-fable-5-2",
+  "seconds": 257,
+  "tokens": 134007,
+  "usage": {
+   "output": 29015,
+   "cache_write": 104980,
+   "cache_read": 510158,
+   "input": 12,
+   "note": "tokens = input + cache_write + output; cache reads listed separately"
+  },
+  "findings": [
+   {
+    "targets": [
+     "concept:thyroarytenoid-muscle"
+    ],
+    "verdict": "unsupported",
+    "detail": "The definition makes the superior and inferior thyroarytenoid 'parts' of the one thyroarytenoid muscle that relaxes the cords. The packet lists them as two separate constrictors and never says they are parts of the 'Thyroarytenoid' of the action table; the inferior one is the vocal muscle, which the packet says tenses the cord (and which the result itself gives as an alias of the vocalis concept). Neither evidence quote states the parts.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "superior thyroarytenoid (from the reentrant angle of the thyroid cartilage to the lower third of the arytenoid) and inferior thyroarytenoid or vocal muscle"
+     },
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "which tilts the arytenoid forward and tenses the cord"
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:glottis"
+    ],
+    "verdict": "wrong-alias",
+    "detail": "'Rima glottidis' is the standard name of a different, narrower thing: the opening between the vocal cords, which is how the packet's own question defines it. The concept is defined as the compartment at the level of the vocal cords, and the result makes the vocal fold part-of it, so it is not the gap. The packet's loose use should have gone under conflicts, not aliases.",
+    "evidence": [
+     {
+      "ref": "q:1u97fvo",
+      "quote": "The opening between the cords"
+     },
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Glottis | Two pearly white vocal cords stretched between the reentrant angle of the thyroid cartilage in front and the arytenoid behind"
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:cricothyroid-ligament"
+    ],
+    "verdict": "medically-doubtful",
+    "detail": "The definition says the cricothyroid ligament is stretched between the thyroid cartilage and the vocal process. Standard teaching: the cricothyroid ligament (conus elasticus) rises from the upper border of the cricoid; only its free upper margin, between the thyroid angle and the vocal process, is the vocal ligament, and its median part joins cricoid arch to thyroid cartilage. The packet itself gives the cricoid-to-thyroid version elsewhere. The result mentions this only in notes; it is not under conflicts, so nothing is listed in affects.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The cricothyroid ligament, stretched between the thyroid cartilage and the vocal process, forms the vocal ligament"
+     },
+     {
+      "ref": "card:anat3-larynx/g6",
+      "quote": "The median cricothyroid ligament, between the cricoid and thyroid cartilages. Its intrinsic part forms the vocal ligament"
+     }
+    ]
+   }
+  ],
+  "unmatched_targets": [],
+  "missed": [
+   {
+    "name": "Rima glottidis",
+    "why": "A question asks directly what it is (the opening between the cords). The result has no concept for it and only lists it as an alias of the glottis compartment. A choice by the worker rather than a pure consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "q:1u97fvo",
+      "quote": "What is the rima glottidis?"
+     },
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "letting air through the rima glottidis"
+     }
+    ]
+   },
+   {
+    "name": "Vestibular fold (false vocal cord, ventricular band)",
+    "why": "The boundary that defines both the vestibule and the ventricle; tested by the spaces question and card l23. Listed in the result's notes as left out because of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "Spaces: vestibule above the vestibular folds, ventricle between them and the vocal folds, infraglottic cavity below"
+     },
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "between the ventricular bands (false vocal cords) above and the plane of the vocal cords below"
+     }
+    ]
+   },
+   {
+    "name": "Cricotracheal ligament",
+    "why": "Card g8 asks directly what connects the trachea to the larynx, and card l15 lists it; it has its own defining sentence. Only mentioned inside the trachea definition; left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/g8",
+      "quote": "The cricotracheal ligament runs between the lower edge of the cricoid and the upper edge of the first tracheal ring"
+     },
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Cricotracheal ligament: between the lower edge of the cricoid and the upper edge of the first tracheal ring"
+     }
+    ]
+   },
+   {
+    "name": "Heimlich manoeuvre",
+    "why": "A procedure the lecture describes step by step and card l33 asks for ('how is it relieved'). Folded into the laryngeal obstruction definition; left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "The Heimlich manoeuvre: stand behind the victim, pass your arms under theirs, place your hands in front of the epigastrium"
+     }
+    ]
+   },
+   {
+    "name": "Anteroinferior laryngeal artery",
+    "why": "Has its own table row and slide bullet and is part of card l28 on the arterial supply; the other two laryngeal arteries have concepts. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Anteroinferior laryngeal artery | A branch of the superior thyroid artery. Supplies the anterior part of the infraglottic stage"
+     },
+     {
+      "ref": "slide:anat3-larynx/49",
+      "quote": "Anteroinferior Laryngeal Artery (ALAI): branch of the Superior Thyroid Artery, it vascularizes the anterior part of the infraglottic stage"
+     }
+    ]
+   },
+   {
+    "name": "Muscular process of the arytenoid",
+    "why": "Needed to answer q:1a0xswg (two distractors insert on it) and cards l11 and l21; the lecture gives it a defining sentence. The vocal process has a concept, this does not. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "the lateral angle bears the muscular process (insertion of the posterior and lateral cricoarytenoid muscles)"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The lateral angle presents the muscular process"
+     }
+    ]
+   },
+   {
+    "name": "Supraglottic compartment",
+    "why": "Has its own table row and card l23 asks to describe it; the glottic and infraglottic compartments have concepts. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/l23",
+      "quote": "Describe the supraglottic compartment"
+     },
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Supraglottic | Vestibule: a pyramidal space from the laryngeal margin to the ventricular bands"
+     }
+    ]
+   },
+   {
+    "name": "Venous drainage of the larynx",
+    "why": "Has its own table row and is half of card l29; no concept covers the laryngeal veins. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Superior and inferior laryngeal veins to the superior thyroid vein, then the thyro-linguo-facial trunk, then the internal jugular vein"
+     }
+    ]
+   },
+   {
+    "name": "Vestibular ligament",
+    "why": "One of the two intrinsic ligaments card l16 asks for, with its own defining sentence. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The vestibular ligament is tense between the thyroid angle and the anterolateral aspect of the arytenoid"
+     }
+    ]
+   },
+   {
+    "name": "Cricothyroidotomy",
+    "why": "A high-yield point and the subject of its own 'deeper' heading (emergency airway through the cricothyroid membrane); no concept or definition in the result mentions it. Likely a consequence of the limit.",
+    "evidence": [
+     {
+      "ref": "hy:10",
+      "quote": "Emergency airway: cricothyroidotomy goes through the cricothyroid membrane (between thyroid and cricoid), a superficial, relatively avascular spot"
+     }
+    ]
+   }
+  ]
+ }
+}

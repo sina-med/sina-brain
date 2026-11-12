@@ -3063,5 +3063,198 @@
    "The cricothyroid ligament is described in the summary as stretched between the thyroid cartilage and the vocal process, and in card g6 as lying between the cricoid and thyroid cartilages; the packet also calls it the cricothyroid membrane (deeper:3). Treated as one concept with medium confidence.",
    "Glottis and rima glottidis are treated as one concept because the packet's question on the rima glottidis is explained with the description of the glottis."
   ]
+ },
+ "audit": {
+  "audit_version": "a2",
+  "model": "claude-fable-5-2",
+  "seconds": 257,
+  "tokens": 134007,
+  "usage": {
+   "output": 29015,
+   "cache_write": 104980,
+   "cache_read": 510158,
+   "input": 12,
+   "note": "tokens = input + cache_write + output; cache reads listed separately"
+  },
+  "findings": [
+   {
+    "targets": [
+     "concept:thyroarytenoid-muscle"
+    ],
+    "verdict": "unsupported",
+    "detail": "The definition makes the superior and inferior thyroarytenoid 'parts' of the one thyroarytenoid muscle that relaxes the cords. The packet lists them as two separate constrictors and never says they are parts of the 'Thyroarytenoid' of the action table; the inferior one is the vocal muscle, which the packet says tenses the cord (and which the result itself gives as an alias of the vocalis concept). Neither evidence quote states the parts.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "superior thyroarytenoid (from the reentrant angle of the thyroid cartilage to the lower third of the arytenoid) and inferior thyroarytenoid or vocal muscle"
+     },
+     {
+      "ref": "sec:anat3-larynx/muscles",
+      "quote": "which tilts the arytenoid forward and tenses the cord"
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:glottis"
+    ],
+    "verdict": "wrong-alias",
+    "detail": "'Rima glottidis' is the standard name of a different, narrower thing: the opening between the vocal cords, which is how the packet's own question defines it. The concept is defined as the compartment at the level of the vocal cords, and the result makes the vocal fold part-of it, so it is not the gap. The packet's loose use should have gone under conflicts, not aliases.",
+    "evidence": [
+     {
+      "ref": "q:1u97fvo",
+      "quote": "The opening between the cords"
+     },
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Glottis | Two pearly white vocal cords stretched between the reentrant angle of the thyroid cartilage in front and the arytenoid behind"
+     }
+    ]
+   },
+   {
+    "targets": [
+     "concept:cricothyroid-ligament"
+    ],
+    "verdict": "medically-doubtful",
+    "detail": "The definition says the cricothyroid ligament is stretched between the thyroid cartilage and the vocal process. Standard teaching: the cricothyroid ligament (conus elasticus) rises from the upper border of the cricoid; only its free upper margin, between the thyroid angle and the vocal process, is the vocal ligament, and its median part joins cricoid arch to thyroid cartilage. The packet itself gives the cricoid-to-thyroid version elsewhere. The result mentions this only in notes; it is not under conflicts, so nothing is listed in affects.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The cricothyroid ligament, stretched between the thyroid cartilage and the vocal process, forms the vocal ligament"
+     },
+     {
+      "ref": "card:anat3-larynx/g6",
+      "quote": "The median cricothyroid ligament, between the cricoid and thyroid cartilages. Its intrinsic part forms the vocal ligament"
+     }
+    ]
+   }
+  ],
+  "unmatched_targets": [],
+  "missed": [
+   {
+    "name": "Rima glottidis",
+    "why": "A question asks directly what it is (the opening between the cords). The result has no concept for it and only lists it as an alias of the glottis compartment. A choice by the worker rather than a pure consequence of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "q:1u97fvo",
+      "quote": "What is the rima glottidis?"
+     },
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "letting air through the rima glottidis"
+     }
+    ]
+   },
+   {
+    "name": "Vestibular fold (false vocal cord, ventricular band)",
+    "why": "The boundary that defines both the vestibule and the ventricle; tested by the spaces question and card l23. Listed in the result's notes as left out because of the 50-concept limit.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "Spaces: vestibule above the vestibular folds, ventricle between them and the vocal folds, infraglottic cavity below"
+     },
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "between the ventricular bands (false vocal cords) above and the plane of the vocal cords below"
+     }
+    ]
+   },
+   {
+    "name": "Cricotracheal ligament",
+    "why": "Card g8 asks directly what connects the trachea to the larynx, and card l15 lists it; it has its own defining sentence. Only mentioned inside the trachea definition; left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/g8",
+      "quote": "The cricotracheal ligament runs between the lower edge of the cricoid and the upper edge of the first tracheal ring"
+     },
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "Cricotracheal ligament: between the lower edge of the cricoid and the upper edge of the first tracheal ring"
+     }
+    ]
+   },
+   {
+    "name": "Heimlich manoeuvre",
+    "why": "A procedure the lecture describes step by step and card l33 asks for ('how is it relieved'). Folded into the laryngeal obstruction definition; left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/clinical",
+      "quote": "The Heimlich manoeuvre: stand behind the victim, pass your arms under theirs, place your hands in front of the epigastrium"
+     }
+    ]
+   },
+   {
+    "name": "Anteroinferior laryngeal artery",
+    "why": "Has its own table row and slide bullet and is part of card l28 on the arterial supply; the other two laryngeal arteries have concepts. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Anteroinferior laryngeal artery | A branch of the superior thyroid artery. Supplies the anterior part of the infraglottic stage"
+     },
+     {
+      "ref": "slide:anat3-larynx/49",
+      "quote": "Anteroinferior Laryngeal Artery (ALAI): branch of the Superior Thyroid Artery, it vascularizes the anterior part of the infraglottic stage"
+     }
+    ]
+   },
+   {
+    "name": "Muscular process of the arytenoid",
+    "why": "Needed to answer q:1a0xswg (two distractors insert on it) and cards l11 and l21; the lecture gives it a defining sentence. The vocal process has a concept, this does not. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/cartilages",
+      "quote": "the lateral angle bears the muscular process (insertion of the posterior and lateral cricoarytenoid muscles)"
+     },
+     {
+      "ref": "slide:anat3-larynx/22",
+      "quote": "The lateral angle presents the muscular process"
+     }
+    ]
+   },
+   {
+    "name": "Supraglottic compartment",
+    "why": "Has its own table row and card l23 asks to describe it; the glottic and infraglottic compartments have concepts. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-larynx/l23",
+      "quote": "Describe the supraglottic compartment"
+     },
+     {
+      "ref": "sec:anat3-larynx/topo",
+      "quote": "Supraglottic | Vestibule: a pyramidal space from the laryngeal margin to the ventricular bands"
+     }
+    ]
+   },
+   {
+    "name": "Venous drainage of the larynx",
+    "why": "Has its own table row and is half of card l29; no concept covers the laryngeal veins. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/vessels",
+      "quote": "Superior and inferior laryngeal veins to the superior thyroid vein, then the thyro-linguo-facial trunk, then the internal jugular vein"
+     }
+    ]
+   },
+   {
+    "name": "Vestibular ligament",
+    "why": "One of the two intrinsic ligaments card l16 asks for, with its own defining sentence. Left out because of the limit.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-larynx/joints",
+      "quote": "The vestibular ligament is tense between the thyroid angle and the anterolateral aspect of the arytenoid"
+     }
+    ]
+   },
+   {
+    "name": "Cricothyroidotomy",
+    "why": "A high-yield point and the subject of its own 'deeper' heading (emergency airway through the cricothyroid membrane); no concept or definition in the result mentions it. Likely a consequence of the limit.",
+    "evidence": [
+     {
+      "ref": "hy:10",
+      "quote": "Emergency airway: cricothyroidotomy goes through the cricothyroid membrane (between thyroid and cricoid), a superficial, relatively avascular spot"
+     }
+    ]
+   }
+  ]
  }
 }
