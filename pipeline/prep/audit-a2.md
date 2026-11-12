@@ -12,7 +12,7 @@ Check every concept and every relation, against the packet:
 6. **Duplicates.** Two concepts in the result that are the same thing (`duplicate`).
 7. **Aliases.** An alternative name that is really the name of a different thing, or OCR garbage (`wrong-alias`).
 8. **Medical doubt.** A statement that the packet does support but that you recognise as differing from standard medical teaching (`medically-doubtful`). Say what the standard teaching is. This is the only place you may use outside knowledge. Check whether the result already reports it under `conflicts` with every affected item listed in `affects`; if an affected item is missing there, flag it.
-9. **Missed concepts.** Things a question or flashcard directly tests, or that the lecture gives its own heading or defining sentence, that have no concept in the result. Up to 10, most important first. The result is limited to 50 concepts; say when a miss looks like a consequence of that limit.
+9. **Missed concepts.** Things a question or flashcard directly tests, or that the lecture gives its own heading or defining sentence, that have no concept in the result. Up to 10, most important first. The result may hold up to 90 concepts and has no target number.
 
 Rules for reporting:
 
