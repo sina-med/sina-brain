@@ -11,8 +11,8 @@ Imported from Sina commit `39f3ae6`.
 | Lectures discovered | 340 |
 | Lectures imported | 337 |
 | Lectures with no content available | 3 |
-| Lectures through knowledge preparation | 4 |
-| Lectures awaiting knowledge preparation | 333 |
+| Lectures extracted (not necessarily audited) | 4 |
+| Lectures not yet extracted | 333 |
 | Records | 27,737 |
 | Relations | 14,833 (34 awaiting review) |
 | Concepts | 161 (0 awaiting review) |
@@ -26,10 +26,12 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 | Measure | Count |
 |---|---|
 | Lectures eligible | 337 |
-| Lectures processed | 4 |
-| Lectures remaining | 333 |
+| Lectures extracted | 4 |
+| Lectures audited (independent AI audit; not medical review) | 2 |
+| Lectures assembled into the knowledge base | 2 |
+| Lectures not yet extracted | 333 |
 | Failed extractions | 0 |
-| Summaries generated | 4 |
+| Summaries generated (one per extracted lecture) | 4 |
 | Concepts extracted | 161 (auto-accepted 161) |
 | Concepts by confidence | high 118, medium 43 |
 | Concept definitions | 161: 123 shown, 38 held for review |

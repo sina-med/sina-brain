@@ -4,12 +4,16 @@
   "private": true,
   "type": "module",
   "description": "Knowledge base and study workspace built on top of Sina",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "import": "node pipeline/import-sina.mjs",
     "validate": "node pipeline/validate.mjs",
     "stats": "node pipeline/stats.mjs",
-    "test": "node --test \"test/*.test.mjs\""
+    "test": "node --test \"test/*.test.mjs\"",
+    "build:status": "node pipeline/build-status.mjs",
+    "build:export": "node pipeline/build-export.mjs"
   },
   "devDependencies": {
     "ajv": "8.17.1"

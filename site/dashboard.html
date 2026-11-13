@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sina Brain: project status</title>
+<style>
+:root { --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --line:#e3e2dd; --track:#cde2fb; --fill:#2a78d6;
+  --good:#0ca30c; --warn:#fab219; --serious:#ec835a; --crit:#d03b3b; }
+@media (prefers-color-scheme: dark) { :root { --page:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --line:#383835; --track:#184f95; --fill:#3987e5; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--page); color:var(--ink); font:16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width:1040px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:1.6rem; margin:0 0 4px; } h2 { font-size:1.15rem; margin:36px 0 4px; }
+p { margin:4px 0; } .sub { color:var(--ink2); font-size:.9rem; }
+a { color:inherit; }
+.notice { border-left:4px solid var(--warn); background:var(--surface); padding:10px 14px; margin:16px 0; }
+.card { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:14px 16px; }
+.grid { display:grid; gap:12px; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); margin-top:12px; }
+.tile .v { font-size:1.7rem; font-weight:650; font-variant-numeric:tabular-nums; line-height:1.2; }
+.tile .of { font-size:.95rem; font-weight:400; color:var(--ink2); }
+.tile .l { font-size:.9rem; } .def { color:var(--ink2); font-size:.8rem; margin-top:6px; } .src { color:var(--ink2); font-size:.72rem; font-family:ui-monospace, monospace; word-break:break-all; margin-top:4px; }
+.stages { display:grid; gap:10px; margin-top:12px; }
+.stage { display:grid; grid-template-columns:minmax(150px, 270px) 1fr auto; gap:12px; align-items:center; }
+.meter { height:10px; background:var(--track); border-radius:4px; overflow:hidden; } .meter i { display:block; height:100%; background:var(--fill); border-radius:4px; min-width:2px; }
+.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+.scroll { overflow-x:auto; } table { border-collapse:collapse; width:100%; margin-top:12px; font-size:.92rem; } th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-weight:600; color:var(--ink2); font-size:.8rem; }
+.state { white-space:nowrap; } .state b { font-weight:600; }
+.dot { display:inline-block; width:.8em; text-align:center; margin-right:4px; font-weight:700; }
+.s-done .dot { color:var(--good); } .s-prog .dot { color:var(--fill); } .s-none .dot { color:var(--ink2); } .s-block .dot { color:var(--crit); }
+ul { margin:6px 0; padding-left:20px; }
+@media (max-width:560px) { .stage { grid-template-columns:1fr auto; } .stage .meter { grid-column:1 / -1; order:3; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sina Brain: project status</h1>
+  <p class="sub" id="meta">Loading…</p>
+  <div class="notice" id="note" hidden></div>
+  <div id="app"></div>
+  <noscript><p>This page needs JavaScript to read status.json.</p></noscript>
+</main>
+<script>
+const $ = (tag, attrs = {}, ...kids) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) k === "text" ? e.textContent = v : e.setAttribute(k, v); e.append(...kids); return e; };
+const n = (x) => x === null || x === undefined ? "–" : Number(x).toLocaleString("en-GB");
+const STATE = { "tests in place": ["s-done", "✓"], "in progress": ["s-prog", "◐"], "not started": ["s-none", "○"], "blocked": ["s-block", "✕"] };
+
+function tile(m) {
+  const v = $("div", { class: "v" }, n(m.value) + (m.unit && m.value !== null ? m.unit : ""));
+  if (m.of !== undefined) v.append($("span", { class: "of", text: " of " + n(m.of) }));
+  return $("div", { class: "card tile" }, v, $("div", { class: "l", text: m.label }), $("div", { class: "def", text: m.definition }), $("div", { class: "src", text: m.source }));
+}
+function section(title, sub, ...body) { return [$("h2", { text: title }), sub ? $("p", { class: "sub", text: sub }) : "", ...body]; }
+
+function render(s) {
+  document.getElementById("meta").textContent = `Generated from commit ${s.commit || "unknown"}, ${s.generated_at ? new Date(s.generated_at).toLocaleString("en-GB", { dateStyle: "long", timeStyle: "short" }) : "time unknown"}. Every figure is a count from the repository; none is an estimate.`;
+  const note = document.getElementById("note"); note.hidden = false; note.textContent = s.note;
+  const app = document.getElementById("app");
+
+  const stages = $("div", { class: "stages card" });
+  for (const m of s.lecture_pipeline) {
+    const pct = m.of ? (m.value / m.of) * 100 : 0;
+    stages.append($("div", { class: "stage", title: m.definition },
+      $("div", {}, $("div", { text: m.label }), $("div", { class: "src", text: m.source })),
+      $("div", { class: "meter", role: "progressbar", "aria-valuemin": 0, "aria-valuemax": m.of, "aria-valuenow": m.value, "aria-label": m.label }, $("i", { style: `width:${pct}%` })),
+      $("div", { class: "num", text: `${n(m.value)} of ${n(m.of)}` })));
+  }
+  app.append(...section("Lecture pipeline", "Four separate stages. A lecture counts at a stage only when the file named beneath it says so. None of these stages is medical review.", stages));
+
+  if (s.lectures.length) {
+    const t = $("table", {}, $("thead", {}, $("tr", {}, ...["Lecture", "Extracted", "Audited", "Assembled"].map((h) => $("th", { text: h })))));
+    const tb = $("tbody"); const yn = (b) => $("td", { text: b ? "✓ yes" : "– no" });
+    for (const l of s.lectures) tb.append($("tr", {}, $("td", { text: l.id }), yn(l.extracted), yn(l.audited), yn(l.assembled)));
+    t.append(tb); app.append($("p", { class: "sub", text: "Lectures that have entered the pipeline:" }), $("div", { class: "scroll" }, t));
+  }
+
+  app.append(...section("Imported content", "Available to the application today, without any AI processing.", $("div", { class: "grid" }, ...s.content.map(tile))));
+  app.append(...section("AI-prepared knowledge", "From audited lectures only. Auto-accepted means it passed automated source checks; it is not verified.", $("div", { class: "grid" }, ...s.knowledge.map(tile))));
+  app.append(...section("Quality control", "", $("div", { class: "grid" }, ...s.quality.map(tile))));
+  app.append(...section("Coverage gaps", "", $("div", { class: "grid" }, ...s.gaps.map(tile))));
+
+  const ft = $("table", {}, $("thead", {}, $("tr", {}, ...["Feature", "State", "Acceptance tests", "Blocked by"].map((h) => $("th", { text: h })))));
+  const fb = $("tbody");
+  for (const a of s.features) {
+    fb.append($("tr", {}, $("th", { colspan: 4, scope: "colgroup", text: a.title })));
+    for (const f of a.features) { const [cls, icon] = STATE[f.state];
+      fb.append($("tr", {}, $("td", { text: f.title }), $("td", { class: "state " + cls }, $("span", { class: "dot", "aria-hidden": "true", text: icon }), $("b", { text: f.state })),
+        $("td", { class: "num", text: f.tests_defined ? `${f.tests_present} of ${f.tests_defined} exist` : "none defined" }), $("td", { text: f.blocked_by.join("; ") }))); }
+  }
+  ft.append(fb);
+  const legend = $("ul", { class: "sub" }, ...Object.entries(s.feature_states).map(([k, v]) => $("li", { text: `${k}: ${v}` })));
+  app.append(...section("Feature development", "A feature's state comes from which of its named acceptance tests exist. Passing is proved by the automated checks, linked below.", $("div", { class: "scroll" }, ft), legend));
+
+  app.append(...section("Automated checks", "",
+    $("p", {}, $("a", { href: "https://github.com/sina-med/sina-brain/actions", text: "Test and validation runs on GitHub" }), document.createTextNode(" (live; not part of status.json)."))));
+}
+fetch("status.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(render)
+  .catch((e) => { document.getElementById("meta").textContent = "Could not load status.json (" + e.message + "). Run: node pipeline/build-status.mjs, and open this page through a web server, not as a file."; });
+</script>
+</body>
+</html>

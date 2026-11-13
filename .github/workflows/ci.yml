@@ -22,3 +22,9 @@ jobs:
         run: |
           npm run stats
           git diff --exit-code -- kb/admin/stats.json kb/admin/COVERAGE.md
+      - name: Data export builds
+        run: npm run build:export
+      - name: Project status is up to date
+        run: |
+          node -e "
+          import('./pipeline/build-status.mjs').then(({computeStatus,testNamesIn})=>{const fs=require('fs');const have=JSON.parse(fs.readFileSync('site/status.json','utf8'));const now=computeStatus('kb',{milestones:JSON.parse(fs.readFileSync('milestones.json','utf8')),testNames:testNamesIn('test'),generatedAt:have.generated_at,commit:have.commit});if(JSON.stringify(now)!==JSON.stringify(have)){console.error('site/status.json is stale: run npm run build:status');process.exit(1)}})"

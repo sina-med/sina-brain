@@ -5,6 +5,8 @@ It will be published at `https://sina-med.github.io/brain/`.
 
 **Status: Phase 4 pilot done, awaiting review.** All of Sina's lectures, questions, flashcards, past papers and slides are imported into `kb/` as records with stable IDs (Phase 3). The knowledge-preparation pipeline is built and has processed two lectures (larynx and brainstem); the other 335 wait for the owner's approval of the method. There is no web app yet. Nothing here changes the Sina website.
 
+Project status, with every figure counted from the repository: [`site/status.json`](site/status.json), shown by `site/dashboard.html` ([screenshot](docs/img/dashboard.png)).
+
 What is in the knowledge base right now: [kb/admin/COVERAGE.md](kb/admin/COVERAGE.md).
 
 | Document | What it covers |
@@ -18,6 +20,7 @@ What is in the knowledge base right now: [kb/admin/COVERAGE.md](kb/admin/COVERAG
 | [docs/phase-3-report.md](docs/phase-3-report.md) | What Phase 3 built, how it was checked, and what it found |
 | [docs/phase-4-pilot-report.md](docs/phase-4-pilot-report.md) | The two-lecture pilot: quality against the original lectures, consistency, cost, review queue |
 | [docs/phase-4-instructions-comparison.md](docs/phase-4-instructions-comparison.md) | Three instruction versions compared on the pilot lectures: accuracy, information loss, cost |
+| [docs/07-export-schema.md](docs/07-export-schema.md) | The static data export the application loads, the project status file, and how to view both locally |
 | [docs/decisions.md](docs/decisions.md) | Decisions made so far, and questions still open |
 
 ## Ground rules
@@ -37,7 +40,8 @@ kb/          the knowledge base (JSONL, one record per line)
   relations/ links between records
   admin/     ID registry, import manifest and findings, statistics
 schemas/     JSON Schemas that every record and relation must satisfy
-pipeline/    the import, validation and statistics scripts
+pipeline/    the import, validation, statistics, preparation, export and status scripts
+site/        the static dashboard and application shell; site/data/ is generated and git-ignored
 test/        automated tests
 docs/        design documents
 ```

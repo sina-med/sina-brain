@@ -120,5 +120,5 @@ test("statistics report what is there, including gaps", () => {
   assert.equal(s.concepts.total, 0);
   assert.equal(s.subjects["subj:physio"].mcqs, 6);
   assert.deepEqual(s.gaps.lectures_with_untexted_slides, [{ id: "lec:physio-pain", missing: 2, of: 3 }]);
-  assert.match(coverageMarkdown(s), /Lectures awaiting knowledge preparation \| 1 \|/);
+  assert.match(coverageMarkdown(s), /Lectures not yet extracted \| 1 \|/);
 });

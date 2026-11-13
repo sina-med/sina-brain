@@ -113,6 +113,8 @@
   "preparation": {
     "lectures_eligible": 337,
     "lectures_processed": 4,
+    "lectures_audited": 2,
+    "lectures_assembled": 2,
     "lectures_remaining": 333,
     "lectures_failed": 0,
     "failed": [],
