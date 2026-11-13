@@ -84,6 +84,8 @@ test("the export contains every published record exactly once and discards nothi
   assert.deepEqual([q.stem, q.answer, q.sina_key, q.slides[0].id], ["What is allodynia?", [0], "1egt1vv", "slide:physio-pain/04"]);
   assert.equal(lec.slides.find((s) => s.id === "slide:physio-pain/04").text, "Allodynia");
   assert.equal(files.get("index.json").subjects[0].modules[0].lectures.find((l) => l.id === "lec:physio-soon").has_content, false);
+  const subj = files.get("subjects/physio.json");
+  assert.deepEqual([subj.subject.id, subj.subject.modules[0].file, subj.exams.map((e) => e.id)], ["subj:physio", "modules/physio/neurophysiology.json", ["exam:physio-mid"]]);
   assert.ok(files.get("papers/physio.json").papers.find((p) => p.id === "paper:physio-2024").questions.length === 2);
   // the AI layer: labelled, held text withheld, held relations listed as excluded
   const ai = files.get("concepts.json");

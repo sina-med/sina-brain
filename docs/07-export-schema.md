@@ -9,19 +9,20 @@ Schema version: `export_version` 1, present in every file.
 | File | Loaded when | Contents |
 |---|---|---|
 | `index.json` | App start | Programmes, subjects, modules and a one-line entry per lecture; exam scopes; 3D models |
+| `subjects/<subject>.json` | A subject is opened | That subject's entry from the index (modules and lecture list) and the exam scopes that include it |
 | `modules/<subject>/<module>.json` | A module or lecture is opened | Full content of every lecture in the module |
 | `papers/<subject>.json` | Past papers are opened | Papers of the subject and their questions |
 | `concepts.json` | Concept pages or the graph are opened | The AI layer: published concepts and relations only |
 | `export-manifest.json` | Never by the app | Accounting: what went in, what came out, what was excluded and why |
 
-Sizes at present: 105 files, 13.8 MB in total; the largest module file is 0.63 MB.
+Sizes at present: 135 files, 13.9 MB in total; the largest module file is 0.63 MB.
 
 ## `index.json`
 
 ```
 { export_version, ai_label,
   programs: [{ id, title }],
-  subjects: [{ id, title, description, program, semester, papers_file, counts: { lectures, papers },
+  subjects: [{ id, title, description, program, semester, file, papers_file, counts: { lectures, papers },
                modules: [{ id, title, file, lectures: [{ id, title, has_content, verification, counts: { sections, slides, questions, flashcards } }] }] }],
   exams:  [{ id, title, program, subject, date, groups: [{ name, lectures: [lecture id] }], notes }],
   models: [{ id, title, file, parts, attribution, licence }] }

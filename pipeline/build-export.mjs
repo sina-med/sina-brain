@@ -78,10 +78,13 @@ export function buildExport(kb = "kb") {
         questions: paperQs.map(question) });
     }
     entry.counts = { lectures: entry.modules.reduce((a, m) => a + m.lectures.length, 0), papers: papers.length };
+    entry.file = `subjects/${key}.json`;
     index.subjects.push(entry);
   }
   for (const e of rows.filter((r) => r.type === "exam").sort((a, b) => (a.id < b.id ? -1 : 1))) { take(e); (bySrc.get(e.id) || []).filter((r) => r.type === "covers").forEach(use); index.exams.push({ id: e.id, title: e.title, program: e.program, subject: e.subject, date: e.body.date, groups: e.body.groups, notes: e.body.notes }); }
   for (const m of rows.filter((r) => r.type === "model3d").sort((a, b) => (a.id < b.id ? -1 : 1))) { take(m); index.models.push({ id: m.id, title: m.title, file: m.body.file, parts: m.body.parts, attribution: m.body.attribution, licence: m.body.licence }); }
+  // one file per subject: the subject's own entry and the exam scopes that include it
+  for (const s of index.subjects) files.set(s.file, { export_version: EXPORT_VERSION, subject: s, exams: index.exams.filter((e) => e.subject === s.id || (e.groups || []).some((g) => g.lectures.some((l) => s.modules.some((m) => m.lectures.some((x) => x.id === l))))) });
   files.set("index.json", index);
 
   // ---- AI layer: only what may be shown, always labelled
