@@ -11,8 +11,8 @@ Imported from Sina commit `39f3ae6`.
 | Lectures discovered | 340 |
 | Lectures imported | 337 |
 | Lectures with no content available | 3 |
-| Lectures through knowledge preparation | 2 |
-| Lectures awaiting knowledge preparation | 335 |
+| Lectures through knowledge preparation | 4 |
+| Lectures awaiting knowledge preparation | 333 |
 | Records | 27,737 |
 | Relations | 14,833 (34 awaiting review) |
 | Concepts | 161 (0 awaiting review) |
@@ -26,10 +26,10 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 | Measure | Count |
 |---|---|
 | Lectures eligible | 337 |
-| Lectures processed | 2 |
-| Lectures remaining | 335 |
+| Lectures processed | 4 |
+| Lectures remaining | 333 |
 | Failed extractions | 0 |
-| Summaries generated | 2 |
+| Summaries generated | 4 |
 | Concepts extracted | 161 (auto-accepted 161) |
 | Concepts by confidence | high 118, medium 43 |
 | Concept definitions | 161: 123 shown, 38 held for review |
@@ -43,8 +43,8 @@ AI-prepared content. None of it is medically verified; “shown” means it pass
 | Possible duplicates awaiting review | 0 |
 | Records requiring review | 83 (high 45, low 12, medium 26) |
 | Review queue by reason | audit-finding 7, clinical-claim 26, clinical-definition 26, lecture-conflict 12, missed-concept 12 |
-| Processing time | 889 s extraction, 313 s audit |
-| Resource usage | 361,677 tokens extraction, 271,045 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
+| Processing time | 1,732 s extraction, 313 s audit |
+| Resource usage | 694,245 tokens extraction, 271,045 tokens audit (as reported by the worker sessions; plan allowance is not visible) |
 
 ## Records by type
 

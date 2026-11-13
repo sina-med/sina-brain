@@ -1,0 +1,3965 @@
+{
+ "lecture": "lec:anat3-face-osteology",
+ "input_hash": "943a202724784211",
+ "prompt_version": "p3",
+ "provenance": {
+  "worker": "subagent (fresh context)",
+  "model": "claude-fable-5-2",
+  "finished_at": "2026-11-13T18:33:45Z",
+  "seconds": 435,
+  "tokens": 95414,
+  "usage": {
+   "output": 59273,
+   "cache_write": 36135,
+   "cache_read": 174618,
+   "input": 6,
+   "note": "INCOMPLETE: the worker transcript ended with a usage-limit error (HTTP 429) after the result file was written. Token counts and seconds cover completed requests only; the interrupted request is not counted. Model attribution (claude-fable-5-2) was supplied by the operator from the limit error message, not read from a completed response.",
+   "incomplete": true
+  },
+  "tool_uses": 6,
+  "packet_chars": 37437,
+  "result_chars": 89073
+ },
+ "evidence": {
+  "exact": 273,
+  "approximate": 0,
+  "weak": 0,
+  "failed": 0,
+  "bad-ref": 0
+ },
+ "dropped": [],
+ "result": {
+  "lecture": "lec:anat3-face-osteology",
+  "prompt_version": "p3",
+  "abstract": "The lecture describes the 22 bones of the skull: the 8 cranial bones of the neurocranium and the 14 facial bones of the viscerocranium, and how the skull sits on the neck. It goes bone by bone through the sphenoid, ethmoid, temporal, zygomatic, maxilla, small nasal bones and mandible, with their parts, foramina and what passes through them. It ends with the base of the skull and its three cranial fossae, and the four paired paranasal sinuses and their drainage.",
+  "keywords": [
+   "skull bones",
+   "facial bones",
+   "viscerocranium",
+   "neurocranium",
+   "sphenoid",
+   "ethmoid",
+   "mandible",
+   "maxilla",
+   "pterion",
+   "paranasal sinuses",
+   "cranial fossae",
+   "skull foramina"
+  ],
+  "concepts": [
+   {
+    "key": "skull",
+    "name": "Skull",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The bony framework of the head, made of 22 bones: 8 cranial bones that wrap the brain and 14 facial bones. It rests on the atlas (C1).",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/big",
+      "quote": "The skull has 22 bones",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:1",
+      "quote": "22 skull bones = 8 cranial + 14 facial",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "neurocranium",
+    "name": "Neurocranium",
+    "kind": "structure",
+    "aliases": [
+     "cranium",
+     "cranial bones"
+    ],
+    "definition": "The eight skull bones that enclose and protect the brain: frontal, ethmoid, sphenoid, occipital, two parietal and two temporal. It is divided into the calvaria and the base.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/big",
+      "quote": "Eight of them wrap the brain (the neurocranium)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/05",
+      "quote": "consist of eight bones",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "viscerocranium",
+    "name": "Viscerocranium",
+    "kind": "structure",
+    "aliases": [
+     "facial skeleton",
+     "facial bones"
+    ],
+    "definition": "The 14 facial bones that shape the face, jaws, nose and eye sockets: six paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and the unpaired mandible and vomer.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/big",
+      "quote": "fourteen shape the face, jaws, nose and eye sockets (the viscerocranium)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/08",
+      "quote": "These bones are collectively known as the viscerocranium and provide",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "calvaria",
+    "name": "Calvaria",
+    "kind": "structure",
+    "aliases": [
+     "calvarium",
+     "skull cap"
+    ],
+    "definition": "The skull cap: the roof part of the neurocranium, as opposed to the base. The slides list its bones as the frontal, occipital and two parietal bones.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "The neurocranium is split into the calvaria (the skull cap) and the base",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/05",
+      "quote": "Calvarium bones: frontal, occipital and two parietal bones",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "base-of-the-skull",
+    "name": "Base of the skull",
+    "kind": "structure",
+    "aliases": [
+     "cranial base",
+     "skull base"
+    ],
+    "definition": "The floor of the cranial cavity, made of five bones: frontal, ethmoid, sphenoid, temporal and occipital. Seen from inside it forms three steps, the anterior, middle and posterior cranial fossae.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/base",
+      "quote": "The floor of the cranial cavity is made of five bones: frontal, ethmoid, sphenoid, temporal and occipital",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:13",
+      "quote": "Skull base bones: frontal, ethmoid, sphenoid, temporal, occipital",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "atlanto-occipital-joint",
+    "name": "Atlanto-occipital joint",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The joint where the skull rests on the atlas (C1). It allows nodding, the 'yes' movement.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/neck",
+      "quote": "The atlanto-occipital joint allows nodding",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:3",
+      "quote": "Atlanto-occipital joint = nodding",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "atlanto-axial-joint",
+    "name": "Atlanto-axial joint",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The joint where the atlas turns on the axis (C2). It allows rotation, the 'no' movement.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/neck",
+      "quote": "The atlanto-axial joint allows rotation",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:3",
+      "quote": "Atlanto-axial joint = rotation",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "frontal-bone",
+    "name": "Frontal bone",
+    "kind": "structure",
+    "aliases": [
+     "frontal"
+    ],
+    "definition": "Single cranial bone that forms the forehead and the roof of the orbits.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f1",
+      "quote": "It forms the forehead and the roof of the orbits, and is one of the 8 cranial bones",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "Forehead; forms the roof of the orbit",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "parietal-bone",
+    "name": "Parietal bone",
+    "kind": "structure",
+    "aliases": [
+     "parietal"
+    ],
+    "definition": "Paired cranial bone forming the sides and roof of the skull.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f10",
+      "quote": "There are two, and they form the sides and roof of the skull",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "Sides and roof of the skull",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "temporal-bone",
+    "name": "Temporal bone",
+    "kind": "structure",
+    "aliases": [
+     "temporal"
+    ],
+    "definition": "Paired cranial bone at the sides and base of the skull that holds the ear structures. Its parts are squamous, petrous, tympanic and mastoid, plus the styloid process.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "Sides and base; holds the ear structures",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-face-osteology/t12",
+      "quote": "Squamous, petrous, tympanic and mastoid parts, plus the styloid process",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "occipital-bone",
+    "name": "Occipital bone",
+    "kind": "structure",
+    "aliases": [
+     "occipital"
+    ],
+    "definition": "Single cranial bone at the back and base of the skull; the foramen magnum is in it.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "Back and base; the foramen magnum is here",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "sphenoid-bone",
+    "name": "Sphenoid bone",
+    "kind": "structure",
+    "aliases": [
+     "sphenoid"
+    ],
+    "definition": "Single central bone of the skull base, with a body, two greater wings, two lesser wings and two pterygoid processes.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "Central bone of the skull base",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-face-osteology/t5",
+      "quote": "Body, two greater wings, two lesser wings, two pterygoid processes",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "ethmoid-bone",
+    "name": "Ethmoid bone",
+    "kind": "structure",
+    "aliases": [
+     "ethmoid"
+    ],
+    "definition": "Single cranial bone between the eye sockets that forms the roof of the nasal cavity. Its four parts are the cribriform plate, crista galli, perpendicular plate and the two ethmoidal labyrinths.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "Between the eye sockets; roof of the nasal cavity",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-face-osteology/t9",
+      "quote": "Cribriform plate, crista galli, perpendicular plate, and the two ethmoidal labyrinths",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "sella-turcica",
+    "name": "Sella turcica",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "A saddle-shaped depression on the upper surface of the body of the sphenoid. It holds the pituitary gland in the hypophysial fossa, with the tuberculum sellae in front and the dorsum sellae behind.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t6",
+      "quote": "A saddle-shaped depression on the upper surface of the sphenoid body",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/12",
+      "quote": "pituitary gland on body on top",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "greater-wing-of-the-sphenoid",
+    "name": "Greater wing of the sphenoid",
+    "kind": "structure",
+    "aliases": [
+     "greater wing"
+    ],
+    "definition": "Part of the sphenoid forming the floor of the middle cranial fossa, part of the lateral skull wall and the back of the lateral orbital wall. It has the foramen rotundum, foramen ovale and foramen spinosum.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sphenoid",
+      "quote": "Form the floor of the middle cranial fossa, part of the lateral skull wall and the back of the lateral orbital wall",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:4",
+      "quote": "foramen rotundum (V2), ovale (V3) and spinosum (middle meningeal vessels) in the greater wing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "lesser-wing-of-the-sphenoid",
+    "name": "Lesser wing of the sphenoid",
+    "kind": "structure",
+    "aliases": [
+     "lesser wing"
+    ],
+    "definition": "Part of the sphenoid that separates the anterior and middle cranial fossae, forms the lateral border of the optic canal and carries the anterior clinoid process.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sphenoid",
+      "quote": "Separate the anterior and middle cranial fossae. Form the lateral border of the optic canal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "pterygoid-process",
+    "name": "Pterygoid process",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Paired process of the sphenoid that hangs down from where the body meets the greater wing. Each has a medial and a lateral plate, for muscle attachment.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sphenoid",
+      "quote": "Hang down from where the body meets the greater wing. Each has a medial and a lateral plate, for muscle attachment",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/12",
+      "quote": "pterygoid = pterygoid muscles to allow chewing = paired",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "foramen-rotundum",
+    "name": "Foramen rotundum",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Opening in the greater wing of the sphenoid, in the middle cranial fossa, that transmits the maxillary nerve (V2).",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t7",
+      "quote": "Foramen rotundum: maxillary nerve (V2)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1au2ri9",
+      "quote": "Foramen rotundum carries V2, foramen ovale carries V3 (mandibular nerve)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "foramen-ovale",
+    "name": "Foramen ovale",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Opening in the greater wing of the sphenoid, in the middle cranial fossa, that transmits the mandibular nerve (V3).",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t7",
+      "quote": "Foramen ovale: mandibular nerve (V3)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "foramen-spinosum",
+    "name": "Foramen spinosum",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Opening in the greater wing of the sphenoid, in the middle cranial fossa, that transmits the middle meningeal vessels.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t7",
+      "quote": "Foramen spinosum: middle meningeal vessels",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:2",
+      "quote": "Foramen spinosum = middle meningeal artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "optic-canal",
+    "name": "Optic canal",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Opening of the middle cranial fossa whose lateral border is formed by the lesser wing of the sphenoid and whose medial border is formed by the body of the sphenoid.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t8",
+      "quote": "The lesser wing forms the lateral border of the optic canal (the body forms the medial border)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "superior-orbital-fissure",
+    "name": "Superior orbital fissure",
+    "kind": "structure",
+    "aliases": [
+     "SOF"
+    ],
+    "definition": "The gap between the lesser and greater wings of the sphenoid, one of the openings of the middle cranial fossa. The lecture's mnemonic assigns it V1.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t8",
+      "quote": "The superior orbital fissure is the gap between the lesser and greater wings",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/sphenoid",
+      "quote": "The superior orbital fissure lies between the lesser and greater wings",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "maxillary-nerve",
+    "name": "Maxillary nerve",
+    "kind": "structure",
+    "aliases": [
+     "V2",
+     "CN V2"
+    ],
+    "definition": "The V2 nerve of the trigeminal, which passes through the foramen rotundum in the greater wing of the sphenoid. Its palatine branches run through the greater and lesser palatine foramina.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t7",
+      "quote": "Foramen rotundum: maxillary nerve (V2)",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/small",
+      "quote": "Greater and lesser palatine foramina carry palatine branches of V2",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mandibular-nerve",
+    "name": "Mandibular nerve",
+    "kind": "structure",
+    "aliases": [
+     "V3"
+    ],
+    "definition": "The V3 nerve of the trigeminal, which passes through the foramen ovale in the greater wing of the sphenoid. The inferior alveolar nerve comes from it.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "q:1au2ri9",
+      "quote": "foramen ovale carries V3 (mandibular nerve)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "middle-meningeal-artery",
+    "name": "Middle meningeal artery",
+    "kind": "structure",
+    "aliases": [
+     "middle meningeal vessels"
+    ],
+    "definition": "Vessel that passes through the foramen spinosum. Its anterior branch lies under the pterion.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "hy:2",
+      "quote": "Foramen spinosum = middle meningeal artery",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:11",
+      "quote": "over the anterior branch of the middle meningeal artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cribriform-plate",
+    "name": "Cribriform plate",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Sieve-like shelf of the ethmoid that forms the roof of the nasal cavity and part of the anterior cranial fossa. Its foramina carry the olfactory nerve fibres (CN I) up to the brain.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/ethmoid",
+      "quote": "Sieve-like shelf that forms the roof of the nasal cavity",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/06",
+      "quote": "ethmoid through cribriform plate to reach brain",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "crista-galli",
+    "name": "Crista galli",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Upward projection of the midline plate of the ethmoid; it anchors the falx cerebri.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/ethmoid",
+      "quote": "Upward projection of the midline plate; anchors the falx cerebri",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "perpendicular-plate-of-the-ethmoid",
+    "name": "Perpendicular plate of the ethmoid",
+    "kind": "structure",
+    "aliases": [
+     "perpendicular plate"
+    ],
+    "definition": "Plate of the ethmoid that hangs down from the cribriform plate and forms the upper part of the bony nasal septum.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/ethmoid",
+      "quote": "Hangs down from the cribriform plate; forms the upper part of the bony nasal septum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "ethmoidal-labyrinth",
+    "name": "Ethmoidal labyrinth",
+    "kind": "structure",
+    "aliases": [
+     "labyrinth"
+    ],
+    "definition": "Paired part of the ethmoid that holds the ethmoidal air cells. Each has a paper-thin orbital plate (lamina papyracea) on the eye-socket side and a medial sheet from which the superior and middle nasal conchae project.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/ethmoid",
+      "quote": "Hold the ethmoidal air cells. Each has a paper-thin orbital plate (lamina papyracea) on the eye-socket side",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-face-osteology/t11",
+      "quote": "The ethmoidal air cells, the lamina papyracea (orbital plate), and the superior and middle nasal conchae",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "olfactory-nerve",
+    "name": "Olfactory nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN I"
+    ],
+    "definition": "Cranial nerve I, whose fibres pass from the nasal cavity through the foramina of the cribriform plate up to the brain, for the olfactory sense.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/ethmoid",
+      "quote": "Its foramina carry the olfactory nerve fibres (CN I) up to the brain",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/06",
+      "quote": "from the nose, nerve reach brain for olfactory",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "squamous-part-of-the-temporal-bone",
+    "name": "Squamous part of the temporal bone",
+    "kind": "structure",
+    "aliases": [
+     "squamous temporal",
+     "squamous part"
+    ],
+    "definition": "Large flat plate of the temporal bone on the side of the skull. It gives origin to temporalis, carries the zygomatic process and has the mandibular fossa below it.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Large flat plate on the side of the skull. Origin of temporalis",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "petrous-part-of-the-temporal-bone",
+    "name": "Petrous part of the temporal bone",
+    "kind": "structure",
+    "aliases": [
+     "petrous part"
+    ],
+    "definition": "Dense, pyramid-shaped part of the temporal bone that separates the middle and posterior cranial fossae and protects the inner ear. It has the internal acoustic meatus, carotid canal and jugular foramen.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Dense, pyramid-shaped part that separates the middle and posterior cranial fossae and protects the inner ear",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "tympanic-part-of-the-temporal-bone",
+    "name": "Tympanic part of the temporal bone",
+    "kind": "structure",
+    "aliases": [
+     "tympanic part"
+    ],
+    "definition": "Curved plate of the temporal bone that forms much of the external acoustic meatus.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Curved plate that forms much of the external acoustic meatus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mastoid-part-of-the-temporal-bone",
+    "name": "Mastoid part of the temporal bone",
+    "kind": "structure",
+    "aliases": [
+     "mastoid part"
+    ],
+    "definition": "Part of the temporal bone that contains the mastoid air cells. Its mastoid process is an attachment for sternocleidomastoid.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Contains the mastoid air cells. The mastoid process is an attachment for sternocleidomastoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mandibular-fossa",
+    "name": "Mandibular fossa",
+    "kind": "structure",
+    "aliases": [
+     "glenoid fossa"
+    ],
+    "definition": "Hollow on the underside of the squamous part of the temporal bone, behind the articular eminence. It receives the head (condyle) of the mandible at the temporomandibular joint.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Hollow on the underside of the squamous part, behind the articular eminence",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-face-osteology/t26",
+      "quote": "It is on the squamous part of the temporal bone and receives the head of the mandible",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "styloid-process",
+    "name": "Styloid process",
+    "kind": "structure",
+    "aliases": [
+     "styloid"
+    ],
+    "definition": "Thin spike of the temporal bone pointing down and forward, giving attachment to stylopharyngeus, styloglossus and stylohyoid. The stylomastoid foramen just behind it carries the facial nerve.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Thin spike pointing down and forward",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/21",
+      "quote": "Styloid process (gives attachment to muscle and ligaments)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "zygomatic-process-of-the-temporal-bone",
+    "name": "Zygomatic process of the temporal bone",
+    "kind": "structure",
+    "aliases": [
+     "zygomatic process of the temporal"
+    ],
+    "definition": "Process of the squamous part of the temporal bone that meets the zygomatic bone to form the zygomatic arch.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Its zygomatic process meets the zygomatic bone to form the zygomatic arch",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/21",
+      "quote": "Zygomatic part process (form the zygomatic arch with the temporal process of the",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "zygomatic-arch",
+    "name": "Zygomatic arch",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Bony arch formed by the zygomatic process of the temporal bone joining the temporal process of the zygomatic bone at the temporozygomatic suture.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "q:dfw8ia",
+      "quote": "The arch is completed by the zygomatic process of the temporal bone joining the temporal process of the zygomatic bone at the temporozygomatic suture",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "temporomandibular-joint",
+    "name": "Temporomandibular joint",
+    "kind": "structure",
+    "aliases": [
+     "TMJ"
+    ],
+    "definition": "The joint where the head of the mandible articulates with the mandibular fossa of the temporal bone. The mandible moves here.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "the head articulates with the mandibular fossa of the temporal bone (temporomandibular joint)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/09",
+      "quote": "Connects with the cranium base at the",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "pterion",
+    "name": "Pterion",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "H-shaped meeting point on the side of the skull of four bones: frontal, parietal, squamous temporal and greater wing of the sphenoid. It is the thinnest part of the skull wall and lies over the anterior branch of the middle meningeal artery.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "The pterion is the H-shaped meeting point on the side of the skull of four bones",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:11",
+      "quote": "thinnest part of the skull, over the anterior branch of the middle meningeal artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "extradural-haematoma",
+    "name": "Extradural haematoma",
+    "kind": "condition",
+    "aliases": [],
+    "definition": "Condition that the lecture links to a blow to the temple at the pterion, where the anterior branch of the middle meningeal artery can be torn; it is noted with a lucid interval.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "hy:6",
+      "quote": "blow to the temple → extradural haematoma (lucid interval)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "zygomatic-bone",
+    "name": "Zygomatic bone",
+    "kind": "structure",
+    "aliases": [
+     "cheekbone",
+     "zygomatic"
+    ],
+    "definition": "The cheekbone: a diamond-shaped paired facial bone forming the prominence of the cheek, part of the lateral wall and floor of the orbit, and part of the zygomatic arch. It has frontal, temporal and maxillary processes.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/zygomatic",
+      "quote": "it forms the prominence of the cheek, part of the lateral wall and floor of the orbit, and part of the zygomatic arch",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:7",
+      "quote": "three processes (frontal, temporal, maxillary)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "maxilla",
+    "name": "Maxilla",
+    "kind": "structure",
+    "aliases": [
+     "upper jaw",
+     "maxillae"
+    ],
+    "definition": "The upper jaw: a paired facial bone with a pyramid-shaped body containing the maxillary sinus and four processes (frontal, zygomatic, alveolar, palatine). The two maxillae form the middle third of the face.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/maxilla",
+      "quote": "The two maxillae fuse at the midline and form the middle third of the face",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-face-osteology/t15",
+      "quote": "A pyramid-shaped body containing the maxillary sinus, plus four processes: frontal, zygomatic, alveolar and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "maxillary-sinus",
+    "name": "Maxillary sinus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The largest paranasal sinus, in the body of the maxilla. It opens into the middle meatus at the hiatus semilunaris; its ostium is high on its medial wall and its floor lies near the upper molar roots.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "q:197735m",
+      "quote": "The maxillary sinus lies in the body of the maxilla and is the largest",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:9",
+      "quote": "The maxillary sinus ostium is high on its medial wall",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "frontal-process-of-the-maxilla",
+    "name": "Frontal process of the maxilla",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Process of the maxilla that runs up between the nasal and lacrimal bones and contributes to the lacrimal fossa.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/maxilla",
+      "quote": "Runs up between the nasal and lacrimal bones; contributes to the lacrimal fossa",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "zygomatic-process-of-the-maxilla",
+    "name": "Zygomatic process of the maxilla",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Process of the maxilla that meets the zygomatic bone.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/maxilla",
+      "quote": "Meets the zygomatic bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "alveolar-process-of-the-maxilla",
+    "name": "Alveolar process of the maxilla",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Process of the maxilla that holds the upper teeth, with 8 sockets on each side.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/maxilla",
+      "quote": "Holds the upper teeth (8 sockets on each side)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "palatine-process-of-the-maxilla",
+    "name": "Palatine process of the maxilla",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Horizontal shelf of the maxilla forming the front part of the hard palate and the nasal floor.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/maxilla",
+      "quote": "Horizontal shelf forming the front part of the hard palate and the nasal floor",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "infraorbital-foramen",
+    "name": "Infraorbital foramen",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Opening in the maxilla just below the inferior orbital margin, where the infraorbital nerve and vessels emerge onto the face after the infraorbital groove and canal.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f7",
+      "quote": "The infraorbital foramen, in the maxilla just below the inferior orbital margin",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/maxilla",
+      "quote": "the infraorbital nerve and vessels emerge here after the infraorbital groove and canal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "nasal-bone",
+    "name": "Nasal bone",
+    "kind": "structure",
+    "aliases": [
+     "nasal bones"
+    ],
+    "definition": "Paired slender facial bone forming the bridge of the nose; the two meet at the internasal suture.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/small",
+      "quote": "Slender bones forming the bridge of the nose; meet at the internasal suture",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/09",
+      "quote": "two slender bones at the bridge of the nose",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "vomer",
+    "name": "Vomer",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Unpaired, plough-shaped facial bone that forms the lower and posterior part of the bony nasal septum; it meets the palatine, maxilla and ethmoid.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/small",
+      "quote": "Forms the lower and posterior part of the bony nasal septum; meets the palatine, maxilla and ethmoid",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/09",
+      "quote": "Makes the posterior slant of the nasal septum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "palatine-bone",
+    "name": "Palatine bone",
+    "kind": "structure",
+    "aliases": [
+     "palatine"
+    ],
+    "definition": "Paired L-shaped facial bone with a horizontal plate (posterior hard palate and nasal floor) and a perpendicular plate (lateral nasal wall). It also adds a small part of the orbital floor.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t17",
+      "quote": "L-shaped, with a horizontal plate (posterior part of the hard palate and nasal floor) and a perpendicular plate (lateral nasal wall)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/09",
+      "quote": "Located at the back of the oral cavity",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "horizontal-plate-of-the-palatine-bone",
+    "name": "Horizontal plate of the palatine bone",
+    "kind": "structure",
+    "aliases": [
+     "horizontal plate of the palatine"
+    ],
+    "definition": "Plate of the palatine bone that forms the posterior part of the hard palate and the nasal floor.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/small",
+      "quote": "horizontal plate (posterior hard palate and nasal floor)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:fvq0vr",
+      "quote": "the horizontal plates of the palatine bones complete it behind",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "inferior-nasal-concha",
+    "name": "Inferior nasal concha",
+    "kind": "structure",
+    "aliases": [
+     "inferior conchae"
+    ],
+    "definition": "Paired separate facial bone on the lateral nasal wall that supports the inferior turbinate. The superior and middle conchae, by contrast, belong to the ethmoid.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/small",
+      "quote": "Separate bone on the lateral nasal wall; supports the inferior turbinate",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:4",
+      "quote": "The inferior nasal concha is a separate bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "lacrimal-bone",
+    "name": "Lacrimal bone",
+    "kind": "structure",
+    "aliases": [
+     "lacrimal"
+    ],
+    "definition": "Paired small facial bone on the medial wall of the orbit; it helps form the lacrimal fossa and the nasolacrimal groove.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/small",
+      "quote": "Small bone on the medial wall of the orbit; helps form the lacrimal fossa and the nasolacrimal groove",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/09",
+      "quote": "The tiniest bones of the face",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mandible",
+    "name": "Mandible",
+    "kind": "structure",
+    "aliases": [
+     "lower jaw",
+     "jaw bone"
+    ],
+    "definition": "The lower jaw, an unpaired facial bone and the only bone of the skull that moves. It has a horseshoe-shaped body and two rami that meet the body at the angle.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "It has a horseshoe-shaped body and two rami that meet the body at the angle",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-face-osteology/f4",
+      "quote": "Mandible, the lower jaw, and the only skull bone that moves",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "body-of-the-mandible",
+    "name": "Body of the mandible",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Curved, horseshoe-shaped part of the mandible whose upper alveolar part holds the lower teeth. Its two halves fuse at the midline (symphysis).",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Curved; the upper alveolar part holds the lower teeth. The two halves fuse at the midline (symphysis)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "ramus-of-the-mandible",
+    "name": "Ramus of the mandible",
+    "kind": "structure",
+    "aliases": [
+     "ramus"
+    ],
+    "definition": "Vertical part of the mandible. Its upper border has the coronoid process in front, the condylar process behind, and the mandibular notch between them.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Its upper border has the coronoid process in front, the condylar process behind, and the mandibular notch between them",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mental-foramen",
+    "name": "Mental foramen",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Opening on the outer surface of the body of the mandible, below the premolars. It transmits the mental nerve and vessels.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f8",
+      "quote": "The mental foramen, on the outer surface of the body of the mandible. It transmits the mental nerve and vessels",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "On the outer surface of the body, below the premolars",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mandibular-foramen",
+    "name": "Mandibular foramen",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Opening on the inner surface of the ramus of the mandible, where the inferior alveolar nerve and vessels enter to run in the mandibular canal.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "On the inner surface of the ramus. The inferior alveolar nerve and vessels enter here and run in the mandibular canal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "coronoid-process",
+    "name": "Coronoid process",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Triangular, flattened process at the front of the upper border of the ramus of the mandible; the temporalis muscle inserts here.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Triangular, flattened; the temporalis muscle inserts here",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "condylar-process",
+    "name": "Condylar process",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Process at the back of the upper border of the ramus of the mandible, with a head and neck. The head articulates with the mandibular fossa of the temporal bone at the temporomandibular joint.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Head and neck; the head articulates with the mandibular fossa of the temporal bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mandibular-notch",
+    "name": "Mandibular notch",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The deep concavity on the upper border of the ramus of the mandible, between the coronoid process in front and the condylar process behind.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "q:j7t08m",
+      "quote": "The mandibular notch is the deep concavity between the coronoid process in front and the condylar process behind",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "sublingual-fossa",
+    "name": "Sublingual fossa",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Fossa on the inner surface of the body of the mandible, above the mylohyoid line and near the midline. It lodges the sublingual gland.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Inner surface of the body, above the mylohyoid line and near the midline. Lodges the sublingual gland",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "submandibular-fossa",
+    "name": "Submandibular fossa",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Fossa on the inner surface of the body of the mandible, below the mylohyoid line. It lodges the submandibular gland.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Inner surface of the body, below the mylohyoid line. Lodges the submandibular gland",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mental-protuberance",
+    "name": "Mental protuberance",
+    "kind": "structure",
+    "aliases": [
+     "chin"
+    ],
+    "definition": "The chin: the triangular prominence in the midline of the outer surface of the mandible.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "The chin: the triangular prominence in the midline of the outer surface",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "inferior-alveolar-nerve",
+    "name": "Inferior alveolar nerve",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Nerve from V3 that enters the mandibular foramen and runs forward through the mandibular canal, supplying sensation to the lower teeth. Near the front it divides into the mental nerve and the incisive nerve.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "deeper:5",
+      "quote": "The inferior alveolar nerve enters the mandibular foramen and runs forward through the mandibular canal, supplying sensation to the lower teeth",
+      "check": "exact"
+     },
+     {
+      "ref": "q:10yuht1",
+      "quote": "The inferior alveolar nerve (from V3) enters the mandibular foramen and runs in the mandibular canal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mental-nerve",
+    "name": "Mental nerve",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Terminal branch of the inferior alveolar nerve that leaves the mandible through the mental foramen.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:5",
+      "quote": "the mental nerve, which leaves through the mental foramen",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mandibular-canal",
+    "name": "Mandibular canal",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Canal of the mandible in which the inferior alveolar nerve and vessels run forward after entering at the mandibular foramen.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:5",
+      "quote": "enters the mandibular foramen and runs forward through the mandibular canal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "temporalis-muscle",
+    "name": "Temporalis muscle",
+    "kind": "structure",
+    "aliases": [
+     "temporalis"
+    ],
+    "definition": "Muscle that takes origin from the squamous part of the temporal bone and inserts on the coronoid process of the mandible.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "the temporalis muscle inserts here",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Large flat plate on the side of the skull. Origin of temporalis",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "key": "bony-nasal-septum",
+    "name": "Bony nasal septum",
+    "kind": "structure",
+    "aliases": [
+     "nasal septum",
+     "bony septum"
+    ],
+    "definition": "The bony partition of the nose, formed by the perpendicular plate of the ethmoid (upper part) and the vomer (lower and posterior part), with septal cartilage in front.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t18",
+      "quote": "The perpendicular plate of the ethmoid (upper part) and the vomer (lower and posterior part), with septal cartilage in front",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:9",
+      "quote": "Nasal septum: perpendicular plate of the ethmoid + vomer",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "hard-palate",
+    "name": "Hard palate",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The bony palate, made by the palatine processes of the maxillae in front and the horizontal plates of the palatine bones behind.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/base",
+      "quote": "The hard palate is made by the palatine processes of the maxillae in front and the horizontal plates of the palatine bones behind",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "anterior-cranial-fossa",
+    "name": "Anterior cranial fossa",
+    "kind": "structure",
+    "aliases": [
+     "anterior fossa"
+    ],
+    "definition": "The front step of the floor of the cranial cavity, holding the frontal lobes. It is formed by the orbital plates of the frontal, the cribriform plate of the ethmoid and the lesser wings of the sphenoid; its openings are the cribriform foramina.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "The anterior fossa (frontal lobes) is formed by the frontal, ethmoid and sphenoid",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/base",
+      "quote": "Orbital plates of the frontal, cribriform plate of the ethmoid, lesser wings of the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "middle-cranial-fossa",
+    "name": "Middle cranial fossa",
+    "kind": "structure",
+    "aliases": [
+     "middle fossa"
+    ],
+    "definition": "The middle step of the floor of the cranial cavity, holding the temporal lobes and formed by the sphenoid and temporal bones. Its openings include the optic canal, superior orbital fissure, foramen rotundum, ovale, spinosum and lacerum, and the carotid canal.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "The middle fossa (temporal lobes) is formed by the sphenoid and temporal bones",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "middle (optic canal, SOF, rotundum, ovale, spinosum, lacerum, carotid canal)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "posterior-cranial-fossa",
+    "name": "Posterior cranial fossa",
+    "kind": "structure",
+    "aliases": [
+     "posterior fossa"
+    ],
+    "definition": "The back step of the floor of the cranial cavity, holding the cerebellum and formed by the temporal and occipital bones. Its openings are the internal acoustic meatus, jugular foramen, hypoglossal canal and foramen magnum.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "The posterior fossa (cerebellum) is formed by the temporal and occipital bones and holds the foramen magnum",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "posterior (internal acoustic meatus, jugular foramen, hypoglossal canal, foramen magnum)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "foramen-magnum",
+    "name": "Foramen magnum",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Opening in the occipital bone, in the posterior cranial fossa. From below it is seen with the occipital condyles.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "Back and base; the foramen magnum is here",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "paranasal-sinus",
+    "name": "Paranasal sinus",
+    "kind": "structure",
+    "aliases": [
+     "sinus"
+    ],
+    "definition": "One of four pairs of air-filled spaces around the nasal cavity, named after the bones that hold them: frontal, ethmoidal, sphenoid and maxillary. They drain into the nasal cavity.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sinuses",
+      "quote": "Four pairs of air-filled spaces around the nasal cavity, named after the bones that hold them",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/13",
+      "quote": "Frontal sinus, maxillary sinuses, ethmoid sinuses, sphenoidal sinuses",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "frontal-sinus",
+    "name": "Frontal sinus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Paranasal sinus in the frontal bone, behind the eyebrows. It drains into the middle meatus through the frontonasal duct and infundibulum.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sinuses",
+      "quote": "Frontal bone, behind the eyebrows",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/sinuses",
+      "quote": "Middle meatus, through the frontonasal duct and infundibulum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "ethmoidal-sinus",
+    "name": "Ethmoidal sinus",
+    "kind": "structure",
+    "aliases": [
+     "ethmoidal air cells",
+     "ethmoidal cells",
+     "ethmoid sinuses"
+    ],
+    "definition": "Paranasal sinus made of the air cells in the ethmoidal labyrinths. The anterior cells drain into the middle meatus and the posterior cells into the superior meatus.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sinuses",
+      "quote": "Air cells in the ethmoidal labyrinths",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/sinuses",
+      "quote": "Anterior cells: middle meatus. Posterior cells: superior meatus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "sphenoid-sinus",
+    "name": "Sphenoid sinus",
+    "kind": "structure",
+    "aliases": [
+     "sphenoidal sinuses"
+    ],
+    "definition": "Paranasal sinus in the body of the sphenoid. It drains into the sphenoethmoidal recess.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sphenoid",
+      "quote": "Central, cube-like. Contains the sphenoid sinuses",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-face-osteology/t22",
+      "quote": "Sphenoid: the sphenoethmoidal recess above the superior concha",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "middle-meatus",
+    "name": "Middle meatus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Part of the nasal cavity that receives the frontal, anterior ethmoid and maxillary sinuses, all close together near the hiatus semilunaris.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "deeper:3",
+      "quote": "The middle meatus receives the frontal, anterior ethmoid and maxillary sinuses, all close together near the hiatus semilunaris",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "superior-meatus",
+    "name": "Superior meatus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Part of the nasal cavity into which the posterior ethmoidal cells drain.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t22",
+      "quote": "Superior meatus: posterior ethmoid cells",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "sphenoethmoidal-recess",
+    "name": "Sphenoethmoidal recess",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Recess of the nasal cavity above the superior concha, into which the sphenoid sinus drains.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t22",
+      "quote": "Sphenoid: the sphenoethmoidal recess above the superior concha",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "orbit",
+    "name": "Orbit",
+    "kind": "structure",
+    "aliases": [
+     "eye socket"
+    ],
+    "definition": "The eye socket, a cavity built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f11",
+      "quote": "The orbit, built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "supraorbital-notch",
+    "name": "Supraorbital notch",
+    "kind": "structure",
+    "aliases": [
+     "supraorbital foramen"
+    ],
+    "definition": "Notch (or foramen) in the superior orbital margin of the frontal bone. It transmits the supraorbital nerve and vessels.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f6",
+      "quote": "The supraorbital notch (or foramen), in the superior orbital margin of the frontal bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "piriform-aperture",
+    "name": "Piriform aperture",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "The bony opening of the nasal cavity, bounded by the nasal bones and the maxillae.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f9",
+      "quote": "The piriform aperture, the bony opening of the nasal cavity, bounded by the nasal bones and the maxillae",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   }
+  ],
+  "relations": [
+   {
+    "src": "neurocranium",
+    "type": "part-of",
+    "dst": "skull",
+    "statement": "Eight of the 22 skull bones wrap the brain and make up the neurocranium.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/big",
+      "quote": "The skull has 22 bones. Eight of them wrap the brain (the neurocranium)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "viscerocranium",
+    "type": "part-of",
+    "dst": "skull",
+    "statement": "Fourteen of the 22 skull bones are facial bones and make up the viscerocranium.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t1",
+      "quote": "22 bones: the neurocranium (8 bones, protects the brain) and the viscerocranium (14 facial bones, including the mandible)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "calvaria",
+    "type": "part-of",
+    "dst": "neurocranium",
+    "statement": "The neurocranium is split into the calvaria (skull cap) and the base.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "The neurocranium is split into the calvaria (the skull cap) and the base",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "base-of-the-skull",
+    "type": "part-of",
+    "dst": "neurocranium",
+    "statement": "The neurocranium is split into the calvaria and the base, the floor of the cranial cavity.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "The neurocranium is split into the calvaria (the skull cap) and the base. The base is the floor of the cranial cavity",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "atlanto-occipital-joint",
+    "type": "connects",
+    "dst": "skull",
+    "statement": "The atlanto-occipital joint joins the skull to the atlas and allows nodding.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t4",
+      "quote": "Atlanto-occipital joint (skull on the atlas): nodding",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "atlanto-occipital-joint",
+    "type": "contrasts-with",
+    "dst": "atlanto-axial-joint",
+    "statement": "The atlanto-occipital joint gives nodding ('yes'), the atlanto-axial joint gives rotation ('no').",
+    "evidence": [
+     {
+      "ref": "exam:3",
+      "quote": "Atlanto-occipital joint = nodding. Atlanto-axial joint = rotation",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "frontal-bone",
+    "type": "part-of",
+    "dst": "neurocranium",
+    "statement": "The frontal bone is one of the 8 cranial bones.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f1",
+      "quote": "Frontal bone. It forms the forehead and the roof of the orbits, and is one of the 8 cranial bones",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "parietal-bone",
+    "type": "part-of",
+    "dst": "neurocranium",
+    "statement": "The two parietal bones are cranial bones.",
+    "evidence": [
+     {
+      "ref": "exam:2",
+      "quote": "Cranial bones: frontal, ethmoid, sphenoid, occipital, 2 parietal, 2 temporal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporal-bone",
+    "type": "part-of",
+    "dst": "neurocranium",
+    "statement": "The two temporal bones are cranial bones.",
+    "evidence": [
+     {
+      "ref": "exam:2",
+      "quote": "Cranial bones: frontal, ethmoid, sphenoid, occipital, 2 parietal, 2 temporal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "occipital-bone",
+    "type": "part-of",
+    "dst": "neurocranium",
+    "statement": "The occipital bone is a cranial bone.",
+    "evidence": [
+     {
+      "ref": "exam:2",
+      "quote": "Cranial bones: frontal, ethmoid, sphenoid, occipital, 2 parietal, 2 temporal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sphenoid-bone",
+    "type": "part-of",
+    "dst": "neurocranium",
+    "statement": "The sphenoid is a cranial bone.",
+    "evidence": [
+     {
+      "ref": "exam:2",
+      "quote": "Cranial bones: frontal, ethmoid, sphenoid, occipital, 2 parietal, 2 temporal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ethmoid-bone",
+    "type": "part-of",
+    "dst": "neurocranium",
+    "statement": "The ethmoid is a cranial bone, not a facial bone.",
+    "evidence": [
+     {
+      "ref": "exam:2",
+      "quote": "Cranial bones: frontal, ethmoid, sphenoid, occipital, 2 parietal, 2 temporal",
+      "check": "exact"
+     },
+     {
+      "ref": "deeper:4",
+      "quote": "The ethmoid is a cranial bone, but only its cribriform plate contributes to the neurocranium",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "maxilla",
+    "type": "part-of",
+    "dst": "viscerocranium",
+    "statement": "The maxilla is one of the 6 paired bones of the facial skeleton.",
+    "evidence": [
+     {
+      "ref": "q:xymxbs",
+      "quote": "The facial skeleton has 6 paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and 2 unpaired bones: the mandible and the vomer",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-bone",
+    "type": "part-of",
+    "dst": "viscerocranium",
+    "statement": "The zygomatic bone is one of the 6 paired bones of the facial skeleton.",
+    "evidence": [
+     {
+      "ref": "q:xymxbs",
+      "quote": "The facial skeleton has 6 paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and 2 unpaired bones: the mandible and the vomer",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "palatine-bone",
+    "type": "part-of",
+    "dst": "viscerocranium",
+    "statement": "The palatine bone is one of the 6 paired bones of the facial skeleton.",
+    "evidence": [
+     {
+      "ref": "q:xymxbs",
+      "quote": "The facial skeleton has 6 paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and 2 unpaired bones: the mandible and the vomer",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "nasal-bone",
+    "type": "part-of",
+    "dst": "viscerocranium",
+    "statement": "The nasal bone is one of the 6 paired bones of the facial skeleton.",
+    "evidence": [
+     {
+      "ref": "q:xymxbs",
+      "quote": "The facial skeleton has 6 paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and 2 unpaired bones: the mandible and the vomer",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lacrimal-bone",
+    "type": "part-of",
+    "dst": "viscerocranium",
+    "statement": "The lacrimal bone is one of the 6 paired bones of the facial skeleton.",
+    "evidence": [
+     {
+      "ref": "q:xymxbs",
+      "quote": "The facial skeleton has 6 paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and 2 unpaired bones: the mandible and the vomer",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-nasal-concha",
+    "type": "part-of",
+    "dst": "viscerocranium",
+    "statement": "The inferior nasal concha is one of the 6 paired bones of the facial skeleton.",
+    "evidence": [
+     {
+      "ref": "q:xymxbs",
+      "quote": "The facial skeleton has 6 paired bones (maxilla, zygomatic, palatine, nasal, lacrimal, inferior nasal concha) and 2 unpaired bones: the mandible and the vomer",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandible",
+    "type": "part-of",
+    "dst": "viscerocranium",
+    "statement": "The mandible is one of the two unpaired facial bones.",
+    "evidence": [
+     {
+      "ref": "exam:1",
+      "quote": "The mandible and vomer are the two unpaired facial bones",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vomer",
+    "type": "part-of",
+    "dst": "viscerocranium",
+    "statement": "The vomer is one of the two unpaired facial bones.",
+    "evidence": [
+     {
+      "ref": "exam:1",
+      "quote": "The mandible and vomer are the two unpaired facial bones",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "frontal-bone",
+    "type": "part-of",
+    "dst": "base-of-the-skull",
+    "statement": "The frontal bone is one of the five bones of the skull base.",
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "Skull base bones: frontal, ethmoid, sphenoid, temporal, occipital",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ethmoid-bone",
+    "type": "part-of",
+    "dst": "base-of-the-skull",
+    "statement": "The ethmoid is one of the five bones of the skull base.",
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "Skull base bones: frontal, ethmoid, sphenoid, temporal, occipital",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sphenoid-bone",
+    "type": "part-of",
+    "dst": "base-of-the-skull",
+    "statement": "The sphenoid is the central bone of the skull base.",
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "Skull base bones: frontal, ethmoid, sphenoid, temporal, occipital",
+      "check": "exact"
+     },
+     {
+      "ref": "deeper:1",
+      "quote": "The sphenoid sits in the centre of the skull base",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporal-bone",
+    "type": "part-of",
+    "dst": "base-of-the-skull",
+    "statement": "The temporal bone is one of the five bones of the skull base.",
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "Skull base bones: frontal, ethmoid, sphenoid, temporal, occipital",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "occipital-bone",
+    "type": "part-of",
+    "dst": "base-of-the-skull",
+    "statement": "The occipital bone is one of the five bones of the skull base.",
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "Skull base bones: frontal, ethmoid, sphenoid, temporal, occipital",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sella-turcica",
+    "type": "located-in",
+    "dst": "sphenoid-bone",
+    "statement": "The sella turcica is on the upper surface of the body of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "q:3g3axz",
+      "quote": "The sella turcica is a saddle-shaped depression on the upper surface of the body of the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "greater-wing-of-the-sphenoid",
+    "type": "part-of",
+    "dst": "sphenoid-bone",
+    "statement": "The greater wings are parts of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t7",
+      "quote": "All three are in the greater wing of the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lesser-wing-of-the-sphenoid",
+    "type": "part-of",
+    "dst": "sphenoid-bone",
+    "statement": "The lesser wings are parts of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/base",
+      "quote": "cribriform plate of the ethmoid, lesser wings of the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pterygoid-process",
+    "type": "part-of",
+    "dst": "sphenoid-bone",
+    "statement": "The pterygoid process belongs to the sphenoid.",
+    "evidence": [
+     {
+      "ref": "q:1aq1iuf",
+      "quote": "The pterygoid process belongs to the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-rotundum",
+    "type": "located-in",
+    "dst": "greater-wing-of-the-sphenoid",
+    "statement": "The foramen rotundum is in the greater wing of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "foramen rotundum (V2), ovale (V3) and spinosum (middle meningeal vessels) in the greater wing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-ovale",
+    "type": "located-in",
+    "dst": "greater-wing-of-the-sphenoid",
+    "statement": "The foramen ovale is in the greater wing of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "foramen rotundum (V2), ovale (V3) and spinosum (middle meningeal vessels) in the greater wing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-spinosum",
+    "type": "located-in",
+    "dst": "greater-wing-of-the-sphenoid",
+    "statement": "The foramen spinosum is in the greater wing of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "foramen rotundum (V2), ovale (V3) and spinosum (middle meningeal vessels) in the greater wing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "optic-canal",
+    "type": "located-in",
+    "dst": "lesser-wing-of-the-sphenoid",
+    "statement": "The optic canal is in the lesser wing of the sphenoid, which forms its lateral border.",
+    "evidence": [
+     {
+      "ref": "q:1au2ri9",
+      "quote": "The optic canal is in the lesser wing",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:4",
+      "quote": "optic canal in the lesser wing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-orbital-fissure",
+    "type": "located-in",
+    "dst": "sphenoid-bone",
+    "statement": "The superior orbital fissure lies between the lesser and greater wings of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sphenoid",
+      "quote": "The superior orbital fissure lies between the lesser and greater wings",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "maxillary-nerve",
+    "type": "passes-through",
+    "dst": "foramen-rotundum",
+    "statement": "The maxillary nerve (V2) passes through the foramen rotundum.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t7",
+      "quote": "Foramen rotundum: maxillary nerve (V2)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-nerve",
+    "type": "passes-through",
+    "dst": "foramen-ovale",
+    "statement": "The mandibular nerve (V3) passes through the foramen ovale.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t7",
+      "quote": "Foramen ovale: mandibular nerve (V3)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "middle-meningeal-artery",
+    "type": "passes-through",
+    "dst": "foramen-spinosum",
+    "statement": "The middle meningeal artery passes through the foramen spinosum.",
+    "evidence": [
+     {
+      "ref": "hy:2",
+      "quote": "Foramen spinosum = middle meningeal artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-rotundum",
+    "type": "located-in",
+    "dst": "middle-cranial-fossa",
+    "statement": "The foramen rotundum is one of the openings of the middle cranial fossa.",
+    "evidence": [
+     {
+      "ref": "hy:5",
+      "quote": "middle (optic canal, SOF, rotundum, ovale, spinosum, lacerum, carotid canal)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-ovale",
+    "type": "located-in",
+    "dst": "middle-cranial-fossa",
+    "statement": "The foramen ovale is one of the openings of the middle cranial fossa.",
+    "evidence": [
+     {
+      "ref": "hy:5",
+      "quote": "middle (optic canal, SOF, rotundum, ovale, spinosum, lacerum, carotid canal)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-spinosum",
+    "type": "located-in",
+    "dst": "middle-cranial-fossa",
+    "statement": "The foramen spinosum is one of the openings of the middle cranial fossa.",
+    "evidence": [
+     {
+      "ref": "hy:5",
+      "quote": "middle (optic canal, SOF, rotundum, ovale, spinosum, lacerum, carotid canal)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "optic-canal",
+    "type": "located-in",
+    "dst": "middle-cranial-fossa",
+    "statement": "The optic canal is one of the openings of the middle cranial fossa.",
+    "evidence": [
+     {
+      "ref": "hy:5",
+      "quote": "middle (optic canal, SOF, rotundum, ovale, spinosum, lacerum, carotid canal)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "superior-orbital-fissure",
+    "type": "located-in",
+    "dst": "middle-cranial-fossa",
+    "statement": "The superior orbital fissure is one of the openings of the middle cranial fossa.",
+    "evidence": [
+     {
+      "ref": "hy:5",
+      "quote": "middle (optic canal, SOF, rotundum, ovale, spinosum, lacerum, carotid canal)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cribriform-plate",
+    "type": "part-of",
+    "dst": "ethmoid-bone",
+    "statement": "The cribriform plate is one of the four parts of the ethmoid.",
+    "evidence": [
+     {
+      "ref": "exam:5",
+      "quote": "Ethmoid: cribriform plate (olfactory nerves), crista galli (falx cerebri), perpendicular plate (nasal septum), labyrinths",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "crista-galli",
+    "type": "part-of",
+    "dst": "ethmoid-bone",
+    "statement": "The crista galli is one of the four parts of the ethmoid.",
+    "evidence": [
+     {
+      "ref": "exam:5",
+      "quote": "Ethmoid: cribriform plate (olfactory nerves), crista galli (falx cerebri), perpendicular plate (nasal septum), labyrinths",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "perpendicular-plate-of-the-ethmoid",
+    "type": "part-of",
+    "dst": "ethmoid-bone",
+    "statement": "The perpendicular plate is one of the four parts of the ethmoid.",
+    "evidence": [
+     {
+      "ref": "exam:5",
+      "quote": "Ethmoid: cribriform plate (olfactory nerves), crista galli (falx cerebri), perpendicular plate (nasal septum), labyrinths",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ethmoidal-labyrinth",
+    "type": "part-of",
+    "dst": "ethmoid-bone",
+    "statement": "The two ethmoidal labyrinths are parts of the ethmoid.",
+    "evidence": [
+     {
+      "ref": "exam:5",
+      "quote": "Ethmoid: cribriform plate (olfactory nerves), crista galli (falx cerebri), perpendicular plate (nasal septum), labyrinths",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "olfactory-nerve",
+    "type": "passes-through",
+    "dst": "cribriform-plate",
+    "statement": "The olfactory nerve fibres (CN I) pass through the foramina of the cribriform plate to the brain.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/ethmoid",
+      "quote": "Its foramina carry the olfactory nerve fibres (CN I) up to the brain",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/06",
+      "quote": "ethmoid through cribriform plate to reach brain",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cribriform-plate",
+    "type": "located-in",
+    "dst": "anterior-cranial-fossa",
+    "statement": "The cribriform plate of the ethmoid forms part of the anterior cranial fossa.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t10",
+      "quote": "It forms the roof of the nasal cavity and part of the anterior cranial fossa",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "Cranial fossae: anterior (cribriform)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "perpendicular-plate-of-the-ethmoid",
+    "type": "part-of",
+    "dst": "bony-nasal-septum",
+    "statement": "The perpendicular plate of the ethmoid forms the upper part of the bony nasal septum.",
+    "evidence": [
+     {
+      "ref": "hy:4",
+      "quote": "Bony septum = perpendicular plate of ethmoid + vomer",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "vomer",
+    "type": "part-of",
+    "dst": "bony-nasal-septum",
+    "statement": "The vomer forms the lower and posterior part of the bony nasal septum.",
+    "evidence": [
+     {
+      "ref": "hy:4",
+      "quote": "Bony septum = perpendicular plate of ethmoid + vomer",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/09",
+      "quote": "Makes the posterior slant of the nasal septum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ethmoidal-sinus",
+    "type": "located-in",
+    "dst": "ethmoidal-labyrinth",
+    "statement": "The ethmoidal air cells lie in the ethmoidal labyrinths.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sinuses",
+      "quote": "Air cells in the ethmoidal labyrinths",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "squamous-part-of-the-temporal-bone",
+    "type": "part-of",
+    "dst": "temporal-bone",
+    "statement": "The squamous part is one of the parts of the temporal bone.",
+    "evidence": [
+     {
+      "ref": "exam:6",
+      "quote": "Temporal: squamous, petrous, tympanic, mastoid, styloid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "petrous-part-of-the-temporal-bone",
+    "type": "part-of",
+    "dst": "temporal-bone",
+    "statement": "The petrous part is one of the parts of the temporal bone.",
+    "evidence": [
+     {
+      "ref": "exam:6",
+      "quote": "Temporal: squamous, petrous, tympanic, mastoid, styloid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "tympanic-part-of-the-temporal-bone",
+    "type": "part-of",
+    "dst": "temporal-bone",
+    "statement": "The tympanic part is one of the parts of the temporal bone.",
+    "evidence": [
+     {
+      "ref": "exam:6",
+      "quote": "Temporal: squamous, petrous, tympanic, mastoid, styloid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mastoid-part-of-the-temporal-bone",
+    "type": "part-of",
+    "dst": "temporal-bone",
+    "statement": "The mastoid part is one of the parts of the temporal bone.",
+    "evidence": [
+     {
+      "ref": "exam:6",
+      "quote": "Temporal: squamous, petrous, tympanic, mastoid, styloid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "styloid-process",
+    "type": "part-of",
+    "dst": "temporal-bone",
+    "statement": "The styloid process is a part of the temporal bone.",
+    "evidence": [
+     {
+      "ref": "exam:6",
+      "quote": "Temporal: squamous, petrous, tympanic, mastoid, styloid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-fossa",
+    "type": "located-in",
+    "dst": "squamous-part-of-the-temporal-bone",
+    "statement": "The mandibular (glenoid) fossa is on the squamous part of the temporal bone.",
+    "evidence": [
+     {
+      "ref": "q:pch5lc",
+      "quote": "The mandibular (glenoid) fossa is on the squamous part of the temporal bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-fossa",
+    "type": "part-of",
+    "dst": "temporomandibular-joint",
+    "statement": "The mandibular fossa, with the head of the mandible, forms the temporomandibular joint.",
+    "evidence": [
+     {
+      "ref": "q:pch5lc",
+      "quote": "Together with the head of the mandible it forms the temporomandibular joint",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "condylar-process",
+    "type": "part-of",
+    "dst": "temporomandibular-joint",
+    "statement": "The head of the condylar process articulates with the mandibular fossa at the temporomandibular joint.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Head and neck; the head articulates with the mandibular fossa of the temporal bone (temporomandibular joint)",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:7",
+      "quote": "condylar process = TMJ",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporomandibular-joint",
+    "type": "connects",
+    "dst": "mandible",
+    "statement": "The mandible articulates with the temporal bone at the temporomandibular joint.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f4",
+      "quote": "It articulates with the temporal bone at the temporomandibular joint",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporomandibular-joint",
+    "type": "connects",
+    "dst": "temporal-bone",
+    "statement": "The temporomandibular joint joins the mandible to the temporal bone.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f4",
+      "quote": "It articulates with the temporal bone at the temporomandibular joint",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-process-of-the-temporal-bone",
+    "type": "part-of",
+    "dst": "squamous-part-of-the-temporal-bone",
+    "statement": "The zygomatic process arises from the squamous part of the temporal bone.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Origin of temporalis. Its zygomatic process meets the zygomatic bone to form the zygomatic arch",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "zygomatic-process-of-the-temporal-bone",
+    "type": "part-of",
+    "dst": "zygomatic-arch",
+    "statement": "The zygomatic process of the temporal bone joins the temporal process of the zygomatic bone to form the zygomatic arch.",
+    "evidence": [
+     {
+      "ref": "q:dfw8ia",
+      "quote": "The arch is completed by the zygomatic process of the temporal bone joining the temporal process of the zygomatic bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-bone",
+    "type": "part-of",
+    "dst": "zygomatic-arch",
+    "statement": "The temporal process of the zygomatic bone meets the temporal bone to form the zygomatic arch.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f2",
+      "quote": "It has frontal, temporal and maxillary processes and joins the temporal bone to form the zygomatic arch",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporalis-muscle",
+    "type": "attaches-to",
+    "dst": "coronoid-process",
+    "statement": "The temporalis muscle inserts on the coronoid process of the mandible.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Triangular, flattened; the temporalis muscle inserts here",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:7",
+      "quote": "Coronoid process = temporalis",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporalis-muscle",
+    "type": "attaches-to",
+    "dst": "squamous-part-of-the-temporal-bone",
+    "statement": "Temporalis takes origin from the squamous part of the temporal bone.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "Large flat plate on the side of the skull. Origin of temporalis",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pterion",
+    "type": "connects",
+    "dst": "frontal-bone",
+    "statement": "The frontal bone is one of the four bones meeting at the pterion.",
+    "evidence": [
+     {
+      "ref": "q:mkfhqa",
+      "quote": "The pterion is the H-shaped junction of the frontal bone, parietal bone, squamous part of the temporal bone and greater wing of the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pterion",
+    "type": "connects",
+    "dst": "parietal-bone",
+    "statement": "The parietal bone is one of the four bones meeting at the pterion.",
+    "evidence": [
+     {
+      "ref": "q:mkfhqa",
+      "quote": "The pterion is the H-shaped junction of the frontal bone, parietal bone, squamous part of the temporal bone and greater wing of the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pterion",
+    "type": "connects",
+    "dst": "squamous-part-of-the-temporal-bone",
+    "statement": "The squamous part of the temporal bone is one of the four bones meeting at the pterion.",
+    "evidence": [
+     {
+      "ref": "q:mkfhqa",
+      "quote": "The pterion is the H-shaped junction of the frontal bone, parietal bone, squamous part of the temporal bone and greater wing of the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pterion",
+    "type": "connects",
+    "dst": "greater-wing-of-the-sphenoid",
+    "statement": "The greater wing of the sphenoid is one of the four bones meeting at the pterion.",
+    "evidence": [
+     {
+      "ref": "q:mkfhqa",
+      "quote": "The pterion is the H-shaped junction of the frontal bone, parietal bone, squamous part of the temporal bone and greater wing of the sphenoid",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pterion",
+    "type": "related-to",
+    "dst": "middle-meningeal-artery",
+    "statement": "The pterion lies over the anterior branch of the middle meningeal artery.",
+    "evidence": [
+     {
+      "ref": "q:mkfhqa",
+      "quote": "It lies over the anterior branch of the middle meningeal artery",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:11",
+      "quote": "thinnest part of the skull, over the anterior branch of the middle meningeal artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "pterion",
+    "type": "related-to",
+    "dst": "extradural-haematoma",
+    "statement": "A blow at the pterion can tear the underlying middle meningeal artery, leading to an extradural haematoma.",
+    "evidence": [
+     {
+      "ref": "hy:6",
+      "quote": "is the thinnest spot, over the anterior branch of the middle meningeal artery → blow to the temple → extradural haematoma",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-face-osteology/temporal",
+      "quote": "lies over the anterior branch of the middle meningeal artery, so a blow there can tear the artery",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "frontal-bone",
+    "type": "part-of",
+    "dst": "orbit",
+    "statement": "The frontal bone is one of the 7 bones that build the orbit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f11",
+      "quote": "The orbit, built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sphenoid-bone",
+    "type": "part-of",
+    "dst": "orbit",
+    "statement": "The sphenoid is one of the 7 bones that build the orbit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f11",
+      "quote": "The orbit, built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ethmoid-bone",
+    "type": "part-of",
+    "dst": "orbit",
+    "statement": "The ethmoid is one of the 7 bones that build the orbit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f11",
+      "quote": "The orbit, built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-bone",
+    "type": "part-of",
+    "dst": "orbit",
+    "statement": "The zygomatic bone is one of the 7 bones that build the orbit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f11",
+      "quote": "The orbit, built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lacrimal-bone",
+    "type": "part-of",
+    "dst": "orbit",
+    "statement": "The lacrimal bone is one of the 7 bones that build the orbit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f11",
+      "quote": "The orbit, built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "maxilla",
+    "type": "part-of",
+    "dst": "orbit",
+    "statement": "The maxilla is one of the 7 bones that build the orbit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f11",
+      "quote": "The orbit, built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "palatine-bone",
+    "type": "part-of",
+    "dst": "orbit",
+    "statement": "The palatine bone is one of the 7 bones that build the orbit.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f11",
+      "quote": "The orbit, built by 7 bones: frontal, sphenoid, ethmoid, zygomatic, lacrimal, maxilla and palatine",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "maxillary-sinus",
+    "type": "located-in",
+    "dst": "maxilla",
+    "statement": "The maxillary sinus lies in the body of the maxilla.",
+    "evidence": [
+     {
+      "ref": "q:197735m",
+      "quote": "The maxillary sinus lies in the body of the maxilla and is the largest",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "maxillary-sinus",
+    "type": "is-a",
+    "dst": "paranasal-sinus",
+    "statement": "The maxillary sinus is the largest of the four paired paranasal sinuses.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "Four paired paranasal sinuses: frontal, ethmoidal, sphenoid, maxillary (largest)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "frontal-sinus",
+    "type": "is-a",
+    "dst": "paranasal-sinus",
+    "statement": "The frontal sinus is one of the four paired paranasal sinuses.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "Four paired paranasal sinuses: frontal, ethmoidal, sphenoid, maxillary (largest)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ethmoidal-sinus",
+    "type": "is-a",
+    "dst": "paranasal-sinus",
+    "statement": "The ethmoidal sinus is one of the four paired paranasal sinuses.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "Four paired paranasal sinuses: frontal, ethmoidal, sphenoid, maxillary (largest)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sphenoid-sinus",
+    "type": "is-a",
+    "dst": "paranasal-sinus",
+    "statement": "The sphenoid sinus is one of the four paired paranasal sinuses.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "Four paired paranasal sinuses: frontal, ethmoidal, sphenoid, maxillary (largest)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sphenoid-sinus",
+    "type": "located-in",
+    "dst": "sphenoid-bone",
+    "statement": "The sphenoid sinuses lie in the body of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/sphenoid",
+      "quote": "Central, cube-like. Contains the sphenoid sinuses",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "frontal-sinus",
+    "type": "drains",
+    "dst": "middle-meatus",
+    "statement": "The frontal sinus drains into the middle meatus.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t22",
+      "quote": "Middle meatus: frontal, anterior ethmoid and maxillary sinuses",
+      "check": "exact"
+     },
+     {
+      "ref": "deeper:3",
+      "quote": "The middle meatus receives the frontal, anterior ethmoid and maxillary sinuses",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "maxillary-sinus",
+    "type": "drains",
+    "dst": "middle-meatus",
+    "statement": "The maxillary sinus drains into the middle meatus, at the hiatus semilunaris.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t22",
+      "quote": "Middle meatus: frontal, anterior ethmoid and maxillary sinuses",
+      "check": "exact"
+     },
+     {
+      "ref": "deeper:3",
+      "quote": "The middle meatus receives the frontal, anterior ethmoid and maxillary sinuses",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ethmoidal-sinus",
+    "type": "drains",
+    "dst": "middle-meatus",
+    "statement": "The anterior ethmoidal cells drain into the middle meatus.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t22",
+      "quote": "Middle meatus: frontal, anterior ethmoid and maxillary sinuses",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ethmoidal-sinus",
+    "type": "drains",
+    "dst": "superior-meatus",
+    "statement": "The posterior ethmoidal cells drain into the superior meatus.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t22",
+      "quote": "Superior meatus: posterior ethmoid cells",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sphenoid-sinus",
+    "type": "drains",
+    "dst": "sphenoethmoidal-recess",
+    "statement": "The sphenoid sinus drains into the sphenoethmoidal recess.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t22",
+      "quote": "Sphenoid: the sphenoethmoidal recess above the superior concha",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "frontal-process-of-the-maxilla",
+    "type": "part-of",
+    "dst": "maxilla",
+    "statement": "The frontal process is one of the four processes of the maxilla.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Maxilla: body with the maxillary sinus plus four processes (frontal, zygomatic, alveolar, palatine)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-process-of-the-maxilla",
+    "type": "part-of",
+    "dst": "maxilla",
+    "statement": "The zygomatic process is one of the four processes of the maxilla.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Maxilla: body with the maxillary sinus plus four processes (frontal, zygomatic, alveolar, palatine)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "alveolar-process-of-the-maxilla",
+    "type": "part-of",
+    "dst": "maxilla",
+    "statement": "The alveolar process is one of the four processes of the maxilla.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Maxilla: body with the maxillary sinus plus four processes (frontal, zygomatic, alveolar, palatine)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "palatine-process-of-the-maxilla",
+    "type": "part-of",
+    "dst": "maxilla",
+    "statement": "The palatine process is one of the four processes of the maxilla.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Maxilla: body with the maxillary sinus plus four processes (frontal, zygomatic, alveolar, palatine)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "infraorbital-foramen",
+    "type": "located-in",
+    "dst": "maxilla",
+    "statement": "The infraorbital foramen is in the maxilla, just below the inferior orbital margin.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f7",
+      "quote": "The infraorbital foramen, in the maxilla just below the inferior orbital margin",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "palatine-process-of-the-maxilla",
+    "type": "part-of",
+    "dst": "hard-palate",
+    "statement": "The palatine processes of the maxillae form the front of the hard palate.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/base",
+      "quote": "The hard palate is made by the palatine processes of the maxillae in front and the horizontal plates of the palatine bones behind",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "horizontal-plate-of-the-palatine-bone",
+    "type": "part-of",
+    "dst": "hard-palate",
+    "statement": "The horizontal plates of the palatine bones form the posterior part of the hard palate.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/base",
+      "quote": "The hard palate is made by the palatine processes of the maxillae in front and the horizontal plates of the palatine bones behind",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "horizontal-plate-of-the-palatine-bone",
+    "type": "part-of",
+    "dst": "palatine-bone",
+    "statement": "The horizontal plate is one of the two plates of the L-shaped palatine bone.",
+    "evidence": [
+     {
+      "ref": "q:fvq0vr",
+      "quote": "the horizontal plates of the palatine bones complete it behind",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "supraorbital-notch",
+    "type": "located-in",
+    "dst": "frontal-bone",
+    "statement": "The supraorbital notch is in the superior orbital margin of the frontal bone.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f6",
+      "quote": "The supraorbital notch (or foramen), in the superior orbital margin of the frontal bone",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "body-of-the-mandible",
+    "type": "part-of",
+    "dst": "mandible",
+    "statement": "The mandible has a horseshoe-shaped body.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "The lower jaw, and the only bone of the skull that moves. It has a horseshoe-shaped body and two rami",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "ramus-of-the-mandible",
+    "type": "part-of",
+    "dst": "mandible",
+    "statement": "The mandible has two rami that meet the body at the angle.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "The lower jaw, and the only bone of the skull that moves. It has a horseshoe-shaped body and two rami",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mental-foramen",
+    "type": "located-in",
+    "dst": "body-of-the-mandible",
+    "statement": "The mental foramen is on the outer surface of the body of the mandible.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/f8",
+      "quote": "The mental foramen, on the outer surface of the body of the mandible",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-foramen",
+    "type": "located-in",
+    "dst": "ramus-of-the-mandible",
+    "statement": "The mandibular foramen is on the inner surface of the ramus.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t20",
+      "quote": "Mandibular foramen: on the inner surface of the ramus, where the inferior alveolar nerve enters",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "coronoid-process",
+    "type": "part-of",
+    "dst": "ramus-of-the-mandible",
+    "statement": "The coronoid process is at the front of each ramus.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t19",
+      "quote": "on each ramus the coronoid process (front), condylar process (back) and the mandibular notch between them",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "condylar-process",
+    "type": "part-of",
+    "dst": "ramus-of-the-mandible",
+    "statement": "The condylar process is at the back of each ramus.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t19",
+      "quote": "on each ramus the coronoid process (front), condylar process (back) and the mandibular notch between them",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-notch",
+    "type": "located-in",
+    "dst": "ramus-of-the-mandible",
+    "statement": "The mandibular notch is on each ramus, between the coronoid and condylar processes.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t19",
+      "quote": "on each ramus the coronoid process (front), condylar process (back) and the mandibular notch between them",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "coronoid-process",
+    "type": "contrasts-with",
+    "dst": "condylar-process",
+    "statement": "The coronoid process (front, temporalis) is contrasted with the condylar process (back, temporomandibular joint).",
+    "evidence": [
+     {
+      "ref": "hy:7",
+      "quote": "Coronoid process = temporalis; condylar process = TMJ",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:10",
+      "quote": "coronoid vs condylar processes, mandibular notch between them",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sublingual-fossa",
+    "type": "located-in",
+    "dst": "body-of-the-mandible",
+    "statement": "The sublingual fossa is on the inner surface of the body of the mandible, above the mylohyoid line.",
+    "evidence": [
+     {
+      "ref": "card:anat3-face-osteology/t25",
+      "quote": "Both are on the inner surface of the body. Sublingual fossa: above the mylohyoid line",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "submandibular-fossa",
+    "type": "located-in",
+    "dst": "body-of-the-mandible",
+    "statement": "The submandibular fossa is on the inner surface of the body of the mandible, below the mylohyoid line.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/mandible",
+      "quote": "Inner surface of the body, below the mylohyoid line. Lodges the submandibular gland",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sublingual-fossa",
+    "type": "contrasts-with",
+    "dst": "submandibular-fossa",
+    "statement": "The sublingual fossa lies above the mylohyoid line and holds the sublingual gland; the submandibular fossa lies below it and holds the submandibular gland.",
+    "evidence": [
+     {
+      "ref": "q:7fcta3",
+      "quote": "The submandibular gland sits in the submandibular fossa, below the line",
+      "check": "exact"
+     },
+     {
+      "ref": "q:xz4w4d",
+      "quote": "The sublingual and submandibular fossae lie on the inner surface, above and below the mylohyoid line",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-alveolar-nerve",
+    "type": "passes-through",
+    "dst": "mandibular-foramen",
+    "statement": "The inferior alveolar nerve enters the mandibular foramen.",
+    "evidence": [
+     {
+      "ref": "deeper:5",
+      "quote": "The inferior alveolar nerve enters the mandibular foramen and runs forward through the mandibular canal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-alveolar-nerve",
+    "type": "passes-through",
+    "dst": "mandibular-canal",
+    "statement": "The inferior alveolar nerve runs forward through the mandibular canal.",
+    "evidence": [
+     {
+      "ref": "deeper:5",
+      "quote": "The inferior alveolar nerve enters the mandibular foramen and runs forward through the mandibular canal",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "inferior-alveolar-nerve",
+    "type": "branch-of",
+    "dst": "mandibular-nerve",
+    "statement": "The inferior alveolar nerve comes from V3, the mandibular nerve.",
+    "evidence": [
+     {
+      "ref": "q:10yuht1",
+      "quote": "The inferior alveolar nerve (from V3) enters the mandibular foramen",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mental-nerve",
+    "type": "branch-of",
+    "dst": "inferior-alveolar-nerve",
+    "statement": "The mental nerve is a terminal branch of the inferior alveolar nerve.",
+    "evidence": [
+     {
+      "ref": "deeper:5",
+      "quote": "it divides into its terminal branches: the mental nerve, which leaves through the mental foramen, and the incisive nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mental-nerve",
+    "type": "passes-through",
+    "dst": "mental-foramen",
+    "statement": "The mental nerve leaves through the mental foramen.",
+    "evidence": [
+     {
+      "ref": "deeper:5",
+      "quote": "the mental nerve, which leaves through the mental foramen",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:7",
+      "quote": "mental foramen (below premolars) = mental nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-magnum",
+    "type": "located-in",
+    "dst": "occipital-bone",
+    "statement": "The foramen magnum is in the occipital bone.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/cranium",
+      "quote": "Back and base; the foramen magnum is here",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "foramen-magnum",
+    "type": "located-in",
+    "dst": "posterior-cranial-fossa",
+    "statement": "The posterior cranial fossa holds the foramen magnum.",
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "The posterior fossa (cerebellum) is formed by the temporal and occipital bones and holds the foramen magnum",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   }
+  ],
+  "tests": [
+   {
+    "item": "q:1ta32ra",
+    "concepts": [
+     "skull",
+     "neurocranium",
+     "viscerocranium"
+    ]
+   },
+   {
+    "item": "q:uy1nbu",
+    "concepts": [
+     "ethmoid-bone",
+     "neurocranium"
+    ]
+   },
+   {
+    "item": "q:xymxbs",
+    "concepts": [
+     "vomer",
+     "viscerocranium"
+    ]
+   },
+   {
+    "item": "q:3g3axz",
+    "concepts": [
+     "sella-turcica",
+     "sphenoid-bone"
+    ]
+   },
+   {
+    "item": "q:1au2ri9",
+    "concepts": [
+     "foramen-rotundum",
+     "maxillary-nerve",
+     "greater-wing-of-the-sphenoid"
+    ]
+   },
+   {
+    "item": "q:aqgbzl",
+    "concepts": [
+     "cribriform-plate",
+     "olfactory-nerve"
+    ]
+   },
+   {
+    "item": "q:hpe1xw",
+    "concepts": [
+     "perpendicular-plate-of-the-ethmoid",
+     "bony-nasal-septum"
+    ]
+   },
+   {
+    "item": "q:dfw8ia",
+    "concepts": [
+     "zygomatic-arch",
+     "zygomatic-process-of-the-temporal-bone"
+    ]
+   },
+   {
+    "item": "q:1vc6o14",
+    "concepts": [
+     "maxilla"
+    ]
+   },
+   {
+    "item": "q:197735m",
+    "concepts": [
+     "maxillary-sinus",
+     "paranasal-sinus"
+    ]
+   },
+   {
+    "item": "q:j7t08m",
+    "concepts": [
+     "mandibular-notch",
+     "coronoid-process",
+     "condylar-process"
+    ]
+   },
+   {
+    "item": "q:10yuht1",
+    "concepts": [
+     "inferior-alveolar-nerve",
+     "mandibular-foramen"
+    ]
+   },
+   {
+    "item": "q:mkfhqa",
+    "concepts": [
+     "pterion"
+    ]
+   },
+   {
+    "item": "q:7fcta3",
+    "concepts": [
+     "sublingual-fossa"
+    ]
+   },
+   {
+    "item": "q:pch5lc",
+    "concepts": [
+     "mandibular-fossa",
+     "temporal-bone"
+    ]
+   },
+   {
+    "item": "q:fvq0vr",
+    "concepts": [
+     "horizontal-plate-of-the-palatine-bone",
+     "hard-palate"
+    ]
+   },
+   {
+    "item": "q:o03yqu",
+    "concepts": [
+     "base-of-the-skull"
+    ]
+   },
+   {
+    "item": "q:1aq1iuf",
+    "concepts": [
+     "maxilla",
+     "frontal-process-of-the-maxilla",
+     "palatine-process-of-the-maxilla"
+    ]
+   },
+   {
+    "item": "q:xz4w4d",
+    "concepts": [
+     "sublingual-fossa",
+     "submandibular-fossa",
+     "body-of-the-mandible"
+    ]
+   },
+   {
+    "item": "q:vzr4jw",
+    "concepts": [
+     "pterion"
+    ]
+   },
+   {
+    "item": "q:11n8a52-frontal",
+    "concepts": [
+     "frontal-bone"
+    ]
+   },
+   {
+    "item": "q:16wy1lj-parietal",
+    "concepts": [
+     "parietal-bone"
+    ]
+   },
+   {
+    "item": "q:ah393a-orbit-l",
+    "concepts": [
+     "orbit"
+    ]
+   },
+   {
+    "item": "q:nz1l4g-zygomatic",
+    "concepts": [
+     "zygomatic-bone"
+    ]
+   },
+   {
+    "item": "q:1sz0vyf-nasal",
+    "concepts": [
+     "nasal-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t1",
+    "concepts": [
+     "skull",
+     "neurocranium",
+     "viscerocranium"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t2",
+    "concepts": [
+     "neurocranium"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t3",
+    "concepts": [
+     "viscerocranium"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f1",
+    "concepts": [
+     "frontal-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t4",
+    "concepts": [
+     "atlanto-occipital-joint",
+     "atlanto-axial-joint"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t5",
+    "concepts": [
+     "sphenoid-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t6",
+    "concepts": [
+     "sella-turcica"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f2",
+    "concepts": [
+     "zygomatic-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t7",
+    "concepts": [
+     "foramen-rotundum",
+     "foramen-ovale",
+     "foramen-spinosum"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t8",
+    "concepts": [
+     "optic-canal",
+     "superior-orbital-fissure",
+     "lesser-wing-of-the-sphenoid"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t9",
+    "concepts": [
+     "ethmoid-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f3",
+    "concepts": [
+     "maxilla"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t10",
+    "concepts": [
+     "cribriform-plate"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t11",
+    "concepts": [
+     "ethmoidal-labyrinth"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t12",
+    "concepts": [
+     "temporal-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f4",
+    "concepts": [
+     "mandible"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t13",
+    "concepts": [
+     "mandibular-fossa",
+     "zygomatic-process-of-the-temporal-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t14",
+    "concepts": [
+     "zygomatic-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t15",
+    "concepts": [
+     "maxilla"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f5",
+    "concepts": [
+     "nasal-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t16",
+    "concepts": [
+     "infraorbital-foramen",
+     "maxillary-sinus"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t17",
+    "concepts": [
+     "palatine-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t18",
+    "concepts": [
+     "bony-nasal-septum"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f6",
+    "concepts": [
+     "supraorbital-notch"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t19",
+    "concepts": [
+     "mandible"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t20",
+    "concepts": [
+     "mental-foramen",
+     "mandibular-foramen"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t24",
+    "concepts": [
+     "pterion"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f7",
+    "concepts": [
+     "infraorbital-foramen"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t25",
+    "concepts": [
+     "sublingual-fossa",
+     "submandibular-fossa"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t26",
+    "concepts": [
+     "mandibular-fossa"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t21",
+    "concepts": [
+     "paranasal-sinus"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f8",
+    "concepts": [
+     "mental-foramen"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t22",
+    "concepts": [
+     "paranasal-sinus",
+     "middle-meatus",
+     "sphenoethmoidal-recess"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/t23",
+    "concepts": [
+     "paranasal-sinus"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f9",
+    "concepts": [
+     "piriform-aperture"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f10",
+    "concepts": [
+     "parietal-bone"
+    ]
+   },
+   {
+    "item": "card:anat3-face-osteology/f11",
+    "concepts": [
+     "orbit"
+    ]
+   }
+  ],
+  "conflicts": [
+   {
+    "kind": "internal",
+    "issue": "The summary and exam points say the skull base is made of five bones (frontal, ethmoid, sphenoid, temporal, occipital), but slide 6 and the explanation of one question list six, adding the parietal.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-face-osteology/base",
+      "quote": "The floor of the cranial cavity is made of five bones: frontal, ethmoid, sphenoid, temporal and occipital",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/06",
+      "quote": "composed of the sphenoid, frontal, ethmoid, occipital, parietal, and",
+      "check": "exact"
+     }
+    ],
+    "affects": [
+     "concept:base-of-the-skull"
+    ]
+   },
+   {
+    "kind": "internal",
+    "issue": "The summary, exam point and flashcards give the zygomatic bone three processes (frontal, temporal, maxillary), but slide 14 describes a fourth process that joins the maxilla to produce the zygomatic eminence.",
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "Zygomatic bone: three processes (frontal, temporal, maxillary)",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-face-osteology/14",
+      "quote": "form the infraorbital rim and part of the floor of the orbit. Finally, the fourth process",
+      "check": "exact"
+     }
+    ],
+    "affects": [
+     "concept:zygomatic-bone"
+    ]
+   },
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "The packet says the sphenoid touches every other skull bone except the nasal, lacrimal and mandible. Standard teaching is that the sphenoid also does not articulate with the inferior nasal concha (and its contact with the maxilla is inconstant).",
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "touches almost every other skull bone (the exceptions are the nasal, lacrimal and mandible)",
+      "check": "exact"
+     }
+    ],
+    "affects": []
+   }
+  ],
+  "notes": [
+   "Sinus drainage into the meatuses is recorded with the type 'drains', although the type is described for venous or lymphatic drainage; no other type fitted better.",
+   "Slide 5 has a handwritten note 'ethmoid (butterfly)'; the note is ambiguous OCR and was not used.",
+   "Left out as not tested and only mentioned once: zygomatic eminence and zygomaticomaxillary complex (ZMC) fractures (slide 14), maxillary sinusitis and the toothache/sinus pain link (hy:9), dental block site at the mandibular foramen (hy:7), functions of the sinuses (mapped to Paranasal sinus), lamina papyracea (inside Ethmoidal labyrinth), stylomastoid foramen and facial nerve (inside Styloid process).",
+   "The articulations of the zygomatic bone (frontal, sphenoid, temporal, maxilla) were not output as relations because no relation type other than related-to fits; they are tested by card t14 and mapped to Zygomatic bone.",
+   "Extradural haematoma is linked to the pterion with related-to because the packet's cause is a blow to the temple, which is not a concept."
+  ]
+ }
+}

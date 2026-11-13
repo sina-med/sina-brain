@@ -1,0 +1,3504 @@
+{
+ "lecture": "lec:anat3-facial-muscles",
+ "input_hash": "c7af49f5dd9418de",
+ "prompt_version": "p3",
+ "provenance": {
+  "worker": "subagent (fresh context)",
+  "model": "claude-fable-5-2",
+  "finished_at": "2026-11-13T18:33:45Z",
+  "seconds": 408,
+  "tokens": 237154,
+  "usage": {
+   "output": 54394,
+   "cache_write": 182754,
+   "cache_read": 109462,
+   "input": 6,
+   "note": "INCOMPLETE: the worker transcript ended with a usage-limit error (HTTP 429) after the result file was written. Token counts and seconds cover completed requests only; the interrupted request is not counted. Model attribution (claude-fable-5-2) was supplied by the operator from the limit error message, not read from a completed response.",
+   "incomplete": true
+  },
+  "tool_uses": 6,
+  "packet_chars": 46904,
+  "result_chars": 82792
+ },
+ "evidence": {
+  "exact": 241,
+  "approximate": 0,
+  "weak": 0,
+  "failed": 0,
+  "bad-ref": 0
+ },
+ "dropped": [],
+ "result": {
+  "lecture": "lec:anat3-facial-muscles",
+  "prompt_version": "p3",
+  "abstract": "The lecture covers the muscles of facial expression, which are subcutaneous, insert into skin and are supplied by the facial nerve, group by group with their attachments, actions and the facial nerve branch that supplies them. It then covers the four muscles of mastication, supplied by the mandibular nerve, and the temporomandibular joint: its disc, ligaments, movements and dislocation.",
+  "keywords": [
+   "muscles of facial expression",
+   "muscles of mastication",
+   "facial nerve branches",
+   "temporomandibular joint",
+   "buccinator",
+   "orbicularis oculi",
+   "occipitofrontalis",
+   "lateral pterygoid",
+   "TMJ dislocation",
+   "mandibular nerve",
+   "masseter",
+   "temporalis"
+  ],
+  "concepts": [
+   {
+    "key": "muscle-of-facial-expression",
+    "name": "Muscle of facial expression",
+    "kind": "structure",
+    "aliases": [
+     "mimetic muscle",
+     "facial muscle"
+    ],
+    "definition": "Thin subcutaneous muscle lying in the superficial fascia, arising from bone or fascia and inserting into skin. These muscles control facial expression and act as sphincters and dilators of the eyes, nose and mouth.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/function",
+      "quote": "They are subcutaneous, lying in the superficial fascia, with origins from bone or fascia and insertions into the skin.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/03",
+      "quote": "Act as sphincters and dilators of the orifices of the face.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "muscle-of-mastication",
+    "name": "Muscle of mastication",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Thick muscle attached to bone that moves the mandible at the temporomandibular joint. There are four: temporalis, masseter, lateral pterygoid and medial pterygoid.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/big",
+      "quote": "Muscles of mastication: thick, attached to bone, supplied by the mandibular nerve (V3).",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:8",
+      "quote": "Four muscles of mastication: temporalis, masseter, lateral pterygoid, medial pterygoid.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "facial-nerve",
+    "name": "Facial nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN VII",
+     "VII"
+    ],
+    "definition": "Cranial nerve VII, which supplies all the muscles of facial expression. It leaves the skull at the stylomastoid foramen, enters the parotid gland and divides into five terminal branches.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/function",
+      "quote": "All of them are supplied by the facial nerve (CN VII).",
+      "check": "exact"
+     },
+     {
+      "ref": "deeper:2",
+      "quote": "The facial nerve leaves the skull at the stylomastoid foramen, enters the parotid gland and forms the parotid plexus, which divides into the five terminal branches.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mandibular-nerve",
+    "name": "Mandibular nerve",
+    "kind": "structure",
+    "aliases": [
+     "V3"
+    ],
+    "definition": "The V3 division of the trigeminal nerve, which supplies all four muscles of mastication.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Four muscles, all supplied by the mandibular nerve (V3).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "trigeminal-nerve",
+    "name": "Trigeminal nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN V",
+     "V"
+    ],
+    "definition": "Cranial nerve that follows the first pharyngeal arch; through V3 it supplies the muscles of mastication.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "The muscles of mastication develop from the first arch, which follows the trigeminal nerve, so they take V3.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "oculomotor-nerve",
+    "name": "Oculomotor nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN III"
+    ],
+    "definition": "Cranial nerve III, which supplies the levator palpebrae superioris.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Raises the upper eyelid. Nerve: oculomotor (CN III), not CN VII",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:1",
+      "quote": "Levator palpebrae superioris is the odd one out: CN III.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "functional-groups-of-facial-muscles",
+    "name": "Functional groups of facial muscles",
+    "kind": "principle",
+    "aliases": [],
+    "definition": "Grouping of the facial muscles by region: scalp, eyelid, nose, mouth, ear and platysma.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/groups",
+      "quote": "Eyelid | Orbicularis oculi, corrugator supercilii, levator palpebrae superioris",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/groups",
+      "quote": "Mouth | Orbicularis oris, buccinator, and the upper and lower groups of oral muscles",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "occipitofrontalis-muscle",
+    "name": "Occipitofrontalis muscle",
+    "kind": "structure",
+    "aliases": [
+     "epicranius",
+     "occipitofrontalis"
+    ],
+    "definition": "Broad musculofibrous sheet covering the vertex from the occipital bone to the eyebrows, made of an occipital and a frontal belly joined by the galea aponeurotica.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Epicranius (occipitofrontalis) is a broad musculofibrous sheet covering the vertex from the occipital bone to the eyebrows.",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:3",
+      "quote": "Occipitofrontalis: two bellies joined by the galea aponeurotica",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "galea-aponeurotica",
+    "name": "Galea aponeurotica",
+    "kind": "structure",
+    "aliases": [
+     "epicranial aponeurosis"
+    ],
+    "definition": "Tendinous aponeurosis joining the occipital and frontal bellies of the occipitofrontalis; the occipital belly inserts into it and the frontal belly arises from it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Its two bellies are joined by the galea aponeurotica.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "occipital-belly-of-occipitofrontalis",
+    "name": "Occipital belly of occipitofrontalis",
+    "kind": "structure",
+    "aliases": [
+     "occipitalis",
+     "occipital belly"
+    ],
+    "definition": "Belly of the occipitofrontalis arising from the lateral two-thirds of the superior nuchal line and the mastoid part of the temporal bone and inserting into the galea aponeurotica; it draws the scalp backward.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Occipital belly | Tendinous fibres from the lateral two-thirds of the superior nuchal line of the occipital bone and the mastoid part of the temporal bone",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Galea aponeurotica | Draws the scalp backward",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "frontal-belly-of-occipitofrontalis",
+    "name": "Frontal belly of occipitofrontalis",
+    "kind": "structure",
+    "aliases": [
+     "frontalis",
+     "frontal belly"
+    ],
+    "definition": "Belly of the occipitofrontalis arising from the galea aponeurotica with no bony attachment and inserting into the skin of the eyebrows; it wrinkles the forehead and raises the eyebrows.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Frontal belly | Galea aponeurotica (no bony attachment) | Skin of the eyebrows",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Wrinkles the forehead, raises the eyebrows",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "orbicularis-oculi",
+    "name": "Orbicularis oculi",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Sphincter muscle of the eyelids, with an orbital part and a palpebral part.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "Orbicularis oculi: palpebral part closes the lids gently and involuntarily; orbital part closes them forcefully and is voluntary.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/16",
+      "quote": "Action: The Orbicularis oculi is the sphincter muscle of the",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "orbital-part-of-orbicularis-oculi",
+    "name": "Orbital part of orbicularis oculi",
+    "kind": "structure",
+    "aliases": [
+     "orbital part",
+     "orbital portion"
+    ],
+    "definition": "Part of orbicularis oculi forming an uninterrupted ellipse around the orbit; it closes the eye forcefully, wrinkling the forehead, and is under conscious control.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "An uninterrupted ellipse around the orbit | Closes the eye forcefully, wrinkling the forehead; under conscious control",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/16",
+      "quote": "the orbital part closes the eye more forcefully and produces",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "palpebral-part-of-orbicularis-oculi",
+    "name": "Palpebral part of orbicularis oculi",
+    "kind": "structure",
+    "aliases": [
+     "palpebral part",
+     "palpebral portion"
+    ],
+    "definition": "Part of orbicularis oculi running from the medial palpebral ligament to the lateral palpebral raphe; it closes the lids gently and involuntarily, as in blinking or sleep.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Medial palpebral ligament | Lateral palpebral raphe | Closes the lids gently, as in blinking or sleep; involuntary",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/16",
+      "quote": "The palpebral part closes the eye gently whereas",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "corrugator-supercilii",
+    "name": "Corrugator supercilii",
+    "kind": "structure",
+    "aliases": [
+     "frowning muscle",
+     "corrugator"
+    ],
+    "definition": "Muscle from the medial end of the superciliary arch to the skin of the medial half of the eyebrow; it draws the eyebrows medially and downward and is called the frowning muscle.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Skin of the medial half of the eyebrow | Draws the eyebrows medially and downward: the frowning muscle",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/17",
+      "quote": "Origin: Medial end of the superciliary arch.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "levator-palpebrae-superioris",
+    "name": "Levator palpebrae superioris",
+    "kind": "structure",
+    "aliases": [
+     "levator palpebrae"
+    ],
+    "definition": "Muscle from the lesser wing of the sphenoid to the anterior surface of the tarsal plate that raises the upper eyelid; it is supplied by the oculomotor nerve, not the facial nerve.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Levator palpebrae superioris | Lesser wing of the sphenoid, above and anterior to the optic canal",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/18",
+      "quote": "palpebrae superioris raises the upper",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "nasalis",
+    "name": "Nasalis",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle of the nose with a transverse part, which compresses the nasal aperture, and an alar part, which draws the alar cartilage downward and laterally to open the nostril.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/nose",
+      "quote": "Aponeurosis across the dorsum of the nose, joining the muscle of the other side | Compresses the nasal aperture",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/nose",
+      "quote": "Alar cartilage of the nose | Draws the cartilage downward and laterally, opening the nostril",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "procerus",
+    "name": "Procerus",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Small pyramidal slip from the nasal bone and upper lateral nasal cartilage to the skin of the lower forehead between the eyebrows; it draws down the medial angle of the eyebrows, making transverse wrinkles over the bridge of the nose.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/nose",
+      "quote": "Draws down the medial angle of the eyebrows, making transverse wrinkles over the bridge of the nose",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/20",
+      "quote": "Insertion: Skin of lower forehead",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "depressor-septi",
+    "name": "Depressor septi",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle of the nasal group inserting into the nasal septum; it pulls the septum inferiorly, helping the alar part of nasalis open the nares.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/nose",
+      "quote": "Nasal septum | Pulls the septum inferiorly, helping the alar part of nasalis open the nares",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "dilator-naris",
+    "name": "Dilator naris",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle with anterior and posterior parts in the alar region that enlarges the opening of the nares and resists the nostrils closing under atmospheric pressure.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/nose",
+      "quote": "Alar region | Enlarges the opening of the nares and resists the nostrils closing under atmospheric pressure",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "orbicularis-oris",
+    "name": "Orbicularis oris",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle encircling the mouth as an ellipse and inserting into the skin and mucous membrane of the lips; its contraction narrows and closes the mouth, as in whistling.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "It forms an ellipse around the mouth and inserts into the skin and mucous membrane of the lips.",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Contraction narrows and closes the mouth, as in whistling.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "buccinator",
+    "name": "Buccinator",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Thin quadrilateral muscle between the maxilla and mandible forming the muscular part of the cheek. It compresses the cheeks to keep food under the teeth during chewing, expels air as in blowing a trumpet, and is used to suckle.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Buccinator is a thin quadrilateral muscle occupying the gap between the maxilla and the mandible at the side of the face, forming the muscular part of the cheek.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/23",
+      "quote": "The buccinator forms the muscular",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "pterygomandibular-raphe",
+    "name": "Pterygomandibular raphe",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Raphe from which the buccinator partly arises and which separates it from the superior constrictor of the pharynx.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "the pterygomandibular raphe, which separates it from the superior constrictor of the pharynx",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/23",
+      "quote": "mandible; pterygomandibular raphe, which",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "upper-group-of-oral-muscles",
+    "name": "Upper group of oral muscles",
+    "kind": "structure",
+    "aliases": [
+     "upper group"
+    ],
+    "definition": "Group of mouth muscles made up of risorius, zygomaticus major, zygomaticus minor, levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m16",
+      "quote": "Risorius, zygomaticus major, zygomaticus minor, levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "lower-group-of-oral-muscles",
+    "name": "Lower group of oral muscles",
+    "kind": "structure",
+    "aliases": [
+     "lower group"
+    ],
+    "definition": "Group of mouth muscles made up of depressor anguli oris, depressor labii inferioris and mentalis.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Depressor anguli oris, depressor labii inferioris and mentalis.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "risorius",
+    "name": "Risorius",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle from the masseteric fascia to the skin at the angle of the mouth; it pulls the angle of the mouth laterally.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Risorius | Masseteric fascia | Skin at the angle of the mouth | Buccal branch of the facial nerve | Pulls the angle of the mouth laterally",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "zygomaticus-major",
+    "name": "Zygomaticus major",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle from the lateral surface of the anterior aspect of the zygomatic bone to the skin at the angle of the mouth; it elevates the sides of the mouth to smile, and one side alone sneers.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Zygomaticus major | Lateral surface of the anterior aspect of the zygomatic bone",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Elevates the sides of the mouth to smile; one side alone sneers",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "zygomaticus-minor",
+    "name": "Zygomaticus minor",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle from the front of the zygomatic arch to the skin of the lateral part of the upper lip, extending to the nasolabial sulcus; it elevates the upper lip and can evert it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Zygomaticus minor | Front of the zygomatic arch | Skin of the lateral part of the upper lip, extending to the nasolabial sulcus",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Elevates the upper lip and can evert it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "levator-labii-superioris",
+    "name": "Levator labii superioris",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle from the infraorbital margin of the maxilla to the skin of the upper lip; it retracts and everts the upper lip.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Levator labii superioris | Infraorbital margin of the maxilla | Skin of the upper lip | Buccal branch of the facial nerve",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Retracts and everts the upper lip",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "levator-labii-superioris-alaeque-nasi",
+    "name": "Levator labii superioris alaeque nasi",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle from the frontal process of the maxilla to the skin of the lateral part of the nostril and of the upper lip; it dilates the nostril and elevates the wing of the nose and the upper lip.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Levator labii superioris alaeque nasi | Frontal process of the maxilla",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Dilates the nostril, elevates the wing of the nose and the upper lip",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "levator-anguli-oris",
+    "name": "Levator anguli oris",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle from the canine fossa on the anterior surface of the maxilla to the skin at the angle of the mouth; it raises the angle of the mouth while smiling.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Levator anguli oris | Canine fossa on the anterior surface of the maxilla | Skin at the angle of the mouth",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Raises the angle of the mouth while smiling",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "mentalis",
+    "name": "Mentalis",
+    "kind": "structure",
+    "aliases": [
+     "levator menti",
+     "pouting muscle"
+    ],
+    "definition": "Small conical bundle at the tip of the chin, the deepest of the lower group, from the mandible below the incisor teeth to the skin of the chin; it raises and protrudes the lower lip and wrinkles the chin.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "The mentalis (levator menti) is a small conical bundle at the tip of the chin and the deepest of the group.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/26",
+      "quote": "Origin: Mandible inferior to incisor teeth.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "auricular-muscle",
+    "name": "Auricular muscle",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscles of the ear group of facial muscles: the anterior, superior and posterior auricular muscles.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/earplat",
+      "quote": "Ear: anterior, superior and posterior auricular muscles.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "platysma",
+    "name": "Platysma",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle arising from the upper part of the pectoral and deltoid fascia, running upward over the clavicle to the base of the mandible and the skin of the lower face and lip; it depresses the mandible and pulls the angle of the mouth downward.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/earplat",
+      "quote": "Platysma: origin the upper part of the pectoral and deltoid fascia",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/earplat",
+      "quote": "depresses the mandible and pulls the angle of the mouth downward",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "temporal-branch-of-the-facial-nerve",
+    "name": "Temporal branch of the facial nerve",
+    "kind": "structure",
+    "aliases": [
+     "temporal branch"
+    ],
+    "definition": "One of the five branches of the facial nerve; it supplies frontalis, orbicularis oculi and corrugator supercilii.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Temporal | Frontalis, orbicularis oculi, corrugator supercilii",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "zygomatic-branch-of-the-facial-nerve",
+    "name": "Zygomatic branch of the facial nerve",
+    "kind": "structure",
+    "aliases": [
+     "zygomatic branch"
+    ],
+    "definition": "One of the five branches of the facial nerve; it supplies orbicularis oculi.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m21",
+      "quote": "Zygomatic: orbicularis oculi. Buccal: orbicularis oris, buccinator, zygomaticus.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "buccal-branch-of-the-facial-nerve",
+    "name": "Buccal branch of the facial nerve",
+    "kind": "structure",
+    "aliases": [
+     "buccal branch"
+    ],
+    "definition": "One of the five branches of the facial nerve; it supplies orbicularis oris, buccinator and zygomaticus.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Buccal | Orbicularis oris, buccinator, zygomaticus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "marginal-mandibular-branch-of-the-facial-nerve",
+    "name": "Marginal mandibular branch of the facial nerve",
+    "kind": "structure",
+    "aliases": [
+     "marginal mandibular branch"
+    ],
+    "definition": "One of the five branches of the facial nerve; it supplies mentalis, depressor labii inferioris and depressor anguli oris.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Marginal mandibular | Mentalis, depressor labii inferioris, depressor anguli oris",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "cervical-branch-of-the-facial-nerve",
+    "name": "Cervical branch of the facial nerve",
+    "kind": "structure",
+    "aliases": [
+     "cervical branch"
+    ],
+    "definition": "One of the five branches of the facial nerve; it supplies the platysma.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "the cervical branch supplies the platysma",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "temporalis",
+    "name": "Temporalis",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle of mastication from the floor of the temporal fossa and the deep temporal fascia to the coronoid process and anterior border of the ramus of the mandible; it elevates the mandible and its posterior fibres retract it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Temporalis | Floor of the temporal fossa and the deep temporal fascia | Coronoid process and anterior border of the ramus of the mandible",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Elevates the mandible; posterior fibres retract it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "masseter",
+    "name": "Masseter",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle of mastication from the zygomatic arch to the angle of the mandible and coronoid process; it elevates and protrudes the mandible and its deep fibres retract it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Masseter | Zygomatic arch | Angle of the mandible and coronoid process | Elevates and protrudes the mandible; deep fibres retract it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "lateral-pterygoid",
+    "name": "Lateral pterygoid",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle of mastication with a superior head from the greater wing of the sphenoid and an inferior head from the lateral pterygoid plate, inserting on the pterygoid fovea of the neck of the mandible and the capsule and articular disc of the temporomandibular joint; it protracts the mandible.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Lateral pterygoid | Superior head: infratemporal surface of the greater wing of the sphenoid. Inferior head: lateral pterygoid plate",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Pterygoid fovea of the neck of the mandible, and the capsule and articular disc of the TMJ | Bilaterally protracts the mandible",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "medial-pterygoid",
+    "name": "Medial pterygoid",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Muscle of mastication with a deep head from the medial surface of the lateral pterygoid plate and the palatine bone and a superficial head from the tuberosity of the maxilla, inserting on the medial surface of the ramus; it pushes the mandible forward and elevates it.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Medial pterygoid | Deep head: medial surface of the lateral pterygoid plate and the palatine bone. Superficial head: tuberosity of the maxilla",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Medial surface of the ramus, up to the mandibular foramen | Bilaterally pushes the mandible forward and elevates it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "temporomandibular-joint",
+    "name": "Temporomandibular joint",
+    "kind": "structure",
+    "aliases": [
+     "TMJ"
+    ],
+    "definition": "Joint between the mandibular fossa and articular tubercle of the temporal bone and the condyle of the mandible. An articular disc splits it into two synovial cavities, and its articular surfaces are covered by fibrocartilage.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Articular components: the mandibular fossa and the articular tubercle of the temporal bone, and the condyle (head) of the mandible.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/34",
+      "quote": "the bones is covered by fibrocartilage, not hyaline cartilage.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "articular-disc-of-the-temporomandibular-joint",
+    "name": "Articular disc of the temporomandibular joint",
+    "kind": "structure",
+    "aliases": [
+     "articular disc",
+     "articular disk"
+    ],
+    "definition": "Disc that separates the articular surfaces of the temporomandibular joint so they never touch, splitting the joint into two synovial cavities, each lined by its own synovial membrane.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "an articular disc splits the joint into two synovial cavities, each lined by its own synovial membrane",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/34",
+      "quote": "an articular disk separates them. Such a disk splits the joint",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "lateral-ligament-of-the-temporomandibular-joint",
+    "name": "Lateral ligament of the temporomandibular joint",
+    "kind": "structure",
+    "aliases": [
+     "lateral ligament"
+    ],
+    "definition": "Extracapsular ligament running from the articular tubercle to the neck of the mandible; a thickening of the joint capsule that prevents posterior dislocation.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Lateral ligament: runs from the articular tubercle to the neck of the mandible. A thickening of the capsule that prevents posterior dislocation.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/35",
+      "quote": "mandibular neck. It is a thickening of the joint capsule and prevents posterior",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "sphenomandibular-ligament",
+    "name": "Sphenomandibular ligament",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Extracapsular ligament of the temporomandibular joint running from the spine of the sphenoid to the mandible.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Sphenomandibular ligament: from the spine of the sphenoid to the mandible.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/35",
+      "quote": "originates from the sphenoid spine and attaches to",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "stylomandibular-ligament",
+    "name": "Stylomandibular ligament",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Extracapsular ligament of the temporomandibular joint that is a thickening of the fascia of the parotid gland.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Stylomandibular ligament: a thickening of the fascia of the parotid gland.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/35",
+      "quote": "a thickening of the fascia of the parotid gland. Along",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "protrusion-of-the-mandible",
+    "name": "Protrusion of the mandible",
+    "kind": "process",
+    "aliases": [
+     "protrusion",
+     "protraction"
+    ],
+    "definition": "Forward movement of the jaw, which takes place in the upper part of the temporomandibular joint.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Upper part: protrusion and retraction, the forward and backward movements of the jaw.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "retraction-of-the-mandible",
+    "name": "Retraction of the mandible",
+    "kind": "process",
+    "aliases": [
+     "retraction"
+    ],
+    "definition": "Backward movement of the jaw, which takes place in the upper part of the temporomandibular joint.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Upper part: protrusion and retraction, the forward and backward movements of the jaw.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "elevation-of-the-mandible",
+    "name": "Elevation of the mandible",
+    "kind": "process",
+    "aliases": [
+     "elevation"
+    ],
+    "definition": "Movement that closes the mouth, in the lower part of the temporomandibular joint; a strong movement produced by the muscles of mastication.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Lower part: elevation and depression, closing and opening the mouth.",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Elevation is a strong movement produced by the muscles of mastication.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "depression-of-the-mandible",
+    "name": "Depression of the mandible",
+    "kind": "process",
+    "aliases": [
+     "depression"
+    ],
+    "definition": "Movement that opens the mouth, in the lower part of the temporomandibular joint. It is mostly caused by gravity, with the digastric, geniohyoid and mylohyoid assisting if there is resistance.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Depression is mostly caused by gravity; the digastric, geniohyoid and mylohyoid assist if there is resistance.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/36",
+      "quote": "mouth. Depression is mostly caused",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "temporomandibular-joint-dislocation",
+    "name": "Temporomandibular joint dislocation",
+    "kind": "condition",
+    "aliases": [
+     "TMJ dislocation"
+    ],
+    "definition": "Condition in which, after a blow to the side of the face, yawning or a large bite, the head of the mandible slips out of the mandibular fossa and is pulled anteriorly, so the patient cannot close the mouth.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "In TMJ dislocation the mandibular head moves anteriorly and the patient cannot close the mouth.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/43",
+      "quote": "mandibular fossa and is pulled anteriorly.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "inability-to-close-the-mouth",
+    "name": "Inability to close the mouth",
+    "kind": "sign-symptom",
+    "aliases": [],
+    "definition": "Sign in which the mouth stays open and the patient cannot close it, as seen in dislocation of the temporomandibular joint.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "the patient cannot close the mouth",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/43",
+      "quote": "The patient becomes unable to close their mouth.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "temporal-fossa",
+    "name": "Temporal fossa",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Fossa whose floor gives origin to the temporalis.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Temporalis | Floor of the temporal fossa and the deep temporal fascia",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "zygomatic-arch",
+    "name": "Zygomatic arch",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Bony arch that gives origin to the masseter; zygomaticus minor arises from its front.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Masseter | Zygomatic arch | Angle of the mandible and coronoid process",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "coronoid-process-of-the-mandible",
+    "name": "Coronoid process of the mandible",
+    "kind": "structure",
+    "aliases": [
+     "coronoid process"
+    ],
+    "definition": "Process of the mandible on which the temporalis inserts.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "exam:9",
+      "quote": "Temporalis inserts on the coronoid process",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/n3",
+      "quote": "The coronoid process of the mandible. The temporalis inserts on its tip and medial surface",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "condylar-process-of-the-mandible",
+    "name": "Condylar process of the mandible",
+    "kind": "structure",
+    "aliases": [
+     "condylar process"
+    ],
+    "definition": "Process of the mandible with a head and a neck. The head (condyle) is an articular component of the temporomandibular joint, and the lateral pterygoid inserts on the pterygoid fovea of the neck.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n4",
+      "quote": "The condylar process of the mandible, with its head and neck. The lateral pterygoid inserts on the pterygoid fovea of the neck.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "ramus-of-the-mandible",
+    "name": "Ramus of the mandible",
+    "kind": "structure",
+    "aliases": [
+     "ramus"
+    ],
+    "definition": "Part of the mandible on whose lateral surface the masseter inserts and on whose medial surface, up to the mandibular foramen, the medial pterygoid inserts.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n6",
+      "quote": "The masseter inserts on its lateral surface; the medial pterygoid inserts on its medial surface, up to the mandibular foramen.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "angle-of-the-mandible",
+    "name": "Angle of the mandible",
+    "kind": "structure",
+    "aliases": [
+     "angle"
+    ],
+    "definition": "Part of the mandible where the body meets the ramus; the masseter inserts here.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n8",
+      "quote": "The angle of the mandible, where the body meets the ramus. The masseter inserts here.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "pterygoid-plate",
+    "name": "Pterygoid plate",
+    "kind": "structure",
+    "aliases": [
+     "pterygoid plates"
+    ],
+    "definition": "Plates of the sphenoid. The lateral pterygoid arises from the lateral plate, and the medial pterygoid from the medial surface of the lateral plate.",
+    "importance": 3,
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n7",
+      "quote": "The pterygoid plates of the sphenoid. The lateral pterygoid arises from the lateral plate and the greater wing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "bell-s-palsy",
+    "name": "Bell's palsy",
+    "kind": "condition",
+    "aliases": [],
+    "definition": "Lower motor neuron lesion of the facial nerve in which the whole half of the face is paralysed, forehead included, and the eye will not close.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "hy:9",
+      "quote": "(lower motor neuron, CN VII): the whole half-face is paralysed, forehead included",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "first-pharyngeal-arch",
+    "name": "First pharyngeal arch",
+    "kind": "structure",
+    "aliases": [
+     "first arch"
+    ],
+    "definition": "Embryonic pharyngeal arch from which the muscles of mastication develop; it follows the trigeminal nerve.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "The muscles of mastication develop from the first arch, which follows the trigeminal nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "second-pharyngeal-arch",
+    "name": "Second pharyngeal arch",
+    "kind": "structure",
+    "aliases": [
+     "second arch"
+    ],
+    "definition": "Embryonic pharyngeal arch from which the muscles of facial expression develop; they follow the facial nerve.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "The muscles of facial expression develop from the second arch, which is why they follow the facial nerve.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "stylomastoid-foramen",
+    "name": "Stylomastoid foramen",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Foramen at which the facial nerve leaves the skull.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "The facial nerve leaves the skull at the stylomastoid foramen",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "parotid-gland",
+    "name": "Parotid gland",
+    "kind": "structure",
+    "aliases": [
+     "parotid"
+    ],
+    "definition": "Gland that the facial nerve enters and passes through, forming the parotid plexus, without supplying it; it is supplied by the glossopharyngeal nerve.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "The nerve passes through the gland but does not supply it: the parotid is supplied by the glossopharyngeal nerve.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "glossopharyngeal-nerve",
+    "name": "Glossopharyngeal nerve",
+    "kind": "structure",
+    "aliases": [
+     "CN IX"
+    ],
+    "definition": "Nerve that supplies the parotid gland.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "the parotid is supplied by the glossopharyngeal nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "parotid-duct",
+    "name": "Parotid duct",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Duct that pierces the buccinator before opening into the mouth opposite the upper second molar.",
+    "importance": 1,
+    "evidence": [
+     {
+      "ref": "deeper:4",
+      "quote": "The parotid duct pierces the buccinator before opening into the mouth opposite the upper second molar.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "key": "buccal-nerve",
+    "name": "Buccal nerve",
+    "kind": "structure",
+    "aliases": [],
+    "definition": "Nerve of V3 that only carries sensation from the cheek.",
+    "importance": 2,
+    "evidence": [
+     {
+      "ref": "hy:4",
+      "quote": "the buccal nerve of V3 only carries sensation from the cheek",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   }
+  ],
+  "relations": [
+   {
+    "src": "facial-nerve",
+    "type": "innervates",
+    "dst": "muscle-of-facial-expression",
+    "statement": "All the muscles of facial expression are supplied by the facial nerve (CN VII).",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/big",
+      "quote": "Muscles of facial expression: thin, subcutaneous, inserting into skin, supplied by the facial nerve (CN VII).",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/03",
+      "quote": "Innervation: The facial muscles are innervated by the facial nerve (CN",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-nerve",
+    "type": "innervates",
+    "dst": "muscle-of-mastication",
+    "statement": "The muscles of mastication are all supplied by the mandibular nerve (V3).",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/big",
+      "quote": "Muscles of mastication: thick, attached to bone, supplied by the mandibular nerve (V3).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-nerve",
+    "type": "branch-of",
+    "dst": "trigeminal-nerve",
+    "statement": "The mandibular nerve is the mandibular division of the trigeminal nerve.",
+    "evidence": [
+     {
+      "ref": "q:qnjin2",
+      "quote": "supplied by branches of the mandibular division of the trigeminal nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "oculomotor-nerve",
+    "type": "innervates",
+    "dst": "levator-palpebrae-superioris",
+    "statement": "Levator palpebrae superioris is supplied by the oculomotor nerve (CN III), not the facial nerve.",
+    "evidence": [
+     {
+      "ref": "exam:1",
+      "quote": "Levator palpebrae superioris is the odd one out: CN III.",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/m8",
+      "quote": "Nerve: oculomotor (CN III). Action: raises the upper eyelid.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "muscle-of-facial-expression",
+    "type": "contrasts-with",
+    "dst": "muscle-of-mastication",
+    "statement": "Facial expression muscles are subcutaneous, insert into skin and take CN VII; mastication muscles are attached to bone and take V3.",
+    "evidence": [
+     {
+      "ref": "hy:1",
+      "quote": "Facial expression = CN VII (subcutaneous, insert into skin). Mastication = V3 (attached to bone).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "muscle-of-facial-expression",
+    "type": "develops-from",
+    "dst": "second-pharyngeal-arch",
+    "statement": "The muscles of facial expression develop from the second pharyngeal arch.",
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "The muscles of facial expression develop from the second arch, which is why they follow the facial nerve.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "muscle-of-mastication",
+    "type": "develops-from",
+    "dst": "first-pharyngeal-arch",
+    "statement": "The muscles of mastication develop from the first pharyngeal arch.",
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "The muscles of mastication develop from the first arch, which follows the trigeminal nerve, so they take V3.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "occipital-belly-of-occipitofrontalis",
+    "type": "part-of",
+    "dst": "occipitofrontalis-muscle",
+    "statement": "The occipitalis is one of the two parts of the occipitofrontalis.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m3",
+      "quote": "Two parts, occipitalis and frontalis, joined by the galea aponeurotica.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/12",
+      "quote": "It consists of two parts, the Occipitalis",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "frontal-belly-of-occipitofrontalis",
+    "type": "part-of",
+    "dst": "occipitofrontalis-muscle",
+    "statement": "The frontalis is one of the two parts of the occipitofrontalis.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m3",
+      "quote": "Two parts, occipitalis and frontalis, joined by the galea aponeurotica.",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:3",
+      "quote": "Occipitofrontalis: two bellies joined by the galea aponeurotica; the frontal belly has no bony attachment.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "galea-aponeurotica",
+    "type": "connects",
+    "dst": "occipital-belly-of-occipitofrontalis",
+    "statement": "The galea aponeurotica joins the occipital belly to the frontal belly.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m3",
+      "quote": "Two parts, occipitalis and frontalis, joined by the galea aponeurotica.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "galea-aponeurotica",
+    "type": "connects",
+    "dst": "frontal-belly-of-occipitofrontalis",
+    "statement": "The galea aponeurotica joins the frontal belly to the occipital belly.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m3",
+      "quote": "Two parts, occipitalis and frontalis, joined by the galea aponeurotica.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "frontal-belly-of-occipitofrontalis",
+    "type": "attaches-to",
+    "dst": "galea-aponeurotica",
+    "statement": "The frontal belly arises from the galea aponeurotica and has no bony attachment.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/scalp",
+      "quote": "Frontal belly | Galea aponeurotica (no bony attachment) | Skin of the eyebrows",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "orbital-part-of-orbicularis-oculi",
+    "type": "part-of",
+    "dst": "orbicularis-oculi",
+    "statement": "The orbital part is the part of orbicularis oculi that closes the lids forcefully and voluntarily.",
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "Orbicularis oculi: palpebral part closes the lids gently and involuntarily; orbital part closes them forcefully and is voluntary.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "palpebral-part-of-orbicularis-oculi",
+    "type": "part-of",
+    "dst": "orbicularis-oculi",
+    "statement": "The palpebral part is the part of orbicularis oculi that closes the lids gently and involuntarily.",
+    "evidence": [
+     {
+      "ref": "exam:4",
+      "quote": "Orbicularis oculi: palpebral part closes the lids gently and involuntarily; orbital part closes them forcefully and is voluntary.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "palpebral-part-of-orbicularis-oculi",
+    "type": "contrasts-with",
+    "dst": "orbital-part-of-orbicularis-oculi",
+    "statement": "The palpebral part closes the eye gently and involuntarily, whereas the orbital part closes it forcefully and voluntarily.",
+    "evidence": [
+     {
+      "ref": "hy:3",
+      "quote": "Orbicularis oculi: palpebral part = gentle, involuntary blink; orbital part = forced, voluntary closure.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/16",
+      "quote": "gently, as in sleep or in blinking; the orbital portion is subject to",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "corrugator-supercilii",
+    "type": "contrasts-with",
+    "dst": "procerus",
+    "statement": "Corrugator supercilii is the frowning muscle, whereas procerus makes transverse wrinkles over the bridge of the nose.",
+    "evidence": [
+     {
+      "ref": "exam:5",
+      "quote": "Corrugator supercilii is the frowning muscle; procerus makes transverse wrinkles over the bridge of the nose",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "dilator-naris",
+    "type": "part-of",
+    "dst": "nasalis",
+    "statement": "The dilator naris, anterior and posterior, is given as part of nasalis.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/nose",
+      "quote": "Dilator naris, anterior and posterior | (part of nasalis) | Alar region",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "depressor-septi",
+    "type": "related-to",
+    "dst": "nasalis",
+    "statement": "Depressor septi pulls the septum inferiorly, helping the alar part of nasalis open the nares.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m11",
+      "quote": "Depressor septi pulls the nasal septum inferiorly, helping the alar part of nasalis open the nares.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "frontal-belly-of-occipitofrontalis",
+    "statement": "The temporal branch of the facial nerve supplies frontalis.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Temporal | Frontalis, orbicularis oculi, corrugator supercilii",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "orbicularis-oculi",
+    "statement": "The temporal branch of the facial nerve supplies orbicularis oculi.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Temporal | Frontalis, orbicularis oculi, corrugator supercilii",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "corrugator-supercilii",
+    "statement": "The temporal branch of the facial nerve supplies corrugator supercilii.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Temporal | Frontalis, orbicularis oculi, corrugator supercilii",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "orbicularis-oculi",
+    "statement": "The zygomatic branch of the facial nerve supplies orbicularis oculi.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m21",
+      "quote": "Zygomatic: orbicularis oculi. Buccal: orbicularis oris, buccinator, zygomaticus.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "zygomaticus-major",
+    "statement": "Zygomaticus major is supplied by the zygomatic and buccal branches of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Zygomatic and buccal branches of the facial nerve | Elevates the sides of the mouth to smile; one side alone sneers",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "levator-labii-superioris-alaeque-nasi",
+    "statement": "Levator labii superioris alaeque nasi is supplied by zygomatic branches of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Zygomatic branches of the facial nerve | Dilates the nostril, elevates the wing of the nose and the upper lip",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "orbicularis-oris",
+    "statement": "The buccal branch of the facial nerve supplies orbicularis oris.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Buccal | Orbicularis oris, buccinator, zygomaticus",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "buccinator",
+    "statement": "The buccal branch of the facial nerve supplies the buccinator.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Buccal | Orbicularis oris, buccinator, zygomaticus",
+      "check": "exact"
+     },
+     {
+      "ref": "q:17p2y26",
+      "quote": "The lecture lists the buccal branch as supplying the orbicularis oris, buccinator and zygomaticus.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "risorius",
+    "statement": "Risorius is supplied by the buccal branch of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Risorius | Masseteric fascia | Skin at the angle of the mouth | Buccal branch of the facial nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "zygomaticus-major",
+    "statement": "Zygomaticus major is supplied by the zygomatic and buccal branches of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Zygomatic and buccal branches of the facial nerve | Elevates the sides of the mouth to smile; one side alone sneers",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "zygomaticus-minor",
+    "statement": "Zygomaticus minor is supplied by the buccal branch of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "extending to the nasolabial sulcus | Buccal branch of the facial nerve | Elevates the upper lip and can evert it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "levator-labii-superioris",
+    "statement": "Levator labii superioris is supplied by the buccal branch of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Levator labii superioris | Infraorbital margin of the maxilla | Skin of the upper lip | Buccal branch of the facial nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "levator-anguli-oris",
+    "statement": "Levator anguli oris is supplied by the buccal branch of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Levator anguli oris | Canine fossa on the anterior surface of the maxilla | Skin at the angle of the mouth | Buccal branch of the facial nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "marginal-mandibular-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "mentalis",
+    "statement": "The marginal mandibular branch of the facial nerve supplies mentalis.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Marginal mandibular | Mentalis, depressor labii inferioris, depressor anguli oris",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "marginal-mandibular-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "lower-group-of-oral-muscles",
+    "statement": "The marginal mandibular branch supplies mentalis, depressor labii inferioris and depressor anguli oris, the lower group of oral muscles.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/cn7",
+      "quote": "Marginal mandibular | Mentalis, depressor labii inferioris, depressor anguli oris",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "cervical-branch-of-the-facial-nerve",
+    "type": "innervates",
+    "dst": "platysma",
+    "statement": "The cervical branch of the facial nerve supplies the platysma.",
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "the cervical branch supplies the platysma",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporal-branch-of-the-facial-nerve",
+    "type": "branch-of",
+    "dst": "facial-nerve",
+    "statement": "The temporal branch is one of the five branches of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "Facial nerve branches: temporal, zygomatic, buccal, marginal mandibular, cervical",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "zygomatic-branch-of-the-facial-nerve",
+    "type": "branch-of",
+    "dst": "facial-nerve",
+    "statement": "The zygomatic branch is one of the five branches of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "Facial nerve branches: temporal, zygomatic, buccal, marginal mandibular, cervical",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-branch-of-the-facial-nerve",
+    "type": "branch-of",
+    "dst": "facial-nerve",
+    "statement": "The buccal branch is one of the five branches of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "Facial nerve branches: temporal, zygomatic, buccal, marginal mandibular, cervical",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "marginal-mandibular-branch-of-the-facial-nerve",
+    "type": "branch-of",
+    "dst": "facial-nerve",
+    "statement": "The marginal mandibular branch is one of the five branches of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "Facial nerve branches: temporal, zygomatic, buccal, marginal mandibular, cervical",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "cervical-branch-of-the-facial-nerve",
+    "type": "branch-of",
+    "dst": "facial-nerve",
+    "statement": "The cervical branch is one of the five branches of the facial nerve.",
+    "evidence": [
+     {
+      "ref": "exam:7",
+      "quote": "Facial nerve branches: temporal, zygomatic, buccal, marginal mandibular, cervical",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "facial-nerve",
+    "type": "emerges-from",
+    "dst": "stylomastoid-foramen",
+    "statement": "The facial nerve leaves the skull at the stylomastoid foramen.",
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "The facial nerve leaves the skull at the stylomastoid foramen",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "facial-nerve",
+    "type": "passes-through",
+    "dst": "parotid-gland",
+    "statement": "The facial nerve passes through the parotid gland but does not supply it.",
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "The facial nerve leaves the skull at the stylomastoid foramen, enters the parotid gland and forms the parotid plexus",
+      "check": "exact"
+     },
+     {
+      "ref": "deeper:2",
+      "quote": "The nerve passes through the gland but does not supply it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "glossopharyngeal-nerve",
+    "type": "innervates",
+    "dst": "parotid-gland",
+    "statement": "The parotid gland is supplied by the glossopharyngeal nerve.",
+    "evidence": [
+     {
+      "ref": "deeper:2",
+      "quote": "the parotid is supplied by the glossopharyngeal nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "facial-nerve",
+    "type": "related-to",
+    "dst": "second-pharyngeal-arch",
+    "statement": "The muscles derived from the second pharyngeal arch follow the facial nerve.",
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "The muscles of facial expression develop from the second arch, which is why they follow the facial nerve.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "trigeminal-nerve",
+    "type": "related-to",
+    "dst": "first-pharyngeal-arch",
+    "statement": "The first pharyngeal arch follows the trigeminal nerve.",
+    "evidence": [
+     {
+      "ref": "deeper:1",
+      "quote": "develop from the first arch, which follows the trigeminal nerve",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "parotid-duct",
+    "type": "passes-through",
+    "dst": "buccinator",
+    "statement": "The parotid duct pierces the buccinator before opening into the mouth.",
+    "evidence": [
+     {
+      "ref": "deeper:4",
+      "quote": "The parotid duct pierces the buccinator before opening into the mouth opposite the upper second molar.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccinator",
+    "type": "attaches-to",
+    "dst": "pterygomandibular-raphe",
+    "statement": "The buccinator arises from the maxilla, mandible and pterygomandibular raphe.",
+    "evidence": [
+     {
+      "ref": "exam:6",
+      "quote": "Buccinator: from the maxilla, mandible and pterygomandibular raphe",
+      "check": "exact"
+     },
+     {
+      "ref": "q:1ax81p6",
+      "quote": "The buccinator arises from the posterior parts of the maxilla and mandible and from the pterygomandibular raphe",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccinator",
+    "type": "is-a",
+    "dst": "muscle-of-facial-expression",
+    "statement": "The buccinator is a muscle of facial expression even though it helps chewing.",
+    "evidence": [
+     {
+      "ref": "hy:4",
+      "quote": "Buccinator is a muscle of facial expression (CN VII) even though it helps chewing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "facial-nerve",
+    "type": "innervates",
+    "dst": "buccinator",
+    "statement": "The buccinator is supplied by the facial nerve (CN VII), not by V.",
+    "evidence": [
+     {
+      "ref": "hy:4",
+      "quote": "Buccinator is a muscle of facial expression (CN VII) even though it helps chewing",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:3",
+      "quote": "buccinator keeps food between the teeth (cheek muscle, VII not V)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "buccal-nerve",
+    "type": "branch-of",
+    "dst": "mandibular-nerve",
+    "statement": "The buccal nerve is a nerve of V3 that only carries sensation from the cheek.",
+    "evidence": [
+     {
+      "ref": "hy:4",
+      "quote": "the buccal nerve of V3 only carries sensation from the cheek",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "platysma",
+    "type": "is-a",
+    "dst": "muscle-of-facial-expression",
+    "statement": "The platysma is a muscle of facial expression supplied by CN VII.",
+    "evidence": [
+     {
+      "ref": "q:fyzpna",
+      "quote": "The buccinator and platysma are muscles of facial expression, supplied by CN VII.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mentalis",
+    "type": "part-of",
+    "dst": "lower-group-of-oral-muscles",
+    "statement": "Mentalis belongs to the lower group of oral muscles and is the deepest of the group.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m15",
+      "quote": "A small conical bundle at the tip of the chin, the deepest muscle of the lower group.",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Depressor anguli oris, depressor labii inferioris and mentalis. The mentalis (levator menti) is a small conical bundle at the tip of the chin and the deepest of the group.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "risorius",
+    "type": "part-of",
+    "dst": "upper-group-of-oral-muscles",
+    "statement": "Risorius is one of the upper group of oral muscles.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m16",
+      "quote": "Risorius, zygomaticus major, zygomaticus minor, levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "zygomaticus-major",
+    "type": "part-of",
+    "dst": "upper-group-of-oral-muscles",
+    "statement": "Zygomaticus major is one of the upper group of oral muscles.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m16",
+      "quote": "Risorius, zygomaticus major, zygomaticus minor, levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "zygomaticus-minor",
+    "type": "part-of",
+    "dst": "upper-group-of-oral-muscles",
+    "statement": "Zygomaticus minor is one of the upper group of oral muscles.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m16",
+      "quote": "Risorius, zygomaticus major, zygomaticus minor, levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "levator-labii-superioris",
+    "type": "part-of",
+    "dst": "upper-group-of-oral-muscles",
+    "statement": "Levator labii superioris is one of the upper group of oral muscles.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m16",
+      "quote": "Risorius, zygomaticus major, zygomaticus minor, levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "levator-labii-superioris-alaeque-nasi",
+    "type": "part-of",
+    "dst": "upper-group-of-oral-muscles",
+    "statement": "Levator labii superioris alaeque nasi is one of the upper group of oral muscles.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m16",
+      "quote": "Risorius, zygomaticus major, zygomaticus minor, levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "levator-anguli-oris",
+    "type": "part-of",
+    "dst": "upper-group-of-oral-muscles",
+    "statement": "Levator anguli oris is one of the upper group of oral muscles.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m16",
+      "quote": "Risorius, zygomaticus major, zygomaticus minor, levator labii superioris, levator labii superioris alaeque nasi and levator anguli oris.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "zygomaticus-minor",
+    "type": "attaches-to",
+    "dst": "zygomatic-arch",
+    "statement": "Zygomaticus minor arises from the front of the zygomatic arch.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mouth",
+      "quote": "Zygomaticus minor | Front of the zygomatic arch",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporalis",
+    "type": "is-a",
+    "dst": "muscle-of-mastication",
+    "statement": "Temporalis is one of the four muscles of mastication.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Four muscles of mastication: temporalis, masseter, lateral pterygoid, medial pterygoid.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "masseter",
+    "type": "is-a",
+    "dst": "muscle-of-mastication",
+    "statement": "Masseter is one of the four muscles of mastication.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Four muscles of mastication: temporalis, masseter, lateral pterygoid, medial pterygoid.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lateral-pterygoid",
+    "type": "is-a",
+    "dst": "muscle-of-mastication",
+    "statement": "Lateral pterygoid is one of the four muscles of mastication.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Four muscles of mastication: temporalis, masseter, lateral pterygoid, medial pterygoid.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "medial-pterygoid",
+    "type": "is-a",
+    "dst": "muscle-of-mastication",
+    "statement": "Medial pterygoid is one of the four muscles of mastication.",
+    "evidence": [
+     {
+      "ref": "exam:8",
+      "quote": "Four muscles of mastication: temporalis, masseter, lateral pterygoid, medial pterygoid.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-nerve",
+    "type": "innervates",
+    "dst": "temporalis",
+    "statement": "Temporalis is supplied by the mandibular nerve (V3).",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m22",
+      "quote": "Temporalis, masseter, lateral pterygoid and medial pterygoid, all supplied by the mandibular nerve (V3).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-nerve",
+    "type": "innervates",
+    "dst": "masseter",
+    "statement": "Masseter is supplied by the mandibular nerve (V3).",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m22",
+      "quote": "Temporalis, masseter, lateral pterygoid and medial pterygoid, all supplied by the mandibular nerve (V3).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-nerve",
+    "type": "innervates",
+    "dst": "lateral-pterygoid",
+    "statement": "Lateral pterygoid is supplied by the mandibular nerve (V3).",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m22",
+      "quote": "Temporalis, masseter, lateral pterygoid and medial pterygoid, all supplied by the mandibular nerve (V3).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "mandibular-nerve",
+    "type": "innervates",
+    "dst": "medial-pterygoid",
+    "statement": "Medial pterygoid is supplied by the mandibular nerve (V3).",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m22",
+      "quote": "Temporalis, masseter, lateral pterygoid and medial pterygoid, all supplied by the mandibular nerve (V3).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporalis",
+    "type": "attaches-to",
+    "dst": "temporal-fossa",
+    "statement": "Temporalis arises from the floor of the temporal fossa and the deep temporal fascia.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Temporalis | Floor of the temporal fossa and the deep temporal fascia",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/n1",
+      "quote": "Temporalis, from the floor of the temporal fossa and the deep temporal fascia.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporalis",
+    "type": "attaches-to",
+    "dst": "coronoid-process-of-the-mandible",
+    "statement": "Temporalis inserts on the coronoid process of the mandible.",
+    "evidence": [
+     {
+      "ref": "exam:9",
+      "quote": "Temporalis inserts on the coronoid process",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporalis",
+    "type": "attaches-to",
+    "dst": "ramus-of-the-mandible",
+    "statement": "Temporalis also inserts on the anterior border of the ramus of the mandible.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n3",
+      "quote": "The temporalis inserts on its tip and medial surface and on the anterior border of the ramus.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "masseter",
+    "type": "attaches-to",
+    "dst": "zygomatic-arch",
+    "statement": "Masseter arises from the zygomatic arch.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Masseter | Zygomatic arch | Angle of the mandible and coronoid process",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/n2",
+      "quote": "Masseter, from the zygomatic arch.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "masseter",
+    "type": "attaches-to",
+    "dst": "angle-of-the-mandible",
+    "statement": "Masseter inserts on the angle of the mandible.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n8",
+      "quote": "The angle of the mandible, where the body meets the ramus. The masseter inserts here.",
+      "check": "exact"
+     },
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Masseter | Zygomatic arch | Angle of the mandible and coronoid process",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "masseter",
+    "type": "attaches-to",
+    "dst": "coronoid-process-of-the-mandible",
+    "statement": "Masseter inserts on the angle of the mandible and the coronoid process.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Masseter | Zygomatic arch | Angle of the mandible and coronoid process",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "masseter",
+    "type": "attaches-to",
+    "dst": "ramus-of-the-mandible",
+    "statement": "Masseter inserts on the lateral surface of the ramus of the mandible.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n6",
+      "quote": "The ramus of the mandible. The masseter inserts on its lateral surface",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lateral-pterygoid",
+    "type": "attaches-to",
+    "dst": "condylar-process-of-the-mandible",
+    "statement": "Lateral pterygoid inserts on the pterygoid fovea of the neck of the mandible.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n4",
+      "quote": "The lateral pterygoid inserts on the pterygoid fovea of the neck.",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:9",
+      "quote": "lateral pterygoid on the neck and disc",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lateral-pterygoid",
+    "type": "attaches-to",
+    "dst": "articular-disc-of-the-temporomandibular-joint",
+    "statement": "Lateral pterygoid also inserts on the capsule and articular disc of the TMJ.",
+    "evidence": [
+     {
+      "ref": "exam:9",
+      "quote": "lateral pterygoid on the neck and disc",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/m25",
+      "quote": "Insertion: pterygoid fovea of the neck of the mandible, and the capsule and articular disc of the TMJ.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lateral-pterygoid",
+    "type": "attaches-to",
+    "dst": "pterygoid-plate",
+    "statement": "Lateral pterygoid arises from the lateral pterygoid plate and the greater wing of the sphenoid.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n7",
+      "quote": "The lateral pterygoid arises from the lateral plate and the greater wing",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "medial-pterygoid",
+    "type": "attaches-to",
+    "dst": "pterygoid-plate",
+    "statement": "The deep head of medial pterygoid arises from the medial surface of the lateral pterygoid plate.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Medial pterygoid | Deep head: medial surface of the lateral pterygoid plate and the palatine bone.",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/n7",
+      "quote": "the medial pterygoid from the medial surface of the lateral plate",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "medial-pterygoid",
+    "type": "attaches-to",
+    "dst": "ramus-of-the-mandible",
+    "statement": "Medial pterygoid inserts on the medial surface of the ramus, up to the mandibular foramen.",
+    "evidence": [
+     {
+      "ref": "exam:9",
+      "quote": "medial pterygoid on the medial surface of the ramus",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/n6",
+      "quote": "the medial pterygoid inserts on its medial surface, up to the mandibular foramen",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporalis",
+    "type": "acts-on",
+    "dst": "elevation-of-the-mandible",
+    "statement": "Temporalis elevates the mandible.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n1",
+      "quote": "It elevates the mandible, and its posterior fibres retract it.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporalis",
+    "type": "acts-on",
+    "dst": "retraction-of-the-mandible",
+    "statement": "The posterior fibres of temporalis retract the mandible.",
+    "evidence": [
+     {
+      "ref": "hy:5",
+      "quote": "temporalis (coronoid; posterior fibres retract)",
+      "check": "exact"
+     },
+     {
+      "ref": "q:29g8ei",
+      "quote": "Its posterior fibres retract the mandible.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "masseter",
+    "type": "acts-on",
+    "dst": "elevation-of-the-mandible",
+    "statement": "Masseter elevates the mandible.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Masseter | Zygomatic arch | Angle of the mandible and coronoid process | Elevates and protrudes the mandible; deep fibres retract it",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:5",
+      "quote": "masseter (angle; elevates)",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "masseter",
+    "type": "acts-on",
+    "dst": "protrusion-of-the-mandible",
+    "statement": "Masseter protrudes the mandible.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Masseter | Zygomatic arch | Angle of the mandible and coronoid process | Elevates and protrudes the mandible; deep fibres retract it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "masseter",
+    "type": "acts-on",
+    "dst": "retraction-of-the-mandible",
+    "statement": "The deep fibres of masseter retract the mandible.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/mastication",
+      "quote": "Masseter | Zygomatic arch | Angle of the mandible and coronoid process | Elevates and protrudes the mandible; deep fibres retract it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lateral-pterygoid",
+    "type": "acts-on",
+    "dst": "protrusion-of-the-mandible",
+    "statement": "Acting bilaterally, lateral pterygoid protracts the mandible.",
+    "evidence": [
+     {
+      "ref": "hy:5",
+      "quote": "lateral pterygoid (neck and disc; protrudes)",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/m25",
+      "quote": "Bilaterally it protracts the mandible; unilaterally it pushes it to the opposite side.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lateral-pterygoid",
+    "type": "acts-on",
+    "dst": "depression-of-the-mandible",
+    "statement": "Lateral pterygoid is the only muscle of mastication that helps open the mouth, starting the movement.",
+    "evidence": [
+     {
+      "ref": "hy:6",
+      "quote": "Lateral pterygoid is the only muscle of mastication that helps open the mouth",
+      "check": "exact"
+     },
+     {
+      "ref": "deeper:3",
+      "quote": "The lateral pterygoid is the muscle that starts opening the mouth, but most of the movement is done by gravity.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "medial-pterygoid",
+    "type": "acts-on",
+    "dst": "elevation-of-the-mandible",
+    "statement": "Acting bilaterally, medial pterygoid elevates the mandible.",
+    "evidence": [
+     {
+      "ref": "hy:5",
+      "quote": "medial pterygoid (medial ramus; elevates)",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/m26",
+      "quote": "Bilaterally it pushes the mandible forward and elevates it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "medial-pterygoid",
+    "type": "acts-on",
+    "dst": "protrusion-of-the-mandible",
+    "statement": "Acting bilaterally, medial pterygoid pushes the mandible forward.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m26",
+      "quote": "Bilaterally it pushes the mandible forward and elevates it",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "muscle-of-mastication",
+    "type": "acts-on",
+    "dst": "elevation-of-the-mandible",
+    "statement": "Elevation is a strong movement produced by the muscles of mastication.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Elevation is a strong movement produced by the muscles of mastication.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "platysma",
+    "type": "acts-on",
+    "dst": "depression-of-the-mandible",
+    "statement": "Platysma depresses the mandible.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/m20",
+      "quote": "it depresses the mandible and pulls the angle of the mouth downward",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "protrusion-of-the-mandible",
+    "type": "located-in",
+    "dst": "temporomandibular-joint",
+    "statement": "Protrusion takes place in the upper part of the temporomandibular joint.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "Upper part of the TMJ: protrusion and retraction.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "retraction-of-the-mandible",
+    "type": "located-in",
+    "dst": "temporomandibular-joint",
+    "statement": "Retraction takes place in the upper part of the temporomandibular joint.",
+    "evidence": [
+     {
+      "ref": "exam:12",
+      "quote": "Upper part of the TMJ: protrusion and retraction.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "elevation-of-the-mandible",
+    "type": "located-in",
+    "dst": "temporomandibular-joint",
+    "statement": "Elevation takes place in the lower part of the temporomandibular joint.",
+    "evidence": [
+     {
+      "ref": "q:1w5jdp2",
+      "quote": "Elevation and depression happen in the lower part of the joint.",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:7",
+      "quote": "Upper cavity = gliding (protrusion/retraction); lower = hinge (elevation/depression).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "depression-of-the-mandible",
+    "type": "located-in",
+    "dst": "temporomandibular-joint",
+    "statement": "Depression takes place in the lower part of the temporomandibular joint.",
+    "evidence": [
+     {
+      "ref": "q:1w5jdp2",
+      "quote": "Elevation and depression happen in the lower part of the joint.",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:7",
+      "quote": "Upper cavity = gliding (protrusion/retraction); lower = hinge (elevation/depression).",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "articular-disc-of-the-temporomandibular-joint",
+    "type": "part-of",
+    "dst": "temporomandibular-joint",
+    "statement": "The TMJ has an articular disc that splits it into two synovial cavities.",
+    "evidence": [
+     {
+      "ref": "card:anat3-facial-muscles/n5",
+      "quote": "An articular disc splits it into two synovial cavities.",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:10",
+      "quote": "TMJ: articular disc, two synovial cavities, fibrocartilage-covered surfaces.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "condylar-process-of-the-mandible",
+    "type": "part-of",
+    "dst": "temporomandibular-joint",
+    "statement": "The condyle (head) of the mandible is one of the articular components of the temporomandibular joint.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Articular components: the mandibular fossa and the articular tubercle of the temporal bone, and the condyle (head) of the mandible.",
+      "check": "exact"
+     },
+     {
+      "ref": "card:anat3-facial-muscles/n5",
+      "quote": "The temporomandibular joint, between the head of the mandible and the mandibular fossa of the temporal bone.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "lateral-ligament-of-the-temporomandibular-joint",
+    "type": "part-of",
+    "dst": "temporomandibular-joint",
+    "statement": "The lateral ligament is one of the three extracapsular ligaments of the TMJ.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "TMJ ligaments: lateral (prevents posterior dislocation), sphenomandibular, stylomandibular.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "sphenomandibular-ligament",
+    "type": "part-of",
+    "dst": "temporomandibular-joint",
+    "statement": "The sphenomandibular ligament is one of the three extracapsular ligaments of the TMJ.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "TMJ ligaments: lateral (prevents posterior dislocation), sphenomandibular, stylomandibular.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "stylomandibular-ligament",
+    "type": "part-of",
+    "dst": "temporomandibular-joint",
+    "statement": "The stylomandibular ligament is one of the three extracapsular ligaments of the TMJ.",
+    "evidence": [
+     {
+      "ref": "exam:11",
+      "quote": "TMJ ligaments: lateral (prevents posterior dislocation), sphenomandibular, stylomandibular.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "lateral-ligament-of-the-temporomandibular-joint",
+    "type": "attaches-to",
+    "dst": "condylar-process-of-the-mandible",
+    "statement": "The lateral ligament runs from the articular tubercle to the neck of the mandible.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Lateral ligament: runs from the articular tubercle to the neck of the mandible.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "medium"
+   },
+   {
+    "src": "stylomandibular-ligament",
+    "type": "related-to",
+    "dst": "parotid-gland",
+    "statement": "The stylomandibular ligament is a thickening of the fascia of the parotid gland.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "Stylomandibular ligament: a thickening of the fascia of the parotid gland.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporomandibular-joint-dislocation",
+    "type": "presents-with",
+    "dst": "inability-to-close-the-mouth",
+    "statement": "In TMJ dislocation the patient cannot close the mouth.",
+    "evidence": [
+     {
+      "ref": "exam:13",
+      "quote": "In TMJ dislocation the mandibular head moves anteriorly and the patient cannot close the mouth.",
+      "check": "exact"
+     },
+     {
+      "ref": "slide:anat3-facial-muscles/43",
+      "quote": "The patient becomes unable to close their mouth.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporomandibular-joint-dislocation",
+    "type": "related-to",
+    "dst": "temporomandibular-joint",
+    "statement": "In dislocation of the temporomandibular joint the head of the mandible slips out of the mandibular fossa and is pulled anteriorly.",
+    "evidence": [
+     {
+      "ref": "slide:anat3-facial-muscles/43",
+      "quote": "A dislocation of the temporomandibular joint can occur via a blow to the side of the",
+      "check": "exact"
+     },
+     {
+      "ref": "hy:8",
+      "quote": "TMJ dislocation is anterior (yawning, big bite): the condyle slips in front of the articular eminence and the mouth stays open.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "temporomandibular-joint-dislocation",
+    "type": "related-to",
+    "dst": "facial-nerve",
+    "statement": "The facial nerve runs close to the TMJ and can be damaged in a high-energy dislocation.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/tmj",
+      "quote": "The facial and auriculotemporal nerves run close to the joint and can be damaged if the injury is high energy.",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   },
+   {
+    "src": "bell-s-palsy",
+    "type": "related-to",
+    "dst": "facial-nerve",
+    "statement": "Bell's palsy is a lower motor neuron lesion of the facial nerve (CN VII).",
+    "evidence": [
+     {
+      "ref": "hy:9",
+      "quote": "(lower motor neuron, CN VII): the whole half-face is paralysed, forehead included",
+      "check": "exact"
+     }
+    ],
+    "self_confidence": "high"
+   }
+  ],
+  "tests": [
+   {
+    "item": "q:8n2mck",
+    "concepts": [
+     "facial-nerve",
+     "muscle-of-facial-expression"
+    ]
+   },
+   {
+    "item": "q:r7lg3c",
+    "concepts": [
+     "muscle-of-facial-expression"
+    ]
+   },
+   {
+    "item": "q:vovy4d",
+    "concepts": [
+     "galea-aponeurotica",
+     "occipitofrontalis-muscle"
+    ]
+   },
+   {
+    "item": "q:1hx5gxv",
+    "concepts": [
+     "palpebral-part-of-orbicularis-oculi",
+     "orbicularis-oculi"
+    ]
+   },
+   {
+    "item": "q:14hs1sh",
+    "concepts": [
+     "corrugator-supercilii"
+    ]
+   },
+   {
+    "item": "q:5k3fxu",
+    "concepts": [
+     "procerus"
+    ]
+   },
+   {
+    "item": "q:bk9rot",
+    "concepts": [
+     "buccinator"
+    ]
+   },
+   {
+    "item": "q:1ax81p6",
+    "concepts": [
+     "pterygomandibular-raphe",
+     "buccinator"
+    ]
+   },
+   {
+    "item": "q:ael5j3",
+    "concepts": [
+     "mentalis"
+    ]
+   },
+   {
+    "item": "q:sgk86u",
+    "concepts": [
+     "levator-palpebrae-superioris",
+     "oculomotor-nerve"
+    ]
+   },
+   {
+    "item": "q:29g8ei",
+    "concepts": [
+     "temporalis",
+     "coronoid-process-of-the-mandible"
+    ]
+   },
+   {
+    "item": "q:1tqwkb5",
+    "concepts": [
+     "lateral-pterygoid",
+     "condylar-process-of-the-mandible"
+    ]
+   },
+   {
+    "item": "q:qnjin2",
+    "concepts": [
+     "mandibular-nerve",
+     "muscle-of-mastication"
+    ]
+   },
+   {
+    "item": "q:100ixh4",
+    "concepts": [
+     "articular-disc-of-the-temporomandibular-joint",
+     "temporomandibular-joint"
+    ]
+   },
+   {
+    "item": "q:1w5jdp2",
+    "concepts": [
+     "depression-of-the-mandible",
+     "temporomandibular-joint"
+    ]
+   },
+   {
+    "item": "q:fmtvcp",
+    "concepts": [
+     "temporomandibular-joint-dislocation"
+    ]
+   },
+   {
+    "item": "q:fyzpna",
+    "concepts": [
+     "muscle-of-mastication",
+     "temporalis",
+     "medial-pterygoid"
+    ]
+   },
+   {
+    "item": "q:17p2y26",
+    "concepts": [
+     "buccal-branch-of-the-facial-nerve",
+     "buccinator"
+    ]
+   },
+   {
+    "item": "q:1y456q5",
+    "concepts": [
+     "buccinator"
+    ]
+   },
+   {
+    "item": "q:1ap8hk0",
+    "concepts": [
+     "lateral-ligament-of-the-temporomandibular-joint",
+     "sphenomandibular-ligament",
+     "temporomandibular-joint"
+    ]
+   },
+   {
+    "item": "q:1fzfiij-temporal-fossa",
+    "concepts": [
+     "temporal-fossa",
+     "temporalis"
+    ]
+   },
+   {
+    "item": "q:1i6704l-zyg-arch",
+    "concepts": [
+     "zygomatic-arch",
+     "masseter"
+    ]
+   },
+   {
+    "item": "q:1y0gnds-coronoid",
+    "concepts": [
+     "coronoid-process-of-the-mandible",
+     "temporalis"
+    ]
+   },
+   {
+    "item": "q:1vnyjh8-condyle",
+    "concepts": [
+     "condylar-process-of-the-mandible"
+    ]
+   },
+   {
+    "item": "q:joiwv0-tmj",
+    "concepts": [
+     "temporomandibular-joint"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m1",
+    "concepts": [
+     "muscle-of-facial-expression",
+     "facial-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m2",
+    "concepts": [
+     "functional-groups-of-facial-muscles"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m3",
+    "concepts": [
+     "occipitofrontalis-muscle",
+     "galea-aponeurotica"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/n1",
+    "concepts": [
+     "temporalis",
+     "temporal-fossa"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m4",
+    "concepts": [
+     "occipital-belly-of-occipitofrontalis"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m5",
+    "concepts": [
+     "frontal-belly-of-occipitofrontalis"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m6",
+    "concepts": [
+     "orbicularis-oculi",
+     "orbital-part-of-orbicularis-oculi",
+     "palpebral-part-of-orbicularis-oculi"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/n2",
+    "concepts": [
+     "masseter",
+     "zygomatic-arch"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m7",
+    "concepts": [
+     "corrugator-supercilii"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m8",
+    "concepts": [
+     "levator-palpebrae-superioris",
+     "oculomotor-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m9",
+    "concepts": [
+     "nasalis"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/n3",
+    "concepts": [
+     "coronoid-process-of-the-mandible",
+     "temporalis"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m10",
+    "concepts": [
+     "procerus"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m11",
+    "concepts": [
+     "depressor-septi",
+     "dilator-naris"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m12",
+    "concepts": [
+     "orbicularis-oris"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/n4",
+    "concepts": [
+     "condylar-process-of-the-mandible",
+     "lateral-pterygoid"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m13",
+    "concepts": [
+     "buccinator",
+     "pterygomandibular-raphe"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m14",
+    "concepts": [
+     "lower-group-of-oral-muscles"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m15",
+    "concepts": [
+     "mentalis"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/n5",
+    "concepts": [
+     "temporomandibular-joint",
+     "articular-disc-of-the-temporomandibular-joint"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m16",
+    "concepts": [
+     "upper-group-of-oral-muscles"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m17",
+    "concepts": [
+     "risorius",
+     "zygomaticus-major"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m18",
+    "concepts": [
+     "zygomaticus-minor",
+     "levator-labii-superioris"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/n6",
+    "concepts": [
+     "ramus-of-the-mandible",
+     "masseter",
+     "medial-pterygoid"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m19",
+    "concepts": [
+     "levator-labii-superioris-alaeque-nasi",
+     "levator-anguli-oris"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m20",
+    "concepts": [
+     "auricular-muscle",
+     "platysma"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m21",
+    "concepts": [
+     "facial-nerve",
+     "buccal-branch-of-the-facial-nerve",
+     "temporal-branch-of-the-facial-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/n7",
+    "concepts": [
+     "pterygoid-plate",
+     "lateral-pterygoid",
+     "medial-pterygoid"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m22",
+    "concepts": [
+     "muscle-of-mastication",
+     "mandibular-nerve"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m23",
+    "concepts": [
+     "temporalis"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m24",
+    "concepts": [
+     "masseter"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/n8",
+    "concepts": [
+     "angle-of-the-mandible",
+     "masseter"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m25",
+    "concepts": [
+     "lateral-pterygoid"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m26",
+    "concepts": [
+     "medial-pterygoid"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m27",
+    "concepts": [
+     "temporomandibular-joint",
+     "condylar-process-of-the-mandible"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m28",
+    "concepts": [
+     "temporomandibular-joint",
+     "articular-disc-of-the-temporomandibular-joint"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m29",
+    "concepts": [
+     "lateral-ligament-of-the-temporomandibular-joint",
+     "sphenomandibular-ligament",
+     "stylomandibular-ligament"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m30",
+    "concepts": [
+     "temporomandibular-joint",
+     "depression-of-the-mandible",
+     "elevation-of-the-mandible"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m31",
+    "concepts": [
+     "temporomandibular-joint-dislocation",
+     "inability-to-close-the-mouth"
+    ]
+   },
+   {
+    "item": "card:anat3-facial-muscles/m32",
+    "concepts": [
+     "temporomandibular-joint"
+    ]
+   }
+  ],
+  "conflicts": [
+   {
+    "kind": "differs-from-standard-teaching",
+    "issue": "The packet lists levator palpebrae superioris in the eyelid group of facial muscles and says all facial muscles are supplied by the facial nerve, while also giving its nerve as CN III. Standard teaching classes it as an extraocular muscle of the orbit, not a muscle of facial expression.",
+    "evidence": [
+     {
+      "ref": "sec:anat3-facial-muscles/groups",
+      "quote": "Eyelid | Orbicularis oculi, corrugator supercilii, levator palpebrae superioris",
+      "check": "exact"
+     },
+     {
+      "ref": "exam:1",
+      "quote": "Levator palpebrae superioris is the odd one out: CN III.",
+      "check": "exact"
+     }
+    ],
+    "affects": [
+     "concept:functional-groups-of-facial-muscles",
+     "concept:levator-palpebrae-superioris",
+     "relation:facial-nerve|innervates|muscle-of-facial-expression"
+    ]
+   }
+  ],
+  "notes": [
+   "Slides 37, 38 and 42 (tables of the muscles of mastication) are largely unreadable in the OCR; evidence for those muscles is taken from the summary section, exam points and flashcards.",
+   "Depressor anguli oris and depressor labii inferioris are only named (lower group, marginal mandibular branch), so they are described inside 'Lower group of oral muscles' rather than given their own concepts.",
+   "hy:9 also contrasts Bell's palsy with stroke (upper motor neuron, forehead spared); no separate concept was made for the stroke pattern.",
+   "The facial nerve branch table lists 'zygomaticus' under the buccal branch without saying major or minor; relations to zygomaticus major and minor use the per-muscle rows of the mouth table instead.",
+   "Movements of the mandible are linked to the temporomandibular joint with located-in (upper or lower part of the joint), as no closer relation type exists.",
+   "The relations of the TMJ (card m32) name neighbouring structures only in passing; they were not made into concepts."
+  ]
+ }
+}
