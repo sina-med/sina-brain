@@ -1,0 +1,8 @@
+import { test } from "node:test"; import assert from "node:assert/strict"; import { answer } from "./lib.mjs";
+const { prepare, search, norm } = await answer();
+const P = prepare([["section", "sec:x/1", "lec:x", "Innervation", "The recurrent laryngeal nerve supplies the intrinsic muscles."], ["lecture", "lec:x", "lec:x", "Anatomy of the larynx", "nine cartilages"],
+  ["question", "q:1", "lec:x", "Which nerve supplies the cricothyroid?", "Recurrent laryngeal · External laryngeal"], ["slide", "slide:x/02", "lec:x", "Slide 2", "Laryngeal prominence (Adam’s apple)"], ["flashcard", "card:x/1", "lec:x", "Define the glottis.", "The space between the vocal cords."]]);
+test("the reported bug is fixed: no match in the middle of a word", () => { assert.equal(search(P, "ynx").total, 0); assert.equal(search(P, "ottis").total, 0); assert.equal(search(P, "ecurrent").total, 0); });
+test("word-start and whole-word matches still work", () => { assert.deepEqual(search(P, "larynx").hits.map((d) => d.id), ["lec:x"]); assert.deepEqual(search(P, "laryn").hits.map((d) => d.id), ["lec:x", "sec:x/1", "q:1", "slide:x/02"]);
+  assert.deepEqual(search(P, "recurrent nerve").hits.map((d) => d.id).sort(), ["q:1", "sec:x/1"]); assert.deepEqual(search(P, "adams apple").hits.map((d) => d.id), ["slide:x/02"]); });
+test("first word of a title and filters still work", () => { assert.deepEqual(search(P, "innervation").hits.map((d) => d.id), ["sec:x/1"]); assert.deepEqual(search(P, "laryn", { types: ["question"] }).hits.map((d) => d.id), ["q:1"]); assert.equal(search(P, "  ").total, 0); assert.equal(norm("Naïve T-cells"), "naive t cells"); });

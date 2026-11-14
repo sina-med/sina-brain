@@ -1,0 +1,10 @@
+import { test } from "node:test"; import assert from "node:assert/strict"; import { answer } from "./lib.mjs";
+const { checkQuote, normalise } = await answer();
+const block = "The posterior cricoarytenoid is the ONLY abductor (‘safety muscle’): paralysis → airway closes.";
+test("normalise", () => { assert.equal(normalise("Naïve  T-cells; (CD4+)"), "naive t cells cd4"); assert.equal(normalise(null), ""); assert.equal(normalise("  A—B  "), "a b"); });
+test("exact and weak", () => { assert.equal(checkQuote("posterior cricoarytenoid is the only abductor", block), "exact"); assert.equal(checkQuote("is the ONLY abductor ('safety muscle'): paralysis", block), "exact");
+  assert.equal(checkQuote("only abductor", block), "weak"); assert.equal(checkQuote("only abductor", block, { minWords: 2 }), "exact"); assert.equal(checkQuote("cord is damaged", "the vocal cord is damaged"), "exact"); });
+test("whole words only", () => { assert.equal(checkQuote("cord is dam", "the vocal cord is damaged"), "failed"); assert.equal(checkQuote("ord is damaged", "the vocal cord is damaged"), "failed"); });
+test("approximate needs the words in order", () => { assert.equal(checkQuote("The posterior cricoarytenoid is the abductor safety muscle paralysis airway closes", block), "approximate");
+  assert.equal(checkQuote("abductor the only is posterior cricoarytenoid the", block), "failed"); assert.equal(checkQuote("the posterior cricoarytenoid muscle is the sole abductor", block), "failed"); });
+test("edge cases", () => { assert.equal(checkQuote("anything", undefined), "bad-ref"); assert.equal(checkQuote("anything", null), "bad-ref"); assert.equal(checkQuote("  ", block), "failed"); assert.equal(checkQuote("--", block), "failed"); });

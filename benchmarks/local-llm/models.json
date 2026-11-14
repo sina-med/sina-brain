@@ -1,0 +1,7 @@
+{
+  "settings": { "num_ctx": 8192, "num_predict": 2048, "attempts": 3, "temperature_first": 0, "temperature_retry": 0.7, "seed_base": 1000 },
+  "models": {
+    "deepseek": "deepseek-coder:6.7b-instruct-q4_K_M",
+    "qwen": "qwen2.5-coder:7b-instruct-q4_K_M"
+  }
+}
