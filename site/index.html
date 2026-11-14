@@ -4,87 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sina Brain</title>
-<style>
-:root { --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --line:#e3e2dd; --accent:#256abf; }
-@media (prefers-color-scheme: dark) { :root { --page:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --line:#383835; --accent:#6da7ec; } }
-* { box-sizing:border-box; }
-body { margin:0; background:var(--page); color:var(--ink); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
-header { border-bottom:1px solid var(--line); background:var(--surface); padding:10px 16px; display:flex; gap:16px; align-items:baseline; flex-wrap:wrap; }
-header a { color:inherit; text-decoration:none; } header .brand { font-weight:700; font-size:1.1rem; } header nav a { color:var(--ink2); font-size:.9rem; }
-main { max-width:900px; margin:0 auto; padding:20px 16px 64px; }
-a { color:var(--accent); } h1 { font-size:1.5rem; margin:8px 0; } h2 { font-size:1.15rem; margin:28px 0 6px; } h3 { font-size:1rem; margin:18px 0 4px; }
-.crumbs { font-size:.85rem; color:var(--ink2); } .sub { color:var(--ink2); font-size:.9rem; }
-ul.list { list-style:none; padding:0; margin:8px 0; } ul.list li { border-bottom:1px solid var(--line); padding:9px 0; display:flex; justify-content:space-between; gap:12px; }
-.card { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:12px 16px; margin:10px 0; }
-.card table { border-collapse:collapse; width:100%; font-size:.92rem; } .card th, .card td { border:1px solid var(--line); padding:5px 8px; text-align:left; vertical-align:top; }
-.table-wrap { overflow-x:auto; }
-details { border-bottom:1px solid var(--line); padding:8px 0; } summary { cursor:pointer; }
-.ok { font-weight:600; } .slides { display:flex; flex-wrap:wrap; gap:6px; } .slides a { font-size:.85rem; border:1px solid var(--line); border-radius:4px; padding:2px 8px; text-decoration:none; }
-.tag { font-size:.75rem; border:1px solid var(--line); border-radius:999px; padding:1px 8px; color:var(--ink2); white-space:nowrap; }
-</style>
+<link rel="stylesheet" href="app.css">
 </head>
 <body>
-<header><a class="brand" href="#/">Sina Brain</a><nav><a href="dashboard.html">Project status</a></nav><span class="sub">Preview. Read-only. Not published.</span></header>
+<header><a class="brand" href="#/">Sina Brain</a><nav aria-label="Main"><a href="#/">Subjects</a><a href="#/search">Search</a><a href="#/me">My progress</a><a href="dashboard.html">Project status</a></nav><span class="sub">Preview. Read-only. Not published.</span></header>
 <main id="app"><p>Loading…</p><noscript><p>Sina Brain needs JavaScript.</p></noscript></main>
-<script>
-const SINA = "https://sina-med.github.io/";   // slide images stay on the Sina site
-const app = document.getElementById("app");
-const $ = (tag, attrs = {}, ...kids) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) k === "text" ? e.textContent = v : e.setAttribute(k, v); e.append(...kids.filter((x) => x !== null && x !== undefined && x !== "")); return e; };
-const cache = new Map();
-const load = (f) => cache.get(f) || cache.set(f, fetch("data/" + f).then((r) => { if (!r.ok) throw new Error(f + ": " + r.status); return r.json(); })).get(f);
-
-// Record HTML is treated as data: only plain formatting tags survive, and no attributes except table spans.
-const ALLOWED = new Set(["P", "STRONG", "B", "EM", "I", "U", "SUB", "SUP", "BR", "UL", "OL", "LI", "TABLE", "THEAD", "TBODY", "TR", "TH", "TD", "DIV", "SPAN", "CODE"]);
-function safeHtml(html) {
-  const doc = new DOMParser().parseFromString("<div>" + (html || "") + "</div>", "text/html");
-  const walk = (node) => { for (const c of [...node.childNodes]) { if (c.nodeType === 1) { if (!ALLOWED.has(c.tagName)) { c.replaceWith(document.createTextNode(c.textContent)); continue; }
-      for (const a of [...c.attributes]) if (!(["colspan", "rowspan", "scope"].includes(a.name)) && !(a.name === "class" && a.value === "table-wrap")) c.removeAttribute(a.name); walk(c); } else if (c.nodeType !== 3) c.remove(); } };
-  walk(doc.body.firstChild);
-  const out = document.createElement("div"); out.append(...doc.body.firstChild.childNodes); return out;
-}
-const crumbs = (...parts) => $("p", { class: "crumbs" }, ...parts.flatMap((p, i) => [i ? " › " : "", p[1] ? $("a", { href: p[1], text: p[0] }) : p[0]]));
-const key = (id) => encodeURIComponent(id);
-
-async function home() {
-  const idx = await load("index.json");
-  app.replaceChildren($("h1", { text: "Subjects" }), $("p", { class: "sub", text: "Lecture summaries, slides, questions and flashcards imported from Sina." }));
-  for (const p of idx.programs) {
-    app.append($("h2", { text: p.title }));
-    app.append($("ul", { class: "list" }, ...idx.subjects.filter((s) => s.program === p.id).map((s) => $("li", {}, $("a", { href: "#/subject/" + key(s.id), text: s.title }), $("span", { class: "sub", text: `${s.counts.lectures} lectures · ${s.counts.papers} papers` })))));
-  }
-}
-async function subject(id) {
-  const idx = await load("index.json"), s = idx.subjects.find((x) => x.id === id);
-  if (!s) return missing();
-  app.replaceChildren(crumbs(["Subjects", "#/"], [s.title]), $("h1", { text: s.title }), s.description ? $("p", { class: "sub", text: s.description }) : "");
-  for (const m of s.modules) app.append($("h2", { text: m.title }), $("ul", { class: "list" }, ...m.lectures.map((l) => $("li", {},
-    l.has_content ? $("a", { href: `#/lecture/${key(m.file)}/${key(l.id)}`, text: l.title }) : $("span", { text: l.title }),
-    $("span", { class: "sub", text: l.has_content ? `${l.counts.sections} sections · ${l.counts.questions} questions · ${l.counts.flashcards} cards · ${l.counts.slides} slides` : "no content yet" })))));
-}
-async function lecture(file, id) {
-  const [idx, mod] = await Promise.all([load("index.json"), load(file)]), l = mod.lectures.find((x) => x.id === id);
-  if (!l) return missing();
-  app.replaceChildren(crumbs(["Subjects", "#/"], [mod.subject.title, "#/subject/" + key(mod.subject.id)], [mod.module.title]), $("h1", { text: l.title }),
-    $("p", { class: "sub" }, l.source ? `Source: ${l.source.title}. ` : "", l.verified_on ? `Marked verified on Sina on ${l.verified_on}. ` : "", $("a", { href: `${SINA}#/lecture/${l.sina_id}`, text: "Open on Sina" })));
-  if (l.exam_points && l.exam_points.length) app.append($("h2", { text: "Exam points" }), $("ul", {}, ...l.exam_points.map((t) => $("li", {}, safeHtml(t)))));
-  app.append($("h2", { text: "Summary" }));
-  for (const s of l.sections) app.append($("div", { class: "card" }, $("h3", { text: s.title }), safeHtml(s.html)));
-  if (l.slides.length) app.append($("h2", { text: `Slides (${l.slides.length})` }), $("div", { class: "slides" }, ...l.slides.map((s) => $("a", { href: SINA + s.image, target: "_blank", rel: "noopener", text: String(s.n ?? s.label) }))));
-  app.append($("h2", { text: `Questions (${l.questions.length})` }));
-  for (const q of l.questions) app.append($("details", {}, $("summary", {}, safeHtml(q.stem).textContent),
-    $("ol", { type: "A" }, ...q.options.map((o, i) => $("li", { class: q.answer.includes(i) ? "ok" : "" }, safeHtml(o).textContent + (q.answer.includes(i) ? "  ✓" : "")))),
-    q.explanation ? $("p", { class: "sub", text: q.explanation }) : "",
-    q.slides.length ? $("p", { class: "sub" }, "Slide: ", ...q.slides.map((s) => { const x = l.slides.find((y) => y.id === s.id); return x ? $("a", { href: SINA + x.image, target: "_blank", rel: "noopener", text: String(x.n ?? x.label) + " " }) : ""; })) : ""));
-  app.append($("h2", { text: `Flashcards (${l.flashcards.length})` }));
-  for (const c of l.flashcards) app.append($("details", {}, $("summary", {}, safeHtml(c.front).textContent), $("p", { text: safeHtml(c.back).textContent })));
-}
-function missing() { app.replaceChildren($("h1", { text: "Not found" }), $("p", {}, $("a", { href: "#/", text: "Back to subjects" }))); }
-function route() {
-  const [, kind, a, b] = location.hash.split("/").map(decodeURIComponent);
-  window.scrollTo(0, 0);
-  (kind === "subject" ? subject(a) : kind === "lecture" ? lecture(a, b) : home()).catch((e) => app.replaceChildren($("h1", { text: "Could not load data" }), $("p", { text: e.message + ". Run: node pipeline/build-export.mjs, and open this page through a web server." })));
-}
-addEventListener("hashchange", route); route();
-</script>
+<script type="module" src="js/app.js"></script>
 </body>
 </html>

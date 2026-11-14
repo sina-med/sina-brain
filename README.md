@@ -21,6 +21,7 @@ What is in the knowledge base right now: [kb/admin/COVERAGE.md](kb/admin/COVERAG
 | [docs/phase-4-pilot-report.md](docs/phase-4-pilot-report.md) | The two-lecture pilot: quality against the original lectures, consistency, cost, review queue |
 | [docs/phase-4-instructions-comparison.md](docs/phase-4-instructions-comparison.md) | Three instruction versions compared on the pilot lectures: accuracy, information loss, cost |
 | [docs/07-export-schema.md](docs/07-export-schema.md) | The static data export the application loads, the project status file, and how to view both locally |
+| [docs/08-application.md](docs/08-application.md) | The read-only application: pages, marking, flashcards, search, personal data, testing |
 | [docs/decisions.md](docs/decisions.md) | Decisions made so far, and questions still open |
 
 ## Ground rules

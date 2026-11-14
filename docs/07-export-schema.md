@@ -12,10 +12,11 @@ Schema version: `export_version` 1, present in every file.
 | `subjects/<subject>.json` | A subject is opened | That subject's entry from the index (modules and lecture list) and the exam scopes that include it |
 | `modules/<subject>/<module>.json` | A module or lecture is opened | Full content of every lecture in the module |
 | `papers/<subject>.json` | Past papers are opened | Papers of the subject and their questions |
+| `search/<subject>.json` | The first search | Plain-text search rows for the subject: `[type, id, container id, title, text]` |
 | `concepts.json` | Concept pages or the graph are opened | The AI layer: published concepts and relations only |
 | `export-manifest.json` | Never by the app | Accounting: what went in, what came out, what was excluded and why |
 
-Sizes at present: 135 files, 13.9 MB in total; the largest module file is 0.63 MB.
+Sizes at present: 165 files, 22.8 MB in total (8.7 MB of it the search text); the largest file is 1.27 MB.
 
 ## `index.json`
 

@@ -83,6 +83,25 @@ export function buildExport(kb = "kb") {
   }
   for (const e of rows.filter((r) => r.type === "exam").sort((a, b) => (a.id < b.id ? -1 : 1))) { take(e); (bySrc.get(e.id) || []).filter((r) => r.type === "covers").forEach(use); index.exams.push({ id: e.id, title: e.title, program: e.program, subject: e.subject, date: e.body.date, groups: e.body.groups, notes: e.body.notes }); }
   for (const m of rows.filter((r) => r.type === "model3d").sort((a, b) => (a.id < b.id ? -1 : 1))) { take(m); index.models.push({ id: m.id, title: m.title, file: m.body.file, parts: m.body.parts, attribution: m.body.attribution, licence: m.body.licence }); }
+
+  // ---- search corpus: one file per subject, plain text only. Rows: [type, id, container id, title, text]
+  const plain = (h) => String(h ?? "").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, " ").trim();
+  for (const s of index.subjects) {
+    const docs = [];
+    for (const m of s.modules) for (const l of files.get(m.file).lectures) {
+      docs.push(["lecture", l.id, l.id, l.title, plain((l.exam_points || []).join(" "))]);
+      for (const x of l.sections) docs.push(["section", x.id, l.id, x.title, plain(x.html)]);
+      for (const x of l.slides) if (x.text) docs.push(["slide", x.id, l.id, `Slide ${x.n ?? x.label}`, plain(x.text)]);
+      for (const x of l.questions) docs.push(["question", x.id, l.id, plain(x.stem), plain(x.options.join(" · ") + " " + (x.explanation || ""))]);
+      for (const x of l.flashcards) docs.push(["flashcard", x.id, l.id, plain(x.front), plain(x.back)]);
+    }
+    if (s.papers_file) { const pf = files.get(s.papers_file);
+      for (const p of pf.papers) docs.push(["paper", p.id, p.id, p.title, plain(p.note)]);
+      for (const x of pf.questions) docs.push(["question", x.id, (x.papers[0] || {}).id || "", plain(x.stem), plain(x.options.join(" · ") + " " + (x.explanation || ""))]); }
+    s.search_file = `search/${s.id.slice(5)}.json`;
+    files.set(s.search_file, { export_version: EXPORT_VERSION, subject: s.id, docs });
+  }
+
   // one file per subject: the subject's own entry and the exam scopes that include it
   for (const s of index.subjects) files.set(s.file, { export_version: EXPORT_VERSION, subject: s, exams: index.exams.filter((e) => e.subject === s.id || (e.groups || []).some((g) => g.lectures.some((l) => s.modules.some((m) => m.lectures.some((x) => x.id === l))))) });
   files.set("index.json", index);

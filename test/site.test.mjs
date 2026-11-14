@@ -63,7 +63,7 @@ test("every status metric names its source and definition", () => {
   const all = s.features.flatMap((a) => a.features);
   assert.equal(all.find((f) => f.id === "status").state, "tests in place");
   assert.equal(all.find((f) => f.id === "deploy").state, "blocked");
-  assert.equal(all.find((f) => f.id === "papers").state, "not started");
+  assert.equal(all.find((f) => f.id === "notes").state, "not started");
   for (const f of JSON.parse(readFileSync("milestones.json", "utf8")).areas.flatMap((a) => a.features)) for (const t of f.tests) assert.ok(testNamesIn("test").includes(t), `milestones.json names a test that does not exist: ${t}`);
 });
 
@@ -86,6 +86,9 @@ test("the export contains every published record exactly once and discards nothi
   assert.equal(files.get("index.json").subjects[0].modules[0].lectures.find((l) => l.id === "lec:physio-soon").has_content, false);
   const subj = files.get("subjects/physio.json");
   assert.deepEqual([subj.subject.id, subj.subject.modules[0].file, subj.exams.map((e) => e.id)], ["subj:physio", "modules/physio/neurophysiology.json", ["exam:physio-mid"]]);
+  const corpus = files.get("search/physio.json").docs;
+  assert.ok(corpus.some((d) => d[0] === "question" && d[1] === "q:1egt1vv" && d[2] === LEC && d[3] === "What is allodynia?"));
+  assert.ok(corpus.every((d) => d.length === 5 && !/<[a-z]/i.test(d[3] + d[4])));          // plain text only
   assert.ok(files.get("papers/physio.json").papers.find((p) => p.id === "paper:physio-2024").questions.length === 2);
   // the AI layer: labelled, held text withheld, held relations listed as excluded
   const ai = files.get("concepts.json");
@@ -111,10 +114,13 @@ test("the export is deterministic and leaves the knowledge base untouched", () =
 });
 
 test("the application shell and dashboard are static files that load the generated data", () => {
-  const dash = readFileSync("site/dashboard.html", "utf8"), shell = readFileSync("site/index.html", "utf8");
+  const dash = readFileSync("site/dashboard.html", "utf8"), shell = readFileSync("site/index.html", "utf8"), appJs = readFileSync("site/js/app.js", "utf8");
   assert.match(dash, /fetch\("status\.json"\)/);
-  assert.match(shell, /fetch\("data\/" \+ f\)/);
-  for (const page of [dash, shell]) { assert.ok(!/<script[^>]+src=/.test(page), "no external scripts"); assert.ok(!/<link[^>]+href="http/.test(page), "no external stylesheets"); }
+  assert.match(appJs, /fetch\("data\/" \+ f\)/);
+  for (const page of [dash, shell]) { assert.ok(!/<script[^>]+src="(https?:)?\/\//.test(page), "no external scripts"); assert.ok(!/<link[^>]+href="(https?:)?\/\//.test(page), "no external stylesheets"); }
+  // personal data goes to this browser's storage under its own prefix, never to Sina's keys or to the exports
+  assert.ok(appJs.includes('localStorage.setItem("brain:" + k'));
+  assert.ok(!/setItem\("sina:/.test(appJs) && !/method:\s*"POST"/.test(appJs));
   const status = JSON.parse(readFileSync("site/status.json", "utf8"));
   for (const k of ["lecture_pipeline", "knowledge", "quality", "content", "gaps", "features", "generated_at"]) assert.ok(k in status, `status.json lacks ${k}`);
 });

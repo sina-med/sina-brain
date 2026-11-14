@@ -13,7 +13,8 @@
     "stats": "node pipeline/stats.mjs",
     "test": "node --test \"test/*.test.mjs\"",
     "build:status": "node pipeline/build-status.mjs",
-    "build:export": "node pipeline/build-export.mjs"
+    "build:export": "node pipeline/build-export.mjs",
+    "e2e": "node test/e2e/run.cjs"
   },
   "devDependencies": {
     "ajv": "8.17.1"
